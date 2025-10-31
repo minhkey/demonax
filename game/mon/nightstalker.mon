@@ -1,0 +1,51 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 423
+Name          = "nightstalker"
+Article       = "a"
+Outfit        = (285, 0-0-0-0)
+Corpse        = 5426
+Blood         = Blood
+Experience = 2190
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 25
+Defend        = 40
+Armor         = 30
+Poison        = 150
+LoseTarget    = 50
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoEnergy}
+
+Skills        = {(HitPoints, 600, 0, 600, 0, 0, 0),
+                 (GoStrength, 55, 0, 55, 0, 0, 0),
+                 (CarryStrength, 500, 0, 500, 0, 0, 0),
+                 (FistFighting, 29, 29, 29, 100, 1500, 1)}
+
+Spells        = {Actor (13) -> Healing (55, 11) : 8,
+                 Victim (7, 11, 0) -> Damage (8, 75, 20) : 10,
+                 Victim (7, 0, 0) -> Damage (256, 100, 50) : 10}
+
+Inventory = {(3035, 2, 734),
+(3035, 2, 419),
+(5098, 1, 17),
+(3076, 1, 10),
+(3034, 1, 6),
+(3008, 1, 5),
+(3006, 1, 1),
+(5498, 1, 1),
+(5356, 1, 1)}
+
+Talk          = {"Your energy is mine.",
+                 "Now, your life has come to an end, hahahha!",
+                 "Throw the soul on the altar!"}

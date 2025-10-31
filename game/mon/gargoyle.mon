@@ -1,0 +1,52 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 95
+Name          = "gargoyle"
+Article       = "a"
+Outfit        = (95, 0-0-0-0)
+Corpse        = 4203
+Blood         = Bones
+Experience = 600
+SummonCost    = 0
+FleeThreshold = 30
+Attack        = 24
+Defend        = 30
+Armor         = 26
+Poison        = 0
+LoseTarget    = 5
+Strategy      = (70, 0, 30, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 Unpushable,
+                 NoSummon,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoLifeDrain}
+
+Skills        = {(HitPoints, 250, 0, 250, 0, 0, 0),
+                 (GoStrength, 60, 0, 60, 0, 0, 0),
+                 (CarryStrength, 600, 0, 600, 0, 0, 0),
+                 (FistFighting, 45, 45, 50, 100, 2000, 1)}
+
+Spells        = {Actor (13) -> Healing (10, 5) : 10}
+
+Inventory = {(3031, 99, 863),
+(3031, 99, 857),
+(1781, 10, 148),
+(3591, 5, 18),
+(3282, 1, 13),
+(3413, 1, 12),
+(3012, 1, 9),
+(3351, 1, 6),
+(3093, 1, 1),
+(3383, 1, 1)}
+
+Talk          = {"Harrrr Harrrr!",
+                 "Stone sweet stone.",
+                 "Feel my claws, softskin.",
+                 "Chhhhhrrrrk!",
+                 "There is a stone in your shoe!"}

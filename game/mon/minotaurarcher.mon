@@ -1,0 +1,40 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 24
+Name          = "minotaur archer"
+Article       = "a"
+Outfit        = (24, 0-0-0-0)
+Corpse        = 4052
+Blood         = Blood
+Experience = 260
+SummonCost    = 390
+FleeThreshold = 10
+Attack        = 15
+Defend        = 8
+Armor         = 7
+Poison        = 0
+LoseTarget    = 50
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {Unpushable,
+                 DistanceFighting}
+
+Skills        = {(HitPoints, 100, 0, 100, 0, 0, 0),
+                 (GoStrength, 40, 0, 40, 0, 0, 0),
+                 (CarryStrength, 800, 0, 800, 0, 0, 0),
+                 (FistFighting, 20, 20, 20, 100, 1500, 1)}
+
+Spells        = {Victim (7, 2, 0) -> Damage (1, 65, 20) : 3}
+
+Inventory = {(3446, 20, 899),
+(3031, 99, 827),
+(3031, 99, 873),
+(5384, 1, 1),
+(3349, 1, 7),
+(3359, 1, 4),
+(3377, 1, 4)}
+
+Talk          = {"Ruan Wihmpy!",
+                 "Kaplar!"}

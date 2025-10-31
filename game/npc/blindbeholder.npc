@@ -1,0 +1,55 @@
+# GIMUD - Graphical Interface Multi User Dungeon
+# blindbeholder.npc: Datenbank f?r der blind beholder (Venore)
+
+Name = "the Blind Beholder"
+Sex = male
+Race = 1
+Outfit = (17,0-0-0-0)
+Home = [33067,32065,8]
+Radius = 2
+GoStrength = 6
+
+Behaviour = {
+ADDRESS,"hello$",!       -> "I smell a hhhuuuumaaaan! Come closer, what can I do for you?"
+ADDRESS,"hi$",!          -> *
+ADDRESS,!                -> Idle
+BUSY,"hello$",!          -> "I can't see you, please wait..."
+BUSY,"hi$",!             -> *
+BUSY,!                   -> NOP
+VANISH,!                 -> "Did you leave? Hello...?"
+
+ADDRESS,"hello$",QuestValue(278)=2,!        -> "Wow! A human? Here? Hey? Where do you come from, %N? Oh, I'm so excited!"
+ADDRESS,"hi$",QuestValue(278)=2,!           -> *
+ADDRESS,"greetings$",QuestValue(278)=2,!    -> *
+ADDRESS,"djanni'hah$",QuestValue(278)=2,!   -> *
+ADDRESS,!                                   -> Idle
+BUSY,"hello$",QuestValue(278)=2,!           -> "Another human?! Please don't go away! Stay! Please wait a minute, %N!", Queue
+BUSY,"hi$",QuestValue(278)=2,!              -> *
+BUSY,"greetings$",QuestValue(278)=2,!       -> *
+BUSY,"djanni'hah$",QuestValue(278)=2,!      -> *
+BUSY,!                                      -> NOP
+VANISH,!                                    -> "Please don't go!"
+
+"work",QuestValue(281)=1    -> "Did you already retrieve the spyreport?", Topic=1
+"mission",QuestValue(281)=1 -> *
+"report",QuestValue(281)=1  -> *
+"spy",QuestValue(281)=1     -> *
+
+Topic=1,"yes",Count(3232)=1,!  -> "You really have made it? You have the report? How come you did not get slaughtered? I must say I'm impressed. Your race will never cease to surprise me. ...",
+                                   "Well, let's see. ...",
+                                   "I think I need to talk to Gabel about this. I am sure he will know what to do. Perhaps you should have a word with him, too.", Amount=1, Delete(3232), SetQuestValue(281,2)
+Topic=1                         -> "Don't waste any more time. We need the spyreport of our man in Mal'ouquah as soon as possible! ...",
+                                   "Also don't forget the password to contact our man: PIEDPIPER!"
+                                   
+"ship",QuestValue(287)=0 -> "I used to live in Ashta'daramai. That was before I realised the extent of my blindness."
+"ship",QuestValue(287)=0 -> "I used to live in Ashta'daramai. That was before I realised the extent of my blindness."
+#"fr 0457", QuestValue (###)=### -> "fr 0457? Missing? Let me see? Hey, you are right. It is not on the list. Could it be?","Daraman have mercy! You're right! The file is gone! The spy must have stolen it. Oh dear. What am I to do now?","Quick! Go and tell uncle Fa'hradin. He will know what to do!", SetQuestValue (###)=###
+
+"model","ship",QuestValue(462)<5    -> "A model ship? How does it look? Oh, never mind...", Idle
+"model","ship",QuestValue(462)=5    -> "I am so sorry, I knew it was a bad idea! Please, don't hurt me! ...",
+                                       "I traded it, in exchange for a new eye. It was the necromancer, Molthrenar! ...",
+                                       "He has the ship! And he fooled me, I am still blind! Anyways. He hides in a desert tomb. The one with water.", SetQuestValue(462,6), Idle
+"model","ship",QuestValue(462)>5    -> "I only had that one, I promise!", Idle
+
+"bye"                    -> "Good bye.", Idle
+}

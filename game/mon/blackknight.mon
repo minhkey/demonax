@@ -1,0 +1,68 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 46
+Name          = "black knight"
+Article       = "a"
+Outfit        = (133, 95-95-95-95)
+Corpse        = 4240
+Blood         = Blood
+Experience = 6400
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 60
+Defend        = 60
+Armor         = 42
+Poison        = 0
+LoseTarget    = 3
+Strategy      = (80, 10, 10, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoEnergy,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 1800, 0, 1800, 0, 0, 0),
+                 (GoStrength, 155, 0, 155, 0, 0, 0),
+                 (CarryStrength, 900, 0, 900, 0, 0, 0),
+                 (FistFighting, 88, 88, 88, 100, 1200, 1)}
+
+Spells        = {Victim (7, 1, 0) -> Damage (1, 165, 20) : 7}
+
+Inventory = {(3035, 3, 788),
+(3031, 99, 519),
+(3031, 99, 519),
+(3277, 3, 294),
+(3602, 2, 204),
+(3003, 1, 141),
+(3372, 1, 129),
+(3269, 1, 124),
+(3357, 1, 108),
+(3351, 1, 103),
+(3265, 1, 94),
+(3305, 1, 67),
+(3369, 1, 46),
+(3318, 1, 25),
+(3384, 1, 23),
+(3383, 1, 18),
+(3371, 1, 9),
+(3016, 1, 6),
+(3370, 1, 6),
+(5399, 1, 3),
+(3079, 1, 2),
+(3550, 1, 2),
+(5377, 1, 1)}
+
+Talk          = {"#Y MINE!",
+                 "#Y NO PRISONERS!",
+                 "#Y NO MERCY!",
+                 "By Bolg's Blood!",
+                 "You're no match for me!"}

@@ -1,0 +1,59 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 204
+Name          = "Demodras"
+Article       = ""
+Outfit        = (204, 0-0-0-0)
+Corpse        = 4062
+Blood         = Blood
+Experience = 16000
+SummonCost    = 0
+FleeThreshold = 300
+Attack        = 80
+Defend        = 70
+Armor         = 45
+Poison        = 0
+LoseTarget    = 5
+Strategy      = (70, 10, 10, 10)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoLifeDrain,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 3750, 0, 3750, 0, 0, 0),
+                 (GoStrength, 77, 0, 77, 0, 0, 0),
+                 (CarryStrength, 900, 0, 900, 0, 0, 0),
+                 (FistFighting, 90, 90, 90, 100, 1100, 2)}
+
+Spells        = {Actor (13) -> Healing (550, 150) : 4,
+                 Origin (0, 13) -> Summon (34, 2) : 6,
+                 Destination (7, 4, 3, 7) -> Damage (4, 300, 50) : 5,
+                 Destination (7, 4, 5, 0) -> Field (1) : 10,
+                 Angle (30, 8, 7) -> Damage (4, 400, 150) : 5}
+
+Inventory = {(3035, 10, 989),
+(3035, 8, 950),
+(3732, 7, 255),
+(3450, 10, 195),
+(3029, 1, 118),
+(3051, 1, 101),
+(5197, 1, 100),
+(3052, 1, 92),
+(2903, 1, 58),
+(3280, 1, 16),
+(3386, 1, 16),
+(5398, 1, 8),
+(5198, 1, 2)}
+
+Talk          = {"#Y ZCHHHHH",
+                 "#Y I WILL SET THE WORLD IN FIRE!",
+                 "#Y I WILL PROTECT MY BROOD!"}

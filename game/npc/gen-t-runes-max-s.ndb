@@ -1,0 +1,16 @@
+# GIMUD - Graphical Interface Multi User Dungeon
+# gen-t-runes-max-s.ndb: Datenbank f?r generischen Runenverkauf - 99x Runen
+# Verwendete Topics: 99
+
+"spell","rune"						-> "I sell explosion runes, great fireball runes, great energyball runes, sudden death runes, heavy magic missile runes, and ultimate healing runes, all with 99 charges."
+
+"explosion","rune"       			        -> Type=3200, Data=99, Amount=1, Price=6600,    "Do you want to buy an explosion rune with 99 charges for %P gold?", Topic=99
+"great","fireball","rune"       		        -> Type=3191, Data=99, Amount=1, Price=7200,    "Do you want to buy a great fireball rune with 99 charges for %P gold?", Topic=99
+"great","energyball","rune"       		                -> Type=3189, Data=99, Amount=1, Price=7200,    "Do you want to buy a great energyball rune with 99 charges for %P gold?", Topic=99
+"sudden","death","rune"       		                -> Type=3155, Data=99, Amount=1, Price=26000,   "Do you want to buy a sudden death rune with 99 charges for %P gold?", Topic=99
+"heavy","magic","missile","rune"       		        -> Type=3198, Data=99, Amount=1, Price=2000,    "Do you want to buy a heavy magic missile rune with 99 charges for %P gold?", Topic=99
+"ultimate","healing","rune"       		        -> Type=3160, Data=99, Amount=1, Price=14000,   "Do you want to buy an ultimate healing rune with 99 charges for %P gold?", Topic=99
+
+Topic=99,"yes",CountMoney>=Price -> "Here you are.", DeleteMoney, Create(Type)
+Topic=99,"yes"                   -> "Sorry, you don't have enough gold."
+Topic=99                         -> "As you wish."

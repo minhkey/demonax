@@ -1,0 +1,60 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 429
+Name          = "undead dragon"
+Article       = "an"
+Outfit        = (281, 0-0-0-0)
+Corpse        = 5414 
+Blood         = Bones
+Experience = 14800 
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 80
+Defend        = 55 
+Armor         = 35
+Poison        = 0
+LoseTarget    = 5
+Strategy      = (70, 10, 10, 10)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoLifeDrain,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 5250, 0, 5250, 0, 0, 0),
+                 (GoStrength, 77, 0, 77, 0, 0, 0),
+                 (CarryStrength, 800, 0, 800, 0, 0, 0),
+                 (FistFighting, 90, 90, 90, 100, 1100, 2)}
+
+Spells        = {Actor (13) -> Healing (250, 50) : 8,
+                 Origin (0, 13) -> Summon (34, 2) : 20,
+                 Destination (7, 4, 3, 7) -> Damage (4, 300, 50) : 5,
+                 Destination (7, 4, 5, 0) -> Field (1) : 10,
+                 Angle (30, 8, 7) -> Damage (4, 400, 150) : 5}
+
+Inventory = {(3035, 5, 809),
+(3035, 3, 750),
+(3449, 10, 175),
+(3029, 1, 100),
+(2903, 1, 45),
+(3280, 1, 21),
+(3069, 1, 20),
+(3439, 1, 16),
+(5241, 1, 7),
+(5198, 1, 1),
+(3422, 1, 1),
+(5538, 1, 1),
+(5500, 1, 1),
+(3206, 1, 1)}
+
+Talk          = {"#Y ZCHHHHH",
+                 "#Y I WILL SET THE WORLD ON FIRE!",
+                 "#Y I WILL PROTECT MY BROOD!"}

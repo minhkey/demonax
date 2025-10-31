@@ -1,0 +1,54 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 421
+Name          = "frost spider"
+Article       = "a"
+Outfit        = (283, 0-0-0-0)
+Corpse        = 5420 
+Blood         = Blood 
+Experience = 4000 
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 68
+Defend        = 45
+Armor         = 35
+Poison        = 0
+LoseTarget    = 5
+Strategy      = (70, 20, 0, 10)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoEnergy,
+                 NoPoison,
+                 NoLifeDrain}
+
+Skills        = {(HitPoints, 1500, 0, 1500, 0, 0, 0),
+                 (GoStrength, 85, 0, 85, 0, 0, 0),
+                 (CarryStrength, 700, 0, 700, 0, 0, 0),
+                 (FistFighting, 83, 83, 83, 100, 1100, 2)}
+
+Spells        = {Actor (14) -> Speed (65, 5, 20) : 18,
+                 Origin (0, 13) -> Summon (53, 3) : 10,
+                 Destination (7, 15, 3, 12) -> Damage (8, 125, 75) : 5}
+
+Inventory = {(3035, 3, 621),
+(3035, 2, 600),
+(3045, 1, 120),
+(5355, 2, 9),
+(3073, 1, 7),
+(5149, 1, 7),
+(5146, 1, 7),
+(3067, 1, 6),
+(5239, 1, 6),
+(5145, 1, 4),
+(5147, 1, 2),
+(5148, 1, 2),
+(3402, 1, 2),
+(5104, 1, 1)}

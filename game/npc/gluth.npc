@@ -1,0 +1,26 @@
+# GIMUD - Graphical Interface Multi User Dungeon
+# gluth.npc: Datenbank f?r den swamp troll Gluth (Venore)
+
+Name = "Gluth"
+Sex = male
+Race = 1
+Outfit = (76,0-0-0-0)
+Home = [32935,32182,9]
+Radius = 2
+GoStrength = 7
+
+Behaviour = {
+ADDRESS,"hello$",!       -> "Glaargk, %N. What!?"
+ADDRESS,"hi$",!          -> *
+ADDRESS,!                -> Idle
+BUSY,"hello$",!          -> "No more noise!!"
+BUSY,"hi$",!             -> *
+BUSY,!                   -> NOP
+VANISH,!                 -> "Ugly human."
+
+"bye"                    -> "Not my pleasure, no.", Idle
+
+"model","ship",QuestValue(462)<4    -> "Model ship? Can I eat it?", Idle
+"model","ship",QuestValue(462)=4    -> "Ohhh stolen. From package. Yes. I sold! A blind beholder. To the east. I think.", SetQuestValue(462,5), Idle
+"model","ship",QuestValue(462)>4    -> "Not again, leave me alone!", Idle
+}

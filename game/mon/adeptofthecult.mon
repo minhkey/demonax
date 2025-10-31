@@ -1,0 +1,58 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 316
+Name          = "adept of the cult"
+Article       = "an"
+Outfit        = (258, 95-85-104-123)
+Corpse        = 4240
+Blood         = Slime
+Experience = 2800
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 35
+Defend        = 38
+Armor         = 25
+Poison        = 95
+LoseTarget    = 50
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 DistanceFighting,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoPoison,
+                 NoEnergy,
+                 NoLifeDrain}
+
+Skills        = {(HitPoints, 800, 0, 800, 0, 0, 0),
+                 (GoStrength, 55, 0, 55, 0, 0, 0),
+                 (CarryStrength, 300, 0, 300, 0, 0, 0),
+                 (FistFighting, 35, 35, 35, 100, 1100, 2)}
+
+Spells        = {Actor (13) -> Healing (75, 15) : 4,
+                 Victim (1, 0, 1) -> Damage (256, 70, 10) : 5,
+                 Victim (1, 0, 1) -> Damage (512, 70, 10) : 5,
+                 Victim (7, 15, 21) -> Damage (2, 80, 45) : 6,
+                 Origin (0, 13) -> Summon (54, 1) : 5,
+                 Origin (0, 13) -> Summon (18, 1) : 6}
+
+Inventory = {(3035, 4, 855),
+(3732, 3, 250),
+(3054, 1, 120),
+(3065, 1, 100),
+(3056, 1, 85),
+(5462, 1, 50),
+(3072, 1, 10),
+(5099, 1, 10),
+(3421, 1, 7),
+(3404, 1, 5)}
+
+Talk          = {"Hah! You cannot stop the cult, no one can!",
+                 "All hail the cultists!",
+                 "We will rule this world, and whatever comes after it."}

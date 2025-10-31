@@ -1,0 +1,54 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 17
+Name          = "beholder"
+Article       = "a"
+Outfit        = (17, 0-0-0-0)
+Corpse        = 4089
+Blood         = Blood
+Experience = 680
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 12
+Defend        = 20
+Armor         = 5
+Poison        = 0
+LoseTarget    = 50
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 SeeInvisible,
+                 Unpushable,
+                 DistanceFighting,
+                 NoSummon,
+                 NoConvince,
+                 NoPoison,
+                 NoLifeDrain}
+
+Skills        = {(HitPoints, 260, 0, 260, 0, 0, 0),
+                 (GoStrength, 35, 0, 35, 0, 0, 0),
+                 (CarryStrength, 400, 0, 400, 0, 0, 0),
+                 (FistFighting, 35, 35, 35, 100, 1200, 1)}
+
+Spells        = {Victim (7, 5, 0) -> Damage (8, 30, 15) : 15,
+                 Victim (7, 4, 0) -> Damage (4, 35, 10) : 16,
+                 Victim (7, 11, 18) -> Damage (1, 40, 10) : 13,
+                 Victim (7, 15, 0) -> Damage (2, 25, 20) : 14,
+                 Victim (7, 0, 14) -> Damage (256, 40, 5) : 17,
+                 Victim (7, 0, 14) -> Damage (512, 15, 10) : 20,
+                 Origin (0, 13) -> Summon (33, 6) : 9}
+
+Inventory = {(3035, 1, 867),
+(3285, 1, 89),
+(3282, 1, 69),
+(3059, 1, 48),
+(3265, 1, 38),
+(3409, 1, 38),
+(3418, 1, 8),
+(5372, 1, 1)}
+
+Talk          = {"Eye for eye!",
+                 "Here's looking at you!",
+                 "Let me take a look at you!",
+                 "You've got the look!"}

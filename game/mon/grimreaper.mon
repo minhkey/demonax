@@ -1,0 +1,64 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 407
+Name          = "grim reaper"
+Article       = "a"
+Outfit        = (270, 0-0-0-0)
+Corpse        = 5315 
+Blood         = Bones 
+Experience = 22000 
+SummonCost    = 0
+FleeThreshold = 0 
+Attack        = 75
+Defend        = 55
+Armor         = 35
+Poison        = 0
+LoseTarget    = 50
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 DistanceFighting,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoPoison,
+                 NoEnergy,
+                 NoBurning,
+                 NoLifeDrain,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 3900, 0, 3900, 0, 0, 0),
+                 (GoStrength, 100, 0, 100, 0, 0, 0),
+                 (CarryStrength, 900, 0, 900, 0, 0, 0),
+                 (FistFighting, 60, 60, 60, 100, 1100, 2)}
+
+Spells        = {Actor (13) -> Healing (260, 65) : 4,
+                 Victim (7, 11, 18) -> Damage (256, 235, 120) : 5,
+                 Angle (0, 8, 18) -> Damage (8, 140, 40) : 5,
+                 Angle (30, 8, 1) -> Damage (8, 165, 75) : 8}
+
+Inventory = {(3035, 6, 733),
+(3098, 1, 102),
+(3052, 1, 97),
+(3453, 1, 96),
+(3421, 1, 68),
+(3046, 1, 48),
+(3155, 4, 25),
+(5155, 1, 12),
+(5525, 1, 10),
+(5090, 1, 7),
+(5254, 1, 6),
+(5398, 1, 6),
+(5195, 1, 4),
+(5536, 1, 4),
+(5148, 1, 2),
+(5542, 1, 2),
+(5231, 1, 1)}
+
+Talk          = {"Death!",
+                 "Come a little closer!",
+                 "Let's play a game of chess!"}

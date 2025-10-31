@@ -1,0 +1,65 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 314
+Name          = "infernalist"
+Article       = "an"
+Outfit        = (130, 39-132-113-113)
+Corpse        = 4240
+Blood         = Blood
+Experience = 18200
+SummonCost    = 0
+FleeThreshold = 1000
+Attack        = 40
+Defend        = 45
+Armor         = 28
+Poison        = 0
+LoseTarget    = 50
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 DistanceFighting,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 3670, 0, 3670, 0, 0, 0),
+                 (GoStrength, 75, 0, 75, 0, 0, 0),
+                 (CarryStrength, 900, 0, 900, 0, 0, 0),
+                 (FistFighting, 50, 50, 50, 100, 1100, 2)}
+
+Spells        = {Actor (13) -> Healing (250, 20) : 4,
+                 Victim (7, 5, 18) -> Damage (1, 245, 110) : 5,
+                 Victim (7, 4, 16) -> Damage (4, 210, 95) : 5,
+                 Victim (7, 0, 14) -> Speed (-80, 20, 40) : 9,
+                 Destination (7, 4, 3, 7) -> Damage (4, 350, 30) : 3,
+                 Destination (7, 4, 5, 0) -> Field (1) : 5,
+                 Angle (0, 4, 16) -> Damage (4, 290, 20) : 8}
+
+Inventory = {(3035, 6, 707),
+(3731, 6, 200),
+(5112, 1, 28),
+(5506, 1, 40),
+(5518, 5, 18),
+(3016, 1, 16),
+(5241, 1, 15),
+(5446, 1, 12),
+(3039, 1, 10),
+(3030, 6, 9),
+(5097, 1, 8),
+(5539, 1, 1),
+(5432, 1, 1),
+(5100, 1, 1),
+(5172, 1, 1),
+(2852, 1, 1)}
+
+Talk          = {"#Y I will scorch you with hellfire!",
+                 "#Y Burn, buuuuuuurn!",
+                 "I find you mortals despicable.",
+                 "Give my regards to the Devil after I send you to hell."}

@@ -1,0 +1,58 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 317
+Name          = "enlightened of the cult"
+Article       = "an"
+Outfit        = (258, 95-94-113-132)
+Corpse        = 4240
+Blood         = Slime
+Experience = 11200
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 48
+Defend        = 43
+Armor         = 32
+Poison        = 165
+LoseTarget    = 5
+Strategy      = (70, 0, 30, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 DistanceFighting,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoPoison,
+                 NoEnergy,
+                 NoLifeDrain,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 3900, 0, 3900, 0, 0, 0),
+                 (GoStrength, 65, 0, 65, 0, 0, 0),
+                 (CarryStrength, 800, 0, 800, 0, 0, 0),
+                 (FistFighting, 40, 40, 40, 100, 1500, 1)}
+
+Spells        = {Actor (13) -> Healing (200, 90) : 5,
+                 Actor (13) -> Outfit ((0, 0), 2) : 15,
+                 Actor (13) -> Outfit ((258, 95-82-101-120), 6) : 35,
+                 Victim (1, 0, 0) -> Damage (256, 250, 150) : 15,
+                 Victim (7, 15, 21) -> Damage (2, 120, 70) : 9,
+                 Victim (7, 11, 18) -> Damage (1, 80, 70) : 6}
+
+Inventory = {(3035, 6, 934),
+(3732, 6, 314),
+(5096, 1, 50),
+(5243, 1, 10),
+(5194, 1, 1),
+(5236, 1, 1),
+(5214, 1, 1),
+(5175, 1, 1)}
+
+Talk          = {"You have underestimated the power of the cult.",
+                 "We unite as one around the dark arts!",
+                 "Feel my dark magic pierce through your soul!",
+                 "It's too late now, you cannot join us."}

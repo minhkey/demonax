@@ -1,0 +1,66 @@
+# GIMUD - Graphical Interface Multi User Dungeon
+# ferryman2.npc: Fährmann Johansson auf Hitra (Ice)
+
+Name = "Johansson"
+Sex = male
+Race = 1
+Outfit = (131,75-113-38-96)
+Home = [32230,31579,7]
+Radius = 1
+GoStrength = 5
+
+Behaviour = {
+ADDRESS,"hello$",male,!   -> "Ahoi, young man %N and welcome to the northern islands."
+ADDRESS,"hi$",male,!      -> *
+ADDRESS,"hello$",female,! -> "Ahoi, young lady %N and welcome to the northern islands."
+ADDRESS,"hi$",female,!    -> *
+ADDRESS,!                 -> Idle
+BUSY,"hello$",!           -> "One moment please, %N.", Queue
+BUSY,"hi$",!              -> *
+BUSY,!                    -> NOP
+VANISH,!                  -> "Good bye. You are welcome."
+
+"bye"          -> "Good bye. You are welcome.", Idle
+"farewell"     -> *
+"name"         -> "My name is Johansson, independent contractor and ferryman."
+"job"          -> "I am a ferryman. I transport goods and passengers between the northern islands."
+"captain"      -> "Oh captain, my captain! Such a good movi... Eh. Never mind."
+"ship"         -> "Oh no, this small boat is just sturdy enough to travel between the northern islands."
+"ferry"        -> *
+"ferries"      -> *
+"trip"         -> "Where do you want to go today? I serve the routes to Senja, Folda, and Vega."
+"passage"      -> *
+"island"       -> "I serve the routes to Senja, Folda, and Vega."
+"route"        -> *
+"demon"        -> "There are no demons around here, hah! Or... At least I hope so."
+"orshabaal"    -> *
+"archdemon"    -> *
+"dragon"       -> "I would stay above the surface if I were you. There is only darkness beneath the ice."
+"frost","dragon" -> * 
+"undead","dragon" -> * 
+"quest"        -> * 
+"mission"      -> * 
+"eremo"        -> "Erewho now?"
+
+
+"fogn" -> "This is Fogn, yes. I'd rather not stay too long. I've heard bad things about this island."
+"folda" -> Price=0, "Do you want free a passage to Folda for %P gold?", Topic=1
+"vega"  -> Price=0, "Do you want free a passage to Vega for %P gold?", Topic=2
+"senja"  -> Price=0, "Do you want free a passage to Senja for %P gold?", Topic=3
+
+Topic=1,"yes",PZBlock,! -> "First get rid of those blood stains! I just got new leather covers for the seats!"
+Topic=2,"yes",PZBlock,! -> *
+Topic=3,"yes",PZBlock,! -> *
+
+Topic=1,"yes",CountMoney>=Price -> "Have a nice trip!", DeleteMoney, Idle, EffectOpp(11), Teleport(32048,31582,7), EffectOpp(11)
+Topic=1,"yes"                   -> "You don't have enough money."
+Topic=1                         -> "You shouldn't miss the experience."
+
+Topic=2,"yes",CountMoney>=Price -> "Have a nice trip!", DeleteMoney, Idle, EffectOpp(11), Teleport(32025,31692,7), EffectOpp(11)
+Topic=2,"yes"                   -> "You don't have enough money."
+Topic=2                         -> "You shouldn't miss the experience."
+
+Topic=3,"yes",CountMoney>=Price -> "Have a nice trip!", DeleteMoney, Idle, EffectOpp(11), Teleport(32126,31667,7), EffectOpp(11)
+Topic=4,"yes"                   -> "You don't have enough money."
+Topic=4                         -> "You shouldn't miss the experience."
+}

@@ -1,0 +1,34 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 7
+Name          = "orc warrior"
+Article       = "an"
+Outfit        = (7, 0-0-0-0)
+Corpse        = 4043
+Blood         = Blood
+Experience = 200
+SummonCost    = 360
+FleeThreshold = 10
+Attack        = 19
+Defend        = 14
+Armor         = 8
+Poison        = 0
+LoseTarget    = 0
+Strategy      = (100, 0, 0, 0)
+
+Skills        = {(HitPoints, 125, 0, 125, 0, 0, 0),
+                 (GoStrength, 55, 0, 55, 0, 0, 0),
+                 (CarryStrength, 400, 0, 400, 0, 0, 0),
+                 (FistFighting, 42, 42, 42, 100, 1200, 1)}
+
+Inventory = {(3031, 60, 895),
+(3031, 60, 818),
+(3358, 1, 74),
+(3430, 1, 3),
+(3299, 1, 1)}
+
+Talk          = {"Grow truk grrrr.",
+                 "Trak grrrr brik.",
+                 "Alk!"}

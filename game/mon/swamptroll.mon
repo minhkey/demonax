@@ -1,0 +1,37 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 76
+Name          = "swamp troll"
+Article       = "a"
+Outfit        = (76, 0-0-0-0)
+Corpse        = 4176
+Blood         = Blood
+Experience = 100
+SummonCost    = 320
+FleeThreshold = 15
+Attack        = 12
+Defend        = 10
+Armor         = 6
+Poison        = 10
+LoseTarget    = 0
+Strategy      = (100, 0, 0, 0)
+
+Skills        = {(HitPoints, 55, 0, 55, 0, 0, 0),
+                 (GoStrength, 24, 0, 24, 0, 0, 0),
+                 (CarryStrength, 300, 0, 300, 0, 0, 0),
+                 (FistFighting, 20, 20, 20, 100, 1500, 1)}
+
+Inventory = {(3578, 1, 598),
+(3031, 20, 544),
+(3031, 20, 544),
+(2920, 1, 151),
+(3277, 1, 129),
+(3552, 1, 97),
+(3741, 1, 1),
+(5497, 1, 1),
+(3483, 1, 1)}
+
+Talk          = {"Grrrr",
+                 "Groar!",
+                 "Me strong! Me ate spinach!"}

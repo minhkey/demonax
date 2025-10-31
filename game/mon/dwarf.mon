@@ -1,0 +1,40 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 69
+Name          = "dwarf"
+Article       = "a"
+Outfit        = (69, 0-0-0-0)
+Corpse        = 4141
+Blood         = Blood
+Experience = 180
+SummonCost    = 320
+FleeThreshold = 0
+Attack        = 14
+Defend        = 14
+Armor         = 8
+Poison        = 0
+LoseTarget    = 0
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {NoPoison}
+
+Skills        = {(HitPoints, 90, 0, 90, 0, 0, 0),
+                 (GoStrength, 45, 0, 45, 0, 0, 0),
+                 (CarryStrength, 800, 0, 800, 0, 0, 0),
+                 (FistFighting, 23, 23, 23, 100, 1500, 1)}
+
+Inventory = {(3723, 1, 500),
+(3031, 32, 596),
+(3031, 32, 596),
+(3276, 1, 246),
+(3274, 1, 144),
+(3456, 1, 100),
+(3430, 1, 99),
+(3559, 1, 95),
+(3378, 1, 79),
+(3505, 1, 78),
+(3097, 1, 1)}
+
+Talk          = {"Hail Durin!"}

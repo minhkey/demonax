@@ -1,0 +1,64 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 220
+Name          = "serpent spawn"
+Article       = "a"
+Outfit        = (220, 0-0-0-0)
+Corpse        = 4388
+Blood         = Blood
+Experience = 8000
+SummonCost    = 0
+FleeThreshold = 275
+Attack        = 62
+Defend        = 40
+Armor         = 38
+Poison        = 0
+LoseTarget    = 25
+Strategy      = (70, 30, 0, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoPoison,
+                 NoLifeDrain,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 3000, 0, 3000, 0, 0, 0),
+                 (GoStrength, 77, 0, 77, 0, 0, 0),
+                 (CarryStrength, 1200, 0, 1200, 0, 0, 0),
+                 (FistFighting, 82, 82, 82, 100, 1100, 2)}
+
+Spells        = {Actor (13) -> Healing (350, 50) : 6,
+                 Actor (14) -> Speed (95, 5, 3) : 12,
+                 Victim (7, 15, 17) -> Damage (2, 200, 100) : 8,
+                 Victim (7, 0, 13) -> Outfit ((0, 3492), 4) : 120,
+                 Destination (7, 15, 3, 9) -> Speed (-65, 10, 120) : 5,
+                 Angle (0, 8, 20) -> Damage (256, 275, 125) : 7,
+                 Angle (30, 8, 21) -> Damage (2, 275, 225) : 6}
+
+Inventory = {(3035, 4, 739),
+(3732, 1, 182),
+(3029, 1, 120),
+(5260, 1, 19),
+(3066, 1, 8),
+(3428, 1, 7),
+(3373, 1, 5),
+(3369, 1, 4),
+(3381, 1, 4),
+(5399, 1, 4),
+(3392, 1, 1),
+(5140, 1, 4),
+(5141, 1, 2),
+(5142, 1, 1),
+(5143, 1, 1),
+(5242, 1, 1)}
+
+Talk          = {"Ssssolus for the one",
+                 "#Y HISSSS",
+                 "Tsssse one will risssse again",
+                 "I bring you deathhhh, mortalssss"}

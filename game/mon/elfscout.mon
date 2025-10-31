@@ -1,0 +1,47 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 64
+Name          = "elf scout"
+Article       = "an"
+Outfit        = (64, 0-0-0-0)
+Corpse        = 4162
+Blood         = Blood
+Experience = 300
+SummonCost    = 360
+FleeThreshold = 0
+Attack        = 18
+Defend        = 18
+Armor         = 7
+Poison        = 0
+LoseTarget    = 50
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 SeeInvisible,
+                 Unpushable,
+                 DistanceFighting}
+
+Skills        = {(HitPoints, 160, 0, 160, 0, 0, 0),
+                 (GoStrength, 70, 0, 70, 0, 0, 0),
+                 (CarryStrength, 600, 0, 600, 0, 0, 0),
+                 (FistFighting, 25, 25, 25, 100, 1500, 1)}
+
+Spells        = {Victim (7, 3, 0) -> Damage (1, 45, 15) : 4}
+
+Inventory = {(3031, 99, 869),
+(3031, 99, 893),
+(3447, 12, 302),
+(3350, 1, 39),
+(2901, 1, 11),
+(5521, 1, 11),
+(3399, 1, 1),
+(3401, 1, 1),
+(3551, 1, 10)}
+
+Talk          = {"Tha'shi Ab'Dendriel!",
+                 "Feel the sting of my arrows!",
+                 "Thy blood will quench the soil's thirst!",
+                 "Evicor guide my arrow.",
+                 "Your existence will end here!"}

@@ -1,0 +1,73 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 10
+Name          = "warlock"
+Article       = "a"
+Outfit        = (130, 0-52-128-95)
+Corpse        = 4240
+Blood         = Blood
+Experience = 16000
+SummonCost    = 0
+FleeThreshold = 1000
+Attack        = 40
+Defend        = 50
+Armor         = 32
+Poison        = 0
+LoseTarget    = 50
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 DistanceFighting,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoEnergy,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 3200, 0, 3200, 0, 0, 0),
+                 (GoStrength, 75, 0, 75, 0, 0, 0),
+                 (CarryStrength, 900, 0, 900, 0, 0, 0),
+                 (FistFighting, 50, 50, 50, 100, 1100, 2)}
+
+Spells        = {Actor (13) -> Healing (80, 20) : 4,
+                 Actor (13) -> Outfit ((0, 0), 20) : 10,
+                 Victim (7, 5, 0) -> Damage (1, 75, 30) : 2,
+                 Victim (7, 0, 0) -> Damage (512, 55, 20) : 6,
+                 Victim (7, 0, 14) -> Speed (-80, 20, 40) : 9,
+                 Origin (0, 13) -> Summon (67, 1) : 10,
+                 Destination (7, 4, 2, 7) -> Damage (4, 130, 40) : 3,
+                 Destination (7, 4, 0, 0) -> Field (1) : 7,
+                 Destination (7, 4, 1, 0) -> Field (1) : 5,
+                 Angle (0, 8, 12) -> Damage (8, 175, 30) : 8}
+
+Inventory = {(3035, 8, 707),
+(3590, 4, 194),
+(3600, 1, 88),
+(3052, 1, 49),
+(3728, 1, 28),
+(3051, 1, 18),
+(3567, 1, 14),
+(3029, 1, 11),
+(5150, 1, 11),
+(5443, 1, 10),
+(5495, 1, 10),
+(5101, 1, 4),
+(3509, 1, 8),
+(3007, 1, 6),
+(3050, 1, 5),
+(2850, 1, 1),
+(5224, 1, 2),
+(3360, 1, 1),
+(3395, 1, 1),
+(5487, 1, 1),
+(5349, 1, 1)}
+
+Talk          = {"Learn the secret of our magic! YOUR death!",
+                 "Even a rat is a better mage than you.",
+                 "We don't like intruders!"}

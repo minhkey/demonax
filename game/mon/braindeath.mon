@@ -1,0 +1,64 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 511
+Name          = "braindeath"
+Article       = "a"
+Outfit        = (274, 0-0-0-0)
+Corpse        = 5326 
+Blood         = Blood
+Experience = 3940 
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 19
+Defend        = 26
+Armor         = 12
+Poison        = 0
+LoseTarget    = 50
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 SeeInvisible,
+                 Unpushable,
+                 DistanceFighting,
+                 NoSummon,
+                 NoConvince,
+                 NoPoison,
+                 NoEnergy,
+                 NoBurning,
+                 NoLifeDrain}
+
+Skills        = {(HitPoints, 1225, 0, 1225, 0, 0, 0),
+                 (GoStrength, 65, 0, 65, 0, 0, 0),
+                 (CarryStrength, 400, 0, 400, 0, 0, 0),
+                 (FistFighting, 46, 46, 46, 100, 1200, 1)}
+
+Spells        = {Victim (7, 5, 0) -> Damage (8, 60, 15) : 14,
+                 Victim (7, 4, 0) -> Damage (4, 80, 10) : 15,
+                 Victim (7, 11, 18) -> Damage (1, 100, 15) : 12,
+                 Victim (7, 15, 0) -> Damage (2, 60, 25) : 13,
+                 Victim (7, 0, 14) -> Damage (256, 100, 5) : 18,
+                 Victim (7, 0, 14) -> Damage (256, 100, 5) : 18,
+                 Victim (7, 0, 14) -> Damage (512, 95, 10) : 19,
+                 Victim (7, 0, 14) -> Speed (-90, 20, 20) : 10,
+                 Origin (0, 13) -> Summon (68, 2) : 8}
+
+Inventory = {(3035, 4, 813),
+(3338, 1, 148),
+(3409, 1, 58),
+(3311, 1, 18),
+(5260, 1, 13),
+(5096, 2, 6),
+(3059, 1, 8),
+(5356, 2, 3),
+(3408, 1, 1),
+(5365, 1, 1),
+(5379, 1, 1),
+(5370, 1, 1),
+(3418, 1, 10)}
+
+Talk          = {"You have disturbed my thoughts!",
+                 "I'll turn you into something more useful!",
+                 "Let me taste your brain!",
+                 "You will be punished!"}

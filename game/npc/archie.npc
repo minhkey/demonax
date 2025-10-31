@@ -1,0 +1,53 @@
+# GIMUD - Graphical Interface Multi User Dungeon
+# archie.npc: Datenbank f?r den Prisoner Archie
+
+Name = "Archie"
+Sex = male
+Race = 1
+Outfit = (128,2-116-95-115)
+Home = [32295,32570,9]
+Radius = 2
+GoStrength = 9
+
+Behaviour = {
+ADDRESS,"hello$",QuestValue(454)=0,!        -> "Ohhh! Another human?! Did they capture you too? Please, help me, %N, they are burning me alive!"
+ADDRESS,"hi$",QuestValue(454)=0,!           -> *
+ADDRESS,"greetings$",QuestValue(454)=0,!    -> *
+
+ADDRESS,"hello$",QuestValue(454)=1,!        -> "You did it, %N, you came back!"
+ADDRESS,"hi$",QuestValue(454)=1,!           -> *
+ADDRESS,"greetings$",QuestValue(454)=1,!    -> *
+
+ADDRESS,"hello$",QuestValue(454)>1,!        -> "The thing with the eye... It did not work... Let's face it, %N, I will die here...", Idle
+ADDRESS,"hi$",QuestValue(454)>1,!           -> *
+ADDRESS,"greetings$",QuestValue(454)>1,!    -> *
+
+BUSY,"hello$",QuestValue(454)<2,!           -> "Another human?! Stay! Please, I beg you, wait a minute, %N!", Queue
+BUSY,"hi$",QuestValue(454)<2,!              -> *
+BUSY,"greetings$",QuestValue(454)<2,!       -> *
+BUSY,!                                      -> NOP
+VANISH,!                                    -> "Please don't go!"
+
+"bye"       -> "I guess I will stay here...", Idle
+"name"      -> "I'm Archie. Or, I think so... No one has called me that in a long time..."
+"job"       -> "I used to be an adventurer, just like you, until the cultists captured me..."
+"time"      -> "Hah, there is no concept of time here..."
+"cult"      -> "They are too powerful, too many, they will rule the world one day!"
+"thais"     -> "Oh, our capital, how I miss it so..."
+
+"help",QuestValue(454)=0      -> "Do you really want to help me, %N? I must ask you to get me something. ...",
+                                 "Listen carefully. I know it sounds strange. ...",
+                                 "I need you to bring me a human eye. The cultists, they... Nevermind. Just bring me one, OK? ...",
+                                 "If you do that, I will give you something in return. ...",
+                                 "Please, hurry! I will be right here...", SetQuestValue(454,1), Idle
+                                 
+"help",QuestValue(454)=1          -> "Did you bring one, did you really bring what I asked for?",Topic=1
+"eye",QuestValue(454)=1           ->  *
+"human","eye",QuestValue(454)=1   ->  *
+
+Topic=1,"yes",Count(5366)=1,!  -> "I won't ask how you got it, but I am grateful beyond imagination. Finally, I will be free! ...",
+                                  "All right, let's see. ...",
+                                  "I found this key before I was captured. Someone must have lost it.", Amount=1, Delete(5366), "Take it, please, it is all I have.", Type=2970, Data=5015, Amount=1, Create(Type), SetQuestValue(454,2), Idle
+
+Topic=1                         -> "Don't torture me like that, %N, I beg you.", Idle
+}

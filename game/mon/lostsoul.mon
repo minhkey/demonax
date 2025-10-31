@@ -1,0 +1,56 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 422
+Name          = "lost soul"
+Article       = "a"
+Outfit        = (280, 0-0-0-0)
+Corpse        = 5413 
+Blood         = Blood
+Experience = 16000 
+SummonCost    = 0
+FleeThreshold = 10
+Attack        = 75
+Defend        = 36
+Armor         = 28 
+Poison        = 0
+LoseTarget    = 10
+Strategy      = (80, 10, 10, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison}
+
+Skills        = {(HitPoints, 5800, 0, 5800, 0, 0, 0),
+                 (GoStrength, 190, 0, 190, 0, 0, 0),
+                 (CarryStrength, 800, 0, 800, 0, 0, 0),
+                 (FistFighting, 90, 90, 90, 90, 1500, 1)}
+
+Spells        = {Victim (7, 9, 0) -> Damage (1, 310, 35) : 12,
+                 Angle (0, 8, 26) -> Damage (1, 225, 35) : 8}
+
+Inventory = {(3035, 5, 779),
+(3582, 2, 684),
+(3035, 3, 595),
+(3052, 2, 143),
+(3461, 1, 52),
+(5340, 1, 37),
+(5356, 9, 18),
+(5459, 1, 15),
+(5090, 1, 10),
+(5440, 1, 8),
+(5398, 1, 5),
+(5439, 1, 1),
+(5258, 1, 1)}
+
+Talk          = {"You like it, don't you?",
+                 "IahaheheahAiie!",
+                 "It's party time!",
+                 "The torturer is in!"}

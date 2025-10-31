@@ -1,0 +1,48 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 315
+Name          = "acolyte of the cult"
+Article       = "an"
+Outfit        = (258, 95-82-101-120)
+Corpse        = 4240
+Blood         = Slime
+Experience = 1900
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 24
+Defend        = 34
+Armor         = 20
+Poison        = 300
+LoseTarget    = 50
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 DistanceFighting,
+                 NoSummon,
+                 NoConvince,
+                 NoPoison,
+                 NoEnergy}
+
+Skills        = {(HitPoints, 370, 0, 370, 0, 0, 0),
+                 (GoStrength, 45, 0, 45, 0, 0, 0),
+                 (CarryStrength, 500, 0, 500, 0, 0, 0),
+                 (FistFighting, 27, 27, 27, 100, 1500, 1)}
+
+Spells        = {Actor (13) -> Healing (55, 10) : 7,
+                 Victim (7, 15, 21) -> Damage (2, 55, 15) : 4,
+                 Victim (7, 0, 0) -> Damage (256, 62, 22) : 4}
+
+Inventory = {(3035, 3, 734),
+(3299, 1, 120),
+(3732, 3, 80),
+(3054, 1, 60),
+(5518, 1, 10),
+(3404, 1, 1)}
+
+Talk          = {"Do like I did, join the cult!",
+                 "I must prove myself worthy and kill you!",
+                 "Bow before the grandmasters of the cult."}

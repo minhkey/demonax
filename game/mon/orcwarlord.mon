@@ -1,0 +1,55 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 2
+Name          = "orc warlord"
+Article       = "an"
+Outfit        = (2, 0-0-0-0)
+Corpse        = 4148
+Blood         = Blood
+Experience = 2680
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 68
+Defend        = 55
+Armor         = 28
+Poison        = 0
+LoseTarget    = 5
+Strategy      = (70, 15, 15, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoBurning}
+
+Skills        = {(HitPoints, 950, 0, 950, 0, 0, 0),
+                 (GoStrength, 77, 0, 77, 0, 0, 0),
+                 (CarryStrength, 800, 0, 800, 0, 0, 0),
+                 (FistFighting, 72, 72, 72, 100, 1500, 1)}
+
+Spells        = {Actor (13) -> Outfit ((0, 0), 2) : 25,
+                 Victim (7, 8, 0) -> Damage (1, 110, 10) : 4}
+
+Inventory = {(3035, 3, 862),
+(3287, 18, 144),
+(3578, 2, 105),
+(3307, 1, 29),
+(3265, 1, 18),
+(3084, 1, 16),
+(3384, 1, 12),
+(3359, 1, 8),
+(3316, 1, 2),
+(3049, 1, 1),
+(3322, 1, 1),
+(3391, 1, 1),
+(5399, 1, 1)}
+
+Talk          = {"Ranat Ulderek!",
+                 "Orc buta bana!",
+                 "Ikem rambo zambo!",
+                 "Futchi maruk buta!"}

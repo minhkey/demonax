@@ -1,0 +1,68 @@
+# GIMUD - Graphical Interface Multi User Dungeon
+# anaximander.npc: Datenbank f?r der librarian Anaximander (Thais)
+
+Name = "Anaximander"
+Sex = male
+Race = 1
+Outfit = (130,19-86-87-95)
+Home = [32358,32226,6]
+Radius = 2
+GoStrength = 10
+
+Behaviour = {
+ADDRESS,"hello$",!       -> "Hi there, %N!"
+ADDRESS,"hi$",!          -> *
+ADDRESS,!                -> Idle
+BUSY,"hello$",!          -> "Just a minute!"
+BUSY,"hi$",!             -> *
+BUSY,!                   -> NOP
+VANISH,!                 -> "Oh. Bye."
+
+"bye"                    -> "Take care.", Idle
+"name"                   -> "I'm Anaximander. You might recognize my name?"
+"job"                    -> "I'm a librarian, but I was once a brave adventurer, just like you! In fact, I still know quite a thing or two about spell runes and blessings."
+"spell","rune"           -> "I sell explosion runes, great fireball runes, great energy runes, sudden death runes, heavy magic missile runes, and ultimate healing runes. All my runes have 99 charges, which makes them very convenient!"
+"rune"                   -> * 
+"blessing"               -> "I possess the power to grant you each of the five blessings. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of demonax, the fire of the suns and the wisdom of solitude."
+
+"spiritual" -> "You may receive the blessing of spiritual shielding. But I must ask of you to sacrifice 5 000 gold. Are you still interested?",Price=5000,Topic=51
+"shielding" -> *
+
+"wisdom" -> "I can provide you with the wisdom of solitude. But you will have to sacrifice 5 000 gold to receive it. Are you still interested?",Price=5000,Topic=52
+"solitude" -> *
+
+"embrace" -> "I will give to you the embrace of demonax, but you will have to make a sacrifice. Are you prepared to pay 5 000 gold for the blessing?",Price=5000,Topic=53
+
+"fire"     -> "Do you wish to receive the blessing of the two suns? It will cost you 5 000 gold, pilgrim.",Price=5000,Topic=54
+"suns" -> *
+
+"spark" -> "Do you wish to receive the blessing of the phoenix for 5 000 gold?",Price=5000,Topic=55
+"phoenix" -> *
+
+Topic=52,"yes", QuestValue(101) > 0,!        -> "You already possess this blessing."
+Topic=52,"yes", CountMoney<Price,!            -> "Oh. You do not have enough money."
+Topic=52,"yes",!                             -> "So receive the wisdom of solitude, pilgrim", DeleteMoney, EffectOpp(13),SetQuestValue(101,1)
+Topic=52,!                                   -> "Ok. As you wish."
+
+Topic=55,"yes", QuestValue(102) > 0,!        -> "You already possess this blessing."
+Topic=55,"yes", CountMoney<Price,!            -> "Oh. You do not have enough money."
+Topic=55,"yes",!                             -> "So receive the mark of the flame and be blessed by the phoenix, pilgrim.", DeleteMoney, EffectOpp(13),SetQuestValue(102,1),SetQuestValue(199,0)
+Topic=55,!                                  -> "Ok. As you wish."
+
+Topic=54,"yes", QuestValue(103) > 0,!        -> "You already possess this blessing."
+Topic=54,"yes", CountMoney<Price,!            -> "Oh. You do not have enough money."
+Topic=54,"yes",!                             -> "So receive the warmth of sunfire, pilgrim.", DeleteMoney, EffectOpp(13),SetQuestValue(103,3)
+Topic=54,!                                  -> "Ok. As you wish."
+
+Topic=51,"yes", QuestValue(104) > 0,!        -> "You already possess this blessing."
+Topic=51,"yes", CountMoney<Price,!            -> "Oh. You do not have enough money."
+Topic=51,"yes",!                             -> "So receive the shielding of your spirit, pilgrim.", DeleteMoney, EffectOpp(13),SetQuestValue(104,1)
+Topic=51,!                                   -> "Ok. As you wish."
+
+Topic=53,"yes", QuestValue(105) > 0,!        -> "You already possess this blessing."
+Topic=53,"yes", CountMoney<Price              -> "Oh. You do not have enough money."
+Topic=53,"yes",!                             -> "So receive the embrace of demonax, pilgrim", DeleteMoney, EffectOpp(13),SetQuestValue(105,1)
+Topic=53,!                                   -> "Ok. As you wish."
+
+@"gen-t-runes-max-s.ndb"
+}

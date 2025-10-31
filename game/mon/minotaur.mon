@@ -1,0 +1,38 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 25
+Name          = "minotaur"
+Article       = "a"
+Outfit        = (25, 0-0-0-0)
+Corpse        = 4011
+Blood         = Blood
+Experience = 200
+SummonCost    = 330
+FleeThreshold = 0
+Attack        = 15
+Defend        = 11
+Armor         = 11
+Poison        = 0
+LoseTarget    = 0
+Strategy      = (100, 0, 0, 0)
+
+Skills        = {(HitPoints, 100, 0, 100, 0, 0, 0),
+                 (GoStrength, 44, 0, 44, 0, 0, 0),
+                 (CarryStrength, 800, 0, 800, 0, 0, 0),
+                 (FistFighting, 25, 25, 25, 100, 1500, 1)}
+
+Inventory = {(3031, 99, 811),
+(3031, 99, 893),
+(3410, 1, 199),
+(3286, 1, 129),
+(3358, 1, 99),
+(3354, 1, 78),
+(3264, 1, 48),
+(3274, 1, 38),
+(5384, 1, 1),
+(3457, 1, 2),
+(3056, 1, 1)}
+
+Talk          = {"Kaplar!"}

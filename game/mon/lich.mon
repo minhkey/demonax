@@ -1,0 +1,72 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 99
+Name          = "lich"
+Article       = "a"
+Outfit        = (99, 0-0-0-0)
+Corpse        = 4206
+Blood         = Bones
+Experience = 3600
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 40
+Defend        = 60
+Armor         = 50
+Poison        = 400
+LoseTarget    = 3
+Strategy      = (80, 10, 10, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoLifeDrain,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 880, 0, 880, 0, 0, 0),
+                 (GoStrength, 65, 0, 65, 0, 0, 0),
+                 (CarryStrength, 600, 0, 600, 0, 0, 0),
+                 (FistFighting, 40, 40, 40, 100, 1500, 1)}
+
+Spells        = {Actor (14) -> Healing (100, 50) : 6,
+                 Victim (1, 0, 13) -> Damage (256, 150, 100) : 30,
+                 Victim (7, 0, 14) -> Speed (-95, 20, 30) : 7,
+                 Origin (2, 14) -> Damage (256, 160, 40) : 6,
+                 Origin (0, 13) -> Summon (101, 4) : 6,
+                 Angle (0, 8, 14) -> Damage (256, 150, 50) : 12,
+                 Angle (0, 8, 17) -> Damage (32, 350, 50) : 12}
+
+Inventory = {(3031, 99, 828),
+(3031, 99, 840),
+(3035, 2, 782),
+(3035, 1, 197),
+(3059, 1, 101),
+(3027, 3, 50),
+(3026, 1, 46),
+(3032, 3, 22),
+(3432, 1, 19),
+(3198, 6, 19),
+(3098, 1, 15),
+(3037, 1, 6),
+(3373, 1, 6),
+(3062, 1, 3),
+(5356, 2, 3),
+(3343, 1, 3),
+(3055, 1, 2),
+(3324, 1, 1),
+(3567, 1, 1)}
+
+Talk          = {"Death awaits all!",
+                 "Doomed be the living!",
+                 "Death and Decay!",
+                 "You will endure agony beyond thy death!",
+                 "Come to me my children!",
+                 "Pain sweet pain!",
+                 "Thy living flesh offends me!"}

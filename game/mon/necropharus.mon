@@ -1,0 +1,61 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 209
+Name          = "Necropharus"
+Article       = ""
+Outfit        = (209, 0-0-0-0)
+Corpse        = 4240
+Blood         = Blood
+Experience = 2800
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 45
+Defend        = 45
+Armor         = 55
+Poison        = 95
+LoseTarget    = 50
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 DistanceFighting,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoPoison,
+                 NoLifeDrain}
+
+Skills        = {(HitPoints, 750, 0, 750, 0, 0, 0),
+                 (GoStrength, 60, 0, 60, 0, 0, 0),
+                 (CarryStrength, 300, 0, 300, 0, 0, 0),
+                 (FistFighting, 35, 35, 35, 100, 1100, 2)}
+
+Spells        = {Actor (13) -> Healing (75, 15) : 4,
+                 Victim (1, 0, 1) -> Damage (256, 100, 20) : 5,
+                 Victim (7, 15, 21) -> Damage (2, 95, 45) : 6,
+                 Origin (0, 13) -> Summon (18, 2) : 5,
+                 Origin (0, 13) -> Summon (48, 1) : 6,
+                 Origin (0, 13) -> Summon (65, 1) : 7}
+
+Inventory = {(3031, 99, 855),
+(3031, 99, 865),
+(3035, 1, 774),
+(3311, 1, 562),
+(3324, 1, 408),
+(3337, 1, 357),
+(3732, 1, 255),
+(3114, 1, 127),
+(3574, 1, 101),
+(3070, 1, 75),
+(3441, 1, 75),
+(3116, 1, 50),
+(3079, 1, 24),
+(3294, 1, 24),
+(5356, 1, 2)}
+
+Talk          = {"You will rise as my servant!",
+                 "Praise to my master Urgith!"}

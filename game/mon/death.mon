@@ -1,0 +1,71 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 312
+Name          = "Death"
+Article       = ""
+Outfit        = (270, 0-0-0-0)
+Corpse        = 5315 
+Blood         = Bones 
+Experience    = 135000 
+SummonCost    = 0
+FleeThreshold = 10000
+Attack        = 100
+Defend        = 90
+Armor         = 85
+Poison        = 20
+LoseTarget    = 10
+Strategy      = (60, 20, 10, 10)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 DistanceFighting,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoEnergy,
+                 NoLifeDrain,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 96000, 0, 96000, 0, 0, 0),
+                 (GoStrength, 100, 0, 100, 0, 0, 0),
+                 (CarryStrength, 900, 0, 900, 0, 0, 0),
+                 (FistFighting, 110, 110, 110, 100, 1100, 2)}
+
+Spells        = {Actor (13) -> Healing (860, 85) : 4,
+                 Victim (7, 0, 26) -> Damage (512, 450, 75) : 8,
+                 Victim (7, 11, 18) -> Damage (256, 475, 120) : 4,
+                 Destination (7, 4, 6, 3) -> Damage (256, 420, 95) : 4,
+                 Destination (7, 4, 6, 20) -> Damage (512, 620, 95) : 4,
+                 Origin (0, 14) -> Summon (508, 3) : 10,
+                 Angle (0, 8, 18) -> Damage (1, 550, 75) : 7}
+
+Inventory = {(3035, 10, 733),
+(3035, 6, 833),
+(5356, 8, 340),
+(5504, 1, 240),
+(5536, 1, 201),
+(5095, 1, 150),
+(5106, 1, 85),
+(5133, 1, 54),
+(5240, 1, 33),
+(5231, 1, 24),
+(5525, 1, 22),
+(5542, 1, 20),
+(5205, 1, 8),
+(5496, 1, 2),
+(5207, 1, 1),
+(5232, 1, 1),
+(5456, 1, 1),
+(5272, 1, 1),
+(5463, 1, 1),
+(5457, 1, 1)
+}
+
+Talk          = {"I have come to collect your soul!",
+                 "#Y TIME IS ON MY SIDE!",
+                 "One way or another, you will face me!"}

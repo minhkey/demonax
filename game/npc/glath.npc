@@ -1,0 +1,26 @@
+# GIMUD - Graphical Interface Multi User Dungeon
+# glath.npc: Datenbank f?r den troll Glath (Thais)
+
+Name = "Glath"
+Sex = male
+Race = 1
+Outfit = (15,0-0-0-0)
+Home = [32513,32307,10]
+Radius = 2
+GoStrength = 7
+
+Behaviour = {
+ADDRESS,"hello$",!       -> "Grmhmp, %N. What you want!?"
+ADDRESS,"hi$",!          -> *
+ADDRESS,!                -> Idle
+BUSY,"hello$",!          -> "No more, no more!"
+BUSY,"hi$",!             -> *
+BUSY,!                   -> NOP
+VANISH,!                 -> "Filty human."
+
+"bye"                    -> "Watch your back.", Idle
+
+"model","ship",QuestValue(462)<2    -> "I not know model ship, go away!", Idle
+"model","ship",QuestValue(462)=2    -> "Model ship. Hihi. We stole package! But give to cousin, Gloth! Frost troll, is he. Hiding, with rotworms!", SetQuestValue(462,3), Idle
+"model","ship",QuestValue(462)>2    -> "Not my business! Leave alone!", Idle
+}

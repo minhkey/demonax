@@ -1,0 +1,41 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 15
+Name          = "troll"
+Article       = "a"
+Outfit        = (15, 0-0-0-0)
+Corpse        = 3987
+Blood         = Blood
+Experience = 80
+SummonCost    = 290
+FleeThreshold = 15
+Attack        = 10
+Defend        = 8
+Armor         = 6
+Poison        = 0
+LoseTarget    = 0
+Strategy      = (100, 0, 0, 0)
+
+Skills        = {(HitPoints, 50, 0, 50, 0, 0, 0),
+                 (GoStrength, 23, 0, 23, 0, 0, 0),
+                 (CarryStrength, 200, 0, 200, 0, 0, 0),
+                 (FistFighting, 15, 15, 15, 100, 1500, 1)}
+
+Inventory = {(3031, 48, 800),
+(3031, 48, 894),
+(3268, 1, 182),
+(3277, 1, 130),
+(3355, 1, 120),
+(3552, 1, 100),
+(3003, 1, 81),
+(3336, 1, 51),
+(3412, 1, 48),
+(3054, 1, 1)}
+
+Talk          = {"Grrrr",
+                 "Groar",
+                 "Gruntz!",
+                 "Hmmm, bugs.",
+                 "Hmmm, dogs."}

@@ -1,0 +1,75 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/11/08 - 17:15:20
+
+RaceNumber    = 311
+Name          = "Infernatil"
+Article       = ""
+Outfit        = (255, 4-5-93-94)
+Corpse        = 5286 
+Blood         = Blood
+Experience = 150000 
+SummonCost    = 0
+FleeThreshold = 3000
+Attack        = 140
+Defend        = 125
+Armor         = 95
+Poison        = 0
+LoseTarget    = 10
+Strategy      = (70, 10, 10, 10)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoEnergy,
+                 NoLifeDrain,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 92600, 0, 92600, 0, 0, 0),
+                 (GoStrength, 160, 0, 160, 0, 0, 0),
+                 (CarryStrength, 5000, 0, 5000, 0, 0, 0),
+                 (FistFighting, 220, 220, 220, 50, 1000, 5)}
+
+Spells        = {Actor (13) -> Healing (850, 75) : 7,
+                 Victim (7, 0, 20) -> Damage (4, 550, 75) : 8,
+                 Origin (0, 13) -> Summon (126, 1) : 10,
+                 Destination (7, 4, 6, 16) -> Damage (4, 585, 85) : 3,
+                 Angle (0, 8, 16) -> Damage (4, 750, 75) : 7}
+
+Inventory = {(3035, 15, 898),
+(3035, 9, 705),
+(5406, 1, 999),
+(3731, 8, 745),
+(3030, 12, 430),
+(5398, 1, 390),
+(5474, 1, 200),
+(5440, 1, 110),
+(5241, 1, 90),
+(5199, 1, 84),
+(5500, 1, 60),
+(5538, 1, 50),
+(5215, 1, 35),
+(5436, 1, 5),
+(5190, 1, 5),
+(5137, 1, 1),
+(5135, 1, 1),
+(5136, 1, 1),
+(5227, 1, 1),
+(5138, 1, 1),
+(5139, 1, 1),
+(3423, 1, 1),
+(5482, 1, 1),
+(5466, 1, 1),
+(2966, 1, 1),
+(5452, 1, 1)}
+
+Talk          = {"Worship Zathroth pathetic mortal!",
+                 "Your soul will be mine!",
+                 "#Y ASHES TO ASHES!",
+                 "#Y BOW TO THE POWER OF THE RUTHLESS SEVEN!"}

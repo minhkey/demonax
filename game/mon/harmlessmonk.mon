@@ -1,0 +1,35 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 333
+Name          = "harmless monk"
+Article       = "a"
+Outfit        = (57, 0-0-0-0)
+Corpse        = 4240
+Blood         = Blood
+Experience = 1
+SummonCost    = 50
+FleeThreshold = 0
+Attack        = 1
+Defend        = 15
+Armor         = 10
+Poison        = 0
+LoseTarget    = 0
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {SeeInvisible}
+
+Skills        = {(HitPoints, 1000, 0, 1000, 0, 0, 0),
+                 (GoStrength, 50, 0, 80, 0, 0, 0),
+                 (CarryStrength, 500, 0, 500, 0, 0, 0),
+                 (FistFighting, 3, 3, 3, 100, 1200, 2)}
+
+Spells        = {Actor (13) -> Healing (100, 80) : 10,
+                 Actor (13) -> Healing (200, 100) : 5}
+
+Inventory = {(3031, 2, 2)}
+
+Talk          = {"Please, don't hurt me!",
+                 "I will pray for you, just leave me alone!",
+                 "I'm just a humble servant of the Lord."}

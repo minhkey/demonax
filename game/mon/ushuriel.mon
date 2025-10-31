@@ -1,0 +1,70 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/11/08 - 17:15:20
+
+RaceNumber    = 201
+Name          = "Ushuriel"
+Article       = ""
+Outfit        = (255, 0-57-0-80)
+Corpse        = 5286 
+Blood         = Bones
+Experience = 100000 
+SummonCost    = 0
+FleeThreshold = 2500
+Attack        = 130
+Defend        = 120
+Armor         = 90
+Poison        = 0
+LoseTarget    = 10
+Strategy      = (70, 10, 10, 10)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoEnergy,
+                 NoLifeDrain,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 54400, 0, 54400, 0, 0, 0),
+                 (GoStrength, 150, 0, 150, 0, 0, 0),
+                 (CarryStrength, 5000, 0, 5000, 0, 0, 0),
+                 (FistFighting, 190, 190, 190, 50, 1000, 5)}
+
+Spells        = {Actor (13) -> Healing (550, 95) : 7,
+                 Victim (7, 0, 26) -> Damage (512, 250, 75) : 8,
+                 Origin (4, 26) -> Damage (512, 350, 50) : 17,
+                 Origin (0, 13) -> Summon (35, 1) : 10,
+                 Destination (7, 4, 6, 3) -> Damage (256, 250, 95) : 3,
+                 Destination (7, 4, 6, 7) -> Damage (4, 355, 45) : 3,
+                 Angle (0, 8, 16) -> Damage (4, 550, 75) : 7}
+
+Inventory = {(3035, 12, 898),
+(3035, 8, 705),
+(5406, 1, 999),
+(3373, 1, 760),
+(3056, 1, 680),
+(5398, 1, 430),
+(5360, 4, 320),
+(3421, 1, 230),
+(5504, 1, 120),
+(5209, 1, 90),
+(5248, 1, 76),
+(5434, 1, 50),
+(5212, 1, 16),
+(5464, 1, 12),
+(5095, 1, 10),
+(5231, 1, 10),
+(5240, 1, 9),
+(5106, 1, 8),
+(3019, 1, 8)}
+
+Talk          = {"You can't run or hide forever!",
+                 "I'm the executioner of the Seven!",
+                 "The final punishment awaits you!",
+                 "The judgement is guilty! The sentence is death!"}

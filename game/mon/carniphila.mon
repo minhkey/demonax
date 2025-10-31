@@ -1,0 +1,45 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 120
+Name          = "carniphila"
+Article       = "a"
+Outfit        = (120, 0-0-0-0)
+Corpse        = 4345
+Blood         = Slime
+Experience = 600
+SummonCost    = 490
+FleeThreshold = 0
+Attack        = 40
+Defend        = 20
+Armor         = 26
+Poison        = 95
+LoseTarget    = 5
+Strategy      = (70, 0, 30, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoPoison,
+                 NoLifeDrain}
+
+Skills        = {(HitPoints, 255, 0, 255, 0, 0, 0),
+                 (GoStrength, 15, 0, 15, 0, 0, 0),
+                 (CarryStrength, 600, 0, 600, 0, 0, 0),
+                 (FistFighting, 40, 40, 40, 100, 2000, 1)}
+
+Spells        = {Victim (7, 15, 17) -> Damage (2, 75, 15) : 4,
+                 Victim (7, 15, 17) -> Speed (-135, 25, 30) : 3,
+                 Origin (2, 21) -> Damage (2, 85, 45) : 9}
+
+Inventory = {(3031, 99, 816),
+(3031, 99, 858),
+(3728, 1, 78),
+(3597, 1, 8),
+(3740, 1, 1),
+(3738, 2, 1)}

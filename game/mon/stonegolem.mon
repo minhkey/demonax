@@ -1,0 +1,38 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 67
+Name          = "stone golem"
+Article       = "a"
+Outfit        = (67, 0-0-0-0)
+Corpse        = 4133
+Blood         = Bones
+Experience = 640
+SummonCost    = 590
+FleeThreshold = 0
+Attack        = 38
+Defend        = 25
+Armor         = 30
+Poison        = 0
+LoseTarget    = 0
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 Unpushable,
+                 NoBurning,
+                 NoPoison,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 270, 0, 270, 0, 0, 0),
+                 (GoStrength, 50, 0, 50, 0, 0, 0),
+                 (CarryStrength, 500, 0, 500, 0, 0, 0),
+                 (FistFighting, 52, 52, 52, 100, 1500, 1)}
+
+Inventory = {(3031, 99, 897),
+(3031, 99, 896),
+(1781, 4, 127),
+(3283, 1, 24),
+(3007, 1, 1),
+(3039, 1, 1)}

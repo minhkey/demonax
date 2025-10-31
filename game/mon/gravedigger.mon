@@ -1,0 +1,57 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 411
+Name          = "gravedigger"
+Article       = "a"
+Outfit        = (269, 0-0-0-0)
+Corpse        = 5312 
+Blood         = Blood 
+Experience = 3800 
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 50
+Defend        = 34
+Armor         = 40 
+Poison        = 0
+LoseTarget    = 5
+Strategy      = (70, 30, 0, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoConvince,
+                 NoPoison,
+                 NoLifeDrain,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 1500, 0, 1500, 0, 0, 0),
+                 (GoStrength, 120, 0, 120, 0, 0, 0),
+                 (CarryStrength, 1000, 0, 1000, 0, 0, 0),
+                 (FistFighting, 83, 83, 83, 83, 1500, 1)}
+
+Spells        = {Victim (1, 0, 14) -> Damage (512, 175, 50) : 8,
+                 Victim (1, 11, 18) -> Damage (1, 150, 25) : 8}
+
+Inventory = {(3035, 2, 752),
+(3035, 3, 840),
+(3357, 1, 47),
+(3726, 2, 135),
+(3015, 1, 5),
+(5158, 1, 4),
+(3415, 1, 5),
+(5356, 2, 3),
+(5399, 1, 2),
+(5341, 1, 2),
+(5113, 1, 1),
+(5195, 1, 1),
+(5090, 1, 1),
+(5230, 1, 1),
+(5115, 1, 1)}
+
+Talk          = {"High five!",
+                 "Woohohoho!",
+                 "Put it there!"}

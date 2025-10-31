@@ -1,0 +1,34 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 26
+Name          = "rotworm"
+Article       = "a"
+Outfit        = (26, 0-0-0-0)
+Corpse        = 4005
+Blood         = Blood
+Experience = 160
+SummonCost    = 305
+FleeThreshold = 0
+Attack        = 18
+Defend        = 11
+Armor         = 8
+Poison        = 0
+LoseTarget    = 0
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {Unpushable,
+                 NoSummon,
+                 NoIllusion}
+
+Skills        = {(HitPoints, 65, 0, 65, 0, 0, 0),
+                 (GoStrength, 18, 0, 18, 0, 0, 0),
+                 (CarryStrength, 300, 0, 300, 0, 0, 0),
+                 (FistFighting, 26, 26, 26, 100, 1500, 1)}
+
+Inventory = {(3031, 68, 839),
+(3031, 68, 882),
+(3286, 1, 43),
+(3264, 1, 29),
+(3492, 3, 29)}

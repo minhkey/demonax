@@ -1,0 +1,66 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 320
+Name          = "Loraith"
+Article       = ""
+Outfit        = (287, 0-0-0-0)
+Corpse        = 4240
+Blood         = Blood
+Experience = 12900
+SummonCost    = 0
+FleeThreshold = 100
+Attack        = 38
+Defend        = 50
+Armor         = 28
+Poison        = 0
+LoseTarget    = 30
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 DistanceFighting,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoEnergy,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 7670, 0, 7670, 0, 0, 0),
+                 (GoStrength, 75, 0, 75, 0, 0, 0),
+                 (CarryStrength, 900, 0, 900, 0, 0, 0),
+                 (FistFighting, 50, 50, 50, 100, 1100, 2)}
+
+Spells        = {Actor (13) -> Healing (60, 20) : 4,
+                 Victim (7, 5, 0) -> Damage (1, 245, 45) : 2,
+                 Victim (7, 0, 0) -> Damage (512, 335, 55) : 6,
+                 Victim (7, 0, 14) -> Speed (-60, 20, 40) : 9,
+                 Destination (7, 4, 2, 7) -> Damage (8, 295, 35) : 3,
+                 Origin (0, 13) -> Summon (400, 2) : 10,
+                 Destination (7, 4, 0, 0) -> Field (3) : 7,
+                 Destination (7, 4, 1, 0) -> Field (3) : 5,
+                 Angle (0, 8, 12) -> Damage (8, 75, 15) : 8}
+
+Inventory = {(3035, 5, 707),
+(3061, 1, 35),
+(3402, 1, 25),
+(3060, 1, 12),
+(5286, 1, 10),
+(3045, 1, 8),
+(5242, 1, 7),
+(5202, 1, 4),
+(5203, 1, 4),
+(5468, 1, 3),
+(5204, 1, 3),
+(5285, 1, 2),
+(3050, 1, 2),
+(5356, 1, 2),
+(5212, 1, 1)}
+
+Talk          = {"Come, come, join me in the astral projection!",
+                 "This life is a mere illusion, I will show you reality.",
+                 "Let the moon shine upon you!"}

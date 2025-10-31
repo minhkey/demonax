@@ -1,0 +1,67 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 318
+Name          = "grandmaster of the cult"
+Article       = "a"
+Outfit        = (258, 95-95-95-95)
+Corpse        = 4240
+Blood         = Slime
+Experience = 14800 
+SummonCost    = 0
+FleeThreshold = 0 
+Attack        = 55
+Defend        = 50
+Armor         = 35
+Poison        = 120
+LoseTarget    = 5
+Strategy      = (70, 0, 30, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 DistanceFighting,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoEnergy,
+                 NoPoison,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 6750, 0, 6750, 0, 0, 0),
+                 (GoStrength, 75, 0, 75, 0, 0, 0),
+                 (CarryStrength, 800, 0, 800, 0, 0, 0),
+                 (FistFighting, 55, 55, 55, 100, 1100, 2)}
+
+Spells        = {Actor (13) -> Healing (200, 100) : 6,
+                 Actor (13) -> Outfit ((0, 0), 20) : 6,
+                 Actor (13) -> Outfit ((258, 95-82-101-120), 20) : 6,
+                 Origin (0, 13) -> Summon (315, 3) : 5,
+                 Origin (0, 13) -> Summon (316, 2) : 5,
+                 Victim (7, 15, 21) -> Damage (2, 220, 75) : 9,
+                 Victim (7, 5, 18) -> Damage (1, 120, 50) : 6,
+                 Victim (7, 0, 14) -> Speed (-80, 20, 40) : 9,
+                 Angle (30, 8, 8) -> Damage (256, 150, 75) : 8,
+                 Origin (0, 13) -> Summon (315, 2) : 7,
+                 Origin (0, 13) -> Summon (316, 1) : 9}
+
+Inventory = {(3035, 8, 998),
+(3732, 8, 235),
+(3028, 4, 150),
+(3098, 1, 110),
+(5519, 1, 74),
+(5503, 1, 45),
+(5504, 1, 40),
+(5525, 1, 22),
+(3442, 1, 7),
+(5095, 1, 6),
+(5273, 1, 4),
+(5510, 1, 2),
+(5177, 1, 1),
+(5176, 1, 1)}
+
+Talk          = {"#Y Members of the cult, fear nothing, fear no one!",
+                 "#Y Bring me my sacrifice and I shall reward you!",
+                 "What have we here, a pitiful excuse of a mortal?",
+                 "Lay down your weapon, for I am untouchable!"}

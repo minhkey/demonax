@@ -1,0 +1,44 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 61
+Name          = "goblin"
+Article       = "a"
+Outfit        = (61, 0-0-0-0)
+Corpse        = 4121
+Blood         = Blood
+Experience = 100
+SummonCost    = 290
+FleeThreshold = 15
+Attack        = 10
+Defend        = 8
+Armor         = 6
+Poison        = 0
+LoseTarget    = 0
+Strategy      = (100, 0, 0, 0)
+
+Skills        = {(HitPoints, 50, 0, 50, 0, 0, 0),
+                 (GoStrength, 20, 0, 20, 0, 0, 0),
+                 (CarryStrength, 400, 0, 400, 0, 0, 0),
+                 (FistFighting, 15, 15, 15, 100, 1500, 1)}
+
+Spells        = {Victim (7, 10, 0) -> Damage (1, 20, 5) : 12}
+
+Inventory = {(3031, 36, 830),
+(3031, 36, 891),
+(1781, 1, 151),
+(3578, 1, 128),
+(3462, 1, 97),
+(3294, 1, 87),
+(3337, 1, 48),
+(3361, 1, 24),
+(3355, 1, 18),
+(3267, 1, 16),
+(3115, 1, 9)}
+
+Talk          = {"Me have him!",
+                 "Zig Zag! Gobo attack!",
+                 "Help! Goblinkiller!",
+                 "Bugga! Bugga!",
+                 "Me green, me mean!"}

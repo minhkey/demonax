@@ -1,0 +1,62 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 402 
+Name          = "blightwalker"
+Article       = "a"
+Outfit        = (268, 0-0-0-0)
+Corpse        = 5310 
+Blood         = Bones 
+Experience = 23400 
+SummonCost    = 0
+FleeThreshold = 800 
+Attack        = 65
+Defend        = 50
+Armor         = 63
+Poison        = 0
+LoseTarget    = 10
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 DistanceFighting,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 8100, 0, 8100, 0, 0, 0),
+                 (GoStrength, 160, 0, 160, 0, 0, 0),
+                 (CarryStrength, 900, 0, 900, 0, 0, 0),
+                 (FistFighting, 120, 120, 120, 120, 1100, 2)}
+
+Spells        = {Victim (7, 15, 21) -> Damage (8, 420, 75) : 6,
+                 Origin (5, 3) -> Damage (1, 235, 25) : 8,
+                 Origin (4, 26) -> Speed (-80, 20, 20) : 7}
+
+Inventory = {(3035, 5, 998),
+(3035, 12, 782),
+(3605, 2, 497),
+(3052, 3, 301),
+(3147, 2, 253),
+(3098, 2, 144),
+(5340, 1, 52),
+(3453, 1, 29),
+(5158, 1, 25),
+(3060, 1, 25),
+(5356, 12, 23),
+(3083, 1, 19),
+(3324, 1, 16),
+(5090, 1, 12),
+(5398, 1, 12),
+(5157, 1, 11),
+(5252, 1, 2),
+(3057, 1, 1)}
+
+Talk          = {"I can see you decaying!",
+                 "Let me taste your mortality!",
+                 "Your lifeforce is waning!"}

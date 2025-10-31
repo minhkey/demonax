@@ -1,0 +1,66 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 430
+Name          = "Leon"
+Article       = ""
+Outfit        = (259, 0-0-0-0)
+Corpse        = 4240
+Blood         = Blood
+Experience = 38000
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 83
+Defend        = 65
+Armor         = 48
+Poison        = 0
+LoseTarget    = 0
+Strategy      = (70, 15, 15, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoPoison,
+                 NoEnergy,
+                 NoBurning,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 14500, 0, 14500, 0, 0, 0),
+                 (GoStrength, 120, 0, 120, 0, 0, 0),
+                 (CarryStrength, 900, 0, 900, 0, 0, 0),
+                 (FistFighting, 130, 130, 130, 130, 1000, 5)}
+
+Spells        = {Actor (13) -> Healing (325, 55) : 10,
+                 Origin (0, 13) -> Summon (11, 2) : 12,
+                 Victim (7, 3, 0) -> Damage (1, 380, 15) : 4,
+                 Victim (7, 3, 0) -> Damage (1, 300, 25) : 4}
+
+Inventory = {(3035, 4, 808),
+(3035, 2, 764),
+(3658, 1, 340),
+(3380, 1, 120),
+(5518, 1, 75),
+(3435, 1, 20),
+(5488, 1, 7),
+(5340, 2, 6),
+(5533, 1, 5),
+(5524, 1, 5),
+(5512, 1, 4),
+(3039, 1, 2),
+(5453, 1, 1),
+(5470, 1, 1),
+(5471, 1, 1),
+(5472, 1, 1),
+(5461, 1, 1),
+(5280, 1, 1),
+(5206, 1, 1)}
+
+Talk          = {"I am Leon the Handsome, and you will die!",
+                 "What brings you to my realm?",
+                 "I am impressed that you made it this far!",
+                 "There is no escape but death!"}

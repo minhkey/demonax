@@ -1,0 +1,58 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 405
+Name          = "shaburak demon"
+Article       = "a"
+Outfit        = (262, 0-0-0-0)
+Corpse        = 5293
+Blood         = Blood
+Experience = 3600 
+SummonCost    = 0
+FleeThreshold = 0 
+Attack        = 44
+Defend        = 30
+Armor         = 32 
+Poison        = 0
+LoseTarget    = 5
+Strategy      = (70, 10, 10, 10)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoConvince,
+                 NoBurning,
+                 NoLifeDrain,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 1500, 0, 1500, 0, 0, 0),
+                 (GoStrength, 60, 0, 60, 0, 0, 0),
+                 (CarryStrength, 900, 0, 900, 0, 0, 0),
+                 (FistFighting, 80, 80, 80, 100, 1100, 2)}
+
+Spells        = {Victim (7, 15, 21) -> Speed (-20, 10, 25) : 4,
+                 Angle (30, 8, 7) -> Damage (4, 95, 40) : 6,
+                 Angle (0, 8, 7) -> Damage (4, 115, 30) : 6}
+
+Inventory = {(3035, 3, 800),
+(3035, 2, 900),
+(3725, 3, 52),
+(3030, 5, 48),
+(3269, 1, 50),
+(3051, 1, 9),
+(5356, 1, 8),
+(5399, 1, 2),
+(3040, 1, 2),
+(3439, 1, 2),
+(5108, 1, 1),
+(5111, 1, 1),
+(3391, 1, 1),
+(5406, 1, 1),
+(5112, 1, 20)}
+
+Talk          = {"WE RULE!",
+                 "POWER TO THE SHABURAK!",
+                 "DEATH TO THE ASKARAK!"}

@@ -1,0 +1,82 @@
+# GIMUD - Graphical Interface Multi User Dungeon
+# hl.npc: Datenbank für den Aufkäufer im Kriminellencamp
+
+Name = "H.L."
+Sex = male
+Race = 1
+Outfit = (131,12-76-0-95)
+Home = [32643,32212,7]
+Radius = 2
+GoStrength = 10
+
+Behaviour = {
+ADDRESS,"hello$",male,!    -> "Hmmm. I buy weapons, armor, and other stuff. What do you want, %N?", Data=3303
+ADDRESS,"hi$",male,!       -> *
+ADDRESS,"hello$",female,!  -> "I don't serve brats. Sod off!", Idle
+ADDRESS,"hi$",!            -> *
+ADDRESS,!                  -> Idle
+BUSY,"hello$",male,!       -> "HEY! Wait in the queue, %N.", Queue
+BUSY,"hi$",male,!          -> *
+BUSY,"hello$",female,!     -> "I don't serve brats. Sod off!"
+BUSY,"hi$",female,!        -> *
+BUSY,!                     -> NOP
+VANISH,!                   -> "Bye"
+
+"bye",female       -> "Get lost, stinky dragon.", Idle
+"bye",male         -> "Bye.", Idle
+"job"              -> "I buy all kinds of armory and weapons."
+"name"             -> "Won't tell you."
+"h.l."             -> "That's me."
+"snake","eye"      -> "Boss of the tavern. He's alright."
+"boss"             -> "Snake Eye isn't my boss."
+"tavern"           -> "Drink and eat there. What else do you do in a tavern!"
+"brat"             -> "Bah. Women are not good for fighting. I don't need them. And I don't like them."
+"women"            -> *
+"woman"            -> *
+
+"god"              -> "Forget the gods"
+"gods"             -> *
+"durin"            -> "Forget Durin. He's the worst anyway."
+"steve"            -> "Forget Steve."
+"guido"            -> "Forget Guido."
+"stephan"          -> "Forget Stephan."
+"cip"              -> "Forget about Cip."
+
+"demonax"          -> "Demonax. At least there's one good place in Demonax. Here!"
+"thais"            -> "Ha! Thais. I lived there. You know, I was in the royal army. But it's all wrong. I deserted."
+"royal","army"     -> "Good fighter training. But for the wrong cause."
+"training"         -> "Yes. Good training."
+"cause"            -> "Don't want to talk about it."
+"talk"             -> "I said, I do not want to talk about it", Topic=1
+Topic=1,"talk"     -> "Ok. Get lost!", Idle
+
+"kazordoon"        -> "Dwarfs are good people. I like them."
+"dwarfs"           -> "I like them."
+"ab'dendriel"      -> "Elves. Hate them."
+"edron"            -> "Might be a good place to live. But I'm afraid that the people are Thais friendly."
+"king"             -> "The king should be dead."
+"ruler"            -> "Tibia doesn't need a ruler."
+"tibianus"         -> "Hang him."
+
+"wild","warrior"   -> "Yeah. I'm a wild warrior. Well, to be honest, I left them. They became too aggressive. Attacking everyone is not good."
+"camp"             -> "Most people in the camp are no wild warriors."
+"hid"              -> "Wild warriors have always something to hide."
+"key"              -> "What key? Show me!"
+"key",Count(2970)>0 -> "Oh. that's a new key. Hmmm. Must be for the new hideout."
+"hideout"          -> "I left the wild warriors, while we - well - they planned a new hideout."
+"new"              -> "It's somewhere in the woods, of course. I don't know where."
+"woods"            -> "The woods are good to hide."
+"building"         -> "You mean our old building in the southwest?", Topic=2
+Topic=2,"yes"      -> "That's the old hideout. It's interesting down there. Lots of security mechanics and traps. But it collapsed partly."
+Topic=2,"no"       -> "Sorry."
+
+"mechanics"        -> "Yes. Security doors driven by POWERFUL machines. But I have no idea how it works.", Topic=7
+"machines"         -> *
+"traps"            -> "Be careful out there."
+"collapsed"        -> "Yes. That's why we - well - they planned a new hideout. But I think they left the vault in the old hideout."
+"vault"            -> "Good stuff in there, I think."
+"stuff"            -> "Ahm. I don't know what it is. Sorry."
+Topic=7, "broken"  -> "Hmmm. Let me think. I think, you need something big. And steel reinforced. A barrel, maybe."
+Topic=7, "damaged" -> *
+Topic=7, "repair"  -> *
+}

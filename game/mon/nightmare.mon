@@ -1,0 +1,58 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 508
+Name          = "nightmare"
+Article       = "a"
+Outfit        = (276, 0-0-0-0)
+Corpse        = 5332 
+Blood         = Blood
+Experience = 7900 
+SummonCost    = 0
+FleeThreshold = 0 
+Attack        = 54
+Defend        = 32
+Armor         = 31 
+Poison        = 0
+LoseTarget    = 5
+Strategy      = (70, 10, 10, 10)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoConvince,
+                 NoPoison,
+                 NoEnergy,
+                 NoBurning,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 2700, 0, 2700, 0, 0, 0),
+                 (GoStrength, 150, 0, 150, 0, 0, 0),
+                 (CarryStrength, 800, 0, 800, 0, 0, 0),
+                 (FistFighting, 85, 85, 85, 100, 1100, 2)}
+
+Spells        = {Actor (14) -> Speed (85, 5, 9): 13,
+                 Victim (7, 0, 14) -> Speed (-90, 10, 25): 8,
+                 Destination (7, 15, 3, 12) -> Damage (8, 175, 55) : 6}
+
+Inventory = {(3035, 4, 861),
+(3035, 2, 755),
+(3035, 2, 400),
+(3040, 1, 25),
+(5090, 1, 10),
+(5356, 4, 7),
+(5399, 1, 4),
+(5375, 1, 1),
+(5134, 1, 1),
+(5222, 1, 1),
+(5133, 1, 1),
+(5526, 1, 1),
+(3342, 1, 12)}
+
+Talk          = {"Close your eyes.. I want to show you something.",
+                 "I will haunt you forever!",
+                 "I will make you scream.",
+                 "Weeeheeheeeheeee!",
+                 "Take a ride with me."}

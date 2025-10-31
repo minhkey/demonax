@@ -1,0 +1,66 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 90
+Name          = "Omruc"
+Article       = ""
+Outfit        = (90, 0-0-0-0)
+Corpse        = 4197
+Blood         = Bones
+Experience = 11800
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 65
+Defend        = 65
+Armor         = 60
+Poison        = 65
+LoseTarget    = 7
+Strategy      = (70, 10, 20, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 DistanceFighting,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoPoison,
+                 NoLifeDrain,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 4300, 0, 4300, 0, 0, 0),
+                 (GoStrength, 115, 0, 115, 0, 0, 0),
+                 (CarryStrength, 900, 0, 900, 0, 0, 0),
+                 (FistFighting, 75, 75, 75, 100, 1500, 1)}
+
+Spells        = {Actor (13) -> Healing (150, 50) : 6,
+                 Actor (13) -> Outfit ((0, 0), 20) : 3,
+                 Victim (1, 0, 0) -> Damage (256, 200, 150) : 20,
+                 Victim (7, 6, 9) -> Damage (2, 350, 150) : 5,
+                 Victim (7, 7, 6) -> Damage (4, 250, 200) : 8,
+                 Victim (7, 3, 6) -> Damage (1, 300, 100) : 5,
+                 Victim (7, 0, 14) -> Speed (-100, 10, 50) : 4,
+                 Origin (0, 13) -> Summon (72, 4) : 7}
+
+Inventory = {(3239, 1, 998),
+(3031, 99, 882),
+(3031, 99, 864),
+(3035, 6, 931),
+(3585, 2, 822),
+(3449, 15, 456),
+(3447, 25, 188),
+(3450, 5, 139),
+(3028, 3, 97),
+(3052, 1, 76),
+(3049, 1, 34),
+(3079, 1, 5),
+(3009, 1, 1)}
+
+Talk          = {"Psssst, I am over chhhere.",
+                 "Now chhhou shhhee me ... Now chhhou don't.",
+                 "Chhhhou are marked ashhh my prey.",
+                 "Catchhhh me if chhhou can.",
+                 "Bullshhheye.",
+                 "Die!"}

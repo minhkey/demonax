@@ -1,0 +1,60 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 208
+Name          = "The Old Widow"
+Article       = ""
+Outfit        = (208, 0-0-0-0)
+Corpse        = 4038
+Blood         = Slime
+Experience = 11200
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 95
+Defend        = 60
+Armor         = 45
+Poison        = 450
+LoseTarget    = 10
+Strategy      = (70, 20, 0, 10)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoLifeDrain}
+
+Skills        = {(HitPoints, 3550, 0, 3550, 0, 0, 0),
+                 (GoStrength, 99, 0, 99, 0, 0, 0),
+                 (CarryStrength, 500, 0, 500, 0, 0, 0),
+                 (FistFighting, 120, 120, 120, 100, 1100, 2)}
+
+Spells        = {Actor (13) -> Healing (250, 25) : 6,
+                 Actor (14) -> Speed (155, 45, 6) : 13,
+                 Victim (7, 15, 21) -> Damage (2, 275, 25) : 7,
+                 Victim (7, 15, 21) -> Speed (-90, 10, 25) : 5,
+                 Origin (0, 13) -> Summon (38, 2) : 8,
+                 Destination (7, 15, 3, 0) -> Field (2) : 11}
+
+Inventory = {(3035, 10, 988),
+(3031, 99, 823),
+(3031, 99, 871),
+(3035, 6, 824),
+(3351, 1, 761),
+(3052, 4, 665),
+(3370, 1, 428),
+(3051, 1, 331),
+(3053, 1, 322),
+(3049, 1, 317),
+(3371, 1, 254),
+(3055, 1, 211),
+(5373, 3, 10),
+(3335, 1, 32),
+(5356, 6, 11),
+(5250, 1, 8),
+(5398, 1, 6)}

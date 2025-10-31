@@ -1,0 +1,70 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 331
+Name          = "Ghazbaran"
+Article       = ""
+Outfit        = (255, 0-85-78-94)
+Corpse        = 5286
+Blood         = Blood
+Experience = 100000 
+SummonCost    = 0
+FleeThreshold = 2500
+Attack        = 160
+Defend        = 90
+Armor         = 80
+Poison        = 0
+LoseTarget    = 10
+Strategy      = (70, 10, 10, 10)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoEnergy,
+                 NoLifeDrain,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 64400, 0, 64400, 0, 0, 0),
+                 (GoStrength, 90, 0, 90, 0, 0, 0),
+                 (CarryStrength, 800, 0, 800, 0, 0, 0),
+                 (FistFighting, 170, 170, 170, 50, 1000, 5)}
+
+Spells        = {Actor (13) -> Healing (500, 85) : 7,
+                 Origin (0, 13) -> Summon (420, 2) : 10,
+                 Victim (7, 5, 11) -> Damage (8, 315, 60) : 9,
+                 Destination (7, 4, 6, 24) -> Damage (8, 355, 65) : 8,
+                 Angle (30, 8, 6) -> Damage (8, 325, 70) : 6,
+                 Angle (0, 8, 12) -> Damage (8, 255, 60) : 10}
+
+Inventory = {(3035, 8, 893),
+(3035, 12, 719),
+(5406, 1, 999),
+(3045, 1, 310),
+(3033, 14, 256),
+(5150, 1, 180),
+(5516, 1, 164),
+(5444, 1, 130),
+(3073, 1, 95),
+(5104, 1, 70),
+(5233, 1, 45),
+(5224, 1, 34),
+(3041, 1, 18),
+(5242, 1, 16),
+(5459, 1, 13),
+(5183, 1, 2),
+(5180, 1, 2),
+(5217, 1, 1),
+(3390, 1, 1),
+(5437, 1, 1)}
+
+Talk          = {"#Y COME AND GIVE ME SOME AMUSEMENT!",
+                 "#Y IS THAT THE BEST YOU HAVE TO OFFER, HUMANS?",
+                 "#Y I AM GHAZBARAN OF THE TRIANGLE... AND I AM HERE TO CHALLENGE YOU ALL!",
+                 "#Y FLAWLESS VICTORY!"}

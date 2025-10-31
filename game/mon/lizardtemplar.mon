@@ -1,0 +1,44 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 113
+Name          = "lizard templar"
+Article       = "a"
+Outfit        = (113, 0-0-0-0)
+Corpse        = 4321
+Blood         = Blood
+Experience = 580
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 30
+Defend        = 20
+Armor         = 26
+Poison        = 0
+LoseTarget    = 0
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 Unpushable,
+                 NoSummon,
+                 NoConvince,
+                 NoPoison}
+
+Skills        = {(HitPoints, 410, 0, 410, 0, 0, 0),
+                 (GoStrength, 47, 0, 47, 0, 0, 0),
+                 (CarryStrength, 500, 0, 500, 0, 0, 0),
+                 (FistFighting, 44, 44, 44, 100, 1500, 1)}
+
+Inventory = {(3031, 99, 886),
+(3031, 99, 829),
+(3294, 1, 97),
+(3264, 1, 48),
+(3282, 1, 18),
+(3351, 1, 18),
+(3357, 1, 9),
+(3345, 1, 4),
+(3032, 1, 1),
+(5502, 1, 1),
+(3445, 1, 1)}
+
+Talk          = {"Hissss!"}

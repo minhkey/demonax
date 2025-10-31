@@ -1,0 +1,46 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 424
+Name          = "nightmare scion"
+Article       = "a"
+Outfit        = (282, 0-0-0-0)
+Corpse        = 5417 
+Blood         = Blood
+Experience = 3800 
+SummonCost    = 0
+FleeThreshold = 0 
+Attack        = 47
+Defend        = 25
+Armor         = 32 
+Poison        = 0
+LoseTarget    = 5
+Strategy      = (70, 10, 10, 10)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoConvince,
+                 NoPoison,
+                 NoEnergy,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 1200, 0, 1200, 0, 0, 0),
+                 (GoStrength, 120, 0, 120, 0, 0, 0),
+                 (CarryStrength, 800, 0, 800, 0, 0, 0),
+                 (FistFighting, 75, 75, 75, 100, 1100, 2)}
+
+Spells        = {Actor (14) -> Speed (75, 5, 9): 13,
+                 Victim (7, 0, 14) -> Speed (-60, 10, 25) : 8,
+	         Victim (1, 11, 12) -> Damage (8, 75, 15) : 8}
+
+Inventory = {(3035, 2, 861),
+(3035, 1, 755),
+(5213, 1, 1),
+(3035, 1, 400)}
+
+Talk          = {"Pfffffrrrrrrr",
+                 "Peek a boo, I killed you!",
+                 "Weeeehehehee!"}

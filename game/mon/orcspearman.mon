@@ -1,0 +1,37 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 50
+Name          = "orc spearman"
+Article       = "an"
+Outfit        = (50, 0-0-0-0)
+Corpse        = 4101
+Blood         = Blood
+Experience = 152
+SummonCost    = 310
+FleeThreshold = 10
+Attack        = 17
+Defend        = 12
+Armor         = 6
+Poison        = 0
+LoseTarget    = 50
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {DistanceFighting}
+
+Skills        = {(HitPoints, 105, 0, 105, 0, 0, 0),
+                 (GoStrength, 48, 0, 48, 0, 0, 0),
+                 (CarryStrength, 150, 0, 150, 0, 0, 0),
+                 (FistFighting, 19, 19, 19, 100, 1500, 1)}
+
+Spells        = {Victim (7, 1, 0) -> Damage (1, 28, 12) : 15}
+
+Inventory = {(3031, 44, 999),
+(3031, 44, 999),
+(3277, 1, 356),
+(3362, 1, 184),
+(3376, 1, 164),
+(3308, 1, 56)}
+
+Talk          = {"Ugaar!"}

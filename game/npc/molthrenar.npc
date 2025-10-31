@@ -1,0 +1,32 @@
+# GIMUD - Graphical Interface Multi User Dungeon
+# molthrenar.npc: Datenbank f?r den necromancer Molthrenar (Ankrahmun Oasis tomb)
+
+Name = "Molthrenar"
+Sex = male
+Race = 1
+Outfit = (9,0-0-0-0)
+Home = [33240,32660,12]
+Radius = 3
+GoStrength = 10
+
+Behaviour = {
+ADDRESS,"hello$",!       -> "Be greeted, mortal."
+ADDRESS,"hi$",!          -> *
+ADDRESS,!                -> Idle
+BUSY,"hello$",!          -> "I am occupied."
+BUSY,"hi$",!             -> *
+BUSY,!                   -> NOP
+VANISH,!                 -> "Darkness awaits us all."
+
+"model","ship",QuestValue(462)<6    -> "A model ship? What good is that in the desert?", Idle
+"model","ship",QuestValue(462)=6    -> "Oh. Interesting. So you want it back. ...",
+                                       "You can have it. For a price, of course. Bring me the horn of a minotaur, and I will give you the ship.", SetQuestValue(462,7), Idle
+"model","ship",QuestValue(462)=7    -> "So, %N. Did you bring the minotaur horn?", Topic=1
+
+Topic=1,"yes",Count(5384)=1,!        -> "Good. Here. Take the ship, and leave!", Type=2994, Amount=1, Create(Type), Amount=1, Delete(5384), SetQuestValue(462,8), Idle
+Topic=1                              -> "Do not waste my time like that!", Idle
+
+"model","ship",QuestValue(462)>7    -> "I prefer not dealing with you.", Idle
+
+"bye"                    -> "Finally, silence.", Idle
+}

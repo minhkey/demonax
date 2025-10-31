@@ -1,0 +1,63 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 63
+Name          = "elf arcanist"
+Article       = "an"
+Outfit        = (63, 0-0-0-0)
+Corpse        = 4160
+Blood         = Blood
+Experience = 700
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 20
+Defend        = 20
+Armor         = 15
+Poison        = 0
+LoseTarget    = 50
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 SeeInvisible,
+                 Unpushable,
+                 DistanceFighting,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoEnergy}
+
+Skills        = {(HitPoints, 220, 0, 220, 0, 0, 0),
+                 (GoStrength, 70, 0, 70, 0, 0, 0),
+                 (CarryStrength, 800, 0, 800, 0, 0, 0),
+                 (FistFighting, 25, 25, 25, 100, 1500, 1)}
+
+Spells        = {Actor (13) -> Healing (55, 13) : 5,
+                 Victim (7, 3, 0) -> Damage (1, 30, 15) : 11,
+                 Victim (7, 5, 12) -> Damage (8, 40, 10) : 12,
+                 Victim (7, 11, 0) -> Damage (1, 70, 10) : 9}
+
+Inventory = {(3031, 99, 560),
+(3031, 99, 560),
+(2815, 1, 303),
+(3593, 1, 216),
+(3147, 1, 177),
+(3600, 1, 138),
+(3447, 3, 59),
+(2917, 1, 20),
+(3082, 1, 19),
+(3073, 1, 10),
+(3564, 1, 9),
+(3509, 1, 8),
+(3551, 1, 8),
+(3661, 1, 6),
+(3005, 1, 6),
+(5523, 1, 4),
+(3037, 1, 1)}
+
+Talk          = {"Feel my wrath!",
+                 "For the Daughter of the Stars!",
+                 "I'll bring balance upon you!",
+                 "Tha'shi Cenath!",
+                 "Vihil Ealuel!"}

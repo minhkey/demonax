@@ -1,0 +1,48 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 117
+Name          = "merlkin"
+Article       = "a"
+Outfit        = (117, 0-0-0-0)
+Corpse        = 4336
+Blood         = Blood
+Experience = 540
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 15
+Defend        = 40
+Armor         = 16
+Poison        = 0
+LoseTarget    = 50
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 SeeInvisible,
+                 Unpushable,
+                 DistanceFighting,
+                 NoSummon,
+                 NoConvince,
+                 NoEnergy}
+
+Skills        = {(HitPoints, 230, 0, 230, 0, 0, 0),
+                 (GoStrength, 57, 0, 57, 0, 0, 0),
+                 (CarryStrength, 800, 0, 800, 0, 0, 0),
+                 (FistFighting, 25, 25, 25, 100, 1500, 1)}
+
+Spells        = {Actor (13) -> Healing (25, 15) : 11,
+                 Victim (7, 4, 7) -> Damage (4, 60, 30) : 8,
+                 Victim (7, 5, 12) -> Damage (8, 30, 15) : 3,
+                 Destination (7, 5, 0, 0) -> Field (2) : 7}
+
+Inventory = {(3031, 99, 863),
+(3031, 99, 894),
+(3587, 12, 302),
+(3046, 1, 29),
+(3586, 5, 9),
+(3033, 1, 2),
+(3348, 1, 1)}
+
+Talk          = {"Ugh! Ugh! Ugh!",
+                 "Holy banana!",
+                 "Chakka! Chakka!"}

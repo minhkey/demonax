@@ -1,0 +1,53 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 404
+Name          = "destroyer"
+Article       = "a"
+Outfit        = (265, 0-0-0-0)
+Corpse        = 5302 
+Blood         = Blood
+Experience = 12800 
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 100 
+Defend        = 70
+Armor         = 40 
+Poison        = 0
+LoseTarget    = 5
+Strategy      = (70, 0, 30, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoEnergy,
+                 NoBurning,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 4900, 0, 4900, 0, 0, 0),
+                 (GoStrength, 110, 0, 110, 0, 0, 0),
+                 (CarryStrength, 900, 0, 900, 0, 0, 0),
+                 (FistFighting, 110, 110, 110, 100, 1500, 1)}
+
+Spells        = {Actor (14) -> Speed (55, 5, 8) : 15,
+                 Victim (7, 12, 0) -> Damage (1, 225, 75) : 7}
+
+Inventory = {(3035, 5, 963),
+(3035, 2, 800),
+(3033, 2, 57),
+(5356, 1, 40),
+(5519, 5, 10),
+(3052, 1, 8),
+(5357, 2, 7),
+(5251, 1, 2),
+(5125, 1, 1),
+(5126, 1, 1),
+(5127, 1, 1)}
+
+Talk          = {"COME HERE AND DIE!",
+                 "Destructiooooooon!",
+                 "It's a good day to destroy!"}

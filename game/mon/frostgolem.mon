@@ -1,0 +1,47 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 425
+Name          = "frost golem"
+Article       = "a"
+Outfit        = (284, 0-0-0-0)
+Corpse        = 5423
+Blood         = Blood
+Experience = 1190
+SummonCost    = 0 
+FleeThreshold = 0
+Attack        = 45
+Defend        = 40
+Armor         = 20
+Poison        = 0
+LoseTarget    = 5
+Strategy      = (70, 15, 15, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+		 NoPoison,
+                 NoEnergy}
+
+Skills        = {(HitPoints, 395, 0, 395, 0, 0, 0),
+                 (GoStrength, 75, 0, 75, 0, 0, 0),
+                 (CarryStrength, 600, 0, 600, 0, 0, 0),
+                 (FistFighting, 52, 52, 52, 100, 1500, 1)}
+
+Spells        = {Victim (7, 6, 0) -> Damage (8, 55, 15) : 6}
+
+Inventory = {(3035, 2, 524),
+(3035, 1, 424),
+(3578, 6, 299),
+(3579, 2, 129),
+(3269, 1, 74),
+(3448, 5, 25),
+(3333, 1, 14),
+(5442, 1, 4),
+(3050, 1, 2),
+(5355, 1, 1)}
+
+Talk          = {"Arakosh azan, human!",
+"Zanoff shon altar!"}

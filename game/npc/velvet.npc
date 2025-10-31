@@ -1,0 +1,50 @@
+# GIMUD - Graphical Interface Multi User Dungeon
+# velvet.npc: M?belverk?uferin Velvet in Venore
+
+Name = "Velvet"
+Sex = female
+Race = 1
+Outfit = (136,59-96-115-95)
+Home = [32943,32104,6]
+Radius = 1
+GoStrength = 10
+
+Behaviour = {
+ADDRESS,"hello$",! -> "Welcome to our shop, %N!"
+ADDRESS,"hi$",!    -> *
+ADDRESS,!          -> Idle
+BUSY,"hello$",!    -> "Just a moment please, %N.", Queue
+BUSY,"hi$",!       -> *
+BUSY,!             -> NOP
+VANISH,!           -> "Good bye."
+
+"bye"         -> "Good bye.", Idle
+"farewell"    -> *
+"name"        -> "I am Velvet. How can I help you?"
+"job"         -> "I'm working here in this shop. Are you interested in any of our goods?"
+"time",male   -> "It's %T, sire."
+"time",female -> "It's %T, my lady."
+
+"offer"           -> "I sell pillows and tapestries."
+"goods"           -> *
+"do","you","sell" -> *
+"do","you","have" -> *
+"furniture"       -> *
+"equipment"       -> *
+
+"ernest",QuestValue(457)=0    -> "My brave boyfriend! He is out on a very important mission, ordered by King Carl himself!", Idle
+
+"ernest",QuestValue(457)=1    -> "Oh, so you know Ernest? I guess you were on the mission with him, huh... ...",
+                                 "He has been away for so long, but he will soon be back! ...",
+                                 "To be honest, I think he will propose to me... A girl can dream, at least... ...",
+                                 "Tell me, how is he?", Topic=5
+                                 
+Topic=5,"dead"	              -> "De... Dead? What? It cannot be, you must be mistaken... Ohh. Why!? Why him? Oh please. ...",
+                                 "Well, I appreciate that you told me. Here, take this. It was his favourite!", Type=3439, Amount=1, Create(Type), SetQuestValue(457,2), Idle
+Topic=5   	                  -> "Let me know if you hear from him, please.", Idle
+
+"ernest",QuestValue(457)=2    -> "I appreciate that you told me, but please, %N, do not remind me...", Idle
+
+@"gen-t-furniture-pillows-s.ndb"
+@"gen-t-furniture-tapestries-s.ndb"
+}

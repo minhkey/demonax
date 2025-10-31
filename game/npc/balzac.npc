@@ -1,0 +1,86 @@
+# GIMUD - Graphical Interface Multi User Dungeon
+# balzac.npc: Datenbank f?r der librarian Anaximander (Thais)
+
+Name = "Balzac"
+Sex = male
+Race = 1
+Outfit = (130,60-124-123-122)
+Home = [32319,32546,9]
+Radius = 2
+GoStrength = 10
+
+Behaviour = {
+ADDRESS,"hello$",QuestValue(456)<7,!       -> "Oh, a visitor, nice to meet you, %N!"
+ADDRESS,"hi$",QuestValue(456)<7,!          -> *
+ADDRESS,QuestValue(456)<7,!                -> Idle
+
+ADDRESS,"hello$",QuestValue(456)=7,!       -> "Be greeted, %N, the transcendenced!"
+ADDRESS,"hi$",QuestValue(456)=7,!          -> *
+ADDRESS,QuestValue(456)=7,!                -> Idle
+
+BUSY,"hello$",!          -> "Just a second, just a second."
+BUSY,"hi$",!             -> *
+BUSY,!                   -> NOP
+VANISH,!                 -> "I hope you find what you seek."
+
+"bye"                    -> "May your future be ever bright, %N.", Idle
+"name"                   -> "I'm Balzac, of course!"
+"philosoph"              -> "A vast topic, more than one could learn in a million lifetimes!"
+"job"                    -> "I'm a philosopher, I deal with the art of elevating one's mind. Transcendence, it is called."
+"key"                    -> "The key to East Argonia you mean? I'm afraid my brother has it... ...",
+                            "He is out exploring the caves below the house, but he has been away for some time now... ...",
+                            "It bet if you search the caves yourself, you will find him... ...",
+                            "As for my own locked door to the caves, my brother lost the key somewhere on East Argonia. ...",
+                            "He said something about demons, or was it heroes? Or both? Anyways... ...",
+                            "He promised he would bring it back to me."
+"east","argonia"         -> "I am not sure what is worst - that I was trusted with the key, or that I gave it to my brother."
+"brother"                -> "Decidedly not a philosopher, that is for sure! But a great man, fearless, and likes exploring the caves around here."
+"cave"                   -> "I chose to retreat here, amongst the caves, to focus on my studies. I like it, but... ...",
+                            "There are many dangerous creatures roaming these caves. Some are even dead, but at the same time alive!"
+"cult"                   -> "Ah, the cultists... Masters of the dark arts... Dangerous ones..."
+"yalahari"               -> "They too call themselves philosophers, in search of transcendence. ...",
+                            "Like the cultists, they have turned towards the dark arts. ...",
+                            "I would avoid them at all costs, if I were you!"
+"loraith"                -> "He is the Cardinal of the Yalahari... A mighty magician, now, they say... ...",
+                            "He used to be a respected philosopher, but his quest for transcendence drove him and his followers mad!"
+                            
+"transcendence",QuestValue(456)=0    -> "Oh, yes, it is the primal elevation of the mind. Few have mastered it. But I know how! ...",
+                                        "And I guess I could teach you, but... It is dangerous, and requires both patience and sacrifice. ...",
+                                        "If you are still interested, bring me a human tooth. They are a bit rare, but not impossible to find.", SetQuestValue(456,1), Idle
+
+"transcendence",QuestValue(456)=1    -> "So, %N, did you manage to find a human tooth?",Topic=1
+Topic=1,"yes",Count(5367)=1,!        -> "Splendid! Now, I need you to bring me an shaburak finger, too. Be careful, they can be quite nasty!", Amount=1, Delete(5367), SetQuestValue(456,2), Idle
+Topic=1                              -> "It seems you did not, after all.", Idle
+
+"transcendence",QuestValue(456)=2    -> "Yes, yes. We are getting there. Do you have the shaburak finger with you?",Topic=2
+Topic=2,"yes",Count(5368)=1,!        -> "Good. I will crush and blend it with some water into a special... Soup. ...",
+                                        "I also require a hydra egg! One is enough.", Amount=1, Delete(5368), SetQuestValue(456,3), Idle
+Topic=2                              -> "Maybe you need to look further.", Idle
+
+"transcendence",QuestValue(456)=3    -> "I hope it wasn't too much of a struggle! Did you bring me a hydra egg?",Topic=3
+Topic=3,"yes",Count(4839)=1,!        -> "Good, good. If handled with care, it will make your mind less constrained. ...", 
+                                        "For the next step, you need to find an old friend of mine for spiritual guidance. ...",
+                                        "Nowadays he is known as the Mad Mage. Sad story. He got too carried away. Anyways, tell him what you seek and he will help you. I hope.", Amount=1, Delete(4839), SetQuestValue(456,4), Idle
+Topic=3                              -> "Maybe you need to fight a few more.", Idle
+
+"transcendence",QuestValue(456)=4    -> "So, how is your journey going, %N? I can tell that you did not meet the Mad Mage yet.", Idle
+
+"transcendence",QuestValue(456)=5    -> "Yes, %N, your glowing eyes reveal that you have indeed received the required spiritual guidance! ...",
+                                        "I hope he was not too fuzzy about it. He is the Mad Mage, after all. ...",
+                                        "The last thing I need from you is a vial of spectral essence. They possess certain qualities that, if used right... ...",
+                                        "Will make you more easily influenced by the special soup. ...",
+                                        "Together with the other ingredients, I believe we really can elevate your mind!", SetQuestValue(456,6), Idle
+                                        
+"transcendence",QuestValue(456)=6    -> "We are close, now, %N! Did you bring me the vial of spectral essence?",Topic=4
+Topic=4,"yes",Count(5401)=1,!        -> "Well done, %N! Let me consult my old notes... ...", 
+                                        "Ah, yes. Here it is. Step one, the special soup, uh huh... ...",
+                                        "Then the hydra egg, mhmm, yes, now, I must warn you, this will not taste well... ...",
+                                        "Finally, the vial of spectral essence. Spicy, mmhm. Okay. Are you ready?", Topic=5
+
+Topic=4                              -> "May I suggest looking for banshees?", Idle
+
+Topic=5,"yes"	                       -> "Ad te fero transcendentalismum nunc et in perpetuum!", Amount=1, Delete(5401), EffectOpp(13), SetQuestValue(456,7), Idle
+Topic=5   	                         -> "That is ok, %N, I will not force you.", Idle
+
+"transcendence",QuestValue(456)=7    -> "%N, my friend. I hope reaching transcendence was all you hoped it would be.", Idle
+}

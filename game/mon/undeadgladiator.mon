@@ -1,0 +1,53 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 510 
+Name          = "undead gladiator"
+Article       = "an"
+Outfit        = (275, 0-0-0-0)
+Corpse        = 5330 
+Blood         = Blood
+Experience = 3200 
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 52
+Defend        = 30
+Armor         = 32
+Poison        = 0
+LoseTarget    = 5
+Strategy      = (80, 10, 10, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 1000, 0, 1000, 0, 0, 0),
+                 (GoStrength, 120, 0, 120, 0, 0, 0),
+                 (CarryStrength, 800, 0, 800, 0, 0, 0),
+                 (FistFighting, 87, 87, 87, 87, 1500, 1)}
+
+Spells        = {Victim (7, 11, 18) -> Damage (1, 90, 25) : 6,
+		 Angle (0, 8, 26) -> Damage(1, 50, 25) : 4}
+
+Inventory = {(3035, 3, 243),
+(3035, 3, 749),
+(3725, 3, 225),
+(3287, 18, 147),
+(3357, 1, 148),
+(3084, 1, 18),
+(3265, 1, 18),
+(5095, 1, 8),
+(5356, 2, 7),
+(3049, 1, 1),
+(5114, 1, 1)}
+
+Talk          = {"Let's battle it out in a duel!",
+                 "Bring it!",
+                 "I'll fight here in eternity and beyond.",
+                 "Another foolish adventurer who tries to beat me."}

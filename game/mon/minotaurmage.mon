@@ -1,0 +1,47 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 23
+Name          = "minotaur mage"
+Article       = "a"
+Outfit        = (23, 0-0-0-0)
+Corpse        = 4047
+Blood         = Blood
+Experience = 600
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 15
+Defend        = 40
+Armor         = 18
+Poison        = 0
+LoseTarget    = 50
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 SeeInvisible,
+                 Unpushable,
+                 DistanceFighting,
+                 NoSummon,
+                 NoConvince,
+                 NoEnergy}
+
+Skills        = {(HitPoints, 155, 0, 155, 0, 0, 0),
+                 (GoStrength, 45, 0, 45, 0, 0, 0),
+                 (CarryStrength, 800, 0, 800, 0, 0, 0),
+                 (FistFighting, 18, 18, 18, 100, 1500, 1)}
+
+Spells        = {Victim (7, 5, 12) -> Damage (8, 30, 15) : 6,
+                 Destination (7, 4, 0, 7) -> Damage (4, 65, 30) : 11,
+                 Destination (7, 5, 0, 0) -> Field (3) : 9}
+
+Inventory = {(3031, 99, 853),
+(3031, 99, 817),
+(3595, 8, 145),
+(2920, 1, 49),
+(3559, 1, 47),
+(3355, 1, 30),
+(5384, 1, 1),
+(3073, 1, 4)}
+
+Talk          = {"#W Learrn tha secrret uf deathhh!",
+                 "Kaplar!"}

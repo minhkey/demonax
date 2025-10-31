@@ -1,0 +1,49 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 509
+Name          = "gozzler"
+Article       = "a"
+Outfit        = (277, 0-0-0-0)
+Corpse        = 5334 
+Blood         = Blood
+Experience = 720 
+SummonCost    = 800
+FleeThreshold = 0 
+Attack        = 34
+Defend        = 28
+Armor         = 25
+Poison        = 0
+LoseTarget    = 5
+Strategy      = (70, 0, 30, 0)
+
+Flags         = {SeeInvisible,
+                 KickBoxes,
+                 Unpushable,
+                 NoConvince}
+
+Skills        = {(HitPoints, 240, 0, 240, 0, 0, 0),
+                 (GoStrength, 55, 0, 55, 0, 0, 0),
+                 (CarryStrength, 400, 0, 400, 0, 0, 0),
+                 (FistFighting, 55, 55, 55, 100, 2000, 2)}
+
+Spells        = {Actor (13) -> Healing (60, 15) : 8,
+                 Victim (7, 0, 14) -> Damage (256, 44, 13): 8}
+
+Inventory = {(3035, 2, 500),
+(3410, 1, 99),
+(2885, 1, 89),
+(3273, 1, 79),
+(3282, 1, 50),
+(3266, 1, 29),
+(3311, 1, 6),
+(3160, 1, 6),
+(3029, 1, 2),
+(3097, 1, 1),
+(3297, 1, 1)}
+
+Talk          = {"Huhuhuhuhuuuu!",
+                 "Let the fun begin!",
+                 "Yihahahah!",
+                 "I'll bite you!",
+                 "Nyehehehe!"}

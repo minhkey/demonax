@@ -1,0 +1,83 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 231
+Name          = "Ferumbras"
+Article       = ""
+Outfit        = (288, 0-0-0-0)
+Corpse        = 4240
+Blood         = Slime
+Experience = 75000 
+SummonCost    = 0
+FleeThreshold = 2500
+Attack        = 155
+Defend        = 110
+Armor         = 90
+Poison        = 0
+LoseTarget    = 20
+Strategy      = (60, 5, 30, 5)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoEnergy,
+                 NoLifeDrain,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 28000, 0, 28000, 0, 0, 0),
+                 (GoStrength, 155, 0, 155, 0, 0, 0),
+                 (CarryStrength, 5000, 0, 5000, 0, 0, 0),
+                 (FistFighting, 165, 165, 165, 50, 1000, 5)}
+
+Spells        = {Actor (15) -> Healing (800, 200) : 4,
+                 Actor (15) -> Healing (2000, 600) : 10,
+                 Actor (13) -> Speed (95, 5, 7) : 26,
+                 Actor (13) -> Outfit ((0, 0), 9) : 46,
+                 Victim (7, 0, 14) -> Damage (512, 500, 150) : 9,
+                 Origin (5, 21) -> Damage (32, 400, 350) : 12,
+                 Origin (5, 12) -> Damage (128, 650, 50) : 11,
+                 Origin (5, 14) -> Damage (512, 250, 125) : 13,
+                 Origin (5, 3) -> Damage (256, 300, 100) : 10,
+                 Origin (4, 10) -> Strength (2, -70, 20, 6) : 19,
+                 Origin (0, 13) -> Summon (35, 4) : 9,
+                 Destination (7, 4, 6, 7) -> Damage (64, 500, 200) : 7,
+                 Angle (0, 8, 17) -> Damage (256, 450, 400) : 12}
+
+Inventory = {(3035, 14, 861),
+(3035, 11, 852),
+(3728, 9, 745),
+(3008, 1, 456),
+(3007, 1, 380),
+(5360, 2, 345),
+(3060, 1, 300),
+(3016, 1, 260),
+(5340, 3, 240),
+(5099, 1, 210),
+(5234, 1, 110),
+(5097, 1, 67),
+(5495, 1, 45),
+(5244, 1, 30),
+(5245, 1, 10),
+(3573, 1, 4),
+(5465, 1, 2),
+(5102, 1, 1),
+(5128, 1, 1),
+(5129, 1, 1),
+(5130, 1, 1),
+(5107, 1, 1),
+(5350, 1, 1),
+(5221, 1, 1)}
+
+Talk          = {"#Y NOONE WILL STOP ME THIS TIME!",
+                 "#Y THE POWER IS MINE!",
+                 "I returned from death and you dream about defeating me?",
+                 "Witness the first seconds of my eternal world domination!",
+                 "The powers of darkness are with me!",
+                 "Even in my weakened state I will crush you all!",
+                 "I came, I see, I will win!"}

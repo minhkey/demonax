@@ -1,0 +1,61 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 428
+Name          = "hero guardian"
+Article       = "a"
+Outfit        = (259, 0-0-0-0)
+Corpse        = 4240
+Blood         = Blood
+Experience = 12200
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 73
+Defend        = 60
+Armor         = 42
+Poison        = 0
+LoseTarget    = 0
+Strategy      = (80, 10, 10, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoPoison,
+                 NoEnergy,
+                 NoBurning,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 5100, 0, 5100, 0, 0, 0),
+                 (GoStrength, 120, 0, 120, 0, 0, 0),
+                 (CarryStrength, 900, 0, 900, 0, 0, 0),
+                 (FistFighting, 110, 110, 110, 110, 1500, 1)}
+
+Spells        = {Actor (13) -> Healing (225, 25) : 10,
+                 Victim (7, 3, 0) -> Damage (1, 180, 15) : 4,
+                 Victim (7, 3, 0) -> Damage (1, 200, 25) : 4}
+
+Inventory = {(3035, 5, 808),
+(3035, 3, 764),
+(5518, 5, 120),
+(5218, 1, 8),
+(5263, 1, 5),
+(5483, 1, 5),
+(5484, 1, 4),
+(3296, 1, 1),
+(5533, 1, 1),
+(3427, 1, 1),
+(5131, 1, 1),
+(5537, 1, 1),
+(3368, 1, 1),
+(5464, 1, 1),
+(5356, 1, 1)}
+
+Talk          = {"I am the supreme guardian!",
+                 "This is where you die.",
+                 "There will be no second chances.",
+                 "I will murder your entire family!"}

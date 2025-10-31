@@ -1,0 +1,50 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 115
+Name          = "lizard snakecharmer"
+Article       = "a"
+Outfit        = (115, 0-0-0-0)
+Corpse        = 4327
+Blood         = Blood
+Experience = 800
+SummonCost    = 0
+FleeThreshold = 15
+Attack        = 18
+Defend        = 15
+Armor         = 22
+Poison        = 0
+LoseTarget    = 50
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 SeeInvisible,
+                 DistanceFighting,
+                 NoSummon,
+                 NoConvince,
+                 NoPoison}
+
+Skills        = {(HitPoints, 325, 0, 325, 0, 0, 0),
+                 (GoStrength, 52, 0, 52, 0, 0, 0),
+                 (CarryStrength, 400, 0, 400, 0, 0, 0),
+                 (FistFighting, 28, 28, 28, 100, 1200, 1)}
+
+Spells        = {Actor (13) -> Healing (75, 25) : 3,
+                 Victim (7, 15, 21) -> Damage (32, 170, 30) : 9,
+                 Origin (0, 13) -> Summon (81, 6) : 4,
+                 Destination (7, 15, 0, 9) -> Damage (2, 75, 25) : 6}
+
+Inventory = {(3031, 99, 880),
+(3031, 99, 854),
+(3998, 1, 486),
+(3565, 1, 87),
+(3033, 1, 3),
+(3037, 1, 1),
+(3052, 1, 1),
+(3066, 1, 1),
+(3407, 1, 1),
+(5507, 1, 1),
+(5353, 1, 1)}
+
+Talk          = {"Shhhhhhhh.",
+                 "I ssssmell warm blood!"}

@@ -1,0 +1,55 @@
+# GIMUD - Graphical Interface Multi User Dungeon
+# orcking.npc: Datenbank f?r den Orck?nig
+
+Name = "Ufthak"
+Sex = male
+Race = 1
+Outfit        = (2, 0-0-0-0)
+Home = [32317,32651,10]
+Radius = 2
+GoStrength = 11
+
+Behaviour = {
+ADDRESS,"hello$", QuestValue(458) = 0,! -> "How dare you enter my stronghold!? Guards! Kill them, kill them all!",SetQuestValue(458,1),Summon(2),Summon(2),Summon(8),Summon(8),Summon(9),Summon(9),Summon(58),Summon(58),Idle
+ADDRESS,"hi$", QuestValue(458) = 0,!    -> *
+
+ADDRESS,"hello$", QuestValue(458) = 1,! -> "Oh, a brave little human, huh? You will regret this! Guards! Show no mercy!",SetQuestValue(458,2),Summon(2),Summon(2),Summon(2),Summon(8),Summon(8),Summon(59),Summon(59),Summon(115),Summon(115),Summon(66),Summon(66),Summon(58),Summon(58),Idle
+ADDRESS,"hi$", QuestValue(458) = 1,!    -> *
+
+ADDRESS,"hello$", QuestValue(458) = 2,! -> "That is ENOUGH! LET THE BLOOD FLOW! LET IT FLOW LIKE A RIVER!",SetQuestValue(458,3),Summon(2),Summon(2),Summon(8),Summon(8),Summon(59),Summon(59),Summon(413),Summon(121),Summon(78),Summon(220),Summon(101),Idle
+ADDRESS,"hi$", QuestValue(458) = 2,!    -> *
+
+ADDRESS,"hello$", QuestValue(458) = 3,! -> "Arrghh. Yes, %N, you have defeated me. For now! Is it my treasure you are after? I can teleport you to the vault."
+ADDRESS,"hi$", QuestValue(458) = 3,!    -> *
+
+ADDRESS,"hello$", QuestValue(458) > 3,! -> "What do you want, little one? Certain death?"
+ADDRESS,"hi$", QuestValue(458) > 3,!    -> *
+
+ADDRESS,!          -> Idle
+BUSY,"hello$",!    -> "Silence!"
+BUSY,"hi$",!       -> *
+BUSY,!             -> NOP
+VANISH,!           -> "You better run, little human!"
+
+
+"bye"             -> "The pleasure was not mine.", Idle
+"farewell"        -> *
+
+"name"            -> "I am Ufthak the Rebel! Leader of the Legion and ruler of this stronghold."
+"job"             -> *
+"orc"             -> "The orcs, yes... They lack knowledge of the dark arts, they will never be able to take over."
+"elf"             -> "Hah! The elves. I eat ten of them for breakfast."
+"elves"           -> *
+"yalahari"        -> "They are too preoccupied with their quest for transcendence, they are no threat to me."
+"cult"            -> "The cultists, yes. Their magic is strong, but they lack raw strength. I will crush their tiny skulls!"
+"hero"            -> "Yes, I have heard about the so-called heroes. Too noble. Too posh. I will drink their blood and feast on their flesh!"
+"balzac"          -> "The philosopher? Hahah! I will spare him death, only to torture him longer!"
+"wilson"          -> "Wilson, that coward. Still hiding in his tower? I will lock the doors and set it ablaze, and enjoy his dying screams."
+
+"teleport"        -> "Do you want me to teleport you to the vault?",Topic=1
+
+Topic=1,"yes",QuestValue(458)<3        -> "Pfft.", Idle
+Topic=1,"yes",QuestValue(458)=3        -> "Since you defeated me, I will do it once.", Idle, SetQuestValue(458,4), EffectOpp(11), Teleport(32324,32651,10), EffectOpp(11), Idle
+Topic=1,"yes",QuestValue(458)=4        -> "I did it once, that was enough. Now leave!", Idle
+Topic=1                                -> "Then leave!", Idle
+}

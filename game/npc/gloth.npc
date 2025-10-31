@@ -1,0 +1,26 @@
+# GIMUD - Graphical Interface Multi User Dungeon
+# gluth.npc: Datenbank f?r den frost troll Gloth (Ice islands)
+
+Name = "Gloth"
+Sex = male
+Race = 1
+Outfit = (53,0-0-0-0)
+Home = [31988,31561,9]
+Radius = 2
+GoStrength = 7
+
+Behaviour = {
+ADDRESS,"hello$",!       -> "Hmmffff, %N. What is wanting?"
+ADDRESS,"hi$",!          -> *
+ADDRESS,!                -> Idle
+BUSY,"hello$",!          -> "Ssccchhh!"
+BUSY,"hi$",!             -> *
+BUSY,!                   -> NOP
+VANISH,!                 -> "Dirty human."
+
+"bye"                    -> "Hope you slip on ice.", Idle
+
+"model","ship",QuestValue(462)<3    -> "Model ship, what is that?!", Idle
+"model","ship",QuestValue(462)=3    -> "Yeeeeees. Model ship. From stolen package! I give to cousin, Gluth! Swampy troll, from Venore.", SetQuestValue(462,4), Idle
+"model","ship",QuestValue(462)>3    -> "Who cares, go away!", Idle
+}

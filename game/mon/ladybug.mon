@@ -1,0 +1,33 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 410
+Name          = "ladybug"
+Article       = "a"
+Outfit        = (261, 0-0-0-0)
+Corpse        = 5337 
+Blood         = Blood 
+Experience = 280
+SummonCost    = 0 
+FleeThreshold = 25
+Attack        = 22
+Defend        = 6
+Armor         = 12
+Poison        = 30
+LoseTarget    = 0
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {NoPoison,
+                 NoSummon,
+                 NoConvince}
+
+Skills        = {(HitPoints, 255, 0, 255, 0, 0, 0),
+                 (GoStrength, 30, 0, 30, 0, 0, 0),
+                 (CarryStrength, 200, 0, 200, 0, 0, 0),
+                 (FistFighting, 35, 35, 35, 100, 1500, 1)}
+
+Inventory = {(3031, 99, 879),
+(5351, 1, 1),
+(5262, 1, 1),
+(3031, 99, 825)}

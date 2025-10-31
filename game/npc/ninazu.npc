@@ -1,0 +1,42 @@
+# GIMUD - Graphical Interface Multi User Dungeon
+# adrenius.npc: Datenbank f?r den caretaker Ninazu (Undead Island)
+
+Name = "Ninazu"
+Sex = male
+Race = 1
+Outfit = (271,0-0-0-0)
+Home = [32120,32722,7]
+Radius = 1
+GoStrength = 10
+
+Behaviour = {
+ADDRESS,"hello$",!       -> "Oh, a visitor. What are you doing here, %N?"
+ADDRESS,"hi$",!          -> *
+ADDRESS,!                -> Idle
+BUSY,"hello$",!          -> "Please, wait, I cannot handle too many at once."
+BUSY,"hi$",!             -> *
+BUSY,!                   -> NOP
+VANISH,!                 -> "Good luck. You will need it."
+
+"bye"                    -> "Good luck. You will need it.", Idle
+"name"                   -> "I am Ninazu. Do not be scared! I have not always looked like this!"
+"job"                    -> "I was one of the caretakers on this island, before all hell was unleashed."
+"work"                   -> "I was one of the caretakers on this island, before all hell was unleashed."
+"boat"                   -> "Yes, I operate this small boat service, while I wait for the inevitable..."
+"undead","island"        -> "Indeed, people refer to this place as the Undead Island, now. Quite fitting."
+"hellflayer"             -> "Do ... Don't... Don't even say that!"
+"gozzler"                -> "Nasty things! Minions of hell!"
+"mutated","human"        -> "Yes, that is what I too have become. I suspect I don't have long to live."
+"thais"                  -> "A wise decision, do you want me to take you back to Thais?",Topic=2
+"undead"                 -> "The undead have taken over this island. Not much of a surprise, given what went on here."
+"help"                   -> "Help? There is no help. This island is beyond rescue."
+"time"                   -> "Time is irrelevant here, the undead do not care."
+"demonic","essence"      -> "Aha, so you know? Yes, that is what they wanted to study here."
+"study"                  -> "The priests did not tell me much, but it is obvious that they dug too deep in their search for more undead specimens."
+"secret"                 -> "Secrets ... There are many secrets in this world."
+"cure"                   -> "There is not cure for what happened to me. I will look like this until I die."
+
+Topic=2,"yes" -> "You will live to see another day.", Idle, EffectOpp(11), Teleport(32311,32210,6), EffectOpp(11)
+Topic=2       -> "You are brave, I give you that."
+
+}

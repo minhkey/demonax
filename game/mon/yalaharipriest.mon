@@ -1,0 +1,61 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 400
+Name          = "yalahari priest"
+Article       = "a"
+Outfit        = (287, 0-0-0-0)
+Corpse        = 4240
+Blood         = Blood
+Experience = 4400 
+SummonCost    = 0
+FleeThreshold = 100
+Attack        = 30 
+Defend        = 25
+Armor         = 28
+Poison        = 0
+LoseTarget    = 30
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoEnergy,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 1200, 0, 1200, 0, 0, 0),
+                 (GoStrength, 65, 0, 65, 0, 0, 0),
+                 (CarryStrength, 600, 0, 600, 0, 0, 0),
+                 (FistFighting, 50, 50, 50, 100, 1100, 2)}
+
+Spells        = {Actor (13) -> Healing (60, 20) : 4,
+                 Victim (7, 5, 0) -> Damage (1, 45, 15) : 2,
+                 Victim (7, 0, 0) -> Damage (512, 35, 10) : 6,
+                 Victim (7, 0, 14) -> Speed (-60, 20, 40) : 9,
+                 Destination (7, 4, 2, 7) -> Damage (8, 95, 35) : 3,
+                 Destination (7, 4, 0, 0) -> Field (3) : 7,
+                 Destination (7, 4, 1, 0) -> Field (3) : 5,
+                 Angle (0, 8, 12) -> Damage (8, 75, 15) : 8}
+
+Inventory = {(3035, 5, 707),
+(3073, 1, 15),
+(3060, 1, 12),
+(5286, 1, 10),
+(3061, 1, 9),
+(3045, 1, 8),
+(5239, 1, 5),
+(5203, 1, 3),
+(5490, 1, 2),
+(5285, 1, 1),
+(3050, 1, 1),
+(5356, 1, 1)}
+
+Talk          = {"You can do nothing against my magic!",
+                 "Your death is inevitable.",
+                 "Abracadrabra, now you will DIE!"}

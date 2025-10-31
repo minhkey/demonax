@@ -1,0 +1,63 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 420
+Name          = "frost dragon"
+Article       = "a"
+Outfit        = (279, 0-0-0-0)
+Corpse        = 5411 
+Blood         = Blood
+Experience = 9000 
+SummonCost    = 0
+FleeThreshold = 0 
+Attack        = 60
+Defend        = 50
+Armor         = 34
+Poison        = 0
+LoseTarget    = 15
+Strategy      = (70, 10, 10, 10)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoConvince,
+                 NoEnergy,
+                 NoLifeDrain,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 2600, 0, 2600, 0, 0, 0),
+                 (GoStrength, 60, 0, 60, 0, 0, 0),
+                 (CarryStrength, 900, 0, 900, 0, 0, 0),
+                 (FistFighting, 68, 68, 68, 100, 1100, 2)}
+
+Spells        = {Actor (13) -> Healing (80, 25) : 4,
+                 Destination (7, 5, 3, 12) -> Damage (8, 160, 35) : 6,
+                 Destination (7, 5, 3, 0) -> Field (3) : 15,
+                 Origin (0, 13) -> Summon (53, 2) : 10,
+                 Angle (30, 8, 12) -> Damage (8, 225, 70) : 6}
+
+Inventory = {(3035, 2, 880),
+(3035, 3, 700),
+(3045, 1, 68),
+(3448, 2, 61),
+(5355, 2, 34),
+(5443, 1, 25),
+(5150, 1, 21),
+(3073, 1, 11),
+(5151, 1, 9),
+(5154, 1, 7),
+(5152, 1, 4),
+(5153, 1, 4),
+(3442, 1, 2),
+(5103, 1, 1),
+(3041, 1, 1),
+(5264, 1, 1),
+(5256, 1, 1),
+(5511, 1, 1),
+(5212, 1, 1)}
+
+Talk          = {"#Y BZZZZZZZZ!",
+                 "#Y YOU WILL FREEZE!"}

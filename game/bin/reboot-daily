@@ -1,0 +1,116 @@
+#!/bin/bash
+
+# --------------------------------------------------------------------------------------------------
+# Variables and functions 
+# --------------------------------------------------------------------------------------------------
+
+LOGFILE=$LOG_PATH/reboot-daily.log
+
+# error handling
+function check_for_error () {
+    if [ $? -ne 0 ]; then
+        echo "`date '+%Y-%m-%d %H:%M:%S'` ERROR AT: $1" >> $LOGFILE
+    else 
+        echo "`date '+%Y-%m-%d %H:%M:%S'` $1 completed successfully" >> $LOGFILE
+    fi
+}
+
+# initiate reboot-daily
+echo "`date '+%Y-%m-%d %H:%M:%S'` -------------- REBOOT-DAILY STARTED --------------" >> $LOGFILE
+
+# --------------------------------------------------------------------------------------------------
+# Update dynamic content
+# --------------------------------------------------------------------------------------------------
+
+# database dump
+rm -f $TSV_PATH/*
+mysql --defaults-extra-file=/home/$USER/sql2.cnf -D $SQL_NAME -e "SELECT account_id,charname,creation,lastlogin,gender,level,vocation,residence,comment FROM players" -B > $TSV_PATH/players.tsv
+mysql --defaults-extra-file=/home/$USER/sql2.cnf -D $SQL_NAME -e "SELECT * FROM guilds" -B > $TSV_PATH/guilds.tsv
+mysql --defaults-extra-file=/home/$USER/sql2.cnf -D $SQL_NAME -e "SELECT * FROM guild_members" -B > $TSV_PATH/guild_members.tsv
+mysql --defaults-extra-file=/home/$USER/sql2.cnf -D $SQL_NAME -e "SELECT * FROM deaths" -B > $TSV_PATH/deaths.tsv
+mysql --defaults-extra-file=/home/$USER/sql2.cnf -D $SQL_NAME -e "SELECT * FROM houses" -B > $TSV_PATH/houses.tsv
+mysql --defaults-extra-file=/home/$USER/sql2.cnf -D $SQL_NAME -e "SELECT * FROM house" -B > $TSV_PATH/house.tsv
+mysql --defaults-extra-file=/home/$USER/sql2.cnf -D $SQL_NAME -e "SELECT * FROM spells" -B > $TSV_PATH/spells.tsv
+mysql --defaults-extra-file=/home/$USER/sql2.cnf -D $SQL_NAME -e "SELECT * FROM creatures" -B > $TSV_PATH/creatures.tsv
+mysql --defaults-extra-file=/home/$USER/sql2.cnf -D $SQL_NAME -e "SELECT * FROM creature_stats" -B > $TSV_PATH/creature_stats.tsv
+check_for_error "database dump"
+
+# R scripts
+Rscript --vanilla $SOURCE_PATH/update_dynamic/01_update_killcount.R
+check_for_error "update killcount"
+
+Rscript --vanilla $SOURCE_PATH/update_dynamic/02_update_questlogs.R
+check_for_error "update questlogs"
+
+Rscript --vanilla $SOURCE_PATH/update_dynamic/03_update_skills.R
+check_for_error "update skills"
+
+Rscript --vanilla $SOURCE_PATH/update_dynamic/04_update_equipment.R
+check_for_error "update equipment"
+
+Rscript --vanilla $SOURCE_PATH/update_dynamic/05_update_highscores.R
+check_for_error "update highscores"
+
+Rscript --vanilla $SOURCE_PATH/update_dynamic/06_update_deaths.R
+check_for_error "update deaths"
+
+Rscript --vanilla $SOURCE_PATH/update_dynamic/07_update_houses.R
+check_for_error "update houses"
+
+Rscript --vanilla $SOURCE_PATH/update_dynamic/08_boost_creatures.R
+check_for_error "boost creatures"
+
+# assign houses
+source /home/cmd/demonax/source/update_dynamic/assign_houses.sh
+check_for_error "assign houses"
+
+# vacate houses
+source /home/cmd/demonax/source/update_dynamic/vacate_houses.sh
+check_for_error "vacate houses"
+
+# give present 
+source /home/cmd/demonax/source/update_dynamic/give_present.sh
+check_for_error "give present"
+
+# --------------------------------------------------------------------------------------------------
+# Backup
+# --------------------------------------------------------------------------------------------------
+
+TODAY=$(date +%Y-%m-%d)
+NOW=$(date +%Y-%m-%d_%H%M%S)
+
+cd $BACKUP_PATH
+
+mysqldump --defaults-extra-file=/home/$USER/sql2.cnf -A -R -E --triggers --single-transaction | gzip > database-$TODAY.sql.gz
+check_for_error "database dump"
+
+tar -cpzf game-backup-$TODAY.tar.gz -C /home game
+check_for_error "game directory backup"
+
+tar -cpzf website-backup-$TODAY.tar.gz -C /var/www demonax
+check_for_error "website directory backup"
+
+tar -cpzf backup-$TODAY.tar.gz -C /home $USER/.bashrc $USER/sql.cnf $USER/sql2.cnf
+check_for_error ".bashrc and database credentials (sql.cnf, sql2.cnf) backup"
+
+cp $GAME_PATH/log/game.log $BACKUP_PATH/game.log-$NOW
+check_for_error "game log archive"
+
+mysql --defaults-extra-file=/home/$USER/sql2.cnf -D $SQL_NAME -e "SELECT * FROM creature_stats" -B > $BACKUP_PATH/creature_stats-$TODAY.tsv
+check_for_error "creature stats"
+
+# --------------------------------------------------------------------------------------------------
+# Check for updates 
+# --------------------------------------------------------------------------------------------------
+
+#mv /home/cmd/demonax/1018-0993-09.sec /home/game/map/
+#check_for_error "update game"
+
+#mv /home/cmd/1008-1016-09.sec /home/game/map/
+
+# --------------------------------------------------------------------------------------------------
+# Restart game 
+# --------------------------------------------------------------------------------------------------
+
+$GAME_PATH/bin/game daemon
+check_for_error "game daemon started"

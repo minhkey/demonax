@@ -1,0 +1,59 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+
+RaceNumber    = 412
+Name          = "betrayed wraith"
+Article       = "a"
+Outfit        = (267, 0-0-0-0)
+Corpse        = 5308 
+Blood         = Bones 
+Experience = 14000 
+SummonCost    = 0
+FleeThreshold = 600 
+Attack        = 75
+Defend        = 45
+Armor         = 52
+Poison        = 0
+LoseTarget    = 10
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 DistanceFighting,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoEnergy,
+                 NoBurning,
+                 NoPoison,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 4200, 0, 4200, 0, 0, 0),
+                 (GoStrength, 140, 0, 140, 0, 0, 0),
+                 (CarryStrength, 900, 0, 900, 0, 0, 0),
+                 (FistFighting, 120, 120, 120, 120, 1100, 2)}
+
+Spells        = {Actor (13) -> Healing (200, 100) : 6,
+                 Victim (7, 9, 0) -> Damage (8, 240, 67) : 9,
+                 Victim (7, 9, 0) -> Damage (8, 220, 90) : 6,
+                 Victim (7, 0, 14) -> Speed (-80, 20, 40) : 9}
+
+Inventory = {(3035, 4, 998),
+(3035, 3, 827),
+(3098, 1, 150),
+(3052, 3, 146),
+(3028, 4, 116),
+(3060, 1, 93),
+(5260, 1, 76),
+(5356, 7, 14),
+(5440, 1, 12),
+(5451, 1, 5),
+(5536, 1, 2),
+(5229, 1, 2),
+(5542, 1, 1)}
+
+Talk          = {"Rrraaah!",
+                 "Gnaarr!",
+                 "Tcharrr!"}

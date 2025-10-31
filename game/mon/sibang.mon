@@ -1,0 +1,46 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 118
+Name          = "sibang"
+Article       = "a"
+Outfit        = (118, 0-0-0-0)
+Corpse        = 4339
+Blood         = Blood
+Experience = 400
+SummonCost    = 0
+FleeThreshold = 0
+Attack        = 20
+Defend        = 32
+Armor         = 15
+Poison        = 0
+LoseTarget    = 50
+Strategy      = (100, 0, 0, 0)
+
+Flags         = {KickBoxes,
+                 SeeInvisible,
+                 Unpushable,
+                 DistanceFighting,
+                 NoSummon,
+                 NoConvince}
+
+Skills        = {(HitPoints, 225, 0, 225, 0, 0, 0),
+                 (GoStrength, 67, 0, 67, 0, 0, 0),
+                 (CarryStrength, 800, 0, 800, 0, 0, 0),
+                 (FistFighting, 33, 33, 33, 100, 1500, 1)}
+
+Spells        = {Actor (14) -> Speed (75, 5, 3) : 9,
+                 Victim (7, 10, 0) -> Damage (1, 45, 10) : 4}
+
+Inventory = {(3031, 99, 843),
+(3031, 99, 844),
+(3587, 12, 303),
+(1781, 3, 298),
+(3586, 5, 198),
+(3589, 3, 18),
+(3593, 1, 8)}
+
+Talk          = {"Eeeeek! Eeeeek",
+                 "Huh! Huh! Huh!",
+                 "Ahhuuaaa!"}

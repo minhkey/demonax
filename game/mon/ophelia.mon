@@ -1,0 +1,70 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 313
+Name          = "Ophelia"
+Article       = ""
+Outfit        = (138, 20-127-52-12)
+Corpse        = 4240
+Blood         = Slime 
+Experience = 26200
+SummonCost    = 0
+FleeThreshold = 300
+Attack        = 90
+Defend        = 65
+Armor         = 45
+Poison        = 550
+LoseTarget    = 10
+Strategy      = (70, 10, 10, 10)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 DistanceFighting,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoIllusion,
+                 NoConvince,
+                 NoPoison,
+                 NoEnergy,
+                 NoLifeDrain,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 12800, 0, 12800, 0, 0, 0),
+                 (GoStrength, 90, 0, 90, 0, 0, 0),
+                 (CarryStrength, 800, 0, 800, 0, 0, 0),
+                 (FistFighting, 100, 100, 100, 50, 1000, 5)}
+
+Spells        = {Actor (13) -> Healing (550, 30) : 7,
+                 Victim (7, 15, 21) -> Damage (2, 340, 100) : 8,
+                 Victim (7, 0, 0) -> Damage (256, 520, 75) : 5,
+                 Victim (7, 0, 0) -> Damage (512, 370, 65) : 5,
+                 Origin (0, 13) -> Summon (317, 1) : 10,
+                 Origin (0, 13) -> Summon (316, 3) : 10,
+                 Destination (7, 15, 3, 0) -> Field (2) : 10,
+                 Angle (0, 15, 21) -> Damage (2, 325, 70) : 8}
+
+Inventory = {(3035, 7, 893),
+(3035, 6, 819),
+(3052, 3, 250),
+(5516, 1, 120),
+(3436, 1, 112),
+(5518, 5, 80),
+(5340, 3, 75),
+(3076, 1, 65),
+(5459, 1, 60),
+(5360, 3, 30),
+(3098, 1, 25),
+(5451, 1, 15),
+(5485, 1, 4),
+(3341, 1, 1),
+(5219, 1, 1),
+(5455, 1, 1),
+(5505, 1, 1),
+(5410, 1, 1)}
+
+Talk          = {"#Y Come, seeker of truth, and I shall show it to you!",
+                 "#Y I am the enlightened one, come, join me!",
+                 "Your pitiful assault is a waste of time, just give up!",
+                 "I know more magic than you could learn in a thousand years!"}

@@ -1,0 +1,44 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 70
+Name          = "dwarf guard"
+Article       = "a"
+Outfit        = (70, 0-0-0-0)
+Corpse        = 4164
+Blood         = Blood
+Experience = 660
+SummonCost    = 650
+FleeThreshold = 0
+Attack        = 39
+Defend        = 37
+Armor         = 15
+Poison        = 0
+LoseTarget    = 5
+Strategy      = (70, 0, 20, 10)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoPoison}
+
+Skills        = {(HitPoints, 245, 0, 245, 0, 0, 0),
+                 (GoStrength, 63, 0, 63, 0, 0, 0),
+                 (CarryStrength, 800, 0, 800, 0, 0, 0),
+                 (FistFighting, 55, 55, 55, 100, 1500, 1)}
+
+Inventory = {(3723, 2, 550),
+(3031, 99, 717),
+(3031, 99, 717),
+(3552, 1, 399),
+(3377, 1, 88),
+(3413, 1, 59),
+(3305, 1, 37),
+(3351, 1, 14),
+(3275, 1, 4),
+(3033, 1, 1),
+(3092, 1, 1)}
+
+Talk          = {"Hail Durin!"}

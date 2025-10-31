@@ -1,0 +1,31 @@
+# GIMUD - Graphical Interface Multi User Dungeon
+# azag.npc: Datenbank f?r den captain Azag (Argonia)
+
+Name = "Captain Azag"
+Sex = male
+Race = 1
+Outfit = (134,115-116-59-95)
+Home = [32295,32536,6]
+Radius = 2
+GoStrength = 10
+
+Behaviour = {
+ADDRESS,"hello$",!       -> "Welcome, %N!"
+ADDRESS,"hi$",!          -> *
+ADDRESS,!                -> Idle
+BUSY,"hello$",!          -> "I am busy, hold on."
+BUSY,"hi$",!             -> *
+BUSY,!                   -> NOP
+VANISH,!                 -> "So long!"
+
+"bye"                    -> "Take care!", Idle
+"name"                   -> "I am Azag, captain of this small vessel."
+"job"                    -> "I sail the long route from Argonia to Thais."
+"argonia"                -> "I do not really like it here. I stay close to my boat."
+
+"thais"                  -> "Do you want a free ride back to Thais?",Topic=1
+
+Topic=1,"yes" -> "Prepare for a long journey!", Idle, EffectOpp(11), Teleport(32312,32212,6), EffectOpp(11)
+Topic=1       -> "You are free to stay, of course."
+
+}

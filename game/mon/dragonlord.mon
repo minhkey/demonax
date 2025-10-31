@@ -1,0 +1,65 @@
+# Tibia - graphical Multi-User-Dungeon
+# MonsterRace File
+# 2005/10/12 - 16:37:51
+
+RaceNumber    = 39
+Name          = "dragon lord"
+Article       = "a"
+Outfit        = (39, 0-0-0-0)
+Corpse        = 4062
+Blood         = Blood
+Experience = 8400
+SummonCost    = 0
+FleeThreshold = 300
+Attack        = 55
+Defend        = 48
+Armor         = 32
+Poison        = 0
+LoseTarget    = 5
+Strategy      = (70, 10, 10, 10)
+
+Flags         = {KickBoxes,
+                 KickCreatures,
+                 SeeInvisible,
+                 Unpushable,
+                 NoSummon,
+                 NoConvince,
+                 NoBurning,
+                 NoPoison,
+                 NoLifeDrain,
+                 NoParalyze}
+
+Skills        = {(HitPoints, 1900, 0, 1900, 0, 0, 0),
+                 (GoStrength, 60, 0, 60, 0, 0, 0),
+                 (CarryStrength, 900, 0, 900, 0, 0, 0),
+                 (FistFighting, 65, 65, 65, 100, 1100, 2)}
+
+Spells        = {Actor (13) -> Healing (75, 18) : 4,
+                 Destination (7, 4, 3, 7) -> Damage (4, 150, 30) : 6,
+                 Destination (7, 4, 3, 0) -> Field (1) : 7,
+                 Angle (30, 8, 7) -> Damage (4, 200, 50) : 6}
+
+Inventory = {(3035, 2, 849),
+(3035, 4, 700),
+(3583, 3, 700),
+(3732, 1, 120),
+(3051, 1, 49),
+(3029, 1, 48),
+(3449, 10, 30),
+(2903, 1, 29),
+(5376, 1, 1),
+(5356, 4, 8),
+(3085, 1, 15),
+(5112, 1, 5),
+(5399, 1, 4),
+(5363, 1, 1),
+(3280, 1, 1),
+(3386, 1, 1),
+(5216, 1, 1),
+(5359, 1, 1),
+(3400, 1, 1),
+(5241, 1, 1),
+(3363, 1, 1)}
+
+Talk          = {"#Y ZCHHHHH",
+                 "#Y YOU WILL BURN!"}
