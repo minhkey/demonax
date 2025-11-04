@@ -1,24 +1,24 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Eine Angriffswelle, bei der ein besonderer Elfen-
-#         magier Boss (Dharalion) sowie 2 normale Elfenmagier 
-#         und 2-4 Elfenspäher im Ritualraum unter der dunklen
-#         Elfenstadt Shadowthorn im Süden von Venore spawnen.
-#         Werden diese Monster nicht innerhalb von 8 Stunden
-#         gefunden und getötet, verschwinden sie wieder.
+# Process: One attack wave, where a special elf arcanist
+#         boss (Dharalion) as well as 2 normal elf arcanists
+#         and 2-4 elf scouts spawn in the ritual room under the dark
+#         elf city Shadowthorn in the south of Venore.
+#         If these monsters are not found and killed within 8 hours,
+#         they will disappear again.
 
 Type      = SmallRaid
 Interval  = 1209600
-#           (durchschnittlich alle zwei Wochen)
+#           (approximately every two weeks)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Im Ritualraum unter der dunklen Elfenstadt Shadowthorn
+# Location: In the ritual room under the dark elf city Shadowthorn
 # Monster: Dharalion (besonderer Elf Arcanist)
 Delay     = 0
 Position  = [33034,32175,9]
@@ -28,7 +28,7 @@ Count     = (1,1)
 Lifetime  = 28800
 
 
-# Ort: Im Ritualraum unter der dunklen Elfenstadt Shadowthorn
+# Location: In the ritual room under the dark elf city Shadowthorn
 # Monster: 2 Elf Arcanists
 Delay     = 0
 Position  = [33034,32175,9]
@@ -38,7 +38,7 @@ Count     = (2,2)
 Lifetime  = 28800
 
 
-# Ort: Im Ritualraum unter der dunklen Elfenstadt Shadowthorn
+# Location: In the ritual room under the dark elf city Shadowthorn
 # Monster: 2-4 Elf Scouts
 Delay     = 0
 Position  = [33034,32175,9]

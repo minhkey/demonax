@@ -1,27 +1,27 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Eine Angriffswelle mit Spawn von Orcs, Orc Warriors,
-#         Shamans, Riders, Berserkers, Leaders und Warlords in 
-#         den Femor Hills (in der Gegend des bzw. im Whitewatch 
+# Process: One attack wave with spawn of Orcs, Orc Warriors,
+#         Shamans, Riders, Berserkers, Leaders and Warlords in
+#         the Femor Hills (in the area of or in the Whitewatch
 #         Tower).
-#         Nach 5 Stunden verschwinden alle Orcs, die bis dahin
-#         nicht besiegt wurden. 
+#         After 5 hours, all orcs that haven't been defeated
+#         by then will disappear.
 
-# Besonderer Loot: Amazon Helmet, Amazon Armor, Amazon Shield
-#                  (mit geringer Wahrscheinlichkeit in Warlords)
+# Special Loot: Amazon Helmet, Amazon Armor, Amazon Shield
+#               (with low probability in Warlords)
 
 Type      = SmallRaid
 Interval  = 2592000
-#           (durchschnittlich einmal pro Monat)
+#           (approximately once per month)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Femor Hills, südwestlich vom Tower of Whitewatch 
+# Location: Femor Hills, southwest of the Tower of Whitewatch 
 # Monster: 10-15 Orcs
 Delay     = 1
 Position  = [32533,31797,7]
@@ -32,7 +32,7 @@ Lifetime  = 18000
 # Message   = "Orc attack on the tower of whitewatch!"
 
 
-# Ort: Femor Hills, Westaufgang zum Teppich
+# Location: Femor Hills, western approach to the carpet
 # Monster: 10-15 Orc Warriors
 Delay     = 1
 Position  = [32537,31820,6]
@@ -42,7 +42,7 @@ Count     = (10,15)
 Lifetime  = 18000
 
 
-# Ort: Femor Hills, südwestlich vom Tower of Whitewatch
+# Location: Femor Hills, southwest of the Tower of Whitewatch
 # Monster: 10-15 Orc Warriors
 Delay     = 1
 Position  = [32539,31797,6]
@@ -52,7 +52,7 @@ Count     = (10,15)
 Lifetime  = 18000
 
 
-# Ort: Femor Hills, östlich vom Tower of Whitewatch
+# Location: Femor Hills, east of the Tower of Whitewatch
 # Monster: 10-15 Orc Warriors
 Delay     = 1
 Position  = [32559,31771,6]
@@ -62,7 +62,7 @@ Count     = (10,15)
 Lifetime  = 18000
 
 
-# Ort: Femor Hills, südlich vom Tower of Whitewatch
+# Location: Femor Hills, south of the Tower of Whitewatch
 # Monster: 10-15 Orc Shamans
 Delay     = 1
 Position  = [32538,31782,6]
@@ -72,7 +72,7 @@ Count     = (10,15)
 Lifetime  = 18000
 
 
-# Ort: Femor Hills, westlich vom Tower of Whitewatch
+# Location: Femor Hills, west of the Tower of Whitewatch
 # Monster: 10-15 Orc Riders
 Delay     = 1
 Position  = [32521,31783,6]
@@ -82,7 +82,7 @@ Count     = (10,15)
 Lifetime  = 18000
 
 
-# Ort: Femor Hills, Tower of Whitewatch Basement
+# Location: Femor Hills, Tower of Whitewatch Basement
 # Monster: 15-20 Orc Berserkers
 Delay     = 1
 Position  = [32535,31773,5]
@@ -92,7 +92,7 @@ Count     = (15,20)
 Lifetime  = 18000
 
 
-# Ort: Femor Hills, Tower of Whitewatch Basement
+# Location: Femor Hills, Tower of Whitewatch Basement
 # Monster: 15-20 Orc Shamans
 Delay     = 1
 Position  = [32535,31772,5]
@@ -102,7 +102,7 @@ Count     = (15,20)
 Lifetime  = 18000
 
 
-# Ort: Femor Hills, Tower of Whitewatch Basement
+# Location: Femor Hills, Tower of Whitewatch Basement
 # Monster: 1-2 Orc Leaders
 Delay     = 1
 Position  = [32542,31773,5]
@@ -112,7 +112,7 @@ Count     = (1,2)
 Lifetime  = 18000
 
 
-# Ort: Femor Hills, Tower of Whitewatch 1. Stock
+# Location: Femor Hills, Tower of Whitewatch 1st Floor
 # Monster: 2-4 Orc Leaders
 Delay     = 1
 Position  = [32535,31773,4]
@@ -122,7 +122,7 @@ Count     = (2,4)
 Lifetime  = 18000
 
 
-# Ort: Femor Hills, Tower of Whitewatch 2. Stock
+# Location: Femor Hills, Tower of Whitewatch 2nd Floor
 # Monster: 2-4 Orc Leaders
 Delay     = 1
 Position  = [32535,31773,3]
@@ -132,7 +132,7 @@ Count     = (2,4)
 Lifetime  = 18000
 
 
-# Ort: Femor Hills, Tower of Whitewatch 3. Stock
+# Location: Femor Hills, Tower of Whitewatch 3rd Floor
 # Monster: 2-4 Orc Leaders
 Delay     = 1
 Position  = [32535,31773,2]
@@ -142,7 +142,7 @@ Count     = (2,4)
 Lifetime  = 18000
 
 
-# Ort: Femor Hills, Tower of Whitewatch 3. Stock
+# Location: Femor Hills, Tower of Whitewatch 3rd Floor
 # Monster: 4 Orc Warlords
 Delay     = 1
 Position  = [32535,31773,2]

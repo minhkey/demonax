@@ -1,22 +1,22 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Zwei Angriffswellen mit Spawn von je 10-15 Ratten 
-#         an 9 unterschiedlichen Orten in Rookgaard.
-#         Monster, die nach 2 Stunden noch nicht besiegt wurden,
-#         verschwinden wieder.
+# Process: Two attack waves with spawn of 10-15 rats each
+#         at 9 different locations in Rookgaard.
+#         Monsters that have not been defeated after 2 hours
+#         will disappear again.
 
 Type      = SmallRaid
 Interval  = 86400
-#           (durchschnittlich einmal pro Tag)
+#           (approximately once per day)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Rookgaard, auf dem Dach von Lilys Laden
+# Location: Rookgaard, on the roof of Lily's Shop
 # Monster: 10-15 Rats
 Delay     = 1
 Position  = [32068,32226,6]
@@ -28,11 +28,11 @@ Lifetime  = 7200
 
 
 ##############################################################
-# ----------------- Zweite Angriffswelle ------------------- #
+# ---------------- Second Attack Wave -------------------- #
 ##############################################################
 
 
-# Ort: Rookgaard, auf einem Hügel im Südosten
+# Location: Rookgaard, on a hill in the southeast
 # Monster: 10-15 Rats
 Delay     = 3
 Position  = [32093,32229,6]
@@ -42,7 +42,7 @@ Count     = (10,15)
 Lifetime  = 7200
 
 
-# Ort: Rookgaard, auf einem Hügel im Stockwerk über Toms Hütte
+# Location: Rookgaard, on a hill in the floor above Tom's Hut
 # Monster: 10-15 Rats
 Delay     = 3
 Position  = [32081,32214,6]
@@ -52,7 +52,7 @@ Count     = (10,15)
 Lifetime  = 7200
 
 
-# Ort: Rookgaard, im Stockwerk über Al Dees Laden
+# Location: Rookgaard, in the floor above Al Dee's Shop
 # Monster: 10-15 Rats
 Delay     = 3
 Position  = [32060,32177,6]
@@ -62,7 +62,7 @@ Count     = (10,15)
 Lifetime  = 7200
 
 
-# Ort: Rookgaard, im Getreidelager über den Ställen
+# Location: Rookgaard, in the granary above the stables
 # Monster: 10-15 Rats
 Delay     = 3
 Position  = [32082,32184,6]
@@ -72,7 +72,7 @@ Count     = (10,15)
 Lifetime  = 7200
 
 
-# Ort: Rookgaard, auf dem Dach des Getreidelagers
+# Location: Rookgaard, on the roof of the granary
 # Monster: 10-15 Rats
 Delay     = 3
 Position  = [32082,32184,5]
@@ -82,7 +82,7 @@ Count     = (10,15)
 Lifetime  = 7200
 
 
-# Ort: Rookgaard, im Stockwerk über Normas Laden
+# Location: Rookgaard, in the floor above Norma's Shop
 # Monster: 10-15 Rats
 Delay     = 3
 Position  = [32099,32183,6]
@@ -92,7 +92,7 @@ Count     = (10,15)
 Lifetime  = 7200
 
 
-# Ort: Rookgaard, auf dem Dach der Akademie
+# Location: Rookgaard, on the roof of the academy
 # Monster: 10-15 Rats
 Delay     = 3
 Position  = [32103,32192,5]
@@ -102,7 +102,7 @@ Count     = (10,15)
 Lifetime  = 7200
 
 
-# Ort: Rookgaard, im Stockwerk über Lee'Delles Laden
+# Location: Rookgaard, in the floor above Lee'Delle's Shop
 # Monster: 10-15 Rats
 Delay     = 3
 Position  = [32026,32195,6]

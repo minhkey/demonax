@@ -1,24 +1,23 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Zwei größere Angriffswellen, zwischen denen ein Abstand
-#         von 30 Minuten liegt. Bei beiden Angriffswellen
-#         spawnen an 19 verschiedenen Kanaldeckeln in Thais bis 
-#         zu 30 Höhlenratten mit jeweils 5 Sekunden Abstand 
-#         zwischen den einzelnen Spawns, so dass sich die Raid 
-#         wie eine Kettenreaktion durch die Stadt zieht.
+# Process: Two larger attack waves, with a gap of
+#         30 minutes between them. In both attack waves
+#         up to 30 cave rats spawn at 19 different manholes in Thais
+#         with 5 seconds delay between each spawn, so that the raid
+#         spreads through the city like a chain reaction.
 
 Type      = SmallRaid
 Interval  = 604800
-#           (durchschnittlich einmal pro Woche)
+#           (approximately once per week)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Thais, Kanaldeckel auf der Kreuzung nördlich vom Tempel
+# Location: Thais, manhole at the intersection north of the temple
 # Monster: 20-30 Cave Rats
 Delay     = 10
 Position  = [32370,32213,7]
@@ -28,7 +27,7 @@ Count     = (20,30)
 Message   = "Rat plague in Thais!"
 
 
-# Ort: Thais, Kanaldeckel östlich von der Burg bei Harkath Bloodblade
+# Location: Thais, manhole east of the castle near Harkath Bloodblade
 # Monster: 20-30 Cave Rats
 Delay     = 20
 Position  = [32339,32183,7]
@@ -37,7 +36,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel vor der Zugbrücke am Nordausgang
+# Location: Thais, manhole in front of the drawbridge at the north exit
 # Monster: 20-30 Cave Rats
 Delay     = 25
 Position  = [32368,32183,7]
@@ -46,7 +45,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel südöstlich vom Schiff
+# Location: Thais, manhole southeast of the ship
 # Monster: 20-30 Cave Rats
 Delay     = 30
 Position  = [32324,32226,7]
@@ -55,7 +54,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel auf der Kreuzung nördlich vom Tempel
+# Location: Thais, manhole at the intersection north of the temple
 # Monster: 20-30 Cave Rats
 Delay     = 35
 Position  = [32370,32213,7]
@@ -64,7 +63,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel auf der Hauptstraße vor der Spielhalle
+# Location: Thais, manhole on the main street in front of the casino
 # Monster: 20-30 Cave Rats
 Delay     = 40
 Position  = [32385,32216,7]
@@ -73,7 +72,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel auf der Hauptstraße vor der Knights Arena
+# Location: Thais, manhole on the main street in front of the Knights Arena
 # Monster: 20-30 Cave Rats
 Delay     = 45
 Position  = [32405,32213,7]
@@ -82,7 +81,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel auf der Hauptstraße bei der Druidengilde
+# Location: Thais, manhole on the main street near the Druid Guild
 # Monster: 20-30 Cave Rats
 Delay     = 50
 Position  = [32422,32214,7]
@@ -91,7 +90,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Südosten der Stadt nördlich vom Wachturm
+# Location: Thais, manhole in the southeast of the city north of the watchtower
 # Monster: 20-30 Cave Rats
 Delay     = 55
 Position  = [32425,32260,7]
@@ -100,7 +99,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Südosten der Stadt auf der Upper Swamp Lane
+# Location: Thais, manhole in the southeast of the city on the Upper Swamp Lane
 # Monster: 20-30 Cave Rats
 Delay     = 60
 Position  = [32409,32255,7]
@@ -109,7 +108,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Südosten der Stadt vor den Alai Flats
+# Location: Thais, manhole in the southeast of the city in front of the Alai Flats
 # Monster: 20-30 Cave Rats
 Delay     = 65
 Position  = [32389,32251,7]
@@ -118,7 +117,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Südwesten der Stadt nordwestlich vom Outlook Tower
+# Location: Thais, manhole in the southwest of the city northwest of the Outlook Tower
 # Monster: 20-30 Cave Rats
 Delay     = 70
 Position  = [32337,32262,7]
@@ -127,7 +126,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Südwesten der Stadt südwestlich vom Outlook Tower
+# Location: Thais, manhole in the southwest of the city southwest of the Outlook Tower
 # Monster: 20-30 Cave Rats
 Delay     = 75
 Position  = [32335,32272,7]
@@ -136,7 +135,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Westen der Stadt in der Latrine
+# Location: Thais, manhole in the west of the city in the latrine
 # Monster: 10-15 Cave Rats
 Delay     = 80
 Position  = [32322,32241,7]
@@ -145,7 +144,7 @@ Race      = 56
 Count     = (10,15)
 
 
-# Ort: Thais, Kanaldeckel im Westen der Stadt nordwestlich der Bank
+# Location: Thais, manhole in the west of the city northwest of the bank
 # Monster: 20-30 Cave Rats
 Delay     = 85
 Position  = [32310,32248,7]
@@ -154,7 +153,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Zentrum der Stadt direkt nördlich vom Tempel
+# Location: Thais, manhole in the center of the city directly north of the temple
 # Monster: 20-30 Cave Rats
 Delay     = 90
 Position  = [32369,32223,7]
@@ -163,7 +162,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Nordosten der Stadt nordwestlich der Druidengilde
+# Location: Thais, manhole in the northeast of the city northwest of the Druid Guild
 # Monster: 20-30 Cave Rats
 Delay     = 95
 Position  = [32425,32195,7]
@@ -172,7 +171,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Norden der Stadt zwischen Sam und Gorn
+# Location: Thais, manhole in the north of the city between Sam and Gorn
 # Monster: 20-30 Cave Rats
 Delay     = 100
 Position  = [32369,32197,7]
@@ -181,7 +180,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Osten der Stadt unterhalb des Ostausgangs
+# Location: Thais, manhole in the east of the city below the east exit
 # Monster: 20-30 Cave Rats
 Delay     = 105
 Position  = [32425,32241,7]
@@ -190,7 +189,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Süden der Stadt vor den Alai Flats
+# Location: Thais, manhole in the south of the city in front of the Alai Flats
 # Monster: 20-30 Cave Rats
 Delay     = 110
 Position  = [32366,32252,7]
@@ -200,10 +199,10 @@ Count     = (20,30)
 
 
 ##############################################################
-# ----------------- Zweite Angriffswelle ------------------- #
+# ---------------- Second Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Thais, Kanaldeckel östlich von der Burg bei Harkath Bloodblade
+# Location: Thais, manhole east of the castle near Harkath Bloodblade
 # Monster: 20-30 Cave Rats
 Delay     = 1820
 Position  = [32339,32183,7]
@@ -212,7 +211,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel vor der Zugbrücke am Nordausgang
+# Location: Thais, manhole in front of the drawbridge at the north exit
 # Monster: 20-30 Cave Rats
 Delay     = 1825
 Position  = [32368,32183,7]
@@ -221,7 +220,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel südöstlich vom Schiff
+# Location: Thais, manhole southeast of the ship
 # Monster: 20-30 Cave Rats
 Delay     = 1830
 Position  = [32324,32226,7]
@@ -230,7 +229,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel auf der Kreuzung nördlich vom Tempel
+# Location: Thais, manhole at the intersection north of the temple
 # Monster: 20-30 Cave Rats
 Delay     = 1835
 Position  = [32370,32213,7]
@@ -239,7 +238,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel auf der Hauptstraße vor der Spielhalle
+# Location: Thais, manhole on the main street in front of the casino
 # Monster: 20-30 Cave Rats
 Delay     = 1840
 Position  = [32385,32216,7]
@@ -248,7 +247,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel auf der Hauptstraße vor der Knights Arena
+# Location: Thais, manhole on the main street in front of the Knights Arena
 # Monster: 20-30 Cave Rats
 Delay     = 1845
 Position  = [32405,32213,7]
@@ -257,7 +256,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel auf der Hauptstraße bei der Druidengilde
+# Location: Thais, manhole on the main street near the Druid Guild
 # Monster: 20-30 Cave Rats
 Delay     = 1850
 Position  = [32422,32214,7]
@@ -266,7 +265,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Südosten der Stadt nördlich vom Wachturm
+# Location: Thais, manhole in the southeast of the city north of the watchtower
 # Monster: 20-30 Cave Rats
 Delay     = 1855
 Position  = [32425,32260,7]
@@ -275,7 +274,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Südosten der Stadt auf der Upper Swamp Lane
+# Location: Thais, manhole in the southeast of the city on the Upper Swamp Lane
 # Monster: 20-30 Cave Rats
 Delay     = 1860
 Position  = [32409,32255,7]
@@ -284,7 +283,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Südosten der Stadt vor den Alai Flats
+# Location: Thais, manhole in the southeast of the city in front of the Alai Flats
 # Monster: 20-30 Cave Rats
 Delay     = 1865
 Position  = [32389,32251,7]
@@ -293,7 +292,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Südwesten der Stadt nordwestlich vom Outlook Tower
+# Location: Thais, manhole in the southwest of the city northwest of the Outlook Tower
 # Monster: 20-30 Cave Rats
 Delay     = 1870
 Position  = [32337,32262,7]
@@ -302,7 +301,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Südwesten der Stadt südwestlich vom Outlook Tower
+# Location: Thais, manhole in the southwest of the city southwest of the Outlook Tower
 # Monster: 20-30 Cave Rats
 Delay     = 1875
 Position  = [32335,32272,7]
@@ -311,7 +310,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Westen der Stadt in der Latrine
+# Location: Thais, manhole in the west of the city in the latrine
 # Monster: 10-15 Cave Rats
 Delay     = 1880
 Position  = [32322,32241,7]
@@ -320,7 +319,7 @@ Race      = 56
 Count     = (10,15)
 
 
-# Ort: Thais, Kanaldeckel im Westen der Stadt nordwestlich der Bank
+# Location: Thais, manhole in the west of the city northwest of the bank
 # Monster: 20-30 Cave Rats
 Delay     = 1885
 Position  = [32310,32248,7]
@@ -329,7 +328,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Zentrum der Stadt direkt nördlich vom Tempel
+# Location: Thais, manhole in the center of the city directly north of the temple
 # Monster: 20-30 Cave Rats
 Delay     = 1890
 Position  = [32369,32223,7]
@@ -338,7 +337,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Nordosten der Stadt nordwestlich der Druidengilde
+# Location: Thais, manhole in the northeast of the city northwest of the Druid Guild
 # Monster: 20-30 Cave Rats
 Delay     = 1895
 Position  = [32425,32195,7]
@@ -347,7 +346,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Norden der Stadt zwischen Sam und Gorn
+# Location: Thais, manhole in the north of the city between Sam and Gorn
 # Monster: 20-30 Cave Rats
 Delay     = 1900
 Position  = [32369,32197,7]
@@ -356,7 +355,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Osten der Stadt unterhalb des Ostausgangs
+# Location: Thais, manhole in the east of the city below the east exit
 # Monster: 20-30 Cave Rats
 Delay     = 1905
 Position  = [32425,32241,7]
@@ -365,7 +364,7 @@ Race      = 56
 Count     = (20,30)
 
 
-# Ort: Thais, Kanaldeckel im Süden der Stadt vor den Alai Flats
+# Location: Thais, manhole in the south of the city in front of the Alai Flats
 # Monster: 20-30 Cave Rats
 Delay     = 1910
 Position  = [32366,32252,7]

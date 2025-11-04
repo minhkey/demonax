@@ -1,21 +1,21 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Eine Angriffswelle mit Spawn von 1-3 Yetis auf der
-#         Insel Folda. Monster, die nach einer Stunde noch 
-#         nicht besiegt wurden, verschwinden wieder. 
+# Process: One attack wave with spawn of 1-3 Yetis on the
+#         island Folda. Monsters that have not been defeated
+#         after one hour will disappear again. 
 
 Type      = SmallRaid
 Interval  = 2592000
-#           (durchschnittlich einmal pro Monat)
+#           (approximately once per month)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Im Süden von Folda
+# Location: In the south of Folda
 # Monster: 1-3 Yetis
 Delay     = 4
 Position  = [32006,31596,7]

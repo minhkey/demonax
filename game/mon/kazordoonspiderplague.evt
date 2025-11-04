@@ -1,20 +1,20 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Eine Angriffswelle mit Spawn von je bis zu 20 Spinnen 
-#         an 13 unterschiedlichen Orten in Kazordoon.
+# Process: One attack wave with spawn of up to 20 spiders each
+#         at 13 different locations in Kazordoon.
 
 Type      = SmallRaid
 Interval  = 1209600
-#           (durchschnittlich alle zwei Wochen)
+#           (approximately every two weeks)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: An der Eingangstreppe von Kazordoon, 1. Untergeschoss
+# Location: At the entrance stairs of Kazordoon, 1st basement
 # Monster: 6-12 Spiders
 Delay     = 0
 Position  = [32577,31895,8]
@@ -23,7 +23,7 @@ Race      = 30
 Count     = (6,12)
 
 
-# Ort: An der Eingangstreppe von Kazordoon, 2. Untergeschoss
+# Location: At the entrance stairs of Kazordoon, 2nd basement
 # Monster: 6-12 Spiders
 Delay     = 0
 Position  = [32577,31895,9]
@@ -32,7 +32,7 @@ Race      = 30
 Count     = (6,12)
 
 
-# Ort: An der Treppe zu Kazordoon Stadt, 2. Untergeschoss
+# Location: At the stairs to Kazordoon city, 2nd basement
 # Monster: 6-12 Spiders
 Delay     = 0
 Position  = [32581,31976,9]
@@ -41,7 +41,7 @@ Race      = 30
 Count     = (6,12)
 
 
-# Ort: Im Westen von Kazordoon Stadt, 2. Untergeschoss
+# Location: In the west of Kazordoon city, 2nd basement
 # Monster: 6-12 Spiders
 Delay     = 0
 Position  = [32609,31921,9]
@@ -50,7 +50,7 @@ Race      = 30
 Count     = (6,12)
 
 
-# Ort: Vor der Jolly Axeman Taverne, 2. Untergeschoss
+# Location: In front of the Jolly Axeman Tavern, 2nd basement
 # Monster: 10-20 Spiders
 Delay     = 0
 Position  = [32636,31902,9]
@@ -59,7 +59,7 @@ Race      = 30
 Count     = (10,20)
 
 
-# Ort: An der Kreuzung zum Templebezirk, 3. Untergeschoss
+# Location: At the intersection to the temple district, 3rd basement
 # Monster: 6-12 Spiders
 Delay     = 0
 Position  = [32590,31951,10]
@@ -68,7 +68,7 @@ Race      = 30
 Count     = (6,12)
 
 
-# Ort: In der Schmiede, 1. Untergeschoss
+# Location: In the forge, 1st basement
 # Monster: 6-12 Spiders
 Delay     = 0
 Position  = [32632,31910,8]
@@ -77,7 +77,7 @@ Race      = 30
 Count     = (6,12)
 
 
-# Ort: Bei der Rittergilde, 1. Untergeschoss
+# Location: At the knight guild, 1st basement
 # Monster: 6-12 Spiders
 Delay     = 0
 Position  = [32619,31947,8]
@@ -86,7 +86,7 @@ Race      = 30
 Count     = (6,12)
 
 
-# Ort: Bei den Rüstungskammern, 1. Obergeschoss
+# Location: At the armor chambers, 1st upper floor
 # Monster: 6-12 Spiders
 Delay     = 0
 Position  = [32615,31929,6]
@@ -95,7 +95,7 @@ Race      = 30
 Count     = (6,12)
 
 
-# Ort: Bei den oberen Baracken, 2. Obergeschoss
+# Location: At the upper barracks, 2nd upper floor
 # Monster: 6-12 Spiders
 Delay     = 0
 Position  = [32609,31929,5]
@@ -104,7 +104,7 @@ Race      = 30
 Count     = (6,12)
 
 
-# Ort: Bei den Adelsquartieren, 3. Obergeschoss
+# Location: At the noble quarters, 3rd upper floor
 # Monster: 6-12 Spiders
 Delay     = 0
 Position  = [32600,31930,4]
@@ -113,7 +113,7 @@ Race      = 30
 Count     = (6,12)
 
 
-# Ort: Im Gang zum Thronsaal, 4. Obergeschoss
+# Location: In the corridor to the throne hall, 4th upper floor
 # Monster: 6-12 Spiders
 Delay     = 0
 Position  = [32598,31928,3]
@@ -122,7 +122,7 @@ Race      = 30
 Count     = (6,12)
 
 
-# Ort: Bei den Farmen, 5. Obergeschoss
+# Location: At the farms, 5th upper floor
 # Monster: 10-20 Spiders
 Delay     = 0
 Position  = [32620,31912,2]

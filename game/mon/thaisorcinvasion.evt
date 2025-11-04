@@ -1,28 +1,28 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Vier Angriffswellen mit Spawn von Orcs, Orc Warriors, 
-#         Orc Spearmen, Orc Shamans, Orc Riders, Orc Leaders,
-#         Orc Berserkers, Orc Warlords und Warwolves vor allen
-#         vier Toren von Thais (Süden, Norden, Osten, Südwesten).
-#         Monster, die nach 2 Stunden noch nicht besiegt wurden,
-#         verschwinden wieder.
+# Process: Four attack waves with spawn of orcs, orc warriors,
+#         orc spearmen, orc shamans, orc riders, orc leaders,
+#         orc berserkers, orc warlords and warwolves in front of all
+#         four gates of Thais (south, north, east, southwest).
+#         Monsters that have not been defeated after 2 hours
+#         will disappear again.
 
 Type      = BigRaid
 Interval  = 15552000
-#           (durchschnittlich alle sechs Monate)
+#           (approximately every six months)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Beginn der Raid; harmlose Orcs vor den 4 toren (Orcs, Orc Spearmen, Rider, Warwolves)
+# Start of raid; harmless orcs in front of the 4 gates (Orcs, Orc Spearmen, Riders, Warwolves)
 
-# ----------------- THAIS SÜDTOR, 1. WELLE ----------------- # 
+# ----------------- THAIS SOUTH GATE, WAVE 1 ----------------- # 
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 12-24 Orcs
 Delay     = 0
 Position  = [32333,32298,7]
@@ -32,7 +32,7 @@ Count     = (12,24)
 Lifetime  = 7200
 Message   = "Orc activity near Thais reported! Beware!"
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 7-14 Orc Spearmen
 Delay     = 0
 Position  = [32330,32297,7]
@@ -41,7 +41,7 @@ Race      = 50
 Count     = (7,14)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 2-4 Orc Riders
 Delay     = 0
 Position  = [32334,32299,7]
@@ -50,7 +50,7 @@ Race      = 4
 Count     = (2,4)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 2-4 Warwolves
 Delay     = 0
 Position  = [32334,32300,7]
@@ -60,9 +60,9 @@ Count     = (2,4)
 Lifetime  = 7200
 
 
-# ----------------- THAIS NORDTOR, 1. WELLE ---------------- #
+# ----------------- THAIS NORTH GATE, WAVE 1 ---------------- #
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 12-24 Orcs
 Delay     = 0
 Position  = [32361,32161,7]
@@ -71,7 +71,7 @@ Race      = 5
 Count     = (12,24)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 7-14 Orc Spearmen
 Delay     = 0
 Position  = [32365,32163,7]
@@ -80,7 +80,7 @@ Race      = 50
 Count     = (7,14)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 2-4 Orc Riders
 Delay     = 0
 Position  = [32362,32157,7]
@@ -89,7 +89,7 @@ Race      = 4
 Count     = (2,4)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 2-4 Warwolves
 Delay     = 0
 Position  = [32360,32157,7]
@@ -99,9 +99,9 @@ Count     = (2,4)
 Lifetime  = 7200
 
 
-# ----------------- THAIS OSTTOR, 1. WELLE ----------------- #
+# ----------------- THAIS EAST GATE, WAVE 1 ----------------- #
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 12-24 Orcs
 Delay     = 0
 Position  = [32450,32223,7]
@@ -110,7 +110,7 @@ Race      = 5
 Count     = (12,24)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 7-14 Orc Spearmen
 Delay     = 0
 Position  = [32454,32222,7]
@@ -119,7 +119,7 @@ Race      = 50
 Count     = (7,14)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 2-4 Orc Riders
 Delay     = 0
 Position  = [32449,32226,7]
@@ -128,7 +128,7 @@ Race      = 4
 Count     = (2,4)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 2-4 Warwolves
 Delay     = 0
 Position  = [32446,32221,7]
@@ -138,9 +138,9 @@ Count     = (2,4)
 Lifetime  = 7200
 
 
-# --------------- THAIS SÜDWESTTOR, 1. WELLE --------------- #
+# --------------- THAIS SOUTHWEST GATE, WAVE 1 --------------- #
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 12-24 Orcs
 Delay     = 0
 Position  = [32268,32271,7]
@@ -149,7 +149,7 @@ Race      = 5
 Count     = (12,24)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 7-14 Orc Spearmen
 Delay     = 0
 Position  = [32266,32273,7]
@@ -158,7 +158,7 @@ Race      = 50
 Count     = (7,14)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 2-4 Orc Riders
 Delay     = 0
 Position  = [32270,32275,7]
@@ -167,7 +167,7 @@ Race      = 4
 Count     = (2,4)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 2-4 Warwolves
 Delay     = 0
 Position  = [32267,32278,7]
@@ -178,14 +178,14 @@ Lifetime  = 7200
 
 
 ##############################################################
-# ----------------- Zweite Angriffswelle ------------------- #
+# ---------------- Second Attack Wave -------------------- #
 ##############################################################
 
-# 4 Minuten nach Beginn der Raid; Truppen vor den 4 Toren (Orc Warriors, Spearmen, Riders, Shamans, Warwolves)
+# 4 minutes after start of raid; troops in front of the 4 gates (Orc Warriors, Spearmen, Riders, Shamans, Warwolves)
 
-# ----------------- THAIS SÜDTOR, 2. WELLE ----------------- # 
+# ----------------- THAIS SOUTH GATE, WAVE 2 ----------------- # 
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 15-30 Orc Warriors
 Delay     = 240
 Position  = [32333,32302,7]
@@ -194,7 +194,7 @@ Race      = 7
 Count     = (15,30)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 15-30 Orc Spearmen
 Delay     = 240
 Position  = [32327,32302,7]
@@ -203,7 +203,7 @@ Race      = 50
 Count     = (15,30)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 8-16 Orc Riders
 Delay     = 240
 Position  = [32324,32301,7]
@@ -212,7 +212,7 @@ Race      = 4
 Count     = (8,16)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 8-16 Warwolves
 Delay     = 240
 Position  = [32324,32301,7]
@@ -221,7 +221,7 @@ Race      = 3
 Count     = (8,16)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 7-14 Orc Shamans
 Delay     = 240
 Position  = [32328,32300,7]
@@ -231,9 +231,9 @@ Count     = (7,14)
 Lifetime  = 7200
 
 
-# ----------------- THAIS NORDTOR, 2. WELLE ---------------- # 
+# ----------------- THAIS NORTH GATE, WAVE 2 ---------------- # 
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 15-30 Orc Warriors
 Delay     = 240
 Position  = [32358,32152,7]
@@ -242,7 +242,7 @@ Race      = 7
 Count     = (15,30)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 15-30 Orc Spearmen
 Delay     = 240
 Position  = [32360,32154,7]
@@ -251,7 +251,7 @@ Race      = 50
 Count     = (15,30)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 8-16 Orc Riders
 Delay     = 240
 Position  = [32362,32155,7]
@@ -260,7 +260,7 @@ Race      = 4
 Count     = (8,16)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 8-16 Warwolves
 Delay     = 240
 Position  = [32359,32155,7]
@@ -269,7 +269,7 @@ Race      = 3
 Count     = (8,16)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 7-14 Orc Shamans
 Delay     = 240
 Position  = [32361,32156,7]
@@ -279,9 +279,9 @@ Count     = (7,14)
 Lifetime  = 7200
 
 
-# ----------------- THAIS OSTTOR, 2. WELLE ----------------- #
+# ----------------- THAIS EAST GATE, WAVE 2 ----------------- #
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 15-30 Orc Warriors
 Delay     = 240
 Position  = [32445,32225,7]
@@ -290,7 +290,7 @@ Race      = 7
 Count     = (15,30)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 15-30 Orc Spearmen
 Delay     = 240
 Position  = [32452,32219,7]
@@ -299,7 +299,7 @@ Race      = 50
 Count     = (15,30)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 8-16 Orc Riders
 Delay     = 240
 Position  = [32450,32226,7]
@@ -308,7 +308,7 @@ Race      = 4
 Count     = (8,16)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 8-16 Warwolves
 Delay     = 240
 Position  = [32456,32232,7]
@@ -317,7 +317,7 @@ Race      = 3
 Count     = (8,16)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 7-14 Orc Shamans
 Delay     = 240
 Position  = [32453,32226,7]
@@ -327,9 +327,9 @@ Count     = (7,14)
 Lifetime  = 7200
 
 
-# --------------- THAIS SÜDWESTTOR, 2. WELLE --------------- #
+# --------------- THAIS SOUTHWEST GATE, WAVE 2 --------------- #
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 15-30 Orc Warriors
 Delay     = 240
 Position  = [32268,32271,7]
@@ -338,7 +338,7 @@ Race      = 7
 Count     = (15,30)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 15-30 Orc Spearmen
 Delay     = 240
 Position  = [32266,32273,7]
@@ -347,7 +347,7 @@ Race      = 50
 Count     = (15,30)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 8-16 Orc Riders
 Delay     = 240
 Position  = [32270,32275,7]
@@ -356,7 +356,7 @@ Race      = 4
 Count     = (8,16)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 8-16 Warwolves
 Delay     = 240
 Position  = [32267,32278,7]
@@ -365,7 +365,7 @@ Race      = 3
 Count     = (8,16)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 7-14 Orc Shamans
 Delay     = 240
 Position  = [32267,32274,7]
@@ -376,14 +376,14 @@ Lifetime  = 7200
 
 
 ##############################################################
-# ----------------- Dritte Angriffswelle ------------------- #
+# ---------------- Third Attack Wave -------------------- #
 ##############################################################
 
-# 7 Minuten nach Beginn der Raid; Verstärkung vor den 4 Toren (Orc Warriors, Riders, Shamans, Berserkers, Leaders)
+# 7 minutes after start of raid; reinforcements in front of the 4 gates (Orc Warriors, Riders, Shamans, Berserkers, Leaders)
 
-# ----------------- THAIS SÜDTOR, 3. WELLE ----------------- # 
+# ----------------- THAIS SOUTH GATE, WAVE 3 ----------------- # 
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 20-40 Orc Warriors
 Delay     = 420
 Position  = [32333,32302,7]
@@ -393,7 +393,7 @@ Count     = (20,40)
 Lifetime  = 7200
 Message   = "Thais is under attack!"
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 16-32 Orc Riders
 Delay     = 420
 Position  = [32324,32301,7]
@@ -402,7 +402,7 @@ Race      = 4
 Count     = (16,32)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 14-28 Orc Shamans
 Delay     = 420
 Position  = [32328,32300,7]
@@ -411,7 +411,7 @@ Race      = 6
 Count     = (14,28)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 14-28 Orc Berserkers
 Delay     = 420
 Position  = [32330,32300,7]
@@ -420,7 +420,7 @@ Race      = 8
 Count     = (14,28)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 5-10 Orc Leaders
 Delay     = 420
 Position  = [32330,32300,7]
@@ -430,9 +430,9 @@ Count     = (5,10)
 Lifetime  = 7200
 
 
-# ----------------- THAIS NORDTOR, 3. WELLE ---------------- # 
+# ----------------- THAIS NORTH GATE, WAVE 3 ---------------- # 
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 20-40 Orc Warriors
 Delay     = 420
 Position  = [32358,32152,7]
@@ -441,7 +441,7 @@ Race      = 7
 Count     = (20,40)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 16-32 Orc Riders
 Delay     = 420
 Position  = [32360,32154,7]
@@ -450,7 +450,7 @@ Race      = 4
 Count     = (16,32)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 14-28 Orc Shamans
 Delay     = 420
 Position  = [32362,32155,7]
@@ -459,7 +459,7 @@ Race      = 6
 Count     = (14,28)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 14-28 Orc Berserkers
 Delay     = 420
 Position  = [32359,32155,7]
@@ -468,7 +468,7 @@ Race      = 8
 Count     = (14,28)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 5-10 Orc Leaders
 Delay     = 420
 Position  = [32361,32156,7]
@@ -478,9 +478,9 @@ Count     = (5,10)
 Lifetime  = 7200
 
 
-# ----------------- THAIS OSTTOR, 3. WELLE ----------------- #
+# ----------------- THAIS EAST GATE, WAVE 3 ----------------- #
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 20-40 Orc Warriors
 Delay     = 420
 Position  = [32450,32223,7]
@@ -489,7 +489,7 @@ Race      = 7
 Count     = (20,40)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 16-32 Orc Riders
 Delay     = 420
 Position  = [32454,32222,7]
@@ -498,7 +498,7 @@ Race      = 4
 Count     = (16,32)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 14-28 Orc Shamans
 Delay     = 420
 Position  = [32449,32226,7]
@@ -507,7 +507,7 @@ Race      = 6
 Count     = (14,28)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 14-28 Orc Berserkers
 Delay     = 420
 Position  = [32446,32221,7]
@@ -516,7 +516,7 @@ Race      = 8
 Count     = (14,28)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 5-10 Orc Leaders
 Delay     = 420
 Position  = [32450,32224,7]
@@ -526,9 +526,9 @@ Count     = (5,10)
 Lifetime  = 7200
 
 
-# --------------- THAIS SÜDWESTTOR, 3. WELLE --------------- #
+# --------------- THAIS SOUTHWEST GATE, WAVE 3 --------------- #
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 20-40 Orc Warriors
 Delay     = 420
 Position  = [32268,32274,7]
@@ -537,7 +537,7 @@ Race      = 7
 Count     = (20,40)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 16-32 Orc Riders
 Delay     = 420
 Position  = [32269,32278,7]
@@ -546,7 +546,7 @@ Race      = 4
 Count     = (16,32)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 14-28 Orc Shamans
 Delay     = 420
 Position  = [32266,32280,7]
@@ -555,7 +555,7 @@ Race      = 6
 Count     = (14,28)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 14-28 Orc Berserkers
 Delay     = 420
 Position  = [32268,32281,7]
@@ -564,7 +564,7 @@ Race      = 8
 Count     = (14,28)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 5-10 Orc Leaders
 Delay     = 420
 Position  = [32265,32278,7]
@@ -575,14 +575,14 @@ Lifetime  = 7200
 
 
 ##############################################################
-# ----------------- Vierte Angriffswelle ------------------- #
+# ---------------- Fourth Attack Wave -------------------- #
 ##############################################################
 
-# 9 Minuten nach Beginn der Raid; Hauptangriff an allen 4 Toren (Orc Riders, Shamans, Bersekers, Leaders, Warlords)
+# 9 minutes after start of raid; main attack at all 4 gates (Orc Riders, Shamans, Berserkers, Leaders, Warlords)
 
-# ----------------- THAIS SÜDTOR, 4. WELLE ----------------- #
+# ----------------- THAIS SOUTH GATE, WAVE 4 ----------------- #
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 20-40 Orc Riders
 Delay     = 540
 Position  = [32324,32301,7]
@@ -591,7 +591,7 @@ Race      = 4
 Count     = (20,40)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 15-30 Orc Shamans
 Delay     = 540
 Position  = [32328,32300,7]
@@ -600,7 +600,7 @@ Race      = 6
 Count     = (15,30)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 20-40 Orc Berserkers
 Delay     = 540
 Position  = [32330,32300,7]
@@ -609,7 +609,7 @@ Race      = 8
 Count     = (20,40)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 10-20 Orc Leaders
 Delay     = 540
 Position  = [32330,32300,7]
@@ -618,7 +618,7 @@ Race      = 59
 Count     = (10,20)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südtor
+# Location: Thais, in front of the south gate
 # Monster: 5-10 Orc Warlords
 Delay     = 540
 Position  = [32333,32302,7]
@@ -628,9 +628,9 @@ Count     = (5,10)
 Lifetime  = 7200
 
 
-# ----------------- THAIS NORDTOR, 4. WELLE ---------------- #
+# ----------------- THAIS NORTH GATE, WAVE 4 ---------------- #
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 20-40 Orc Riders
 Delay     = 540
 Position  = [32361,32157,7]
@@ -639,7 +639,7 @@ Race      = 4
 Count     = (20,40)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 15-30 Orc Shamans
 Delay     = 540
 Position  = [32365,32159,7]
@@ -648,7 +648,7 @@ Race      = 6
 Count     = (15,30)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 20-40 Orc Berserkers
 Delay     = 540
 Position  = [32361,32162,7]
@@ -657,7 +657,7 @@ Race      = 8
 Count     = (20,40)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 10-20 Orc Leaders
 Delay     = 540
 Position  = [32362,32157,7]
@@ -666,7 +666,7 @@ Race      = 59
 Count     = (10,20)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Nordtor
+# Location: Thais, in front of the north gate
 # Monster: 5-10 Orc Warlords
 Delay     = 540
 Position  = [32358,32152,7]
@@ -676,9 +676,9 @@ Count     = (5,10)
 Lifetime  = 7200
 
 
-# ----------------- THAIS OSTTOR, 4. WELLE ----------------- #
+# ----------------- THAIS EAST GATE, WAVE 4 ----------------- #
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 20-40 Orc Riders
 Delay     = 540
 Position  = [32448,32223,7]
@@ -687,7 +687,7 @@ Race      = 4
 Count     = (20,40)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 15-30 Orc Shamans
 Delay     = 540
 Position  = [32454,32221,7]
@@ -696,7 +696,7 @@ Race      = 6
 Count     = (15,30)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 20-40 Orc Berserkers
 Delay     = 540
 Position  = [32458,32220,7]
@@ -705,7 +705,7 @@ Race      = 8
 Count     = (20,40)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 10-20 Orc Leaders
 Delay     = 540
 Position  = [32459,32223,7]
@@ -714,7 +714,7 @@ Race      = 59
 Count     = (10,20)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Osttor
+# Location: Thais, in front of the east gate
 # Monster: 5-10 Orc Warlords
 Delay     = 540
 Position  = [32457,32220,7]
@@ -724,9 +724,9 @@ Count     = (5,10)
 Lifetime  = 7200
 
 
-# --------------- THAIS SÜDWESTTOR, 4. WELLE --------------- #
+# --------------- THAIS SOUTHWEST GATE, WAVE 4 --------------- #
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 20-40 Orc Riders
 Delay     = 540
 Position  = [32268,32274,7]
@@ -735,7 +735,7 @@ Race      = 4
 Count     = (20,40)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 15-30 Orc Shamans
 Delay     = 540
 Position  = [32269,32278,7]
@@ -744,7 +744,7 @@ Race      = 6
 Count     = (15,30)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 20-40 Orc Berserkers
 Delay     = 540
 Position  = [32266,32280,7]
@@ -753,7 +753,7 @@ Race      = 8
 Count     = (20,40)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 10-20 Orc Leaders
 Delay     = 540
 Position  = [32268,32281,7]
@@ -762,7 +762,7 @@ Race      = 59
 Count     = (10,20)
 Lifetime  = 7200
 
-# Ort: Thais, vor dem Südwesttor
+# Location: Thais, in front of the southwest gate
 # Monster: 5-10 Orc Warlords
 Delay     = 540
 Position  = [32265,32278,7]

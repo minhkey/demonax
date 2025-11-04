@@ -1,20 +1,20 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Eine Angriffswelle mit Spawn von je 9-18 Dachsen 
-#         an sieben unterschiedlichen Orten in Ab'Dendriel.
+# Process: One attack wave with spawn of 9-18 badgers each at
+#         seven different locations in Ab'Dendriel.
 
 Type      = SmallRaid
 Interval  = 1209600
-#           (durchschnittlich alle zwei Wochen)
+#           (approximately every two weeks)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Im Norden von Ab'Dendriel, südwestlich vom Obstladen
+# Location: In the north of Ab'Dendriel, southwest of the fruit shop
 # Monster: 9-18 Badgers
 Delay     = 1
 Position  = [32681,31598,7]
@@ -24,7 +24,7 @@ Count     = (9,18)
 # Message   = "Badgers in Ab'Dendriel!"
 
 
-# Ort: Im Norden von Ab'Dendriel, südlich vom Musikgeschäft
+# Location: In the north of Ab'Dendriel, south of the music shop
 # Monster: 9-18 Badgers
 Delay     = 1
 Position  = [32671,31623,7]
@@ -33,7 +33,7 @@ Race      = 105
 Count     = (9,18)
 
 
-# Ort: Im Zentrum von Ab'Dendriel, südlich vom kleinen Sumpfgebiet
+# Location: In the center of Ab'Dendriel, south of the small swamp area
 # Monster: 9-18 Badgers
 Delay     = 1
 Position  = [32644,31647,7]
@@ -42,7 +42,7 @@ Race      = 105
 Count     = (9,18)
 
 
-# Ort: Im Zentrum von Ab'Dendriel, nordwestlich von der Bücherei
+# Location: In the center of Ab'Dendriel, northwest of the library
 # Monster: 9-18 Badgers
 Delay     = 1
 Position  = [32680,31650,7]
@@ -51,7 +51,7 @@ Race      = 105
 Count     = (9,18)
 
 
-# Ort: Im Südwesten von Ab'Dendriel, westlich vom Säulenplatz
+# Location: In the southwest of Ab'Dendriel, west of the column square
 # Monster: 9-18 Badgers
 Delay     = 1
 Position  = [32648,31685,7]
@@ -60,7 +60,7 @@ Race      = 105
 Count     = (9,18)
 
 
-# Ort: Im Südosten von Ab'Dendriel, westlich vom Käfergehege
+# Location: In the southeast of Ab'Dendriel, west of the beetle enclosure
 # Monster: 9-18 Badgers
 Delay     = 1
 Position  = [32684,31700,7]
@@ -69,7 +69,7 @@ Race      = 105
 Count     = (9,18)
 
 
-# Ort: Im Osten von Ab'Dendriel, östlich von der Bücherei
+# Location: In the east of Ab'Dendriel, east of the library
 # Monster: 9-18 Badgers
 Delay     = 1
 Position  = [32696,31652,7]

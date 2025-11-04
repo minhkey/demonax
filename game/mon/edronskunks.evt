@@ -1,22 +1,22 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Eine Angriffswelle mit Spawn von 20-30 Stinktieren an
-#         sechs unterschiedlichen Orten in Edron. Monster, die
-#         nach einer Stunde noch nicht besiegt wurden, 
-#         verschwinden wieder.
+# Process: One attack wave with spawn of 20-30 skunks at
+#         six different locations in Edron. Monsters that
+#         have not been defeated after one hour will
+#         disappear again.
 
 Type      = SmallRaid
 Interval  = 2592000
-#           (durchschnittlich einmal pro Monat)
+#           (approximately once per month)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Im Süden der Stadt Edron, westlich vom Sky Lane Guildhouse
+# Location: In the south of Edron city, west of the Sky Lane Guildhouse
 # Monster: 20-30 Skunks
 Delay     = 0
 Position  = [33203,31867,7]
@@ -27,7 +27,7 @@ Lifetime  = 3600
 # Message   = "Skunkplague in Edron!"
 
 
-# Ort: Im Osten der Stadt Edron, westlich von der Magic Academy
+# Location: In the east of Edron city, west of the Magic Academy
 # Monster: 20-30 Skunks
 Delay     = 0
 Position  = [33240,31839,7]
@@ -37,7 +37,7 @@ Count     = (20,30)
 Lifetime  = 3600
 
 
-# Ort: Stonehome, östlich von Healer Albert
+# Location: Stonehome, east of Healer Albert
 # Monster: 20-30 Skunks
 Delay     = 0
 Position  = [33316,31758,7]
@@ -47,7 +47,7 @@ Count     = (20,30)
 Lifetime  = 3600
 
 
-# Ort: Im Nordwesten der Stadt Edron (Castle Street)
+# Location: In the northwest of Edron city (Castle Street)
 # Monster: 20-30 Skunks
 Delay     = 0
 Position  = [33158,31809,7]
@@ -57,7 +57,7 @@ Count     = (20,30)
 Lifetime  = 3600
 
 
-# Ort: Im Süden der Insel Edron, bei den Kornfeldern
+# Location: In the south of Edron island, at the corn fields
 # Monster: 20-30 Skunks
 Delay     = 0
 Position  = [33213,31901,7]
@@ -67,7 +67,7 @@ Count     = (20,30)
 Lifetime  = 3600
 
 
-# Ort: Nordwestlich von Stonehome, bei den Kornfeldern
+# Location: Northwest of Stonehome, at the corn fields
 # Monster: 20-30 Skunks
 Delay     = 0
 Position  = [33280,31742,7]

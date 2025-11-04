@@ -1,27 +1,27 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Eine Angriffswelle, bei der ein besonderer Orc im 
-#         Osten der Orc Fortress unauffällig zwischen den 
-#         normalen Monstern spawnt.
-#         Wird er nicht innerhalb von 2 Stunden gefunden und 
-#         getötet, verschwindet er wieder.
+# Process: One attack wave where a special orc spawns
+#         inconspicuously among the normal monsters in the
+#         east of the Orc Fortress.
+#         If he is not found and killed within 2 hours,
+#         he will disappear again.
 
-# Besonderer Loot: Questbackpack, das man zu Sam nach Thais
-#                  bringen kann (100% Drop)
+# Special Loot: Quest backpack that can be brought to Sam
+#               in Thais (100% drop)
 
 Type      = SmallRaid
 Interval  = 1209600
-#           (durchschnittlich alle zwei Wochen)
+#           (approximately every two weeks)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Im Osten der Orc Fortress
-# Monster: 1 Orc mit Questloot
+# Location: In the east of the Orc Fortress
+# Monster: 1 Orc with quest loot
 Delay     = 1
 Position  = [32975,31743,7]
 Spread    = 2

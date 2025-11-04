@@ -1,20 +1,20 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Eine Angriffswelle mit Spawn von 6-12 Ghulen auf Edron  
-#         (nordwestlich von Stonehome).
+# Process: One attack wave with spawn of 6-12 ghouls on Edron
+#         (northwest of Stonehome).
 
 Type      = SmallRaid
 Interval  = 1209600
-#           (durchschnittlich alle zwei Wochen)
+#           (approximately every two weeks)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Edron, nordwestlich von Stonehome
+# Location: Edron, northwest of Stonehome
 # Monster: 6-12 Ghouls
 Delay     = 0
 Position  = [33283,31737,7]

@@ -1,20 +1,20 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Fünf Angriffswellen mit Spawn von anfangs Wölfen, 
-#         später Wölfen und Kriegswölfen südlich von Ab'Dendriel.
+# Process: Five attack waves with spawn of initially wolves,
+#         later wolves and war wolves south of Ab'Dendriel.
 
 Type      = SmallRaid
 Interval  = 2592000
-#           (durchschnittlich einmal pro Monat)
+#           (approximately once per month)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Einen Screen südlich vor den Toren Ab'Dendriels
+# Location: One screen south of the gates of Ab'Dendriel
 # Monster: 9-18 Wolves
 Delay     = 1
 Position  = [32635,31724,7]
@@ -24,10 +24,10 @@ Count     = (9,18)
 
 
 ##############################################################
-# ----------------- Zweite Angriffswelle ------------------- #
+# ---------------- Second Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Einen Screen südlich vor den Toren Ab'Dendriels
+# Location: One screen south of the gates of Ab'Dendriel
 # Monster: 12-24 Wolves
 Delay     = 60
 Position  = [32635,31724,7]
@@ -38,10 +38,10 @@ Message   = "Many agressive beasts are roaming south of Ab'Dendriel! Take care!"
 
 
 ##############################################################
-# ----------------- Dritte Angriffswelle ------------------- #
+# ---------------- Third Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Einen Screen südlich vor den Toren Ab'Dendriels
+# Location: One screen south of the gates of Ab'Dendriel
 # Monster: 12-24 Wolves
 Delay     = 120
 Position  = [32635,31724,7]
@@ -50,7 +50,7 @@ Race      = 27
 Count     = (12,24)
 
 
-# Ort: Einen Screen südlich vor den Toren Ab'Dendriels
+# Location: One screen south of the gates of Ab'Dendriel
 # Monster: 3-6 Warwolves
 Delay     = 120
 Position  = [32635,31724,7]
@@ -60,10 +60,10 @@ Count     = (3,6)
 
 
 ##############################################################
-# ----------------- Vierte Angriffswelle ------------------- #
+# ---------------- Fourth Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Einen Screen südlich vor den Toren Ab'Dendriels
+# Location: One screen south of the gates of Ab'Dendriel
 # Monster: 9-18 Wolves
 Delay     = 180
 Position  = [32635,31724,7]
@@ -72,7 +72,7 @@ Race      = 27
 Count     = (9,18)
 
 
-# Ort: Einen Screen südlich vor den Toren Ab'Dendriels
+# Location: One screen south of the gates of Ab'Dendriel
 # Monster: 6-12 Warwolves
 Delay     = 180
 Position  = [32635,31724,7]
@@ -82,10 +82,10 @@ Count     = (6,12)
 
 
 ##############################################################
-# ----------------- Fünfte Angriffswelle ------------------- #
+# ---------------- Fifth Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Einen Screen südlich vor den Toren Ab'Dendriels
+# Location: One screen south of the gates of Ab'Dendriel
 # Monster: 5-10 Wolves
 Delay     = 240
 Position  = [32635,31724,7]
@@ -94,7 +94,7 @@ Race      = 27
 Count     = (5,10)
 
 
-# Ort: Einen Screen südlich vor den Toren Ab'Dendriels
+# Location: One screen south of the gates of Ab'Dendriel
 # Monster: 10-20 Warwolves
 Delay     = 240
 Position  = [32635,31724,7]

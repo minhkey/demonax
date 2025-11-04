@@ -1,22 +1,22 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Vier Angriffswellen in rascher Abfolge mit Spawn von
-#         jeweils 0-2 Drachen an vier unterschiedlichen Orten
-#         auf Dracoria. Drachen, die nach 4 Stunden noch nicht
-#         gefunden und getötet wurden, verschwinden wieder.
+# Process: Four attack waves in rapid succession with spawn of
+#         0-2 dragons each at four different locations
+#         on Dracoria. Dragons that have not been found and
+#         killed after 4 hours will disappear again.
 
 Type      = SmallRaid
 Interval  = 1209600
-#           (durchschnittlich alle 2 Wochen)
+#           (approximately every 2 weeks)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Im Westen von Dracoria
+# Location: In the west of Dracoria
 # Monster: 0-2 Dragons
 Delay     = 0
 Position  = [32775,31596,7]
@@ -28,7 +28,7 @@ Lifetime  = 14400
 
 
 ##############################################################
-# ----------------- Zweite Angriffswelle ------------------- #
+# ---------------- Second Attack Wave -------------------- #
 ##############################################################
 
 # Ort: Im Osten von Dracoria
@@ -42,7 +42,7 @@ Lifetime  = 14400
 
 
 ##############################################################
-# ----------------- Dritte Angriffswelle ------------------- #
+# ---------------- Third Attack Wave -------------------- #
 ##############################################################
 
 # Ort: Im Norden von Dracoria
@@ -56,7 +56,7 @@ Lifetime  = 14400
 
 
 ##############################################################
-# ----------------- Vierte Angriffswelle ------------------- #
+# ---------------- Fourth Attack Wave -------------------- #
 ##############################################################
 
 # Ort: Im Nordosten von Dracoria

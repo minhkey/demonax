@@ -1,23 +1,23 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Eine Angriffswelle, bei der ein besonderer Necromant
-#         Boss (Necropharus) und 2 normale Necromanten in Drefia
-#         im Ritualraum über dem Pentagrammgang spawnen. 
-#         Werden diese Monster nicht innerhalb von 4 Stunden
-#         gefunden und getötet, verschwinden sie wieder.
+# Process: One attack wave, where a special Necromancer
+#         boss (Necropharus) and 2 normal Necromancers spawn in Drefia
+#         in the ritual room above the pentagram corridor.
+#         If these monsters are not found and killed within 4 hours,
+#         they will disappear again.
 
 Type      = SmallRaid
 Interval  = 1209600
-#           (durchschnittlich alle zwei Wochen)
+#           (approximately every two weeks)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Drefia, im Ritualraum über dem Pentagrammgang
+# Location: Drefia, in the ritual room above the pentagram corridor
 # Monster: Necropharus (besonderer Necromancer)
 Delay     = 0
 Position  = [33050,32400,10]
@@ -28,7 +28,7 @@ Lifetime  = 14400
 # Message   = "Necropharus is preparing a ritual."
 
 
-# Ort: Drefia, im Ritualraum über dem Pentagrammgang
+# Location: Drefia, in the ritual room above the pentagram corridor
 # Monster: 2 Necromancer
 Delay     = 0
 Position  = [33050,32399,10]

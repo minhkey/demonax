@@ -1,24 +1,24 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Eine Angriffswelle, bei der ein besonderer Mönch
-#         Boss (Fernfang) und bis zu 10 Kriegswölfe auf der 
-#         Isle of Mist südöstlich der Plains of Havoc spawnen.
-#         Werden diese Monster nicht innerhalb von 4 Stunden
-#         gefunden und getötet, verschwinden sie wieder.
+# Process: One attack wave where a special monk boss
+#         (Fernfang) and up to 10 war wolves spawn on the
+#         Isle of Mist southeast of the Plains of Havoc.
+#         If these monsters are not found and killed within 4 hours,
+#         they will disappear again.
 
 Type      = SmallRaid
 Interval  = 86400 
-#           (durchschnittlich einmal pro Monat)
+#           (approximately once per month)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Auf der Isle of Mist südöstlich der Plains of Havoc
-# Monster: Fernfang (besonderer Monk)
+# Location: On the Isle of Mist southeast of the Plains of Havoc
+# Monster: Fernfang (special Monk)
 Delay     = 0
 Position  = [32851,32340,6]
 Spread    = 0
@@ -28,7 +28,7 @@ Lifetime  = 14400
 # Message   = "Its full moon again and Fernfang is out for new prey."
 
 
-# Ort: Auf der Isle of Mist südöstlich der Plains of Havoc
+# Location: On the Isle of Mist southeast of the Plains of Havoc
 # Monster: 2-4 Warwolves
 Delay     = 0
 Position  = [32851,32340,6]
@@ -38,7 +38,7 @@ Count     = (2,4)
 Lifetime  = 14400
 
 
-# Ort: Auf der Isle of Mist südöstlich der Plains of Havoc
+# Location: On the Isle of Mist southeast of the Plains of Havoc
 # Monster: 4-6 Warwolves
 Delay     = 0
 Position  = [32855,32333,7]

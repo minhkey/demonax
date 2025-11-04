@@ -1,21 +1,21 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Eine Angriffswelle mit Spawn von 4-8 Wilden Kriegern 
-#         0-1 J‰gern auf der Straﬂe zwischen Kazordoon und
+# Process: One attack wave with spawn of 4-8 wild warriors
+#         0-1 hunters on the road between Kazordoon and
 #         Ab'Dendriel.
 
 Type      = SmallRaid
 Interval  = 604800
-#           (durchschnittlich einmal pro Woche)
+#           (approximately once per week)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Auf der Straﬂe zwischen Kazordoon und Ab'Dendriel
+# Location: On the road between Kazordoon and Ab'Dendriel
 # Monster: 0-1 Hunter
 Delay     = 1
 Position  = [32618,31825,7]
@@ -25,7 +25,7 @@ Count     = (0,1)
 # Message   = "Outlaws were sighted on the road from Kazordoon to Ab'Dendriel!"
 
 
-# Ort: Auf der Straﬂe zwischen Kazordoon und Ab'Dendriel
+# Location: On the road between Kazordoon and Ab'Dendriel
 # Monster: 4-8 Wild Warriors
 Delay     = 1
 Position  = [32619,31826,7]

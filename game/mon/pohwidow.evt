@@ -1,23 +1,23 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Eine Angriffswelle, bei der ein besonderer Riesen-
-#         spinnen Boss (The Old Widow) sowie 2 Riesenspinnen
-#         im Osten der Plains of Havoc spawnen.
-#         Werden diese Monster nicht innerhalb von 4 Stunden
-#         gefunden und getötet, verschwinden sie wieder.
+# Process: One attack wave, where a special giant
+#         spider boss (The Old Widow) as well as 2 giant spiders
+#         spawn in the east of the Plains of Havoc.
+#         If these monsters are not found and killed within 4 hours,
+#         they will disappear again.
 
 Type      = SmallRaid
 Interval  = 2419200
-#           (durchschnittlich alle vier Wochen)
+#           (approximately every four weeks)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Im Osten der Plains of Havoc
+# Location: In the east of the Plains of Havoc
 # Monster: The Old Widow (besondere Giant Spider)
 Delay     = 0
 Position  = [32778,32297,7]
@@ -27,7 +27,7 @@ Count     = (1,1)
 Lifetime  = 14400
 
 
-# Ort: Im Osten der Plains of Havoc
+# Location: In the east of the Plains of Havoc
 # Monster: 2 Giant Spiders
 Delay     = 0
 Position  = [32778,32297,7]

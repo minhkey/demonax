@@ -1,25 +1,25 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Eine Angriffswelle, bei der ein besonderer Elder
-#         Beholder Boss (Evil Eye) sowie normale Beholder und, 
-#         Elder Beholder in Necropolis unter Hellgate spawnen.
-#         Werden diese Monster nicht innerhalb von 8 Stunden
-#         gefunden und getötet, verschwinden sie wieder.
+# Process: One attack wave, where a special Elder
+#         Beholder boss (Evil Eye) as well as normal Beholders and
+#         Elder Beholders spawn in Necropolis under Hellgate.
+#         If these monsters are not found and killed within 8 hours,
+#         they will disappear again.
 
 Type      = SmallRaid
 Interval  = 1209600
-#           (durchschnittlich alle zwei Wochen)
+#           (approximately every two weeks)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# ------------------ NECROPOLIS NORDOSTEN ------------------ #
+# ----------------- NECROPOLIS NORTHEAST ----------------- #
 
-# Ort: Im Nordosten von Necropolis in Hellgate
+# Location: In the northeast of Necropolis in Hellgate
 # Monster: Evil Eye (besonderer Elder Beholder)
 Delay     = 0
 Position  = [32809,31611,14]
@@ -28,7 +28,7 @@ Race      = 210
 Count     = (1,1)
 Lifetime  = 28800
 
-# Ort: Im Nordosten von Necropolis in Hellgate
+# Location: In the northeast of Necropolis in Hellgate
 # Monster: 2-4 Elder Beholder
 Delay     = 0
 Position  = [32807,31615,14]
@@ -37,7 +37,7 @@ Race      = 108
 Count     = (2,4)
 Lifetime  = 28800
 
-# Ort: Im Nordosten von Necropolis in Hellgate
+# Location: In the northeast of Necropolis in Hellgate
 # Monster: 3-6 Beholder
 Delay     = 0
 Position  = [32805,31613,14]
@@ -47,9 +47,9 @@ Count     = (3,6)
 Lifetime  = 28800
 
 
-# ------------------- NECROPOLIS ZENTRUM ------------------- #
+# ------------------- NECROPOLIS CENTER ------------------- #
 
-# Ort: Im Zentrum von Necropolis in Hellgate
+# Location: In the center of Necropolis in Hellgate
 # Monster: 2-4 Elder Beholder
 Delay     = 0
 Position  = [32783,31636,14]
@@ -58,7 +58,7 @@ Race      = 108
 Count     = (2,4)
 Lifetime  = 28800
 
-# Ort: Im Zentrum von Necropolis in Hellgate
+# Location: In the center of Necropolis in Hellgate
 # Monster: 3-6 Beholder
 Delay     = 0
 Position  = [32785,31640,14]
@@ -68,9 +68,9 @@ Count     = (3,6)
 Lifetime  = 28800
 
 
-# -------------------- NECROPOLIS SÜDEN -------------------- #
+# -------------------- NECROPOLIS SOUTH -------------------- #
 
-# Ort: Im Süden von Necropolis in Hellgate
+# Location: In the south of Necropolis in Hellgate
 # Monster: 2-4 Elder Beholder
 Delay     = 0
 Position  = [32802,31678,14]
@@ -79,7 +79,7 @@ Race      = 108
 Count     = (2,4)
 Lifetime  = 28800
 
-# Ort: Im Süden von Necropolis in Hellgate
+# Location: In the south of Necropolis in Hellgate
 # Monster: 3-6 Beholder
 Delay     = 0
 Position  = [32798,31675,14]
@@ -89,9 +89,9 @@ Count     = (3,6)
 Lifetime  = 28800
 
 
-# ------------------- NECROPOLIS WESTEN -------------------- #
+# -------------------- NECROPOLIS WEST -------------------- #
 
-# Ort: Im Westen von Necropolis in Hellgate
+# Location: In the west of Necropolis in Hellgate
 # Monster: 2-4 Elder Beholder
 Delay     = 0
 Position  = [32712,31673,14]
@@ -100,7 +100,7 @@ Race      = 108
 Count     = (2,4)
 Lifetime  = 28800
 
-# Ort: Im Westen von Necropolis in Hellgate
+# Location: In the west of Necropolis in Hellgate
 # Monster: 3-6 Beholder
 Delay     = 0
 Position  = [32714,31678,14]

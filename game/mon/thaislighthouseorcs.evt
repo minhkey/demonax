@@ -1,23 +1,23 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Zwei Angriffswellen mit Spawn von Orcs, Orc Warriors,
-#         Shamans, Berserkers, Leaders und Warlords im Leuchtturm
-#         südwestlich von Thais.
-#         Monster, die nach 2 Stunden noch nicht besiegt wurden,
-#         verschwinden wieder.
+# Process: Two attack waves with spawn of orcs, orc warriors,
+#         shamans, berserkers, leaders and warlords in the lighthouse
+#         southwest of Thais.
+#         Monsters that have not been defeated after 2 hours
+#         will disappear again.
 
 Type      = SmallRaid
 Interval  = 604800
-#           (durchschnittlich einmal pro Woche)
+#           (approximately once per week)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Thais Lighthouse, Basement
+# Location: Thais Lighthouse, Basement
 # Monster: 10-20 Orcs
 Delay     = 1
 Position  = [32228,32281,7]
@@ -29,10 +29,10 @@ Lifetime  = 7200
 
 
 ##############################################################
-# ----------------- Zweite Angriffswelle ------------------- #
+# ---------------- Second Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Thais Lighthouse, 1. Stock
+# Location: Thais Lighthouse, 1st Floor
 # Monster: 1-2 Orc Warriors
 Delay     = 3
 Position  = [32225,32276,6]
@@ -42,7 +42,7 @@ Count     = (1,2)
 Lifetime  = 7200
 
 
-# Ort: Thais Lighthouse, 2. Stock
+# Location: Thais Lighthouse, 2nd Floor
 # Monster: 1-2 Orc Shamans
 Delay     = 3
 Position  = [32225,32276,5]
@@ -52,7 +52,7 @@ Count     = (1,2)
 Lifetime  = 7200
 
 
-# Ort: Thais Lighthouse, 3. Stock
+# Location: Thais Lighthouse, 3rd Floor
 # Monster: 1-2 Orc Berserker
 Delay     = 3
 Position  = [32225,32276,4]
@@ -62,7 +62,7 @@ Count     = (1,2)
 Lifetime  = 7200
 
 
-# Ort: Thais Lighthouse, 4. Stock
+# Location: Thais Lighthouse, 4th Floor
 # Monster: 1-2 Orc Leaders
 Delay     = 3
 Position  = [32225,32276,3]
@@ -72,7 +72,7 @@ Count     = (1,2)
 Lifetime  = 7200
 
 
-# Ort: Thais Lighthouse, 5. Stock
+# Location: Thais Lighthouse, 5th Floor
 # Monster: 1-2 Orc Warlords
 Delay     = 3
 Position  = [32225,32276,2]

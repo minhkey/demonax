@@ -1,23 +1,23 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Neun Angriffswellen mit Spawn von anfangs Larven und
-#         Skarab‰en, sp‰ter Skarab‰en und Alten Skarab‰en am
-#         Nordwest-, Nord- und Nordosttor von Ankrahmun. Die 
-#         Anzahl der K‰fer nimmt pro Angriffswelle zun‰chst zu,
-#         gegen Ende hin dann langsam wieder ab.
+# Process: Nine attack waves with spawn of initially larvae and
+#         scarabs, later scarabs and ancient scarabs at the
+#         northwest, north and northeast gates of Ankrahmun. The
+#         number of beetles increases with each attack wave initially,
+#         then slowly decreases again towards the end.
 
 Type      = BigRaid
 Interval  = 15552000
-#           (durchschnittlich alle 6 monate)
+#           (approximately every 6 months)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Auﬂerhalb des Nordwesttores von Ankrahmun
+# Location: Outside the northwest gate of Ankrahmun
 # Monster: 6-12 Scarabs
 Delay     = 0
 Position  = [33087,32773,7]
@@ -27,7 +27,7 @@ Count     = (6,12)
 Message   = "Unusual frequent scarab sightings at the gates of Ankrahmun."
 
 
-# Ort: Auﬂerhalb des Nordtores von Ankrahmun
+# Location: Outside the north gate of Ankrahmun
 # Monster: 6-12 Larvae
 Delay     = 0
 Position  = [33152,32746,7]
@@ -36,7 +36,7 @@ Race      = 82
 Count     = (6,12)
 
 
-# Ort: Auﬂerhalb des Nordosttores von Ankrahmun
+# Location: Outside the northeast gate of Ankrahmun
 # Monster: 6-12 Larvae
 Delay     = 0
 Position  = [33243,32788,7]
@@ -46,10 +46,10 @@ Count     = (6,12)
 
 
 ##############################################################
-# ----------------- Zweite Angriffswelle ------------------- #
+# ---------------- Second Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Auﬂerhalb des Nordwesttores von Ankrahmun
+# Location: Outside the northwest gate of Ankrahmun
 # Monster: 5-10 Larvae
 Delay     = 120
 Position  = [33087,32773,7]
@@ -58,7 +58,7 @@ Race      = 82
 Count     = (5,10)
 
 
-# Ort: Auﬂerhalb des Nordtores von Ankrahmun
+# Location: Outside the north gate of Ankrahmun
 # Monster: 5-10 Scarabs
 Delay     = 120
 Position  = [33152,32746,7]
@@ -67,7 +67,7 @@ Race      = 83
 Count     = (5,10)
 
 
-# Ort: Auﬂerhalb des Nordosttores von Ankrahmun
+# Location: Outside the northeast gate of Ankrahmun
 # Monster: 5-10 Scarabs
 Delay     = 120
 Position  = [33243,32788,7]
@@ -77,10 +77,10 @@ Count     = (5,10)
 
 
 ##############################################################
-# ----------------- Dritte Angriffswelle ------------------- #
+# ---------------- Third Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Auﬂerhalb des Nordwesttores von Ankrahmun
+# Location: Outside the northwest gate of Ankrahmun
 # Monster: 8-16 Scarabs
 Delay     = 240
 Position  = [33087,32773,7]
@@ -89,7 +89,7 @@ Race      = 83
 Count     = (8,16)
 
 
-# Ort: Auﬂerhalb des Nordtores von Ankrahmun
+# Location: Outside the north gate of Ankrahmun
 # Monster: 8-16 Scarabs
 Delay     = 240
 Position  = [33152,32746,7]
@@ -98,7 +98,7 @@ Race      = 83
 Count     = (8,16)
 
 
-# Ort: Auﬂerhalb des Nordosttores von Ankrahmun
+# Location: Outside the northeast gate of Ankrahmun
 # Monster: 8-16 Scarabs
 Delay     = 240
 Position  = [33243,32788,7]
@@ -108,12 +108,12 @@ Count     = (8,16)
 
 
 ##############################################################
-# ----------------- Vierte Angriffswelle ------------------- #
+# ---------------- Fourth Attack Wave -------------------- #
 ##############################################################
 
-# ---------------- NORDWESTTOR ANKRAHMUN ------------------- #
+# ---------------- NORTHWEST GATE ANKRAHMUN ------------------- #
 
-# Ort: Auﬂerhalb des Nordwesttores von Ankrahmun
+# Location: Outside the northwest gate of Ankrahmun
 # Monster: 12-20 Scarabs
 Delay     = 360
 Position  = [33087,32773,7]
@@ -122,7 +122,7 @@ Race      = 83
 Count     = (12,20)
 Message   = "Ancient scarabs are leading an attack on Ankrahmun."
 
-# Ort: Auﬂerhalb des Nordwesttores von Ankrahmun
+# Location: Outside the northwest gate of Ankrahmun
 # Monster: 1-2 Ancient Scarabs
 Delay     = 360
 Position  = [33087,32773,7]
@@ -131,9 +131,9 @@ Race      = 79
 Count     = (1,2)
 
 
-# ------------------ NORDTOR ANKRAHMUN ----------------------#
+# ------------------ NORTH GATE ANKRAHMUN ----------------------#
 
-# Ort: Auﬂerhalb des Nordtores von Ankrahmun
+# Location: Outside the north gate of Ankrahmun
 # Monster: 12-20 Scarabs
 Delay     = 360
 Position  = [33152,32746,7]
@@ -141,7 +141,7 @@ Spread    = 8
 Race      = 83
 Count     = (12,20)
 
-# Ort: Auﬂerhalb des Nordtores von Ankrahmun
+# Location: Outside the north gate of Ankrahmun
 # Monster: 1-2 Ancient Scarabs
 Delay     = 360
 Position  = [33152,32746,7]
@@ -150,9 +150,9 @@ Race      = 79
 Count     = (1,2)
 
 
-# ---------------- NORDOSTTOR ANKRAHMUN -------------------- #
+# ---------------- NORTHEAST GATE ANKRAHMUN -------------------- #
 
-# Ort: Auﬂerhalb des Nordosttores von Ankrahmun
+# Location: Outside the northeast gate of Ankrahmun
 # Monster: 12-20 Scarabs
 Delay     = 360
 Position  = [33243,32788,7]
@@ -160,7 +160,7 @@ Spread    = 8
 Race      = 83
 Count     = (12,20)
 
-# Ort: Auﬂerhalb des Nordosttores von Ankrahmun
+# Location: Outside the northeast gate of Ankrahmun
 # Monster: 1-2 Ancient Scarabs
 Delay     = 360
 Position  = [33243,32788,7]
@@ -170,12 +170,12 @@ Count     = (1,2)
 
 
 ##############################################################
-# ----------------- F¸nfte Angriffswelle ------------------- #
+# ---------------- Fifth Attack Wave -------------------- #
 ##############################################################
 
-# ---------------- NORDWESTTOR ANKRAHMUN ------------------- #
+# ---------------- NORTHWEST GATE ANKRAHMUN ------------------- #
 
-# Ort: Auﬂerhalb des Nordwesttores von Ankrahmun
+# Location: Outside the northwest gate of Ankrahmun
 # Monster: 16-26 Scarabs
 Delay     = 480
 Position  = [33087,32773,7]
@@ -184,7 +184,7 @@ Race      = 83
 Count     = (16,26)
 Message   = "Ancient scarabs are leading an attack on Ankrahmun."
 
-# Ort: Auﬂerhalb des Nordwesttores von Ankrahmun
+# Location: Outside the northwest gate of Ankrahmun
 # Monster: 3-6 Ancient Scarabs
 Delay     = 480
 Position  = [33087,32773,7]
@@ -193,9 +193,9 @@ Race      = 79
 Count     = (3,6)
 
 
-# ------------------ NORDTOR ANKRAHMUN ----------------------#
+# ------------------ NORTH GATE ANKRAHMUN ----------------------#
 
-# Ort: Auﬂerhalb des Nordtores von Ankrahmun
+# Location: Outside the north gate of Ankrahmun
 # Monster: 16-26 Scarabs
 Delay     = 480
 Position  = [33152,32746,7]
@@ -203,7 +203,7 @@ Spread    = 8
 Race      = 83
 Count     = (16,26)
 
-# Ort: Auﬂerhalb des Nordtores von Ankrahmun
+# Location: Outside the north gate of Ankrahmun
 # Monster: 3-6 Ancient Scarabs
 Delay     = 480
 Position  = [33152,32746,7]
@@ -212,9 +212,9 @@ Race      = 79
 Count     = (3,6)
 
 
-# ---------------- NORDOSTTOR ANKRAHMUN -------------------- #
+# ---------------- NORTHEAST GATE ANKRAHMUN -------------------- #
 
-# Ort: Auﬂerhalb des Nordosttores von Ankrahmun
+# Location: Outside the northeast gate of Ankrahmun
 # Monster: 16-26 Scarabs
 Delay     = 480
 Position  = [33243,32788,7]
@@ -222,7 +222,7 @@ Spread    = 8
 Race      = 83
 Count     = (16,26)
 
-# Ort: Auﬂerhalb des Nordosttores von Ankrahmun
+# Location: Outside the northeast gate of Ankrahmun
 # Monster: 3-6 Ancient Scarabs
 Delay     = 480
 Position  = [33243,32788,7]
@@ -232,12 +232,12 @@ Count     = (3,6)
 
 
 ##############################################################
-# ----------------- Sechste Angriffswelle ------------------ #
+# ---------------- Sixth Attack Wave -------------------- #
 ##############################################################
 
-# ---------------- NORDWESTTOR ANKRAHMUN ------------------- #
+# ---------------- NORTHWEST GATE ANKRAHMUN ------------------- #
 
-# Ort: Auﬂerhalb des Nordwesttores von Ankrahmun
+# Location: Outside the northwest gate of Ankrahmun
 # Monster: 15-20 Scarabs
 Delay     = 600
 Position  = [33087,32773,7]
@@ -246,7 +246,7 @@ Race      = 83
 Count     = (15,20)
 Message   = "Ancient scarabs are leading an attack on Ankrahmun."
 
-# Ort: Auﬂerhalb des Nordwesttores von Ankrahmun
+# Location: Outside the northwest gate of Ankrahmun
 # Monster: 5-10 Ancient Scarabs
 Delay     = 600
 Position  = [33087,32773,7]
@@ -255,9 +255,9 @@ Race      = 79
 Count     = (5,10)
 
 
-# ------------------ NORDTOR ANKRAHMUN ----------------------#
+# ------------------ NORTH GATE ANKRAHMUN ----------------------#
 
-# Ort: Auﬂerhalb des Nordtores von Ankrahmun
+# Location: Outside the north gate of Ankrahmun
 # Monster: 15-20 Scarabs
 Delay     = 600
 Position  = [33152,32746,7]
@@ -265,7 +265,7 @@ Spread    = 8
 Race      = 83
 Count     = (15,20)
 
-# Ort: Auﬂerhalb des Nordtores von Ankrahmun
+# Location: Outside the north gate of Ankrahmun
 # Monster: 5-10 Ancient Scarabs
 Delay     = 600
 Position  = [33152,32746,7]
@@ -274,9 +274,9 @@ Race      = 79
 Count     = (5,10)
 
 
-# ---------------- NORDOSTTOR ANKRAHMUN -------------------- #
+# ---------------- NORTHEAST GATE ANKRAHMUN -------------------- #
 
-# Ort: Auﬂerhalb des Nordosttores von Ankrahmun
+# Location: Outside the northeast gate of Ankrahmun
 # Monster: 15-20 Scarabs
 Delay     = 600
 Position  = [33243,32788,7]
@@ -284,7 +284,7 @@ Spread    = 8
 Race      = 83
 Count     = (15,20)
 
-# Ort: Auﬂerhalb des Nordosttores von Ankrahmun
+# Location: Outside the northeast gate of Ankrahmun
 # Monster: 5-10 Ancient Scarabs
 Delay     = 600
 Position  = [33243,32788,7]
@@ -294,12 +294,12 @@ Count     = (5,10)
 
 
 ##############################################################
-# ------------------ Siebte Angriffswelle ------------------ #
+# ---------------- Seventh Attack Wave -------------------- #
 ##############################################################
 
-# ---------------- NORDWESTTOR ANKRAHMUN ------------------- #
+# ---------------- NORTHWEST GATE ANKRAHMUN ------------------- #
 
-# Ort: Auﬂerhalb des Nordwesttores von Ankrahmun
+# Location: Outside the northwest gate of Ankrahmun
 # Monster: 8-16 Scarabs
 Delay     = 720
 Position  = [33087,32773,7]
@@ -307,7 +307,7 @@ Spread    = 8
 Race      = 83
 Count     = (8,16)
 
-# Ort: Auﬂerhalb des Nordwesttores von Ankrahmun
+# Location: Outside the northwest gate of Ankrahmun
 # Monster: 1-5 Ancient Scarabs
 Delay     = 720
 Position  = [33087,32773,7]
@@ -316,9 +316,9 @@ Race      = 79
 Count     = (1,5)
 
 
-# ------------------ NORDTOR ANKRAHMUN ----------------------#
+# ------------------ NORTH GATE ANKRAHMUN ----------------------#
 
-# Ort: Auﬂerhalb des Nordtores von Ankrahmun
+# Location: Outside the north gate of Ankrahmun
 # Monster: 8-16 Scarabs
 Delay     = 720
 Position  = [33152,32746,7]
@@ -326,7 +326,7 @@ Spread    = 8
 Race      = 83
 Count     = (8,16)
 
-# Ort: Auﬂerhalb des Nordtores von Ankrahmun
+# Location: Outside the north gate of Ankrahmun
 # Monster: 1-5 Ancient Scarabs
 Delay     = 720
 Position  = [33152,32746,7]
@@ -335,9 +335,9 @@ Race      = 79
 Count     = (1,5)
 
 
-# ---------------- NORDOSTTOR ANKRAHMUN -------------------- #
+# ---------------- NORTHEAST GATE ANKRAHMUN -------------------- #
 
-# Ort: Auﬂerhalb des Nordosttores von Ankrahmun
+# Location: Outside the northeast gate of Ankrahmun
 # Monster: 8-16 Scarabs
 Delay     = 720
 Position  = [33243,32788,7]
@@ -345,7 +345,7 @@ Spread    = 8
 Race      = 83
 Count     = (8,16)
 
-# Ort: Auﬂerhalb des Nordosttores von Ankrahmun
+# Location: Outside the northeast gate of Ankrahmun
 # Monster: 1-5 Ancient Scarabs
 Delay     = 720
 Position  = [33243,32788,7]
@@ -355,12 +355,12 @@ Count     = (1,5)
 
 
 ##############################################################
-# ------------------- Achte Angriffswelle ------------------ #
+# ---------------- Eighth Attack Wave -------------------- #
 ##############################################################
 
-# ---------------- NORDWESTTOR ANKRAHMUN ------------------- #
+# ---------------- NORTHWEST GATE ANKRAHMUN ------------------- #
 
-# Ort: Auﬂerhalb des Nordwesttores von Ankrahmun
+# Location: Outside the northwest gate of Ankrahmun
 # Monster: 4-12 Scarabs
 Delay     = 780
 Position  = [33087,32773,7]
@@ -368,7 +368,7 @@ Spread    = 8
 Race      = 83
 Count     = (4,12)
 
-# Ort: Auﬂerhalb des Nordwesttores von Ankrahmun
+# Location: Outside the northwest gate of Ankrahmun
 # Monster: 0-1 Ancient Scarabs
 Delay     = 780
 Position  = [33087,32773,7]
@@ -377,9 +377,9 @@ Race      = 79
 Count     = (0,1)
 
 
-# ------------------ NORDTOR ANKRAHMUN ----------------------#
+# ------------------ NORTH GATE ANKRAHMUN ----------------------#
 
-# Ort: Auﬂerhalb des Nordtores von Ankrahmun
+# Location: Outside the north gate of Ankrahmun
 # Monster: 4-12 Scarabs
 Delay     = 780
 Position  = [33152,32746,7]
@@ -387,7 +387,7 @@ Spread    = 8
 Race      = 83
 Count     = (4,12)
 
-# Ort: Auﬂerhalb des Nordtores von Ankrahmun
+# Location: Outside the north gate of Ankrahmun
 # Monster: 0-1 Ancient Scarabs
 Delay     = 780
 Position  = [33152,32746,7]
@@ -396,9 +396,9 @@ Race      = 79
 Count     = (0,1)
 
 
-# ---------------- NORDOSTTOR ANKRAHMUN -------------------- #
+# ---------------- NORTHEAST GATE ANKRAHMUN -------------------- #
 
-# Ort: Auﬂerhalb des Nordosttores von Ankrahmun
+# Location: Outside the northeast gate of Ankrahmun
 # Monster: 4-12 Scarabs
 Delay     = 780
 Position  = [33243,32788,7]
@@ -406,7 +406,7 @@ Spread    = 8
 Race      = 83
 Count     = (4,12)
 
-# Ort: Auﬂerhalb des Nordosttores von Ankrahmun
+# Location: Outside the northeast gate of Ankrahmun
 # Monster: 0-1 Ancient Scarabs
 Delay     = 780
 Position  = [33243,32788,7]
@@ -416,10 +416,10 @@ Count     = (0,1)
 
 
 ##############################################################
-# ------------------ Neunte Angriffswelle ------------------ #
+# ---------------- Ninth Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Auﬂerhalb des Nordwesttores von Ankrahmun
+# Location: Outside the northwest gate of Ankrahmun
 # Monster: 0-6 Scarabs
 Delay     = 840
 Position  = [33087,32773,7]
@@ -428,7 +428,7 @@ Race      = 83
 Count     = (0,6)
 
 
-# Ort: Auﬂerhalb des Nordtores von Ankrahmun
+# Location: Outside the north gate of Ankrahmun
 # Monster: 0-6 Scarabs
 Delay     = 840
 Position  = [33152,32746,7]
@@ -437,7 +437,7 @@ Race      = 83
 Count     = (0,6)
 
 
-# Ort: Auﬂerhalb des Nordosttores von Ankrahmun
+# Location: Outside the northeast gate of Ankrahmun
 # Monster: 0-6 Scarabs
 Delay     = 840
 Position  = [33243,32788,7]

@@ -1,23 +1,23 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Eine Angriffswelle, bei der ein besonderer Drachenfürst
-#         Boss (Demodras) und 2 normale Drachenfürsten im
-#         Drachenhort unter den Plains of Havoc spawnen.
-#         Werden diese Monster nicht innerhalb von 4 Stunden
-#         gefunden und getötet, verschwinden sie wieder.
+# Process: One attack wave, where a special dragon lord
+#         boss (Demodras) and 2 normal dragon lords spawn in the
+#         dragon lair under the Plains of Havoc.
+#         If these monsters are not found and killed within 4 hours,
+#         they will disappear again.
 
 Type      = SmallRaid
 Interval  = 1209600
-#           (durchschnittlich alle zwei Wochen)
+#           (approximately every two weeks)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Im Dragon Lair in den Plains of Havoc, unterste Höhle
+# Location: In the Dragon Lair in the Plains of Havoc, lowest cave
 # Monster: Demodras (besonderer Dragon Lord)
 Delay     = 0
 Position  = [32774,32292,10]
@@ -27,7 +27,7 @@ Count     = (1,1)
 Lifetime  = 14400
 
 
-# Ort: Im Dragon Lair in den Plains of Havoc, unterste Höhle
+# Location: In the Dragon Lair in the Plains of Havoc, lowest cave
 # Monster: 2 Dragon Lords
 Delay     = 0
 Position  = [32774,32292,10]

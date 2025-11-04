@@ -1,21 +1,21 @@
 ##############################################################
-# ---------------------- Allgemeines ----------------------- #
+# ----------------------- General ------------------------- #
 ##############################################################
 
-# Ablauf: Eine Angriffswelle mit Spawn von Elfen, Elfenspähern
-#         und Elfenmagiern im Südosten der Venore Sümpfe,
-#         zwischen Venore und Shadowthorn.
+# Process: One attack wave with spawn of elves, elf scouts
+#         and elf arcanists in the southeast of the Venore swamps,
+#         between Venore and Shadowthorn.
 
 Type      = SmallRaid
 Interval  = 1209600
-#           (durchschnittlich alle zwei Wochen)
+#           (approximately every two weeks)
 
 
 ##############################################################
-# ------------------ Erste Angriffswelle ------------------- #
+# ---------------- First Attack Wave -------------------- #
 ##############################################################
 
-# Ort: Im Südosten der Venore Sümpfe, zwischen Venore und Shadowthorn
+# Location: In the southeast of the Venore swamps, between Venore and Shadowthorn
 # Monster: 10-20 Elves
 Delay     = 1
 Position  = [32991,32212,7]
@@ -25,7 +25,7 @@ Count     = (10,20)
 # Message   = "A swampelf raiding party has been sighted in the venore swamps!"
 
 
-# Ort: Im Südosten der Venore Sümpfe, zwischen Venore und Shadowthorn
+# Location: In the southeast of the Venore swamps, between Venore and Shadowthorn
 # Monster: 5-10 Elf Scouts
 Delay     = 1
 Position  = [32991,32212,7]
@@ -34,7 +34,7 @@ Race      = 64
 Count     = (5,10)
 
 
-# Ort: Im Südosten der Venore Sümpfe, zwischen Venore und Shadowthorn
+# Location: In the southeast of the Venore swamps, between Venore and Shadowthorn
 # Monster: 1-5 Elf Arcanists
 Delay     = 1
 Position  = [32991,32212,7]
