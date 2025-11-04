@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# blood.npc: Datenbank für General Harkath Bloodblade
+# blood.npc: Datenbank fr General Harkath Bloodblade
 
 Name = "Harkath Bloodblade"
 Sex = male
@@ -44,7 +44,7 @@ VANISH,!                           -> "LONG LIVE THE KING!"
 "dogs","of","war"-> "They are our main army."
 "red","guard"    -> "They are our special forces. Some serve as city guards, others as secret police."
 "secret","police"-> "The branch of the red guard that serves as secret police is known as the TBI."
-"tbi$"           -> "The Tibian Bureau of Investigation. Kind of secret police. I don't bother much about such things, I prefer my fights eye to eye."
+"tbi$"           -> "The Demonax Bureau of Investigation. Kind of secret police. I don't bother much about such things, I prefer my fights eye to eye."
 "chester"        -> "I don't know much about him. He is a very secretive person."
 "silver","guard" -> "The best sorcerers, paladins, knights, and druids of our forces are chosen to serve as silver guards. They are the bodyguards of the king."
 "city"           -> "The rapid growth of the city makes it hard to patrol and vulnerable to attacks." 

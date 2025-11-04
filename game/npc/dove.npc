@@ -41,8 +41,8 @@ Topic=5                                   -> "Oh, no! I might loose my job."
 "name"       -> "My name is Dove."
 "dove"       -> "Yes, like the bird. <giggles>"
 "time"       -> "Now it's %T."
-#"mail"       -> "The Tibian mail system is unique! And everyone can use it. Do you want to know more about it?", Topic=1
-#"depot"      -> "The depots are very easy to use. Just step in front of them and you will find your items in them. They are free for all Tibian citizens."
+#"mail"       -> "The Demonax mail system is unique! And everyone can use it. Do you want to know more about it?", Topic=1
+#"depot"      -> "The depots are very easy to use. Just step in front of them and you will find your items in them. They are free for all Demonax citizens."
 "king"       -> "Even the king can be reached by the mailsystem."
 "tibianus"   -> *
 "army"       -> "The soldiers get a lot of letters and parcels from Thais each week."

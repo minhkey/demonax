@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# kevin.npc: Datenbank für Kevin Postner den Anführer der Postlergilde
+# kevin.npc: Datenbank fr Kevin Postner den Anfhrer der Postlergilde
 
 Name = "Kevin"
 Sex = male
@@ -25,8 +25,8 @@ VANISH,!           -> "How rude!"
 "farewell"      -> *
 
 "name"            -> "My name is Kevin. Kevin Postner, that is."
-"job"             -> "I am the head of the Tibian Postmaster's Guild."
-"guild" -> "We are a powerful organisation that is vital part of Tibian society. It's a honour and a privilege to be a member."
+"job"             -> "I am the head of the Demonax Postmaster's Guild."
+"guild" -> "We are a powerful organisation that is vital part of Demonax society. It's a honour and a privilege to be a member."
 "postmaster" -> *
 "academy"        -> "Ah, yes! One day I will found a postofficers academy. Perhaps with the help of our most able members. But rhats a task for another day."
 "wally"          -> "Wally is my right hand, so to say. He is the head to our guilds office branch."
@@ -100,7 +100,7 @@ Topic=15           -> "Too bad, perhaps you can try doing it some other time the
 Topic=14,"yes"     -> "Ok. We need a new set of uniforms, and only the best will do for us. Please travel to Venore and negotiate with Hugo Chief a contract for new uniforms.",SetQuestValue(233,1)
 Topic=14           -> "Too bad, perhaps another time then."
 
-# BEFÖRDERUNG 2 
+# BEFRDERUNG 2 
 Topic=13,"yes",QuestValue(250)<QuestValue(249)    -> "Your eagerness is a virtue, young one, but first lets talk about advancement."
 Topic=13,"yes"    -> "Since I am convinced I can trust you, this time you must deliver a valuable present to Dermot on Fibula. Do NOT open it!!! You will find the present behind the door here on the lower right side of this room.",SetQuestValue(231,1)
 
@@ -162,6 +162,6 @@ Topic=5           -> "I thought so. The mail service is not for just anyone."
 Topic=6,"yes"     -> "Good! Finally, find the technomancer Brodrosch and travel with him to the Isle of Cormaya. After this passage report back to me here. Understood?",Topic=7
 Topic=6           -> "I thought so. The mail service is not for just anyyone."
 
-Topic=7,"yes"     -> "Ok, remember: the Tibian mail service puts trust in you! Don't fail and report back soon. Just tell me about your MISSION.",SetQuestValue(227,1)
+Topic=7,"yes"     -> "Ok, remember: the Demonax mail service puts trust in you! Don't fail and report back soon. Just tell me about your MISSION.",SetQuestValue(227,1)
 Topic=7           -> "I thought so. The mail service is not for just anyone."
 }

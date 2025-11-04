@@ -69,7 +69,7 @@ Topic=1                         -> "Only nonsense on your mind, eh?"
 "weapon"          -> "You need fine weapons to fight the tougher beasts. Unfortunately only the most basic weapons and armor are available here. You will have to fight some monsters to get a better weapon."
 "magic"           -> "The only magic-user on this isle is old Hyacinth."
 "demonax"           -> "Oh, how I miss the crowded streets of Thais. I know one day I will get promoted and get a job at the castle... I must get out of here! The faster the better! It is people like you who are driving me mad." 
-"castle"          -> "The castle of Thais is the greatest achievement in Tibian history."
+"castle"          -> "The castle of Thais is the greatest achievement in Demonax history."
 
 "mission",level<4 -> "You are pretty inexperienced. I think killing rats is a suitable challenge for you. For each fresh rat I will give you two shiny coins of gold."
 "quest",level<4   -> *

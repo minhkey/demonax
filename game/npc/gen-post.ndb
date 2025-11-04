@@ -2,7 +2,7 @@
 # gen-post.ndb:  Datenbank fr generischen Postler
 
 "mail"      -> "Our mail system is unique! And everyone can use it. Do you want to know more about it?", Topic=35
-"depot"     -> "The depots are very easy to use. Just step in front of them and you will find your items in them. They are free for all tibian citizens."
+"depot"     -> "The depots are very easy to use. Just step in front of them and you will find your items in them. They are free for all demonax citizens."
 "offer"     -> "I'm selling letters and parcels."
 
 "letter",QuestValue(250)>0 -> Amount=1, Price=5,  "Do you want to buy a letter for %P gold?", Topic=36
