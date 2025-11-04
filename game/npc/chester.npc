@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# chester.npc: Datenbank für Chester, den Chef des TBI
+# chester.npc: Datenbank fr Chester, den Chef des TBI
 
 Name = "Chester Kahs"
 Sex = male
@@ -41,7 +41,7 @@ VANISH,!           -> "Take care out there!"
 "castle"         -> "The castle isn't safe! I warned them of the entrance to the dungeons, but no one is litstening. How many people have to die before they do something about that?"
 "dogs","of","war"-> "Even they can't stop a handful of demons."
 "red","guard"    -> "They are at my command now and then ... but it's a mistake to rely on anyone except yourself."
-"secret","police"-> "Are you joking? What's secret in Tibia at all?"
+"secret","police"-> "Are you joking? What's secret in Demonax at all?"
 "silver","guard" -> "The king's best. But is the best good enough to fight what stalks the nights?"
 "city"           -> "The city is open to almost everyone. That literally opens doors for all kinds of criminals and fiends."
 "criminal"       -> "There are so many murderers and thiefs out there that I wonder if there is some greater force of evil subtly encouraging that."

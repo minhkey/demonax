@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# adrenius.npc: Datenbank für den Wüstenpriester Adrenius (Desert)
+# adrenius.npc: Datenbank fr den Wstenpriester Adrenius (Desert)
 
 Name = "Adrenius"
 Sex = male
@@ -22,7 +22,7 @@ VANISH,!                 -> "Leave me, I am used to it anyways..."
 "name"                   -> "My name is Adrenius."
 "job"                    -> "I'm a priest of Fafnar."
 "fafnar"                 -> "Fafnar is the stronger one of the two suns above our world."
-"thais"                  -> "Yyyyess. Yes, it's the capital city of Tibia I think."
+"thais"                  -> "Yyyyess. Yes, it's the capital city of Demonax I think."
 "carlin"                 -> "Carlin? Don't you mean Thais?"
 "king"                   -> "Who needs a king? I don't."
 "weapon"                 -> "Who needs weapons? I never had and i never will have weapons - what for?"

@@ -39,7 +39,7 @@ VANISH,!           -> "May Crunor bless you."
 "weapon"          -> "I don't care much about weapons."
 "magic"           -> "I am one of the few magic users on this isle. But I sense a follower of the dark path of magic hiding somewhere in the depths of the dungeons."
 "spell"           -> "I can't teach you magic. On the mainland you will learn your spells soon enough."
-"tibia"           -> "It is shaped by the will of the gods, so we don't have to question it."
+"demonax"           -> "It is shaped by the will of the gods, so we don't have to question it."
 
 "life","fluid"    -> Type=2874, Data=11, Amount=1,  Price=60,    "Do you want to buy life fluid for %P gold?", Topic=1
 %1,"life","fluid" -> Type=2874, Data=11, Amount=%1, Price=60*%1, "Do you want to buy %A potions of life fluid for %P gold?", Topic=1
@@ -53,5 +53,5 @@ Topic=1                         -> "Hmm, but next time."
 "flask"                     -> *
 Topic=2,"yes",Count(2874)>0 -> Amount=Count(2874), Price=Amount*5, "Here you are ... %P gold.", Delete(2874), CreateMoney
 Topic=2,"yes"               -> "You don't have any empty vials."
-Topic=2                     -> "Hmm, but please keep Tibia litter free."
+Topic=2                     -> "Hmm, but please keep Demonax litter free."
 }

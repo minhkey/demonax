@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# wyat.npc: Datenbank für den Sheriff von Thais Wyat
+# wyat.npc: Datenbank fr den Sheriff von Thais Wyat
 
 Name = "Wyat"
 Sex = male
@@ -55,7 +55,7 @@ VANISH,!                 -> "LONG LIVE THE KING!"
 "gorn"           -> "He was a rowdy in his youth, but now he's a fine citizen as far as I can tell."
 "benjamin"       -> "The poor fool lost his mind some years ago. It's a good thing they gave him a job in the post office."
 "ferumbras"      -> "He attacked our town at several occasions but was repelled each time."
-"quest"          -> "Look up our 'Tibia's most wanted' lists."
+"quest"          -> "Look up our 'Demonax's most wanted' lists."
 "mission"        -> *
 "god"            -> "I am follower of Banor."
 "banor"          -> "He is the patron of justice and bravery."

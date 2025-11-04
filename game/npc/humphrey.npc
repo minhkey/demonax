@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# humphrey.npc: Datenbank für den druiden humphrey
+# humphrey.npc: Datenbank fr den druiden humphrey
 
 Name = "Humphrey"
 Sex = male
@@ -24,7 +24,7 @@ VANISH,!                -> "Remember: If you are heavily wounded or poisoned, I 
 
 "bye"            -> "Good bye, %N!", Idle
 "farewell"       -> *
-"job"            -> "I am a guardian of nature. Also I am the keeper of the embrace of tibia, one of the five blessings."
+"job"            -> "I am a guardian of nature. Also I am the keeper of the embrace of demonax, one of the five blessings."
 "name"           -> "My name is Humphrey."
 "heal$",Burning>0 -> "You are burning. I will help you.", Burning(0,0), EffectOpp(15)
 "heal$",Poison>0  -> "You are poisoned. I will help you.", Poison(0,0), EffectOpp(14)
@@ -51,13 +51,13 @@ VANISH,!                -> "Remember: If you are heavily wounded or poisoned, I 
 
 "pilgrimage"     -> "Whenever you recrive a lethal wound your lifeforce is damaged. With every single of the five blessings you have this damage will be reduced."
 "ashes"          -> *
-"blessing"  -> "There are five different blessings available in five sacred places. They are: the spiritual shielding, the spark of the phoenix, the embrace of tibia, the fire of the suns and the wisdom of solitude." 
+"blessing"  -> "There are five different blessings available in five sacred places. They are: the spiritual shielding, the spark of the phoenix, the embrace of demonax, the fire of the suns and the wisdom of solitude." 
 "sacred","places"  -> "Just ask in which of the five blessings you are interested in."
 "spiritual" -> "You can ask for the blessing of spiritual shielding the whiteflower temple south of Thais."
 "shielding" -> *
 "spark" -> "The spark of the phoenix will be given to you by the dwarfen priests of earth and fire in Kazordoon."
 "phoenix" -> *
-"embrace" -> "I will give to you the embrace of tibia, but you will have to make a sacrifice. Are you prepared to pay 10.000 gold for the blessing?.",Price=10000, Topic=5
+"embrace" -> "I will give to you the embrace of demonax, but you will have to make a sacrifice. Are you prepared to pay 10.000 gold for the blessing?.",Price=10000, Topic=5
 
 "fire"     -> "You can ask for the blessing of the two suns in the suntower near Ab'Dendriel ."
 "suns"     -> *
@@ -66,7 +66,7 @@ VANISH,!                -> "Remember: If you are heavily wounded or poisoned, I 
 
 Topic=5,"yes", QuestValue(105) > 0        -> "You already possess this blessing."
 Topic=5,"yes",CountMoney<Price            -> "Oh. You do not have enough money."
-Topic=5,"yes"                             -> "So receive the embrace of tibia, pilgrim", DeleteMoney, EffectOpp(13),SetQuestValue(105,1)
+Topic=5,"yes"                             -> "So receive the embrace of demonax, pilgrim", DeleteMoney, EffectOpp(13),SetQuestValue(105,1)
 Topic=5                                   -> "Fine. You are free to decline my offer."
 
 

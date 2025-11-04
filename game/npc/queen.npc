@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# queen.npc: Datenbank für die Königin von Carlin
+# queen.npc: Datenbank fr die Knigin von Carlin
 
 Name = "Queen Eloise"
 Sex = female
@@ -28,7 +28,7 @@ VANISH,!                        -> "What a strange behaviour for a lady!"
 "justice"        -> "We women try to bring justice and wisdom to all, even to males."
 "name"           -> "I am Queen Eloise. For you it's 'My Queen' or 'Your Majesty', of course."
 "news"           -> "I don't care about gossip like a simpleminded male would do."
-"tibia"          -> "Soon the whole land will be ruled by women at last!"
+"demonax"          -> "Soon the whole land will be ruled by women at last!"
 "land"           -> *
 "how","are","you"-> "Thank you, I'm fine."
 "castle"         -> "It's my humble domain."

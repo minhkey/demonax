@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# alesar.npc: Datenbank für den Djinnschmied Alesar (Waffen und Rüstungen, Efreet)
+# alesar.npc: Datenbank fr den Djinnschmied Alesar (Waffen und Rstungen, Efreet)
 
 Name = "Alesar"
 Sex = male
@@ -40,7 +40,7 @@ Topic=1         -> "<sighs> Of course not. How could you ... Well, at least you 
                    "I thought djinns and humans shared a destiny, and that we could live side by side peacefully. ...",
                    "But now I have learnt my lesson. I have had the privilege to look deep into the human mind, much deeper than most of my brothers. ...",
                    "And guess what! I did not like what I see. You are nothing but a race of cruel, perfidious bloodsuckers who hide their wickedness behind a thin layer of civilisation and so-called humanity. ...",
-                   "Your race is a blemish on the face of Tibia. The sooner it is gone the better!"
+                   "Your race is a blemish on the face of Demonax. The sooner it is gone the better!"
 "djinn"         -> "One day we will teach your race a lesson it will never forget."
 "efreet"        -> "The efreet are those djinn who never fell for Daraman's insidious propaganda. I wish I would have been as smart from the start. ...",
                    "But errors can be corrected!"
@@ -60,7 +60,7 @@ Topic=1         -> "<sighs> Of course not. How could you ... Well, at least you 
 "zathroth"      -> "Legend has it that Zathroth was trying to make us beings of unalloyed evil, but he found us to be impure, so he abandoned us and started over. ...",
                    "It is not flattering to think we are nothing but examples of bad workmanship, but I see it from a different perspective: Since our god left us on our own it is up to ourselves to forge our destiny. ...",
                    "One day Zathroth will look at us in amazement."
-"tibia"         -> "One day we djinn will rid this world of evil."
+"demonax"         -> "One day we djinn will rid this world of evil."
 "darashia"      -> "I don't care about human cities. If I had my way, they would all be burnt to down today."
 "edron"         -> *
 "thais"         -> *

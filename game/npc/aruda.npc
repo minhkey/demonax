@@ -54,7 +54,7 @@ VANISH,!                  -> "I hope to see you soon."
 "magic"           -> "I believe that love is stronger then all magic, don't you agree?", Price=5, Topic=2
 "thief"           -> "Oh, sorry, I have to hurry, bye!", Idle
 "theft"           -> *
-"tibia"           -> "I would like to visit the beach more often, but I guess it's too dangerous.", Price=5, Topic=2
+"demonax"           -> "I would like to visit the beach more often, but I guess it's too dangerous.", Price=5, Topic=2
 "castle"          -> "I love this castle! It's so beautiful.", Price=5, Topic=2
 "muriel"          -> "Powerful sorcerers frighten me a little.", Price=5, Topic=2
 "elane"           -> "I personally think it's inappropriate for a woman to become a warrior, what do you think about that?", Price=5, Topic=2

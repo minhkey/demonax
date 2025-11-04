@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# lorbas.npc: Datenbank für den falschen mönch lorbas
+# lorbas.npc: Datenbank fr den falschen mnch lorbas
 
 Name = "Lorbas"
 Sex = male
@@ -48,7 +48,7 @@ VANISH,!           -> "Accept my sincere good wishes."
 "edron"    -> "I hope the knightly order there fares better than our own."
 "gods"     -> "I am not worthy to speak about the gods."
 
-"tibia"    -> "The world is in the hand of the gods."
+"demonax"    -> "The world is in the hand of the gods."
 
 "kazordoon" -> "The dwarves are far from being humble. At least this ancient folk knows that there is nothing to gain in the cathedral's ruins and their treasure hunters stay away from there."
 "dwarves"   -> * 

@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# luna.npc: Datenbank für die Kräuterhändlerin Luna
+# luna.npc: Datenbank fr die Kruterhndlerin Luna
 
 Name = "Luna"
 Sex = female
@@ -29,7 +29,7 @@ VANISH,!           -> "Goodbye, traveller."
 "ferumbras" -> "Mentioning his name makes me shiver."
 "excalibug" -> "I am not an expert for weapons."
 "thais"     -> "I prefer the wilderness to cities."
-"tibia"     -> *
+"demonax"     -> *
 "carlin"    -> *
 "edron"     -> *
 "news"      -> "I fear I know nothing new that is of any importance."

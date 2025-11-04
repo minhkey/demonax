@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# bigben.npc: Datenbank für den Zyklopenschmied Ben (Elfenstadt)
+# bigben.npc: Datenbank fr den Zyklopenschmied Ben (Elfenstadt)
 
 Name = "A Sweaty Cyclops"
 Sex = male
@@ -23,7 +23,7 @@ VANISH,!           -> "Hum Humm."
 "job"            -> "I am smith."
 "name"           -> "I called Bencthyclthrtrprr by me people. Lil' ones me call Big Ben."
 
-"tibia"          -> "One day I'll go and look."
+"demonax"          -> "One day I'll go and look."
 "ab'dendriel"    -> "Me parents live here before town was. Me not care about lil' ones." 
 "big","old"      -> "Mountain in south. Lil' lil' ones living there."
 "elves"          -> "Me not fight them, they not fight me."

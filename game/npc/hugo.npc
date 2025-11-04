@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# hugo.npc: Datenbank für den Besitzer des Modehauses Hugo Chief
+# hugo.npc: Datenbank fr den Besitzer des Modehauses Hugo Chief
 
 Name = "Hugo"
 Sex = male
@@ -41,7 +41,7 @@ VANISH,!           -> "Good bye, %N."
 "ferumbras"         -> "The ferumbras-bad-ass-fashion is incredibly outdated since years."
 "excalibug"         -> "I don't care for such fairytales."
 "thais"             -> "Thais is kind of a fashion hell. If there was an award for the most ugly citizens, it would go to Thais."
-"tibia"             -> "A world filled with ugly dressed people needs the skills of a fashion-hero."
+"demonax"             -> "A world filled with ugly dressed people needs the skills of a fashion-hero."
 "uglyness"          -> *
 "punished"          -> *
 "fashion","hero"    -> "One day Captain Catwalk will punish all crimes to fashion and bring all ugly people to justice."

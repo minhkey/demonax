@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# bonifacius.npc: Datenbank für den Lebensmittelhändler Bonifacius
+# bonifacius.npc: Datenbank fr den Lebensmittelhndler Bonifacius
 
 Name = "Bonifacius"
 Sex = male
@@ -28,7 +28,7 @@ VANISH,!           -> "May the gods bless your travels."
 "ferumbras" -> "Is that a new, exotic vegetable?"
 "excalibug" -> "Uh, I hate bugs of all kind."
 "thais"     -> "We recive food from thais with every arriving ship."
-"tibia"     -> "The world provides us with all kinds of delicious food."
+"demonax"     -> "The world provides us with all kinds of delicious food."
 "carlin"    -> "We do not buy any wares there. Our food is of high quality, Thaian origin."
 "edron"     -> "Our climate is quite rough, so we can only grow wheat here, but no fruits."
 "news"      -> "I heard the corn prices in Thais are going to be increased."

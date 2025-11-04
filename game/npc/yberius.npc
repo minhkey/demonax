@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# yberius.npc: Datenbank für den Mönch Yberius
+# yberius.npc: Datenbank fr den Mnch Yberius
 
 Name = "Yberius"
 Sex = male
@@ -10,7 +10,7 @@ Radius = 2
 GoStrength = 10
 
 Behaviour = {
-ADDRESS,"hello$",!      -> "Welcome, young %N! If you are new in Tibia, ask me for help."
+ADDRESS,"hello$",!      -> "Welcome, young %N! If you are new in Demonax, ask me for help."
 ADDRESS,"hi$",!         -> *
 ADDRESS,!               -> Idle
 BUSY,"hello$",!         -> "Please wait a moment, %N.", Queue
@@ -24,10 +24,10 @@ VANISH,!                -> "Remember: If you are heavily wounded or poisoned, I 
 
 "bye"            -> "May the gods bless you, %N!", Idle
 "farewell"       -> *
-"job"            -> "I have no job. I just live for the gods of Tibia."
+"job"            -> "I have no job. I just live for the gods of Demonax."
 "name"           -> "I am Brother Yberius."
-"tibia"          -> "It's the world of Tibia."
-"god"            -> "They are the creators of Tibia and all life on it."
+"demonax"          -> "It's the world of Demonax."
+"god"            -> "They are the creators of Demonax and all life on it."
 "life"           -> "There are the plants, the citizens, and the monsters."
 "plant"          -> "Crunor, the god of plants and fertility, watches over all plants, small and big."
 "citizen"        -> "Just walk around and meet them. Chat and learn about them."
@@ -73,7 +73,7 @@ VANISH,!                -> "Remember: If you are heavily wounded or poisoned, I 
 "pilgrimage"     -> "Whenever you receive a lethal wound your lifeforce is damaged. With every single of the five blessings you have this damage will be reduced."
 "ashes"          -> *
 
-"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of tibia, the fire of the suns and the wisdom of solitude." 
+"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of demonax, the fire of the suns and the wisdom of solitude." 
 "sacred","places"  -> "Just ask in which of the five blessings you are interested in."
 
 "spiritual", QuestValue(104) > 0 -> "I see you received the spiritual shielding in the whiteflower temple south of Thais."
@@ -86,8 +86,8 @@ VANISH,!                -> "Remember: If you are heavily wounded or poisoned, I 
 "spark" -> "The spark of the phoenix is given by the dwarven priests of earth and fire in Kazordoon."
 "phoenix" -> *
 
-"embrace", QuestValue(105) > 0 -> "I can sense the druids north of Carlin provided you with the embrace of tibia."
-"embrace" -> "The druids north of Carlin can provide you with the embrace of tibia."
+"embrace", QuestValue(105) > 0 -> "I can sense the druids north of Carlin provided you with the embrace of demonax."
+"embrace" -> "The druids north of Carlin can provide you with the embrace of demonax."
 
 "fire","suns", QuestValue(103) > 0     -> "I can see you recieved the blessing of the two suns in the suntower near Ab'Dendriel ."
 "suns", QuestValue(103) > 0  -> *

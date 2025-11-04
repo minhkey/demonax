@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# Loui.npc: Datenbank für Loui den ängstlichen Mönch
+# Loui.npc: Datenbank fr Loui den ngstlichen Mnch
 
 Name = "Loui"
 Sex = male
@@ -24,10 +24,10 @@ VANISH,!                -> "STAY AWAY FROM THAT HOLE!"
 "job"            -> "I am a monk, collecting healing herbs."
 "name"           -> "My name is Loui."
 "monk"           -> "I am a humble servant of the gods."
-"tibia"          -> "Everything around us, that is Tibia."
+"demonax"          -> "Everything around us, that is Demonax."
 "rookgaard"      -> "This is the place where everything starts."
-"god"            -> "They created Tibia and all lifeforms. Talk to other monks and priests to learn more about them."
-"life"           -> "The gods blessed Tibia with abundant forms of life."
+"god"            -> "They created Demonax and all lifeforms. Talk to other monks and priests to learn more about them."
+"life"           -> "The gods blessed Demonax with abundant forms of life."
 "herb"           -> "I was looking for some herbs as I foolishly entered this unholy hole."
 "obi"            -> "He owns a shop in the town."
 "al","dee"       -> "He owns a shop in the town."

@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# olrik.npc: Datenbank für den Diener und Postillion Olrik (Elfenstadt)
+# olrik.npc: Datenbank fr den Diener und Postillion Olrik (Elfenstadt)
 
 Name = "Olrik"
 Sex = male
@@ -53,7 +53,7 @@ Topic=7,"no" -> "This way you'll never get my measurements."
 Topic=7,CountMoney>=5          -> Price=5, "Ok, and its ... %A! You have lost. He he. Another game?", DeleteMoney, Topic=6
 Topic=7,CountMoney<5                         -> "I am sorry, but you don't have so much money."
 
-"job"           -> "I am a servant of the ambassador and running the post office. Ask me if you have questions about the Royal Tibia Mail System."
+"job"           -> "I am a servant of the ambassador and running the post office. Ask me if you have questions about the Royal Demonax Mail System."
 "name"          -> "My name is Olrik."
 "time"          -> "It's %T."
 
@@ -79,7 +79,7 @@ Topic=7,CountMoney<5                         -> "I am sorry, but you don't have 
 @"gen-post.ndb"
 
 #"mail"          -> "Our mail system is unique! And everyone can use it. Do you want to know more about it?", Topic=1
-#Topic=1,"yes"   -> "The Tibia Mail System enables you to send and receive letters and parcels. You can buy them here if you want."
+#Topic=1,"yes"   -> "The Demonax Mail System enables you to send and receive letters and parcels. You can buy them here if you want."
 #Topic=1         -> "Is there anything else I can do for you?"
 
 #"letter" -> Amount=1, Price=5,  "Do you want to buy a letter for %P gold?", Topic=2

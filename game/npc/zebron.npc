@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# zebron.npc: Datenbank für den Spieler Zebron
+# zebron.npc: Datenbank fr den Spieler Zebron
 
 Name = "Zebron"
 Sex = male
@@ -31,7 +31,7 @@ VANISH,!           -> "Hey, you can't leave. Luck is smiling on you. I can feel 
 "army"      -> "Hehe, they spent a good part of their salary here in the tavern."
 "excalibug" -> "I would not bet that anyone will ever find it."
 "thais"     -> "Thais is a bit too conservative for me."
-"tibia"     -> "What would I need more than that what I can get right here?"
+"demonax"     -> "What would I need more than that what I can get right here?"
 "carlin"    -> "Carlin, the beerless ... what a shame."
 "hugo"      -> "I had a cousin named hugo, why do you ask?"
 "news"      -> "Bah, always the same chitchat. Swampelves this and amazons that ... blah blah."

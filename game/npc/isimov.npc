@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# isimov.npc: Datenbank für den Zwergenmönch Isimov (Zwergenstadt)
+# isimov.npc: Datenbank fr den Zwergenmnch Isimov (Zwergenstadt)
 
 Name = "Isimov"
 Sex = male
@@ -23,7 +23,7 @@ VANISH,!           -> "No patience, no manners."
 "job"             -> "I am the master of the hall of the ancients."
 "name"            -> "My name is Isimov Dustbearer, Son of Fire and Earth, from the Molten Rock."
 "hall","ancients" -> "The burial chamber of our ancestors. All of the firstborn of our race are there .. all but Durin." 
-"tibia"           -> "A world of dangers, a world of wonders."
+"demonax"           -> "A world of dangers, a world of wonders."
 "kazordoon"       -> "The last haven for dwarfenkind. Our last hope for our survival." 
 "big","old"       -> "This mountain is as old as the world. The first dwarfs were born here."
 "elves"           -> "Bah, squirrels, hedgehogs, rabbits, elves ... who cares."

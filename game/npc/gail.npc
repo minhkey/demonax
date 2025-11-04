@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# gail.npc: Datenbank für die edelsteinhändlerin gail
+# gail.npc: Datenbank fr die edelsteinhndlerin gail
 
 Name = "Gail"
 Sex = female
@@ -33,7 +33,7 @@ VANISH,!           -> "Good bye."
 "edron"    -> "Another area that could and should prosper under Venoran guidance. If the king sees how we handle this settlement, he will for sure be impressed enough to allow us more freedom on that promising isle." 
 "jungle"   -> "As soon as we have handled the problem with the natives, wealth is awaiting us, considering the endless resources waiting there to be taken."
 
-"tibia"    -> "There is so much left that still needs to be discovered in this world." 
+"demonax"    -> "There is so much left that still needs to be discovered in this world." 
 
 "kazordoon" -> "Dwarven craftsmen are some of the best in their fields. Sadly they charge quite a lot for their work and it's hard to make some profit with dwarven wares."
 "dwarves"   -> *

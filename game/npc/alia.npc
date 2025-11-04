@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# alia.npc: Datenbank für die Priesterin Alia
+# alia.npc: Datenbank fr die Priesterin Alia
 
 Name = "Alia"
 Sex = female
@@ -24,10 +24,10 @@ VANISH,!                -> "Please return if you are heavily wounded or poisoned
 
 "bye"            -> "May the gods be with you, %N!", Idle
 "farewell"       -> *
-"job"            -> "I'm a nun, serving the gods of Tibia in this temple. I also heal wounded adventurers."
+"job"            -> "I'm a nun, serving the gods of Demonax in this temple. I also heal wounded adventurers."
 "name"           -> "My name is Alia."
-"tibia"          -> "That's where we are. The world Tibia."
-"god"            -> "They created Tibia and all life on it."
+"demonax"          -> "That's where we are. The world Demonax."
+"god"            -> "They created Demonax and all life on it."
 "ferumbras"      -> "Don't mention this name here."
 "excalibug"      -> "Sorry, I can't help you with that."
 "ghostlands"      -> "Uh, don't ask. Thats a place even the brave women of carlin don't dare to explore them!!!"
@@ -57,7 +57,7 @@ VANISH,!                -> "Please return if you are heavily wounded or poisoned
 
 "pilgrimage"     -> "Whenever you receive a lethal wound your lifeforce is damaged. With every single of the five blessings you have this damage will be reduced."
 "ashes"          -> *
-"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of tibia, the fire of the suns and the wisdom of solitude." 
+"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of demonax, the fire of the suns and the wisdom of solitude." 
 "sacred","places"  -> "Just ask in which of the five blessings you are interested in."
 
 "spiritual", QuestValue(104) > 0 -> "I see you received the spiritual shielding in the whiteflower temple south of Thais."
@@ -70,8 +70,8 @@ VANISH,!                -> "Please return if you are heavily wounded or poisoned
 "spark" -> "The spark of the phoenix is given by the dwarven priests of earth and fire in Kazordoon."
 "phoenix" -> *
 
-"embrace", QuestValue(105) > 0 -> "I can sense the druids north of Carlin provided you with the embrace of tibia."
-"embrace" -> "The druids north of Carlin can provide you with the embrace of tibia."
+"embrace", QuestValue(105) > 0 -> "I can sense the druids north of Carlin provided you with the embrace of demonax."
+"embrace" -> "The druids north of Carlin can provide you with the embrace of demonax."
 
 "fire","suns", QuestValue(103) > 0     -> "I can see you recieved the blessing of the two suns in the suntower near Ab'Dendriel ."
 "suns", QuestValue(103) > 0  -> *

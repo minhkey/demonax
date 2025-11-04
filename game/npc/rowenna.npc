@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# rowenna.npc: Datenbank für die Waffenhändlerin Rowenna
+# rowenna.npc: Datenbank fr die Waffenhndlerin Rowenna
 
 Name = "Rowenna"
 Sex = female
@@ -41,7 +41,7 @@ VANISH,!             -> "Good bye. Come back soon."
 "weapon"          -> "I have light and heavy weapons. What are you looking for?"
 
 "light"           -> "I have clubs, daggers, spears, swords, maces, rapiers, morning stars, and sabres. What's your choice?"
-"heavy"           -> "I have the best two handed swords in Tibia. I also sell battle hammers, battle axes, and the famous carlin swords. What's your choice?"
+"heavy"           -> "I have the best two handed swords in Demonax. I also sell battle hammers, battle axes, and the famous carlin swords. What's your choice?"
 "armor"           -> "I sell only weapons. For armor, ask Cornelia in the other shop."
 "shield"          -> *
 "helmet"          -> *

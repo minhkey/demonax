@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# gurbasch.npc: Datenbank für den Kapitän Gurbasch
+# gurbasch.npc: Datenbank fr den Kapitn Gurbasch
 
 Name = "Gurbasch"
 Sex = male
@@ -26,7 +26,7 @@ VANISH,!           -> "No patience, these brats!"
 "job"            -> "As should be quite obvious, I am operating a steamship."
 "work"           -> *
 "name"           -> "I am Gurbasch Firejuggler, son of the machine, of the Molten Rock."
-"tibia"          -> "Tibia? Just don't ask."
+"demonax"          -> "Demonax? Just don't ask."
 "ship"           -> "It is indeed something we dwarfs may be proud of: a ship operating by steam power."
 "steamship"      -> * 
 "captain"        -> "Captain"

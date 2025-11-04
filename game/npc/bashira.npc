@@ -119,7 +119,7 @@ Topic=3                                   -> "Maybe next time."
 
 Topic=4,"yes",Count(2874)>0 -> Amount=Count(2874), Price=Amount*5, "Here you are ... %P gold.", Delete(2874), CreateMoney
 Topic=4,"yes"               -> "You don't have any empty vials."
-Topic=4                     -> "Hmm, but please keep Tibia litter free."
+Topic=4                     -> "Hmm, but please keep Demonax litter free."
 
 "buy"             -> "I have shovels, picks, scythes, bags, ropes, backpacks, plates, scrolls, watches, some lightsources, and other stuff."
 "do","you","sell" -> *

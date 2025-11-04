@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# hofech.npc: Datenbank für den Möbelhändler Hofech in Darashia
+# hofech.npc: Datenbank fr den Mbelhndler Hofech in Darashia
 
 Name = "Hofech"
 Sex = male
@@ -28,7 +28,7 @@ VANISH,!                   -> "Daraman's blessings."
 "ferumbras"       -> "I don't know about such a person, my friend."
 "excalibug"       -> "I think if that sword really existed, it would make a splendid decoration for any wall."
 "thais"           -> "The wood we are using to make our exquisite furniture is partly supplied by Thais."
-"tibia"           -> "One day I will take my flying carpet to see the whole world."
+"demonax"           -> "One day I will take my flying carpet to see the whole world."
 "carlin"          -> "I was not there yet. But I plan to travel there one day."
 
 "offer"           -> "I sell statues, tables, chairs, flowers, pillows, pottery, instruments, decoration, tapestries and containers."

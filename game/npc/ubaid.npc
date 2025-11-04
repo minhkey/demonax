@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# ubaid.npc: Datenbank für den Efreetpförtner Ubaid
+# ubaid.npc: Datenbank fr den Efreetpfrtner Ubaid
 
 Name = "Ubaid"
 Sex = male
@@ -47,7 +47,7 @@ VANISH,!                                  -> "Why did you waste my time?"
 "ubaid"			    -> "That is my name. I don't like it when a human pronounces it." 
 "job"           -> "Well, what do you think? I keep watch around here to make sure people like you don't enter."
 
-"gate"        -> "Only the mighty Efreet, the true djinn of Tibia, may enter Mal'ouquah! ...",
+"gate"        -> "Only the mighty Efreet, the true djinn of Demonax, may enter Mal'ouquah! ...",
                  "All Marids and little worms like yourself should leave now or something bad may happen. Am I right?", Topic=1
 "pass"        -> *
 "door"        -> *
@@ -88,7 +88,7 @@ Topic=3,!       -> *
 "ashta'daramai" -> "The Marids' hideout, isn't it? I have never been there, but I am sure one day I will. That will be the day Ashta'daramai falls into our hands!"
 "human"         -> "You are an inferior race of feeble, scheming jerks. No offence."
 "zathroth"      -> "Zathroth is our father! Of course, the son always has a right to hate his father, right?"
-"tibia"         -> "This world is ours by right, and we will take it!"
+"demonax"         -> "This world is ours by right, and we will take it!"
 "daraman"	      -> "How dare you utter that name in my presence, human. Don't strain my patience, worm! You may know the secret word, but... who knows... it is always possible that your head is torn off in some terrible accident."
 "darashia"      -> "A human settlement to the west? I have not been there yet, but when I do I'm sure I will be remembered."
 "scarab"        -> "They make good pets if you know how to keep them. Did you know they just adore human flesh?"
@@ -109,7 +109,7 @@ Topic=3,!       -> *
 "akh"				    -> *
 
 "kha'zeel"      -> "This mountain range is our home. Too bad we have to share it with the Marid. That will change, though. And pretty soon, believe me."
-"kha'labal"	    -> "I like the desert. Just ruins and sand. And no human scum to be seen. The Kha'labal is a foretaste of what the djinn will do to the whole of Tibia!"
+"kha'labal"	    -> "I like the desert. Just ruins and sand. And no human scum to be seen. The Kha'labal is a foretaste of what the djinn will do to the whole of Demonax!"
 "war"           -> "I don't know why I am stuck here! I should be at the front, killing Marid and humans. Well, perhaps I will kill you..."
 "baa'leal"      -> "General Baa'leal is our commander-in-chief of all his minions. He is as tough as an ancient scarab's buttocks and as sly a sand weasel."
 "alesar"        -> "I am not used to the sight of blueskins here in Mal'ouquah, and it does not make me too happy to see one. I am keeping an eye on this guy, and if I should ever find that he is playing games with us I will personally break his neck!"

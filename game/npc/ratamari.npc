@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# ratamari.npc: Datenbank für den Djinnspion Rata'mari
+# ratamari.npc: Datenbank fr den Djinnspion Rata'mari
 
 Name = "Rata'mari"
 Sex = male
@@ -39,7 +39,7 @@ VANISH                                  -> "Meep!"
 "king"           -> "No more kings for us! We are a democratic people now! Well, sort of."
 "malor"          -> "I have found out all kinds of things about him! He is left-handed, his favourite dish is hyena chop roasted in sandwasp honey marinade, and he has this weird habit of scratching his right ear whenever he is angry - which happens quite often, I might add." 
 "zathroth"       -> "Zathroth was the creator of our race. Which doesn't mean we like him. But too be honest, I don't think this is the time and place to discuss religious matters."
-"tibia"          -> "A nice world. I think I prefer it to all others. Not that I have seen any others, of course."
+"demonax"          -> "A nice world. I think I prefer it to all others. Not that I have seen any others, of course."
 "darashia"       -> "I have heard nice things about that city. I wish I had an assignment there rather than in this god-forsaken place."
 "scarab"         -> "A scarab? What? Where? Hey, don't give me shock like that! Did you know they eat rats?!"
 "edron"          -> "I have heard lots about the human cities to the north. Perhaps I will be sent there one day. That would be a lovely change."

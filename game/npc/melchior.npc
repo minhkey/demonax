@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# melchior.npc: Datenbank für den blinden Bettler Melchior
+# melchior.npc: Datenbank fr den blinden Bettler Melchior
 
 Name = "Melchior"
 Sex = male
@@ -84,7 +84,7 @@ Topic=1        -> "As you wish, stranger."
 "bo'ques"              -> "He is a cook - a djinn cook. A weird guy. Always used to ask me to procure some strange kind of ingredient or other for him. ...",
                           "He made me laugh. Can you imagine what that looks like - a djinn wearing an enormous chef hat?"
 
-"tibia"                -> "Tibia is such a beautiful place. I would give it all if I could see it again."
+"demonax"                -> "Demonax is such a beautiful place. I would give it all if I could see it again."
 "daraman"	             -> "Daraman was a holy man, a true prophet. He showed us how we can master grief and affliction through dignity and brotherliness. It is a shame I only came to fully appreciate his teachings when fate had cast me into darkness."
 "darashia"             -> "<Sighs> Aah yes... Darashia. I would give anything if I could see it again."
 "edron"                -> "I have never been to cities on other continents. And I suppose now I never will. I would be glad enough to leave this place."

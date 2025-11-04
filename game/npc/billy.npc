@@ -21,7 +21,7 @@ BUSY,"hi$",premium,!       -> *
 BUSY,"hello$",!    -> "You did not pay your tax. Get lost!"
 BUSY,"hi$",!       -> *
 BUSY,!             -> NOP
-VANISH,!           -> "YOU RUDE $§&$"
+VANISH,!           -> "YOU RUDE $&$"
 
 "bye"             -> "Bye.", Idle
 "farewell"        -> "Farewell.", Idle
@@ -46,7 +46,7 @@ VANISH,!           -> "YOU RUDE $§&$"
 "weapon"          -> "Ask one of the shopkeepers. They make a fortune here with all those wannabe heroes."
 "magic"           -> "I can spell but know no spell."
 "spell"           -> *
-"tibia"           -> "There is so much to be explored! Better hurry to get to the continent!"
+"demonax"           -> "There is so much to be explored! Better hurry to get to the continent!"
 
 "offer"  -> "I can offer you bread, cheese, ham, or meat."
 "food"   -> "Are you looking for food? I have bread, cheese, ham, and meat."

@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# tibra.npc: Datenbank für die Priesterin Tibra
+# tibra.npc: Datenbank fr die Priesterin Tibra
 
 Name = "Tibra"
 Sex = female
@@ -29,7 +29,7 @@ VANISH,!                   -> "May the gods guard you!"
 "job"            -> "I am a priest of the great pantheon."
 "news"           -> "Sorry, worldly matters are of no concern to me."
 "name"           -> "My name is Tibra. Your soul tells me that you are %N"
-"tibia"          -> "The world of Tibia is the creation of the gods."
+"demonax"          -> "The world of Demonax is the creation of the gods."
 "how","are","you"-> "Thank you, I'm fine, the gods give me hope and comfort."
 "sell"           -> "The grace of the gods must be earned, it cannot be bought!"
 "sin$"           -> "Do you wish to confess your sins, my chilid?", Topic=3
@@ -92,7 +92,7 @@ Topic=2,"good"   -> "The gods we call the good ones are Fardos, Uman, the Elemen
 "toth"           -> "Toth, Lord of Death, is the keeper of the souls, the guardian of the afterlife."
 "banor"          -> "Banor, the heavenly warrior, is the patron of all fighters against evil. He is the gift of the gods to inspire humanity."
 "tibiasula"      -> "Tibiasula lost her life, but out of her essence the world was created." 
-Topic=2,"tibia"  -> "Tibia is the essence of the elemental power of earth." 
+Topic=2,"demonax"  -> "Demonax is the essence of the elemental power of earth." 
 "sula"           -> "Sula is the essence of the elemental power of water."
 "air"            -> "Air is one of the primal elemental forces, sometimes worshipped by tribal shamans."
 "fire"           -> "Fire is one of the primal elemental forces, sometimes worshipped by tribal shamans."

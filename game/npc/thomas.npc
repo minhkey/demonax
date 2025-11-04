@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# thomas.npc: Datenbank für den Schreibwarenhändler Thomas
+# thomas.npc: Datenbank fr den Schreibwarenhndler Thomas
 
 Name = "Thomas"
 Sex = male
@@ -28,7 +28,7 @@ VANISH,!           -> "Bye."
 "ferumbras" -> "Only heard of him."
 "excalibug" -> "No idea."
 "thais"     -> "Never been there."
-"tibia"     -> "Like it here best."
+"demonax"     -> "Like it here best."
 "carlin"    -> "Never been there."
 "edron"     -> "This town."
 "news"      -> "Nothing interesting."

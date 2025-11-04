@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# costello.npc: Datenbank für den Abt Costello
+# costello.npc: Datenbank fr den Abt Costello
 
 Name = "Costello"
 Sex = male
@@ -50,9 +50,9 @@ Topic=4,!                             -> "Then be gone!", Idle
 "farewell"       -> *
 "job"            -> "I am the abbot of the white raven monastery on the isle of the kings."
 "name"           -> "My name is Costello."
-"tibia"          -> "That is the name of our world and its major continent."
-"god"            -> "They created Tibia and all life on it."
-"life"           -> "On Tibia there are many forms of life. Plants, the citizens, and monsters."
+"demonax"          -> "That is the name of our world and its major continent."
+"god"            -> "They created Demonax and all life on it."
+"life"           -> "On Demonax there are many forms of life. Plants, the citizens, and monsters."
 "plant"          -> "Just walk around, you will see grass, trees, and bushes."
 "white","raven"  -> "The legends tell us of a white raven which lead the ship of the first monk of our order here. He discovered this isle and the caves beneath it."
 "caves"          -> "Anselm, the first of our order, discovered them while looking for a suitable burial place for his king."
@@ -75,7 +75,7 @@ Topic=4,!                             -> "Then be gone!", Idle
 "alright",QuestValue(63)<1        -> *
 Topic=1,"yes"    -> "Thank you very much! From now on you may open the warded doors to the catacombs", SetQuestValue(63,1), SetQuestValue(64,1)
 
-# 63=forschen 64=questtür wg. eingang von unten
+# 63=forschen 64=questtr wg. eingang von unten
 
 Topic=1,"no"     -> "Please forgive an old man, I shouldn't have asked a stranger anyways."
 Topic=1          -> *
@@ -94,7 +94,7 @@ Topic=2          -> *
 "ferumbras"      -> "Don't mention this servant of evil here."
 "excalibug"      -> "Sadly we have only little knowledge on this topic."
 "news"           -> "Sorry, we rarely hear anything new here."
-"monster"        -> "There are really too many of them in Tibia. But who are we to question the wisdom of the gods?"
+"monster"        -> "There are really too many of them in Demonax. But who are we to question the wisdom of the gods?"
 
 "heal$",QuestValue(220)>0 -> "I won't waste my healing powers on you, spawn of evil!", Idle
 "heal$",Burning>0 -> "You are burning. I will help you.", Burning(0,0), EffectOpp(15)

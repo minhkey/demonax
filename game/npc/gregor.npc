@@ -22,14 +22,14 @@ VANISH,!                  -> "Be careful on your journeys."
 
 "bye"            -> "Be careful on your journeys.", Idle
 "farewell"       -> *
-"job"            -> "I am the first knight. I trained some of the greatest heroes of Tibia."
+"job"            -> "I am the first knight. I trained some of the greatest heroes of Demonax."
 "name"           -> "You are joking, eh? Of course, you know me. I am Gregor, the first knight."
 "time"           -> "It is time to join the Knights!"
 "king"           -> "Hail to our King!"
 "tibianus"       -> *
 "quentin"        -> "I will never understand this peaceful monks and priests."
-"lynda"          -> "Before she became a priest she won the Miss Tibia contest three times in a row."
-"harkath"        -> "One of Tibia's greatest warriors and strategists." 
+"lynda"          -> "Before she became a priest she won the Miss Demonax contest three times in a row."
+"harkath"        -> "One of Demonax's greatest warriors and strategists." 
 "army"           -> "I teached many of the guards personally."
 "ferumbras"      -> "A fine game to hunt. But be careful, he cheats!"
 "general"        -> "General Harkath Bloodblade, a rolemodel." 
@@ -50,10 +50,10 @@ VANISH,!                  -> "Be careful on your journeys."
 "excalibug"      -> "Many brave warriors died on the quest to find that fabled weapon."
 "news"           -> "Times of war are at hand."
 
-"hero"           -> "Of course, you heard of them. Knights are the best fighters in Tibia."
-"tibia"          -> "Beautiful Tibia. And with our help everyone is safe."
-"knight"         -> "Knights are the warriors of Tibia. Without us, no one would be safe. Every brave and strong man or woman can join us."
-"vocation"       -> "Your vocation is your profession. There are four vocations in Tibia: Knights, paladins, sorcerers, and druids."
+"hero"           -> "Of course, you heard of them. Knights are the best fighters in Demonax."
+"demonax"          -> "Beautiful Demonax. And with our help everyone is safe."
+"knight"         -> "Knights are the warriors of Demonax. Without us, no one would be safe. Every brave and strong man or woman can join us."
+"vocation"       -> "Your vocation is your profession. There are four vocations in Demonax: Knights, paladins, sorcerers, and druids."
 "spellbook"      -> "In a spellbook, your spells are listed. There you will find the pronunciation of each spell. If you want to buy one, visit Muriel, the sorcerer."
 
 Knight,"spell"  -> "I can teach you healing spells and support spells. What kind of spell do you wish to learn? You can also tell me for which level you would like to learn a spell, if you prefer that.", Topic=2

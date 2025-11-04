@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# iwan.npc: Datenbank für den Edelsteinhändler Iwan
+# iwan.npc: Datenbank fr den Edelsteinhndler Iwan
 
 Name = "Iwan"
 Sex = male
@@ -28,7 +28,7 @@ VANISH,!           -> "Bye, bye."
 "ferumbras" -> "I hope the academy is safe from his assaults."
 "excalibug" -> "I am sure you'd easily recognize it by the gems attached to it."
 "thais"     -> "We supply Thais with gems found on this isle."
-"tibia"     -> "I know only so little about our world. It's a pity."
+"demonax"     -> "I know only so little about our world. It's a pity."
 "carlin"    -> "I never visited that city."
 "edron"     -> "Our island is rich in precious stones."
 "news"      -> "I haven't been told anything of interest lately."

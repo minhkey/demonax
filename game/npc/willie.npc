@@ -40,7 +40,7 @@ VANISH,!           -> "YOU RUDE $!@##&"
 "weapon"          -> "I'm not in the weapon business, but if you don't stop to harass me, I will put my hayfork in your &$&#$ and *$!&&*# it."
 "magic"           -> "I am magician in the kitchen."
 "spell"           -> "I know how to spell and i know how to spit, you little @!#&&. Wanna see?."
-"tibia"           -> "If I were you, I would stay here."
+"demonax"           -> "If I were you, I would stay here."
 
 "bread"  -> Type=3600, Amount=1, Price=3, "Do you want to buy a bread for %P gold?", Topic=1
 "cheese" -> Type=3607, Amount=1, Price=5, "Do you want to buy a cheese for %P gold?", Topic=1

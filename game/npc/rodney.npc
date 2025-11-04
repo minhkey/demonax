@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# rodney.npc: Datenbank für den Lebensmittelhändler Rodney
+# rodney.npc: Datenbank fr den Lebensmittelhndler Rodney
 
 Name = "Rodney"
 Sex = male
@@ -28,7 +28,7 @@ VANISH,!           -> "Good bye, %N."
 "ferumbras" -> "Sounds like the name of a foreign soup to me."
 "excalibug" -> "What is that? Is it tasty?"
 "thais"     -> "The Thaian protectorate serves our beloved Venore well."
-"tibia"     -> "I have seen only little of it."
+"demonax"     -> "I have seen only little of it."
 "carlin"    -> "We have little contact with far Carlin, but I heared some renegade Amazons are terrorizing the area."
 "edron"     -> "Our climate is quite rough, so we can only grow wheat here, but no fruits."
 "news"      -> "Rumour goes that some amazons, who where banished from Carlin, took refuge near the swamps."

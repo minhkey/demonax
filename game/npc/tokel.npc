@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# tokel.npc: Datenbank für den Bauern Tokel in Greenshore
+# tokel.npc: Datenbank fr den Bauern Tokel in Greenshore
 
 Name = "Tokel"
 Sex = male
@@ -33,7 +33,7 @@ VANISH,!           -> "Bye."
 "magic"           -> "I know nothing but about such stuff."
 "weapon"          -> *
 "spell"           -> *
-"tibia"           -> "I have not seen much of it yet. I am thinking about moving to Edron soon."
+"demonax"           -> "I have not seen much of it yet. I am thinking about moving to Edron soon."
 "thais"           -> "The city is too lousy and crowded for my taste."
 "edron"           -> "They say life is easy there, the soil is rich, the city save. One day I might move there."
 

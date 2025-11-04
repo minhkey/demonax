@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# shiriel.npc: Datenbank für die Magiehändlerin Shiriel (Elfenstadt)
+# shiriel.npc: Datenbank fr die Magiehndlerin Shiriel (Elfenstadt)
 
 Name = "Shiriel"
 Sex = female
@@ -67,7 +67,7 @@ Topic=2                         -> "Hmm, but next time."
 
 Topic=3,"yes",Count(2874)>0     -> Amount=Count(2874), Price=Amount*5, "Here you are ... %P gold.", Delete(2874), CreateMoney
 Topic=3,"yes"                   -> "You don't have any empty vials."
-Topic=3                         -> "Hmm, but please keep Tibia litter free."
+Topic=3                         -> "Hmm, but please keep Demonax litter free."
 
 @"gen-t-runes-free-s.ndb"
 @"gen-t-wands-free-s.ndb"

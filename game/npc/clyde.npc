@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# clyde.npc: Datenbank für den Tavernenbesitzer Clyde
+# clyde.npc: Datenbank fr den Tavernenbesitzer Clyde
 
 Name = "Clyde"
 Sex = male
@@ -32,7 +32,7 @@ VANISH,!           -> "Good bye."
 "carlin"   -> "I know only little about Carlin and here nobody cares about it for sure."
 "edron"    -> "As I started business here, I was hoping for a second Edron. I have not abandoned my hope though. Afer all, this place is called Port Hope, isn't it?" 
 "jungle"   -> "This forest is not an ordinary forest. It's more like a force of nature, like a river or even a storm."
-"tibia"    -> "I have seen only little of this world. Probably it should be you telling me about the world, and not the other way around." 
+"demonax"    -> "I have seen only little of this world. Probably it should be you telling me about the world, and not the other way around." 
 "kazordoon" -> "If you want to learn something about Kazordoon you should talk to our local dwarves."
 "dwarves"   -> "There was a handful of dwarves that came here when the colony was founded. They were looking for treasures and gold as far as I know. After some argument a bunch of them left, they headed into the jungle and were never seen again." 
 "dwarfs"   -> *

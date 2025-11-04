@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# uso.npc: Datenbank für den Zwerg Uso der auch Knights trainiert
+# uso.npc: Datenbank fr den Zwerg Uso der auch Knights trainiert
 
 Name = "Uso"
 Sex = male
@@ -35,7 +35,7 @@ VANISH,!           -> "So long."
 "jungle"   -> "All those trees and the heat are horrible. If it wasn't for the gold, we wouldn't be here, jawoll."
 "gold"     -> "There IS gold out there. And a lot of it. I can feel it in my old bones."
 
-"tibia"    -> "The world is big but the random places where gold and treasures can be found are the ones that are of importance, jawoll." 
+"demonax"    -> "The world is big but the random places where gold and treasures can be found are the ones that are of importance, jawoll." 
 
 "kazordoon" -> "We dwarves call it our home since the dawn of time. I miss Kazordoon a lot, but gold is of more importance. After I have made a fortune here I will return home and might settle down."
 "dwarves"   -> "We are a proud race. Dwarves are strong and fearless. Even in this forsaken jungle we can survive, jawoll."

@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# mirabell.npc: Datenbank für die Wirtin Mirabell
+# mirabell.npc: Datenbank fr die Wirtin Mirabell
 
 Name = "Mirabell"
 Sex = female
@@ -30,9 +30,9 @@ VANISH,!           -> "Come back soon, traveller."
 "ferumbras" -> "I heard horrible things about him."
 "excalibug" -> "I heard the Knights of the True Blood are looking for it on this isle."
 "thais"     -> "Thais will loose influence on Edron more and more."
-"tibia"     -> "I think Edron is the best place in Tibia."
+"demonax"     -> "I think Edron is the best place in Demonax."
 "carlin"    -> "They should return to the Thaian realm."
-"edron"     -> "I think it is the best place in Tibia."
+"edron"     -> "I think it is the best place in Demonax."
 "news"      -> "Oh, there are so many. Just ask other travellers like you."
 "rumors"    -> *
 

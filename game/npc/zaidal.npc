@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# zaildal.npc: Datenbank für den Bambusmöbelhändler Zaidal
+# zaildal.npc: Datenbank fr den Bambusmbelhndler Zaidal
 
 Name = "Zaidal"
 Sex = male
@@ -41,7 +41,7 @@ VANISH,!           -> "Bye."
 "equipment"       -> *
 "special"         -> "My offers are permanently extraordinarily cheap."
 
-"tibia"    -> "The world is a big treasure chest for those who know to turn resources into profit." 
+"demonax"    -> "The world is a big treasure chest for those who know to turn resources into profit." 
 
 "kazordoon" -> "The dwarves of Kazordoon are experts in mining resources like gems and ore."
 "dwarvs"   -> * 

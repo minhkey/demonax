@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# scott.npc: Datenbank für den Wirt Scott auf Senja
+# scott.npc: Datenbank fr den Wirt Scott auf Senja
 
 Name = "Scott"
 Sex = male
@@ -24,8 +24,8 @@ VANISH,!                   -> "I hope to see you again."
 "name"            -> "My name is Scott."
 "time"            -> "It is exactly %T."
 
-"tibia"           -> "Oh, I'm happy to live in this world full of thrilling things."
-"thais"           -> "It's the capital in the southwest of Tibia."
+"demonax"           -> "Oh, I'm happy to live in this world full of thrilling things."
+"thais"           -> "It's the capital in the southwest of Demonax."
 "carlin"          -> "Sometimes I travel to Carlin and visit the market."
 "queen"           -> "She is a strong and wise leader. We owe protection from evil monsters to her."
 "senja"           -> "It's a peaceful island. Cold and lonesome but I like it."

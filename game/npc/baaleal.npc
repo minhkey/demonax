@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# baaleal.npc: Datenbank für den Efreetgeneral Baa'leal
+# baaleal.npc: Datenbank fr den Efreetgeneral Baa'leal
 
 Name = "Baa'leal"
 Sex = male
@@ -80,7 +80,7 @@ Topic=3,!                            -> "Hmmm... I don't think so. Return to Car
 "malor"			         -> "Hail to our great leader!"
 "human"              -> "No offence, but your race is weak. You lack both the physical strength and the true warrior spirit. And worst of all, you have no strategic thinking."
 "zathroth"           -> "I understand he created us. Must have been a great general."
-"tibia"              -> "It is our mission to achieve total and decisive dominion of this world within two years. Well perhaps ... three. Always be realistic, that's what I say."
+"demonax"              -> "It is our mission to achieve total and decisive dominion of this world within two years. Well perhaps ... three. Always be realistic, that's what I say."
 "daraman"            -> "Damn that liberal peacenik, that treacherous mealy-mouthed double-faced good-for-nothing surrender monkey! ...",
                         "He has infected this proud people's minds with his peace-for-all blabber."
 "darashia"           -> "The humans living in the northern deserts used to be nomads. Even though they are just humans they used to be respectable fighters. ...",

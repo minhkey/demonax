@@ -117,7 +117,7 @@ topic=3         -> "You joke with me!"
 "do","you","sell" -> "What you need? Me just the weapons sell."
 "do","you","have" -> *
 "light"           -> "Me having clubs, daggers, spears, axes, swords, maces, rapiers, and sabres. What is your choice?"
-"heavy"           -> "Me having the best two handed swords in tibia. I also sell battle hammers. What is your choice?"
+"heavy"           -> "Me having the best two handed swords in demonax. I also sell battle hammers. What is your choice?"
 "offer"           -> "Me offer you light an' heavy weapons."
 "weapon"          -> *
 "helmet"          -> "Me just sell weapons."

@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# yaman.npc: Datenbank für den Efreethändler Yaman (Magische Gegenstände, Efreet)
+# yaman.npc: Datenbank fr den Efreethndler Yaman (Magische Gegenstnde, Efreet)
 
 Name = "Yaman"
 Sex = male
@@ -49,7 +49,7 @@ VANISH                                    -> "Farewell, human."
                                 "Firstly, it shows that we have independent minds. ...",
                                 "And secondly, it shows that we djinn are free to choose our own destinies. ...",
                                 "No gods, no ties, no rules. We can do as we please and be who we want."
-"tibia"                      -> "This world is our playground." 
+"demonax"                      -> "This world is our playground." 
 "daraman"                    ->	"Of course I know Daraman. How could I ever forget him. I was there, remember? ...",
                                 "The man was a dangerous fool. At first I laughed, but I soon realised that one by one my brothers started to believe his nonsense. 'Solidarity and brotherly love' - Yeah right."
 "darashia"                   -> "The wealth of Darashia is proverbial. I have my own little plans with it." 
@@ -60,7 +60,7 @@ VANISH                                    -> "Farewell, human."
 "kazordoon"                  -> "Isn't that a city built by dwarves?"
 "carlin"                     -> *
 "ab'dendriel"                -> "I understand that city was built by elves."
-"ankrahmun"                  -> "Ankrahmun is the oldest human settlement in Tibia. I remember how surprised we were when we found that humans were capable of building such fine cities."
+"ankrahmun"                  -> "Ankrahmun is the oldest human settlement in Demonax. I remember how surprised we were when we found that humans were capable of building such fine cities."
 "pharaoh"                    -> "They say that pharaoh established his own religion. Amazing. We djinn are notoriously given to pride, but no djinn would ever have the arrogance to proclaim himself god." 
 "palace"                     -> "They say that palace has turned into a home for the living dead under the new pharaoh's rule."
 "ascension"                  -> "Hm. I don't know about this, human."

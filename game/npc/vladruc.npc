@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# Vladruc.npc: Datenbank für Vladruc Urghain, den Besitzer des magischen Markts
+# Vladruc.npc: Datenbank fr Vladruc Urghain, den Besitzer des magischen Markts
 
 Name = "Vladruc"
 Sex = male
@@ -29,7 +29,7 @@ VANISH,!                          -> "Go safely, and leave something of the happ
 "thais"       -> "Sadly only through books I have come to know your great Thais, and to know her is to love her."
 "books"       -> "These companions have been good friends and teachers to me."
 "adventure"   -> "The time I sought out adventure is long gone indeed."
-"Tibia"       -> "What a wonderful world we do live in ... so full of life."
+"Demonax"       -> "What a wonderful world we do live in ... so full of life."
 "shop"        -> "Ah, feel free to browse and buy in my humble shop below."
 "market"      -> *
 "time"        -> "It is %T."

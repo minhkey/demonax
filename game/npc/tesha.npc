@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# tesha.npc: Datenbank für die pyramidenhändlerin Tesha
+# tesha.npc: Datenbank fr die pyramidenhndlerin Tesha
 
 Name = "Tesha"
 Sex = female
@@ -32,7 +32,7 @@ VANISH,!           -> "May enlightenment be your path."
 "scarab"    -> "The priests say they are sacred beings, although ... <whispers>I find them scary!"
 "chosen"    -> "I can only hope my humble work for our community and for the temple will make me worthy one day to be elevated to the rank of a chosen one. One to whom the path of ascension is opened up through undeath."
 
-"tibia"    -> "The world is so huge, and I have seen so little. Perhaps if I am chosen one day I will travel and see it all." 
+"demonax"    -> "The world is so huge, and I have seen so little. Perhaps if I am chosen one day I will travel and see it all." 
 "carlin"   -> "Those citites are so far away. So far that the enlightened preachings of our divine pharaoh cannot reach those poor misguided souls."
 "thais"    -> *
 "edron"    -> *

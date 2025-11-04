@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# chemar.npc: Datenbank für den Teppichpiloten Chemar in Darashia
+# chemar.npc: Datenbank fr den Teppichpiloten Chemar in Darashia
 
 Name = "Chemar"
 Sex = male
@@ -42,7 +42,7 @@ VANISH,!                   -> "Daraman's blessings!"
 "transport" -> *
 "ride"      -> *
 "trip"      -> *
-"tibia"     -> *
+"demonax"     -> *
 
 "femur"     -> "Are you sure that you are not talking about the FEMOR Hills?"
 "hill"      -> Price=60, "Do you want to get a ride to the Femor Hills for %P gold?", Topic=4

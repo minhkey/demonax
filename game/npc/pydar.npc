@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# pydar.npc: Datenbank für den Pyromancer Pydar (Zwergenstadt)
+# pydar.npc: Datenbank fr den Pyromancer Pydar (Zwergenstadt)
 
 Name = "Pydar"
 Sex = male
@@ -32,7 +32,7 @@ VANISH,!           -> "May the fire in your heart never die."
 
 "job"            -> "I am the head pyromancer of Kazordoon."
 "name"           -> "My name is Pydar Firefist, Son of Fire, from the Savage Axes."
-"tibia"          -> "That is our world."
+"demonax"          -> "That is our world."
 "kazordoon"      -> "Our city was founded in ancient times. Abandoned by the gods we once fought for, we created a secure haven for our people." 
 "big","old"      -> "This mountain is said to be the oldest in the world. It is the place where fire and earth meet and separate at the same time."
 "elves"          -> "Stupid race. They have no understanding of the ways of the world."
@@ -104,7 +104,7 @@ VANISH,!           -> "May the fire in your heart never die."
 
 "pilgrimage"     -> "Whenever you receive a lethal wound your lifeforce is damaged. With every single of the five blessings you have this damage will be reduced."
 "ashes"          -> *
-"blessing"  -> "There are five different blessings available in five sacred places. These blessings  are: the spiritual shielding, the spark of the phoenix, the embrace of tibia, the fire of the suns and the wisdom of solitude." 
+"blessing"  -> "There are five different blessings available in five sacred places. These blessings  are: the spiritual shielding, the spark of the phoenix, the embrace of demonax, the fire of the suns and the wisdom of solitude." 
 "sacred","places"  -> "Just ask in which of the five blessings you are interested in."
 "spiritual" -> " You can receive the spiritual shielding in the whiteflowertemple south of thais."
 "shielding" -> *
@@ -130,7 +130,7 @@ Topic=7,!                                   -> "Perhaps another time."
 "phoenix" -> *
 
 
-"embrace" -> "The druids north of Carlin will provide you with the embrace of tibia."
+"embrace" -> "The druids north of Carlin will provide you with the embrace of demonax."
 # "suns"     -> "You can ask for the blessing of the two suns in the suntower near Ab'Dendriel."
 # nach oben gestellt wg. antwort auf fire
 "wisdom" -> "Talk to the hermit Eremo on the isle of Cormaya about this blessing."

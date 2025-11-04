@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# wally.npc: Datenbank für Wally den Postbeamten in der Postlergilde
+# wally.npc: Datenbank fr Wally den Postbeamten in der Postlergilde
 
 Name = "Wally"
 Sex = male
@@ -28,7 +28,7 @@ VANISH,!           -> "How rude!"
 "job"                   -> "I am working here at the post office for Kevin."
 "kevin"                 -> "Oh, our boss is upstairs. Better only disturb him with important issues though."
 "postner"               -> *
-"postmasters","guild"   -> "We are an organization of importance for the whole of Tibia. Even kings tremble before our might."
+"postmasters","guild"   -> "We are an organization of importance for the whole of Demonax. Even kings tremble before our might."
 "join"                  -> "You have to talk with the exalted archpostman Kevin Postner if you want to join our prestigeous guild." 
 "markwin"               -> "This minotaur is quite moody. Better make sure not to anger him. He's likely to call for his guards as soon as he notices a stranger, so you are on tough luck if you ever find him." 
 "santa","claus"         -> "This old whitebeard lives on some hill on the western coast of Vega as far as I know." 

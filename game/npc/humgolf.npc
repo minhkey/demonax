@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# humgolf.npc: Datenbank für den Rotwormzähmer Humgolf (Zwergenstadt)
+# humgolf.npc: Datenbank fr den Rotwormzhmer Humgolf (Zwergenstadt)
 
 Name = "Humgolf"
 Sex = male
@@ -22,7 +22,7 @@ VANISH,!           -> "Bye."
 "farewell"      -> *
 "job"           -> "I am chief rotwormtamer of Kazordoon. I sell rotworms and buy meat and tasty, fresh rats for my worms."
 "name"          -> "I am Humgolf Molesight, Son of Earth, from the Molten Rock."
-"tibia"         -> "More nice beneath this noisy green surface."
+"demonax"         -> "More nice beneath this noisy green surface."
 "kazordoon"     -> "I like the mines best." 
 "big","old"     -> "The mountain seems tasty as far as my worms are concerned."
 "worms"         -> "They are so cute and so intelligent."

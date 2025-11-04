@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# norma.npc: Datenbank für die Händlerin Norma (Newbie)
+# norma.npc: Datenbank fr die Hndlerin Norma (Newbie)
 
 Name = "Norma"
 Sex = female
@@ -37,7 +37,7 @@ VANISH,!                   -> "Bye, bye."
 "dallheim"        -> "Some call him a hero." 
 "bug"             -> "Bugs plague this isle, but my wares are bugfree, totally bugfree."
 "stuff"           -> "I sell equipment of all kinds, all kind available on this isle. Just ask me about my wares if you are interested."
-"tibia"           -> "One day I will return to the continent as a rich, a very rich woman!"
+"demonax"           -> "One day I will return to the continent as a rich, a very rich woman!"
 "thais"           -> "Thais is a crowded town."
 
 "wares"           -> "I sell weapons, shields, armor, helmets, and equipment. For what do you want to ask?"

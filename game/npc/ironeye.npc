@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# ironeye.npc: Datenbank für den Waffen und Rüstungshandelsfürsten Abran Ironeye
+# ironeye.npc: Datenbank fr den Waffen und Rstungshandelsfrsten Abran Ironeye
 
 Name = "Abran Ironeye"
 Sex = male
@@ -34,7 +34,7 @@ VANISH,!           -> "HEY! I did not dismiss you!"
 "ironeye"   -> "I don't care if you like it or not. Stop staring at it!"
 "teddy"     -> "I don't know anything about a teddy... and if you are smart you shouldn't either..."
 "thais"     -> "Thais has outlived its usefulness since years. Its star is sinking."
-"tibia"     -> "The world is ready for a significant change."
+"demonax"     -> "The world is ready for a significant change."
 "warehouse" -> "My Ironhouse is more than a warehouse."
 "carlin"    -> "Their independence is a proof for the weakness of Thais."
 "news"      -> "In Venore nothing comes for free and you could not afford my 'news'."

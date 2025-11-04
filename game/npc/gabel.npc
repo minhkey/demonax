@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# gabel.npc: Datenbank für den Djinnkönig Gabel
+# gabel.npc: Datenbank fr den Djinnknig Gabel
 
 Name = "Gabel"
 Sex = male
@@ -51,7 +51,7 @@ VANISH                                    -> "Farewell, stranger. May Uman open 
                    "I know that one day djinn and humans will live in peaceful co-existence."
 "zathroth"      -> "The name brings up painful memories. I'd rather not talk about this subject."
 "gods"          -> "For a long time I found it difficult to love them. But Daraman has opened my eyes."
-"tibia"         -> "The world of Tibia is like a gemstone carved by the greatest of all craftsmen. It is sad that it took a human to make me realise its perfection."
+"demonax"         -> "The world of Demonax is like a gemstone carved by the greatest of all craftsmen. It is sad that it took a human to make me realise its perfection."
 
 "darashia"      -> "Darashia was nothing but a forlorn pool of mud last time I passed there. I hear it has now risen to great wealth and glory. Perhaps the Caliph is more open to the true creed than that dangerous fool, the pharaoh of Ankrahmun."
 "scarab"        -> "The scarabs are ancient beings, as ancient as ourselves. We djinns feel a lot of respect for them."

@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# partos.npc: Datenbank für den Sträfling Partos
+# partos.npc: Datenbank fr den Strfling Partos
 
 Name = "Partos"
 Sex = male
@@ -27,7 +27,7 @@ VANISH,!           -> "I wish I could do that, too."
 "party"          -> "Yeah! Come in and let's have a party."
 "thais"          -> "I love the city. I just wish I could see some other part of it now and then."
 "city"           -> *
-"tibia"          -> "I love this world. I just wish I could see some other part of it now and then."
+"demonax"          -> "I love this world. I just wish I could see some other part of it now and then."
 "how","are","you"-> "I am great! Free food, free room, and now and then someone coming down here to ask me silly questions. Wouldn't you love that, too?"
 "sell"           -> "I would like to sell you a secret, but I'm out of business for too long."
 "jail"           -> "You mean that's a JAIL? They told me it's the finest hotel in town! THAT explains the lousy roomservice!"

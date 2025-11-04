@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# guards-thais.ndb: Datenbank für die Stadtwachen von Thais
+# guards-thais.ndb: Datenbank fr die Stadtwachen von Thais
 
 ADDRESS,"hello$",! -> "LONG LIVE THE KING!"
 ADDRESS,"hi$",!    -> *
@@ -13,7 +13,7 @@ VANISH,!           -> "Hrmpf!"
 "farewell"       -> *
 "news"           -> "I am busy. Please ask the citizens for news."
 "how","are","you"-> "I am healthy and vigilant."
-"sell"           -> "Visit Tibia's shopkeepers to buy their fine wares."
+"sell"           -> "Visit Demonax's shopkeepers to buy their fine wares."
 "tibianus"       -> "Tibianus III is our beloved king!"
 "king"           -> *
 "leader"         -> *

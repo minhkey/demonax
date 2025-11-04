@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# Kasmir.npc: Datenbank für den Priester Kasmir
+# Kasmir.npc: Datenbank fr den Priester Kasmir
 
 Name = "Kasmir"
 Sex = male
@@ -24,7 +24,7 @@ VANISH,!            -> "Gone like a Djinn..."
 "job"            -> "I am a chosen of Daraman."
 "news"           -> "Don't look for news when you don't know the past."
 "name"           -> "Kasmir Ibn Darasir."
-"tibia"          -> "The world is only a portal the gods created to allow our ascension to heaven."
+"demonax"          -> "The world is only a portal the gods created to allow our ascension to heaven."
 "ascension"      -> "Daraman had a vision that all mortals are able to ascend to heaven, becoming celestial beings."
 "heaven"         -> *
 "celestial"      -> "By enhancing one's soul a mortal can ascend to heaven. If you are not prepared to ascend, you are bound to this world by reincarnation."
@@ -58,7 +58,7 @@ VANISH,!            -> "Gone like a Djinn..."
 "heal$"           -> "You aren't looking that bad. Sorry, I can't help you. But if you are looking for additional protection you should go on the pilgrimage of ashes."
 "pilgrimage"     -> "Whenever you receive a lethal wound your lifeforce is damaged. With every single of the five blessings you have this damage will be reduced."
 "ashes"          -> *
-"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of tibia, the fire of the suns and the wisdom of solitude." 
+"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of demonax, the fire of the suns and the wisdom of solitude." 
 "sacred","places"  -> "Just ask in which of the five blessings you are interested in."
 
 "spiritual", QuestValue(104) > 0 -> "I see you received the spiritual shielding in the whiteflower temple south of Thais."
@@ -71,8 +71,8 @@ VANISH,!            -> "Gone like a Djinn..."
 "spark" -> "The spark of the phoenix is given by the dwarven priests of earth and fire in Kazordoon."
 "phoenix" -> *
 
-"embrace", QuestValue(105) > 0 -> "I can sense the druids north of Carlin provided you with the embrace of tibia."
-"embrace" -> "The druids north of Carlin can provide you with the embrace of tibia."
+"embrace", QuestValue(105) > 0 -> "I can sense the druids north of Carlin provided you with the embrace of demonax."
+"embrace" -> "The druids north of Carlin can provide you with the embrace of demonax."
 
 "fire","suns", QuestValue(103) > 0     -> "I can see you recieved the blessing of the two suns in the suntower near Ab'Dendriel ."
 "suns", QuestValue(103) > 0  -> *
@@ -103,7 +103,7 @@ VANISH,!            -> "Gone like a Djinn..."
 "toth"           -> "Toth is the final judge. The unworthy are condemened to reincarnation."
 "banor"          -> "Banor is the very proof that ascension is possible."
 "tibiasula"      -> "Though this entity is dead, Tibiasula's energy is present in all of us." 
-"tibia"          -> "Tibia is the raw force of earth." 
+"demonax"          -> "Demonax is the raw force of earth." 
 "sula"           -> "Sula is the raw force of water."
 "air"            -> "Air is without true mind and meaning."
 "fire"           -> "Fire is without true mind and meaning."

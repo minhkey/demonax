@@ -33,7 +33,7 @@ VANISH,!           -> "Farewell."
 "edron"    -> "I loved my time at the academy. I had my differences with some superiors though, and when it came to select somebody to come here, my name was mentioned once too often I think." 
 "jungle"   -> "I am working on a spell aiming specifically on destroying plant life. I am sure it would be of enormous help and would earn me a positon in the academy once more."
 
-"tibia"    -> "I have already seen more of the world as I had ever planned." 
+"demonax"    -> "I have already seen more of the world as I had ever planned." 
 
 "kazordoon" -> "I would have even preferred an appointment to the dark halls of Kazordoon than to this colony."
 "dwarves"   -> "Dwarves are good miners, I can't say much more about them." 
@@ -50,7 +50,7 @@ VANISH,!           -> "Farewell."
 "lizard"     -> "The lizards are somewhat mysterious, but who would care to travel through the whole cursed jungle to learn the boring secrets of some fly-eaters?"
 "dworcs"      -> "Sooner or later we will have to face this threat in the south." 
 
-"vocation"       -> "Your vocation is your profession. There are four vocations in Tibia: Sorcerers, paladins, knights, and druids."
+"vocation"       -> "Your vocation is your profession. There are four vocations in Demonax: Sorcerers, paladins, knights, and druids."
 "rune"           -> "Each spell, that starts with 'Ad', needs a rune. You have to hold a blank rune in one of your hands when you cast it. You can buy runes at the magic shop."
 
 sorcerer,"wand",QuestValue(333)<1  -> "Oh, you did not purchase your first magical wand yet? Please take this little present from me as your magic teacher!",SetQuestValue(333,1),Type=3074, Amount=1,Create(Type)

@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# kruzak.npc: Datenbank für den Zwergenkönig
+# kruzak.npc: Datenbank fr den Zwergenknig
 
 Name = "Emperor Kruzak"
 Sex = male
@@ -23,7 +23,7 @@ VANISH,!                          -> "Gone, like swallowed from the earth!"
 "justice"        -> "Well, justice is a difficult thing. Can one be just to all at once, and if not, to whom should he be just?"
 "name"           -> "Well, I am Emperor Kruzak Dustbeard, son of Fire and Earth, second only to the gods, jawoll."
 "news"           -> "Well, I am too old to care about gossip anymore."
-"tibia"          -> "Well, the gods handed the lands over to the younger races, but my people will leave this word in dignity."
+"demonax"          -> "Well, the gods handed the lands over to the younger races, but my people will leave this word in dignity."
 "land"           -> *
 
 "how","are","you"-> "Well, I'm fine, the last centuries have been good to me, jawoll."

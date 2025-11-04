@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# fenech.npc: Datenbank für den pyramidenhändler Fenech
+# fenech.npc: Datenbank fr den pyramidenhndler Fenech
 
 Name = "Fenech"
 Sex = male
@@ -34,7 +34,7 @@ VANISH,!           -> "May enlightenment be your path."
 "arkhothep"   -> "Praised may he be."
 "ashmunrah"   -> "I don't know. Read some books."
 "scarab"      -> "Scarabs are dangerous. Stay away from them like I do."
-"tibia"       -> "I know only Ankrahmun. What else could there be?" 
+"demonax"       -> "I know only Ankrahmun. What else could there be?" 
 "carlin"      -> "I don't know any foreign places or races."
 "thais"       -> *
 "edron"       -> *

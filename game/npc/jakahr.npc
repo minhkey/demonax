@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# jakahr.npc: Datenbank für den Postmann Jakahr
+# jakahr.npc: Datenbank fr den Postmann Jakahr
 
 Name = "Jakahr"
 Sex = male
@@ -28,7 +28,7 @@ VANISH,!           -> "It was an honour to serve you, %N."
 "join"                  -> "Please travel to our headquarters if you wish to join our guild." 
 "headquarters"           -> "You can find them to the south of the dwarven city of Kazordoon." 
 
-"job"       -> "I am a member of the Postmasters Guild. If you have questions about the Royal Tibia Mail System or the depots, ask me."
+"job"       -> "I am a member of the Postmasters Guild. If you have questions about the Royal Demonax Mail System or the depots, ask me."
 "office"    -> "I am always here in my office. You are welcome to visit me anytime."
 "name"      -> "My name is Jakahr."
 "time"      -> "The time is %T, pilgrim."
@@ -65,7 +65,7 @@ VANISH,!           -> "It was an honour to serve you, %N."
 #"letter" -> Amount=1, Price=5,  "Would you like to buy a letter for %P gold?", Topic=2
 #"parcel" -> Amount=1, Price=10, "Would you like to buy a parcel for %P gold?", Topic=3
 
-#Topic=1,"yes" -> "The Tibia Mail System allows you to send and receive letters and parcels. You can buy them here if you want."
+#Topic=1,"yes" -> "The Demonax Mail System allows you to send and receive letters and parcels. You can buy them here if you want."
 #Topic=1       -> "Is there anything else I can do for you?"
 
 #Topic=2,"yes",CountMoney>=Price -> "Here it is. Don't forget to write the name of the receiver in the first line and the address in the second one before you put the letter in a mailbox.", DeleteMoney, Create(3505)

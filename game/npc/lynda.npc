@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# lynda.npc: Datenbank für die Priesterin Lynda
+# lynda.npc: Datenbank fr die Priesterin Lynda
 
 Name = "Lynda"
 Sex = female
@@ -27,7 +27,7 @@ VANISH,!                   -> "May the gods be with you!"
 "job"            -> "I am a priest of the great pantheon."
 "news"           -> "Sorry, I had no enlightening visions lately."
 "name"           -> "My name is Lynda. And the spirits tell me that you are %N."
-"tibia"          -> "The world of Tibia is the creation of the gods."
+"demonax"          -> "The world of Demonax is the creation of the gods."
 "how","are","you"-> "Thank you, I'm fine, the gods are with me."
 "sell"           -> "The grace of the gods must be earned, not bought!"
 "sin$"           -> "Do you whish to confess your sins?", Topic=3
@@ -77,7 +77,7 @@ VANISH,!                   -> "May the gods be with you!"
 
 "pilgrimage"     -> "Whenever you receive a lethal wound your lifeforce is damaged. With every single of the five blessings you have this damage will be reduced."
 "ashes"          -> *
-"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of tibia, the fire of the suns and the wisdom of solitude." 
+"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of demonax, the fire of the suns and the wisdom of solitude." 
 "sacred","places"  -> "Just ask in which of the five blessings you are interested in."
 
 "spiritual", QuestValue(104) > 0 -> "I see you received the spiritual shielding in the whiteflower temple south of Thais."
@@ -90,8 +90,8 @@ VANISH,!                   -> "May the gods be with you!"
 "spark" -> "The spark of the phoenix is given by the dwarven priests of earth and fire in Kazordoon."
 "phoenix" -> *
 
-"embrace", QuestValue(105) > 0 -> "I can sense the druids north of Carlin provided you with the embrace of tibia."
-"embrace" -> "The druids north of Carlin can provide you with the embrace of tibia."
+"embrace", QuestValue(105) > 0 -> "I can sense the druids north of Carlin provided you with the embrace of demonax."
+"embrace" -> "The druids north of Carlin can provide you with the embrace of demonax."
 
 "fire","suns", QuestValue(103) > 0     -> "I can see you recieved the blessing of the two suns in the suntower near Ab'Dendriel ."
 "suns", QuestValue(103) > 0  -> *
@@ -121,7 +121,7 @@ Topic=2,"good"   -> "The gods we call the good ones are Fardos, Uman, the Elemen
 "banor"          -> "Banor, the heavenly warrior, is the patron of all fighters against evil. He is the gift of the gods to inspire humanity."
 "tibiasula"      -> "Tibiasula lost her life, but out of her essence the world was created." 
 
-Topic=2,"tibia"  -> "Tibia is the essence of the elemental power of earth." 
+Topic=2,"demonax"  -> "Demonax is the essence of the elemental power of earth." 
 "sula"           -> "Sula is the essence of the elemental power of water."
 "air"            -> "Air is one of the primal elemental forces, sometimes worshipped by tribal shamans."
 "fire"           -> "Fire is one of the primal elemental forces, sometimes worshipped by tribal shamans."

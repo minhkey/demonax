@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# hairycles.npc: Datenbank für den Affen Hairycles
+# hairycles.npc: Datenbank fr den Affen Hairycles
 
 Name = "Hairycles"
 Sex = male
@@ -42,7 +42,7 @@ VANISH,!                 -> "Bye, bye."
 "magic"           -> "We see many things and learning quick. Merlkin magic learn quick, quick. We just watch and learn. Sometimes we try and learn."
 "weapon"          -> "We weapons not need much. Take what is around we do. Tools we more need."
 "tools"           -> "Lot of tools snakemen left when run away. But tools go break. New tools we get where we find. Like taking banana."
-"tibia"           -> "Me know Tibia is all we see."
+"demonax"           -> "Me know Demonax is all we see."
 
 "heal"            -> "You look for food and rest."
 "heal$",QuestValue(293)>11,Burning>0 -> "You are burning. Me will help you.", Burning(0,0), EffectOpp(15)
@@ -94,7 +94,7 @@ topic=2       -> "Uh?"
 
 "no", topic= 7               -> "That's bad news. If you lost it, only way to get other is to kill holy serpents. But you can't go there so you must ask adventurers who can."
 
-#### Einschub, notwendige Erklärung
+#### Einschub, notwendige Erklrung
 "holy", "serpent"            -> "Ugly beasts that are holy to lizard people. Only found in ancient temple under Banuta. But me can not allow you to go there."
 
 "yes", topic= 7,QuestValue(295)=0,Count(Type)<Amount -> "No! That not scroll me looking for. Silly hairless ape you are. Go to village of lizards and get it there on your own!"
@@ -132,7 +132,7 @@ topic=2       -> "Uh?"
 "no", topic=18 -> "Please try to find me a witches' cap on Fibula."
 "yes", topic=18,Count(Type)<Amount   -> "Not right mushroom you have. Find me a witches' cap on Fibula!"
 "Yes", topic=18,Count(Type)>=Amount  -> "Incredible, you brought a witches' cap! Now me can prepare mighty charm of life. Yet still other missions will await you, friend.",SetQuestValue(293,12),Delete(Type)
-####(begrüßung ändert sich nun)
+####(begrung ndert sich nun)
 
 
 "mission",QuestValue(293)=12 -> "Mighty life charm is protecting us now! But my people are still in danger. Danger from within ...", "Some of my people try to mimic lizards to become strong. Like lizards did before, this cult drinks strange fluid that lizards left when fled ...", "Under the city still the underground temple of lizards is. There you find casks with red fluid. Take crowbar and destroy three of them to stop this madness. Are you willing to do that?", topic=13

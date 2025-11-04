@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# maria.npc: Datenbank für die Wirtin Maria
+# maria.npc: Datenbank fr die Wirtin Maria
 
 Name = "Maria"
 Sex = female
@@ -37,7 +37,7 @@ VANISH,!           -> "Visit us again."
 "ferumbras"    -> "I think he's more a Thaian problem."
 "excalibug"    -> "I'd rather have a stainless steel cooking pan than such a knife."
 "thais"        -> "It's a shame that this lousy city is the heart of the kingdom."
-"tibia"        -> "In the long run it's money that rules everything in Tibia."
+"demonax"        -> "In the long run it's money that rules everything in Demonax."
 "carlin"       -> "As far as the merchants say it's economically unimportant."
 "amazon"       -> "I can only hope those wild women don't scare away more customers than come here in order to fight against them."
 "news"         -> "Bah, only the usual swampelves stories."

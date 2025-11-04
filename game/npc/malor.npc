@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# malor.npc: Datenbank für den Efreetkönig Malor
+# malor.npc: Datenbank fr den Efreetknig Malor
 
 Name = "Malor"
 Sex = male
@@ -47,7 +47,7 @@ VANISH                                    -> "Farewell, human."
 "zathroth"      -> "Our father. He made us a race of masters, not of servants. We will live to fulfill his promise or die trying."
 "gods"          -> "Are not the creators reflected in their creations? Look around! What do you see? There is nothing but cowardice and treachery in the world of humans. ...",
                    "How low the gods must be who made them. I have no respect for them."
-"tibia"         -> "The world of Tibia is ours by right. I will not rest until we have conquered it."
+"demonax"         -> "The world of Demonax is ours by right. I will not rest until we have conquered it."
 "darashia"      -> "Darashia is a very rich city. Once this war is won I will drop by at the Caliph's palace and pay my respects, if you know what I mean."
 "scarab"        -> "Scarabs are ancient creatures, which is why I respect them. But I will never allow any of these critters to undermine the foundations of my fortress."
 "edron"         -> "I hear the humans have built impressive cities on the great continent. It looks like many things have changed while I was caught in that stupid lamp."

@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# jimbin.npc: Datenbank für den Wirt Jimbin
+# jimbin.npc: Datenbank fr den Wirt Jimbin
 
 Name = "Jimbin"
 Sex = male
@@ -37,7 +37,7 @@ VANISH,!                    -> "Come back if you enjoyed my tavern, if not ... w
 "general"           -> "The general is a fine man. Can drink as much as he wants and still is sober."
 "excalibug"         -> "Actually I belive it's more than a taverntale."
 "thais"             -> "Bah! Humans, can't stand a drink, jawoll."
-"tibia"             -> "The Tibia our race was born into was even more fierce than the world you young ones know."
+"demonax"             -> "The Demonax our race was born into was even more fierce than the world you young ones know."
 "carlin"            -> "Silly town. Alcohol is forbidden there and elves visit this town quite often, what certainly suggests nothing good about a town, jawoll."
 "news"              -> "Oh well, many hidden places of ancient times appear seemingly out of nowhere in these times."
 "rumour"            -> *

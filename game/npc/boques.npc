@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# boques.npc: Datenbank für den Djinnkoch Bo'ques
+# boques.npc: Datenbank fr den Djinnkoch Bo'ques
 
 Name = "Bo'ques"
 Sex = male
@@ -32,10 +32,10 @@ VANISH,!                                   -> "Now, where was I?"
                  "Therefore I'm what is commonly called a cook, although I do not like that word too much. It is vulgar. I prefer to call myself 'chef'."
 "cook"        -> *
 "chef"        -> "Chef sounds nice, doesn't it? Well... I must admit I do not really know what it means, but it certainly sounds classy."
-"food"        -> "I know many recipes for preparing the finest food on Darama and maybe even whole Tibia!"
+"food"        -> "I know many recipes for preparing the finest food on Darama and maybe even whole Demonax!"
 
 "king"        -> "Gabel used to be king, you know. I must confess I miss those days a bit because I was allowed to carry the title of his royal majesty's personal cook. Ah, those were the days."
-"gabel"			  -> "He is my boss. A most loyal customer and a real con... conni... well, a man of taste, at any rate. His favourite dish is Scarabée au Vin served with onions and rice."
+"gabel"			  -> "He is my boss. A most loyal customer and a real con... conni... well, a man of taste, at any rate. His favourite dish is Scarabe au Vin served with onions and rice."
 "connoisseur" -> "Yes! That's it! I have always trouble with pronouncing that damn word. A conno... conni... ah, hang it all!"
 "djinn"       -> "That is our race. It has seen better days, you know. ...",
                  "It would have been better for us all if more djinn would share my interest in cooking. But no! Bashing each others' heads in is the only thing they are good at! Vandals and trogo ...trogli ... and cavemen, that's what they are!"
@@ -50,7 +50,7 @@ VANISH,!                                   -> "Now, where was I?"
 "zathroth"    -> "That is a sad story, and like most djinn I dislike talking about it. Let's put it this way. Once there was a great cook who worked hard to prepare the finest meal of his life. ...",
                  "But when he found that the product of his efforts did not meet his expectations he just ditched it even though it was wonderfully unique in its own special way. ...",
                  "You know what I think? I think Zathroth was a bad cook."
-"tibia"       -> "It may be that this world is wide and full of adventure, but to be honest I am not at all keen to see it myself. A comfortable lamp to sleep in and a well equipped kitchen is all I need."
+"demonax"       -> "It may be that this world is wide and full of adventure, but to be honest I am not at all keen to see it myself. A comfortable lamp to sleep in and a well equipped kitchen is all I need."
 "daraman"	    -> "Ah yes. That human WAS special, believe me. Did you know I talked to him myself, back in those days? In fact, I even had an argument with him because he dared to insult my work! He drove me mad when he called me a self-indulgent glutton. ...",
                  "But you know, eventually we came to respect each other! He taught me to stress quality rather than quantity, and he came to appreciate my 'Chili con Cobra'. Today I know that having met him was a major step forward in my development as a culinary artist."
 "darashia"    -> "I have heard good things about this place. I understand the Caliph is a true gourmet. People who eat good food can't be bad, that's what I say."

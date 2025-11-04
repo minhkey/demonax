@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# captain2.npc: Kapitän Greyhound in Carlin
+# captain2.npc: Kapitn Greyhound in Carlin
 
 Name = "Captain Greyhound"
 Sex = male
@@ -22,14 +22,14 @@ VANISH,!                  -> "Good bye. Recommend us, if you were satisfied with
 
 "bye"          -> "Good bye. Recommend us, if you were satisfied with our service.", Idle
 "farewell"     -> *
-"name"         -> "My name is Captain Greyhound from the Royal Tibia Line."
+"name"         -> "My name is Captain Greyhound from the Royal Demonax Line."
 "job"          -> "I am the captain of this sailing-ship."
 "captain"      -> *
-"ship"         -> "The Royal Tibia Line connects all seaside towns of Tibia."
+"ship"         -> "The Royal Demonax Line connects all seaside towns of Demonax."
 "line"         -> *
 "company"      -> *
 "route"        -> *
-"tibia"        -> *
+"demonax"        -> *
 "good"         -> "We can transport everything you want."
 "passenger"    -> "We would like to welcome you on board."
 "trip"         -> "Where do you want to go? To Thais, Ab'Dendriel, Venore or Edron?"

@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# leeland.npc: Datenbank für den Besitzer des allgemeinen Markts Leeland Slim
+# leeland.npc: Datenbank fr den Besitzer des allgemeinen Markts Leeland Slim
 
 Name = "Leeland"
 Sex = male
@@ -31,7 +31,7 @@ VANISH,!           -> "Good bye, %N. Make sure to visit my shop."
 "ferumbras" -> "Ah, Ferumbras. I remember selling him torches for his first adventures as if it was yesterday."
 "excalibug" -> "That's one of the few things even I can't aquire for you."
 "thais"     -> "Perhaps one day I will settle in thais again. I love the city's potential."
-"tibia"     -> "I have seen most of it. And I like it. <chuckles>"
+"demonax"     -> "I have seen most of it. And I like it. <chuckles>"
 "carlin"    -> "I was there some time ago. I exchanged ideas with some important people there and even could sell them something that furthered their cause."
 "news"      -> "I would love to have the time to chat and exchange gossip, but sadly business always comes first, you know?"
 "tax"       -> "Taxes are a necessary evil, people say. I like that."

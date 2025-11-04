@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# Turvy.npc: Datenbank für shopkeeper Turvy (weaponry)
+# Turvy.npc: Datenbank fr shopkeeper Turvy (weaponry)
 
 Name = "Turvy"
 Sex = female
@@ -31,7 +31,7 @@ VANISH,!                  -> "Good bye. Do come again!"
 "assistant"          -> "I am not a mere assistant! I have a job of great responsibility! But mostly I keep annoying personages away from my boss."
 "annoying"           -> "Oh gosh - I could tell you some stories. But I won't."
 "thank","you"        -> "So polite . . . bless you!"
-"god"                -> "The Gods of Tibia play games with the fate of Tibians - but they haven't bothered to read the instructions."
+"god"                -> "The Gods of Demonax play games with the fate of Tibians - but they haven't bothered to read the instructions."
 "king"               -> "Ah, yes, yes, hail to King Tibianus! May he in his infinite wisdom reduce my taxes... and so on..."
 "sam"                -> "A simple shopkeeper, who was last in the queue when they were handing out intelligence."
 "benjamin"           -> "Ah, such a shame about poor Benjamin. Lost it a bit after receiving one too many blows to the head."

@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# quentin.npc: Datenbank für den Mönch Quentin
+# quentin.npc: Datenbank fr den Mnch Quentin
 
 Name = "Quentin"
 Sex = male
@@ -10,7 +10,7 @@ Radius = 4
 GoStrength = 10
 
 Behaviour = {
-ADDRESS,"hello$",!      -> "Welcome, adventurer %N! If you are new in Tibia, ask me for help."
+ADDRESS,"hello$",!      -> "Welcome, adventurer %N! If you are new in Demonax, ask me for help."
 ADDRESS,"hi$",!         -> *
 ADDRESS,!               -> Idle
 BUSY,"hello$",!         -> "Please wait a minute, %N.", Queue
@@ -24,11 +24,11 @@ VANISH,!                -> "Remember: If you are heavily wounded or poisoned, I 
 
 "bye"            -> "Good bye, %N!", Idle
 "farewell"       -> *
-"job"            -> "Job? I have no job. I just live for the gods of Tibia."
+"job"            -> "Job? I have no job. I just live for the gods of Demonax."
 "name"           -> "My name is Quentin."
-"tibia"          -> "That is where we are. The world of Tibia. Admire it's beauty."
-"god"            -> "They created Tibia and all life on it."
-"life"           -> "On Tibia there are many forms of life. There are plants and people and monsters."
+"demonax"          -> "That is where we are. The world of Demonax. Admire it's beauty."
+"god"            -> "They created Demonax and all life on it."
+"life"           -> "On Demonax there are many forms of life. There are plants and people and monsters."
 "plant"          -> "Just walk around, you will see grass, trees, and bushes."
 "people"        -> "I am a simple monk. I just know Sam, Frodo, and Gorn. They all live in the main street to the north."
 "sam"            -> "He is our blacksmith. He sells weapons and armour."
@@ -54,7 +54,7 @@ VANISH,!                -> "Remember: If you are heavily wounded or poisoned, I 
 "lugri"          -> "Please do not mention the fallen one."
 "excalibug"      -> "Legends tell us that that Excalibug is a gift of the gods. Banor used in his battles.  They say it was passed on to one of his followers."
 "news"           -> "Sorry, I know nothing new. Please ask Frodo about that topic."
-"monster"        -> "There are really too many of them in Tibia. But who am I to challenge the wisdom of the gods?"
+"monster"        -> "There are really too many of them in Demonax. But who am I to challenge the wisdom of the gods?"
 "help"           -> "First you should try to get some gold to buy better equipment."
 "quest"          -> *
 "task"           -> *
@@ -94,7 +94,7 @@ VANISH,!                -> "Remember: If you are heavily wounded or poisoned, I 
 "pilgrimage"     -> "Whenever you receive a lethal wound your lifeforce is damaged. With every single of the five blessings you have this damage will be reduced."
 "ashes"          -> *
 
-"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of tibia, the fire of the suns and the wisdom of solitude." 
+"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of demonax, the fire of the suns and the wisdom of solitude." 
 "sacred","places"  -> "Just ask in which of the five blessings you are interested in."
 
 "spiritual", QuestValue(104) > 0 -> "I see you received the spiritual shielding in the whiteflower temple south of Thais."
@@ -107,8 +107,8 @@ VANISH,!                -> "Remember: If you are heavily wounded or poisoned, I 
 "spark" -> "The spark of the phoenix is given by the dwarven priests of earth and fire in Kazordoon."
 "phoenix" -> *
 
-"embrace", QuestValue(105) > 0 -> "I can sense the druids north of Carlin provided you with the embrace of tibia."
-"embrace" -> "The druids north of Carlin can provide you with the embrace of tibia."
+"embrace", QuestValue(105) > 0 -> "I can sense the druids north of Carlin provided you with the embrace of demonax."
+"embrace" -> "The druids north of Carlin can provide you with the embrace of demonax."
 
 "fire","suns", QuestValue(103) > 0     -> "I can see you recieved the blessing of the two suns in the suntower near Ab'Dendriel ."
 "suns", QuestValue(103) > 0  -> *

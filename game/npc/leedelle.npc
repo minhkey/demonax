@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# leedelle.npc: Datenbank für die Händlerin Le'Delle (Newbie)
+# leedelle.npc: Datenbank fr die Hndlerin Le'Delle (Newbie)
 
 Name = "Lee'Delle"
 Sex = female
@@ -37,7 +37,7 @@ VANISH,!                   -> "Bye, bye."
 "dallheim"        -> "He is a great warrior and our protector." 
 "bug"             -> "There are several bugs in the wildernes."
 "stuff"           -> "I sell equipment of all kinds. Just ask me about the type of wares you are interested in."
-"tibia"           -> "The continent is even more exciting than this isle!"
+"demonax"           -> "The continent is even more exciting than this isle!"
 "thais"           -> "Thais is the capital of the thaian empire."
 
 "mission"         -> "I really love flowers. Sadly my favourites, honey flowers are very rare on this isle. If you can find me one, I'll give you a little reward."

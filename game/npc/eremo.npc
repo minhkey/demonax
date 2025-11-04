@@ -104,14 +104,14 @@ Topic=4                         -> "Maybe another time."
 
 "pilgrimage"     -> "Whenever you receive a lethal wound your lifeforce is damaged. With every single of the five blessings you have this damage will be reduced."
 "ashes"          -> *
-"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of Tibia, the fire of the suns and the wisdom of solitude." 
+"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of Demonax, the fire of the suns and the wisdom of solitude." 
 "sacred","places"  -> "Just tell me in which of the five blessings you are interested."
 
 "spiritual" -> " You can receive the spiritual shielding in the whiteflower temple south of Thais."
 "shielding" -> *
 "spark" -> "The spark of the phoenix will be given to you by the dwarven priests of earth and fire in Kazordoon."
 "phoenix" -> *
-"embrace" -> "The druids north of Carlin will provide you with the embrace of Tibia."
+"embrace" -> "The druids north of Carlin will provide you with the embrace of Demonax."
 
 "fire"     -> "You should ask for the blessing of the two suns in the suntower near Ab'Dendriel."
 "suns" -> *

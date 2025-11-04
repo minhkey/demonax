@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# james.npc: Datenbank für den Bauern James auf Edron
+# james.npc: Datenbank fr den Bauern James auf Edron
 
 Name = "James"
 Sex = male
@@ -35,7 +35,7 @@ VANISH,!           -> "Bye."
 "magic"           -> "I am nothing but a humble farmer and know nothing about that."
 "weapon"          -> *
 "spell"           -> *
-"tibia"           -> "If I were you, I would stay here."
+"demonax"           -> "If I were you, I would stay here."
 "thais"           -> "I was born in Thais, but my family moved to Edron among the first settlers."
 "edron"           -> *
 

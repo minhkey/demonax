@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# julian.npc: Datenbank für den Musikhändler Julian
+# julian.npc: Datenbank fr den Musikhndler Julian
 
 Name = "Julian"
 Sex = male
@@ -20,7 +20,7 @@ VANISH,!           -> "Good bye."
 
 "bye"         -> "Good bye.", Idle
 "farewell"    -> *
-"job"         -> "I make instruments and sometimes I'm wandering through the lands of Tibia as a bard."
+"job"         -> "I make instruments and sometimes I'm wandering through the lands of Demonax as a bard."
 "name",male   -> "My name is Julian, sire."
 "name",female -> "My name is Julian, my lady."
 "time"        -> "Sorry, I don't know what time it is."

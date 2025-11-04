@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# zerbrus.npc: Datenbank für den Dorfwächter Zerbrus (Rookgaard)
+# zerbrus.npc: Datenbank fr den Dorfwchter Zerbrus (Rookgaard)
 
 Name = "Zerbrus"
 Sex = male
@@ -46,7 +46,7 @@ VANISH,!                 -> "Hm."
 "hyacinth"        -> "One of theese reclusive druids."
 "weapon"          -> "My weapon is property of the royal army. Find your own one."
 "magic"           -> "You will learn about magic soon enough."
-"tibia"           -> "In the world of tibia many challenges await the brave adventurers."
+"demonax"           -> "In the world of demonax many challenges await the brave adventurers."
 "heal$",Burning>0  -> "You are burning. I will help you.", Burning(0,0), EffectOpp(15)
 "heal$",Poison>0   -> "You are poisoned. I will help you.", Poison(0,0), EffectOpp(14)
 "heal$",HP<65      -> "You are looking really bad. Let me heal your wounds.", HP=65, EffectOpp(13)

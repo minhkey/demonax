@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# brodrosch.npc: Datenbank für den Kapitän Brodrosch
+# brodrosch.npc: Datenbank fr den Kapitn Brodrosch
 
 Name = "Brodrosch"
 Sex = male
@@ -25,7 +25,7 @@ VANISH,!           -> "Yeah, yeah, walk, it's cheaper."
 "job"            -> "Look at my blackened beard? I'm the steamship captain!"
 "work"           -> *
 "name"           -> "I am Brodrosch Steamtrousers, son of the machine, of the Molten Rock."
-"tibia"          -> "Tibia? Just don't ask."
+"demonax"          -> "Demonax? Just don't ask."
 "ship"           -> "This is a great ship. Ha! It works without wind but with fire, and it travels not on the ocean but beneath the earth!"
 "steamship"      -> *  
 "captain"        -> "Of course, I am the captain. But I am also a technomancer."
@@ -59,7 +59,7 @@ VANISH,!           -> "Yeah, yeah, walk, it's cheaper."
 
 Topic=1,"yes",PZBlock,! -> "First get rid of those blood stains! You are not going to ruin my vehicle!"
 
-# für post-quest
+# fr post-quest
 
 Topic=1,"yes",Premium,QuestValue(227)=4,CountMoney>=Price -> "Full steam ahead!", DeleteMoney, Idle, EffectOpp(3), Teleport(33309,31989,15), EffectOpp(3),SetQuestValue(227,5)
 

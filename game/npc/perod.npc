@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# perod.npc: Datenbank für den Händler Perod
+# perod.npc: Datenbank fr den Hndler Perod
 
 Name = "Perod"
 Sex = male
@@ -31,7 +31,7 @@ VANISH,!           -> "Good bye."
 "jungle"   -> "The jungle is full of adventures and secrets that wait to be explored. Some years ago I would have surely enjoyed that. ...",
               "But now that I setteled down here, I don't feel excited anymore by the thought of exploring an inhospitable forest full of animals that want to kill me."
 
-"tibia"    -> "I have travelled a lot and still I have not seen everything. So I abandoned my life as an explorer and became an employee of a trading company domiciled in Venore." 
+"demonax"    -> "I have travelled a lot and still I have not seen everything. So I abandoned my life as an explorer and became an employee of a trading company domiciled in Venore." 
 
 "kazordoon" -> "The hidden city of the dwarves can be quite confusing for a newcomer. I got lost there a dozen times before I became familiar with that city."
 "dwarves"   -> "Some dwarves live in the city, you'll find them in the tavern." 

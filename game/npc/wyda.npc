@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# wyda.npc: Datenbank für die Hexe Wyda (Swamp)
+# wyda.npc: Datenbank fr die Hexe Wyda (Swamp)
 
 Name = "Wyda"
 Sex = female
@@ -44,7 +44,7 @@ VANISH,!                                 -> "Farewell."
 "carlin"        -> "Carlin is a beautiful town, but far from here. Do you live there?"
 "thais"         -> "I've heard stories about that city. It's nowhere near here, that's all I can tell you about it."
 "stories"       -> "Thais is an overcrowded place inhabited by brutal murderers. At least that's what I've been told."
-"tibia$"        -> "Tibia is the name of our continent."
+"demonax$"        -> "Demonax is the name of our continent."
 "tibianus"      -> "Haha, that's a stupid name. Who's that?"
 "ferumbras"     -> *
 "king"          -> "There are too many royals on this continent if you ask me..."

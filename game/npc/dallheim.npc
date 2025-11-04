@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# dallheim.npc: Datenbank für den Dorfwächter Dallheim (Rookgaard)
+# dallheim.npc: Datenbank fr den Dorfwchter Dallheim (Rookgaard)
 
 Name = "Dallheim"
 Sex = male
@@ -45,7 +45,7 @@ VANISH,!                 -> "Hm."
 "hyacinth"        -> "Strange Fellow, hides somewhere in the mountains of the isle."
 "weapon"          -> "With my spikesword I slice even a cyclops in pieces."
 "magic"           -> "Not interested in such party tricks."
-"tibia"           -> "A nice place for a hero, but nothing for whelps."
+"demonax"           -> "A nice place for a hero, but nothing for whelps."
 "heal$",Burning>0  -> "You are burning. I will help you.", Burning(0,0), EffectOpp(15)
 "heal$",Poison>0   -> "You are poisoned. I will help you.", Poison(0,0), EffectOpp(14)
 "heal$",HP<65      -> "You are looking really bad. Let me heal your wounds.", HP=65, EffectOpp(13)

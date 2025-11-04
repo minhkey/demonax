@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# ahmet.npc: Datenbank für den pyramidenhändler Ahmet
+# ahmet.npc: Datenbank fr den pyramidenhndler Ahmet
 
 Name = "Ahmet"
 Sex = male
@@ -34,7 +34,7 @@ VANISH,!           -> "May enlightenment be your path."
 "scarab"    -> "The eternal burrowers are the keepers of all the secrets their kind has unearthed in countless aeons."
 "chosen"    -> "Only the most worthy and pious are chosen to join the armies of the pharaoh. In undeath they follow the path of ascension."
 
-"tibia"    -> "The world is nothing but a sigil of death, a monument of decay. We have to attune to death to become one with the world." 
+"demonax"    -> "The world is nothing but a sigil of death, a monument of decay. We have to attune to death to become one with the world." 
 
 "carlin"   -> "The vain cities of the Tibian continent think they are at the centre of the universe. Little do they know about the wisdom of the pharaoh."
 "thais"    -> *

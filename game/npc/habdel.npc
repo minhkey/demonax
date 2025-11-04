@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# Habdel.npc: Datenbank für den Waffenhändler Habdel
+# Habdel.npc: Datenbank fr den Waffenhndler Habdel
 
 Name = "Habdel"
 Sex = male
@@ -35,7 +35,7 @@ VANISH,!             -> "Good bye and please come back soon.", Idle
 "weapon"          -> *
 "light"           -> "I have clubs, daggers, spears, swords, maces, rapiers, morning stars, and sabres. What's your choice?"
 "light","weapon"    -> *
-"heavy"           -> "I have the best two handed swords in Tibia. I also sell battle hammers and battle axes. What's your choice?"
+"heavy"           -> "I have the best two handed swords in Demonax. I also sell battle hammers and battle axes. What's your choice?"
 "heavy","weapon"    -> *
 "armor"           -> "I sell only weapons. For armor, ask Azil in the other shop."
 "shield"          -> *

@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# brewster.npc: Datenbank für den priester brewster
+# brewster.npc: Datenbank fr den priester brewster
 
 Name = "Brewster"
 Sex = male
@@ -35,7 +35,7 @@ VANISH,!           -> "Bye ... and now I'll have a quick drink."
 "jungle"   -> "This jungle must be the way of the gods to give us mortals a taste of hell <hicks>."
 "gods"     -> "Oh come on, just leave me alone. <hicks> Read a book to find out more."
 
-"tibia"    -> "If Tibia is a fallen god, make your guess what bodypart you are on now. <hicks> I have my assumptions ... but I won't tell. Hehe." 
+"demonax"    -> "If Demonax is a fallen god, make your guess what bodypart you are on now. <hicks> I have my assumptions ... but I won't tell. Hehe." 
 
 "kazordoon" -> "The dwarves I met can't stop to praise the dwarven beer. That wakes the urge in me to ... uhm spread the word of our gods in that city of Kazordoon."
 "dwarves"   -> *
@@ -85,7 +85,7 @@ VANISH,!           -> "Bye ... and now I'll have a quick drink."
 
 "pilgrimage"     -> "Whenever you receive a lethal wound your vital force is damaged. Each one of the five blessings will reduce this damage."
 "ashes"          -> *
-"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of Tibia, the fire of the suns and the wisdom of solitude." 
+"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of Demonax, the fire of the suns and the wisdom of solitude." 
 "sacred","places"  -> "Just tell me in which of the five blessings you are interested."
 
 "spiritual", QuestValue(104) > 0 -> "I see you have received the spiritual shielding in the whiteflower temple south of Thais."
@@ -98,8 +98,8 @@ VANISH,!           -> "Bye ... and now I'll have a quick drink."
 "spark" -> "The spark of the phoenix is given by the dwarven priests of earth and fire in Kazordoon."
 "phoenix" -> *
 
-"embrace", QuestValue(105) > 0 -> "I can sense the druids north of Carlin have provided you with the embrace of Tibia."
-"embrace" -> "The druids north of Carlin can provide you with the embrace of Tibia."
+"embrace", QuestValue(105) > 0 -> "I can sense the druids north of Carlin have provided you with the embrace of Demonax."
+"embrace" -> "The druids north of Carlin can provide you with the embrace of Demonax."
 
 "fire","suns", QuestValue(103) > 0     -> "I can see you have received the blessing of the two suns in the suntower near Ab'Dendriel."
 "suns", QuestValue(103) > 0  -> *

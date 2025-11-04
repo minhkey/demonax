@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# hagor.npc: Datenbank für den alten Abenteurer Hagor (Desert)
+# hagor.npc: Datenbank fr den alten Abenteurer Hagor (Desert)
 
 Name = "Hagor"
 Sex = male
@@ -20,9 +20,9 @@ VANISH,!                 -> "Good bye."
 
 "bye"                    -> "Good bye.", Idle
 "name"                   -> "My name is Hagor, the old hunter."
-"job"                    -> "I travel through the lands of Tibia and now Jakundaf Desert since years."
-"tibia"                  -> "The gods made this world full of fascinating secrets and I will search them till my end."
-"thais"                  -> "Thais... It's a big city in Middle-Tibia. Lots of people live there."
+"job"                    -> "I travel through the lands of Demonax and now Jakundaf Desert since years."
+"demonax"                  -> "The gods made this world full of fascinating secrets and I will search them till my end."
+"thais"                  -> "Thais... It's a big city in Middle-Demonax. Lots of people live there."
 "carlin"                 -> "Is this the city to the north? I heard rumours about it."
 "king"                   -> "Tibianus is our king. To be honest, I didn't hear much of him till now."
 "weapon"                 -> "Weapons? Do you have some? You better know how to use them!"
@@ -32,7 +32,7 @@ VANISH,!                 -> "Good bye."
 "desert"                 -> "Yes, it's big, isn't it?"
 "excalibug"              -> "I heared rumours that there is a sword called so. I don't know if it exists."
 "fight"                  -> "Fighting is an art. Know it and you will be strong, ignore it and you will die soon!"
-"guild"                  -> "There are many different guilds in Tibia. They come and go, come and go..."
+"guild"                  -> "There are many different guilds in Demonax. They come and go, come and go..."
 "god"                    -> "There are a lot of gods we believe in. Maybe you should check out different books to find out something about them."
 "way"                    -> "Which way are you looking for in particular?"
 "door"                   -> "Which door are you talking about? If it is locked, maybe you should try to find a key for it!"

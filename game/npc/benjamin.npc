@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# benjamin.npc: Datenbank für den Postmann Benjamin
+# benjamin.npc: Datenbank fr den Postmann Benjamin
 
 Name = "Benjamin"
 Sex = male
@@ -31,7 +31,7 @@ VANISH,!           -> "It was a pleasure to help you %N."
 
 "measurements",QuestValue(234)>0,QuestValue(236)<1  -> "Oh they dont change that much since in the old days as... <tells a boring and confusing story about a cake, a parcel, himself and two squirrels, at least he tells you his measurements in the end>",SetQuestValue(234,QuestValue(234)+1),SetQuestValue(236,1) 
 
-"job"       -> "I am working here at the post office. If you have questions about the Royal Tibia Mail System or the depots ask me."
+"job"       -> "I am working here at the post office. If you have questions about the Royal Demonax Mail System or the depots ask me."
 "office"    -> "I am always in my office. You are welcome at any time."
 "name"      -> "My name is Benjamin."
 "time"      -> "Now it's %T. Maybe you want to buy a watch?"
@@ -68,7 +68,7 @@ VANISH,!           -> "It was a pleasure to help you %N."
 #"letter" -> Amount=1, Price=5,  "Do you want to buy a letter for %P gold?", Topic=2
 #"parcel" -> Amount=1, Price=10, "Do you want to buy a parcel for %P gold?", Topic=3
 
-#Topic=1,"yes" -> "The Tibia Mail System enables you to send and receive letters and parcels. You can buy them here if you want."
+#Topic=1,"yes" -> "The Demonax Mail System enables you to send and receive letters and parcels. You can buy them here if you want."
 #Topic=1       -> "Is there anything else I can do for you?"
 
 #Topic=2,"yes",CountMoney>=Price -> "Here it is. Don't forget to write the name of the receiver in the first line and the address in the second one before you put the letter in a mailbox.", DeleteMoney, Create(3505)

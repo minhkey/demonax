@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# obi.npc: Datenbank für den Händler Obi
+# obi.npc: Datenbank fr den Hndler Obi
 
 Name = "Obi"
 Sex = male
@@ -37,7 +37,7 @@ VANISH,!           -> "Bye, bye."
 "willie"          -> "This guy does not understand that he should entrust me with the foodbusiness, too. He really should do that and have more time for his farm." 
 "bug"             -> "Bugs plague this isle, but my wares are bugfree, totally bugfree."
 "stuff"           -> "I sell equipment of all kinds, all kind available on this isle. Just ask me about my wares if you are interested."
-"tibia"           -> "One day I will return to the continent as a rich, a very rich man!"
+"demonax"           -> "One day I will return to the continent as a rich, a very rich man!"
 "sam"             -> "My good old cousin Sam. Oh, how I miss him, how I miss him."
 "thais"           -> "Oh, Thais, I'll be back, I'll be back one day."
 

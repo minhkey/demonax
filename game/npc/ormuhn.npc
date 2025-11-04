@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# ormuhn.npc: Datenbank für die arenaleiter ormuhn
+# ormuhn.npc: Datenbank fr die arenaleiter ormuhn
 
 Name = "Ormuhn"
 Sex = male
@@ -32,7 +32,7 @@ VANISH,!           -> "May enlightenment be your path."
 "scarab"    -> "Scarabs might be sacred, but they are also a challenge. If you are able to overcome one of them, its spirit will forgive you. The everlasting sand will grant him rebirth anyway."
 "chosen"    -> "I am one of the chosen. To become like me you have to serve the pharaoh and his temple faithfully."
 
-"tibia"    -> "Tibia is a place kept in the thrall of the greedy false gods. One day though our pharaoh will free Tibia and guide all of its people to ascension." 
+"demonax"    -> "Demonax is a place kept in the thrall of the greedy false gods. One day though our pharaoh will free Demonax and guide all of its people to ascension." 
 
 "carlin"   -> "These cities are nests of corruption and lies. For those who know the treason of the false gods is almost tangible there."
 "thais"    -> *

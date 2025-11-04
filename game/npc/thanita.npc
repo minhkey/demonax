@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# Thanita.npc: Datenbank für die Amazonenwächterin des Turms
+# Thanita.npc: Datenbank fr die Amazonenwchterin des Turms
 
 Name = "Thanita"
 Sex = female
@@ -40,7 +40,7 @@ VANISH,!                  -> "Take good care of yourself traveler!"
 "fight"          -> "To get rid of them, you need to be quite good in different martial arts."
 "defeat"         -> *
 
-"femor", "hills" -> "Are you kidding me? This is femor hills. Probably one of the roughest areas in Tibia. There is nobody else could do my job."
+"femor", "hills" -> "Are you kidding me? This is femor hills. Probably one of the roughest areas in Demonax. There is nobody else could do my job."
 
 "tower"          -> "This is a watchtower of the city of carlin. From here I can see pretty much all of the surrounding lands. Hardly anybody can startle me up here. I see all enemies long before they can see me."
 

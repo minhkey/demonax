@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# aneus.npc: Datenbank für den Geschichtenerzähler Aneus (Fields)
+# aneus.npc: Datenbank fr den Geschichtenerzhler Aneus (Fields)
 
 Name = "Aneus"
 Sex = male
@@ -27,8 +27,8 @@ VANISH,!                   -> "Good bye and take care!"
 "job"           -> "I'm a storyteller."
 "storyteller",! -> "Well, if you wish I can tell you the story about this place here. The story about the Fields of Glory!"
 
-"story",!                 -> "Ok, sit down and listen. Back in the early days, one of the ancestors of our king Tibianus III wanted to build the best city in whole of Tibia.", Topic=2
-"fields","of","glory",!    -> "Ok, sit down and listen. Back in the early days, one of the ancestors of our king Tibianus III wanted to build the best city in whole of Tibia.", Topic=2
+"story",!                 -> "Ok, sit down and listen. Back in the early days, one of the ancestors of our king Tibianus III wanted to build the best city in whole of Demonax.", Topic=2
+"fields","of","glory",!    -> "Ok, sit down and listen. Back in the early days, one of the ancestors of our king Tibianus III wanted to build the best city in whole of Demonax.", Topic=2
 
 Topic=2,"ancestor",!  -> "Please forgive me. I forgot his name. I'm not that young anymore.", Topic=2
 Topic=2,"city",!      -> "The works on this new city began and the king sent his best soldiers to protect the workers from orcs and to make them work harder.", Topic=3
@@ -59,13 +59,13 @@ Topic=9,"stroke",! -> "Most of the Red Legion went to the island by night. The o
 Topic=10,"back",! -> "It is said that the orcish shamans cursed the Red Legion. ...",
                      "Nobody knows. But one third of the soldiers died by a disease on the way back. ...",
                      "And the orcs wanted to take revenge, and after some days they stroke back! ...", 
-                     "The orcs and many allied cyclopses and minotaurs from all over Tibia came to avenge their friends, and they killed nearly all workers and soldiers in the castle. ...",
+                     "The orcs and many allied cyclopses and minotaurs from all over Demonax came to avenge their friends, and they killed nearly all workers and soldiers in the castle. ...",
                      "The help of the king's sister came too late.", Topic=11
 
 Topic=10,"walk",! -> "It is said that the orcish shamans cursed the Red Legion. ...",
                      "Nobody knows. But one third of the soldiers died by a disease on the way back. ...",
                      "And the orcs wanted to take revenge, and after some days they stroke back! ...", 
-                     "The orcs and many allied cyclopses and minotaurs from all over Tibia came to avenge their friends, and they killed nearly all workers and soldiers in the castle. ...",
+                     "The orcs and many allied cyclopses and minotaurs from all over Demonax came to avenge their friends, and they killed nearly all workers and soldiers in the castle. ...",
                      "The help of the king's sister came too late.", Topic=11
 
 Topic=11,"help",! -> "She tried to rescue the workers but it was too late. The orcs started immediately to attack her troops, too. ...",

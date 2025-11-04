@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# Imbul.npc: Datenbank für den Fährman Imbul
+# Imbul.npc: Datenbank fr den Fhrman Imbul
 
 Name = "Imbul"
 Sex = male
@@ -33,13 +33,13 @@ VANISH,!           -> "Bye."
 "edron"    -> "Edron is some isle where the richest knights and sorcerers live. There they are not annoyed of the constant begging of poor people."
 "jungle"   -> "We already lost many settlers to the jungle. No one knows who is next."
 
-"tibia"    -> "That is our world, yes."
+"demonax"    -> "That is our world, yes."
 
 "kazordoon" -> "I think those dwarves came from Kazordoon."
 "dwarves"   -> "The dwarves that live here are searching for gold." 
 "dwarfs"   -> *
 "ab'dendriel" -> "What is that?"
-"elves"       -> "The elven queen is the most beautiful woman in Tibia."
+"elves"       -> "The elven queen is the most beautiful woman in Demonax."
 "elfs"       -> *
 "darama"      -> "Many came here to make their fortune. But it might take a while to become rich."
 "darashia"    -> "That's somewhere behind that mountain."

@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# gorn.npc: Datenbank für den Händler Gorn
+# gorn.npc: Datenbank fr den Hndler Gorn
 
 Name = "Gorn"
 Sex = male
@@ -21,11 +21,11 @@ VANISH,!           -> "Good bye."
 "bye"       -> "Good bye.", Idle
 "farewell"  -> *
 "job"       -> "I am selling equipment of all kinds. Do you need anything?"
-"name"      -> "I am Gorn. My goods are known all over Tibia."
+"name"      -> "I am Gorn. My goods are known all over Demonax."
 "time"      -> "It is exactly %T. Maybe you want to buy a watch?"
 
 "food"      -> "If you are looking for food, go to Frodo's Hut."
-"king"      -> "The king supports Tibia's economy a lot."
+"king"      -> "The king supports Demonax's economy a lot."
 "tibianus"  -> *
 "quentin"   -> "He advices newcomers to buy at my store. I love that guy!"
 "lynda"     -> "That's a pretty one."
@@ -39,7 +39,7 @@ VANISH,!           -> "Good bye."
 "paladin"   -> *
 "muriel"    -> "You can find Muriel in the sorcerer guild."
 "sorcerer"  -> *
-"gregor"    -> "Even the strong knights need my equipment on their travels though Tibia."
+"gregor"    -> "Even the strong knights need my equipment on their travels though Demonax."
 "knight"    -> *
 "marvik"    -> "These druids are nice people, you will find them in the east of the town."
 "druid"     -> *

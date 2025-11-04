@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# chephan.npc: Datenbank für den Küchenbedarfshändler Chephan
+# chephan.npc: Datenbank fr den Kchenbedarfshndler Chephan
 
 Name = "Chephan"
 Sex = male
@@ -31,7 +31,7 @@ VANISH,!           -> "So long, %N."
 "ferumbras" -> "See this fork? Now imagine what a hero like you could do to an evil sorcerer with that fork! Care to buy one?"
 "excalibug" -> "Just an oversized kitchenknife. Better buy the real thing."
 "thais"     -> "Thaian cooking gear is of inferior quality. Make sure to upgrade yours here as soon as you can."
-"tibia"     -> "The world is flat as this plate. You should buy one as a symbol for Tibia."
+"demonax"     -> "The world is flat as this plate. You should buy one as a symbol for Demonax."
 "carlin"    -> "So many women and so little intrest in cooking, horrible."
 "news"      -> "My recipies are family secrets, sorry."
 "tax"       -> "Those taxes are killing me. And they are getting worse each year!"

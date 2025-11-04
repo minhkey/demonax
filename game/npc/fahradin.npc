@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# fahradin.npc: Datenbank für den Maridzauberer Fa'hradin
+# fahradin.npc: Datenbank fr den Maridzauberer Fa'hradin
 
 Name = "Fa'hradin"
 Sex = male
@@ -44,7 +44,7 @@ VANISH,!                                    -> "Farewell, human."
                    "And all of sudden there are roads and pastures and mighty cities. The problem with us djinn is that we always underestimate other species, especially humans."
 "zathroth"      -> "He created our race, but we find it hard to love him. Sometimes I think that whole war has erupted because there is something like a design flaw in us djinns, an inconsistency in the way we are. ...",
                    "I have never been able to put my finger on it, but it keeps me wondering..." 
-"tibia"         -> "Eons ago when I was still young I felt the world was a place of wonder and joy. Now all I see is a badly working system full of design flaws. ...",
+"demonax"         -> "Eons ago when I was still young I felt the world was a place of wonder and joy. Now all I see is a badly working system full of design flaws. ...",
                    "Must have been the first world the gods have created. Who knows? Perhaps they have learnt from their mistakes, and they are creating a better world somewhere else?"
 "daraman"	      -> "I have met him myself. He was a sharp thinker and a charismatic conversationalist. ...",
                    "I suppose he never managed to convince me quite as thoroughly as he managed to convince Gabel, but I came to admire his amazing personal integrity. ...",
@@ -59,7 +59,7 @@ VANISH,!                                    -> "Farewell, human."
 "kazordoon"     -> *
 "carlin"        -> *
 "ab'dendriel"   -> *
-"ankrahmun"     -> "That is one of the oldest human settlements in the whole of Tibia. I understand it is currently ruled by the pharaoh - some sort of undead priest-king. I am sure that must be a charming fellow."
+"ankrahmun"     -> "That is one of the oldest human settlements in the whole of Demonax. I understand it is currently ruled by the pharaoh - some sort of undead priest-king. I am sure that must be a charming fellow."
 "pharaoh"       -> "Apparently the whole issue of dying in order to extend the natural life span was his idea. Those humans. You never know what they come up with next!"
 
 "palace"        -> "The pharaoh's palace in Ankrahmun is an impressive building. At least that is how I remember it to be. ...",

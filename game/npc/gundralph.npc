@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# gundralph.npc: Datenbank für den Zauberlehrer Gundralph
+# gundralph.npc: Datenbank fr den Zauberlehrer Gundralph
 
 Name = "Gundralph"
 Sex = male
@@ -28,7 +28,7 @@ VANISH,!           -> "Goodbye."
 "ferumbras" -> "How low can a sorceror sink."
 "excalibug" -> "An awesome weapon if it exists."
 "thais"     -> "I see Thais as a lost course."
-"tibia"     -> "The world is so big and we have only so little time to travel."
+"demonax"     -> "The world is so big and we have only so little time to travel."
 "carlin"    -> "Carlin is a fine place for druids."
 "edron"     -> "Sciences are thriving on this isle."
 "news"      -> "I have heard nothing of intrest lately, sorry."

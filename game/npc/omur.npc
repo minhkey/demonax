@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# Omur.npc: Datenbank für den Gemüsehändler Omur
+# Omur.npc: Datenbank fr den Gemsehndler Omur
 
 Name = "Omur"
 Sex = male
@@ -27,7 +27,7 @@ VANISH,!           -> "May your soul flourish like dunegrass after a rainfall."
 "ferumbras" -> "I think I have heard a traveller from the west mention that name."
 "excalibug" -> "Is that the name of a djinn?"
 "thais"     -> "We import some goods from there in exchange for ours."
-"tibia"     -> "The world is nothing but a vain seduction."
+"demonax"     -> "The world is nothing but a vain seduction."
 "carlin"    -> "I know almost nothing about that town. It must be exotic and entertaining. A place of distractions from the true path."
 "news"      -> "Sometimes the desertwind carries the crys and mourning of the tortured souls from Drefia far into the desert."
 "rumour"    -> *

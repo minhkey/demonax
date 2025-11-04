@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# ursula.npc: Datenbank für die Zauberlehrerin Ursula
+# ursula.npc: Datenbank fr die Zauberlehrerin Ursula
 
 Name = "Ursula"
 Sex = female
@@ -28,7 +28,7 @@ VANISH,!           -> "Bye."
 "ferumbras" -> "Ah, come on, he can't be that poweful and evil as all say."
 "excalibug" -> "A myth born out of some knights' inferiority complex."
 "thais"     -> "Ah, yes, I remember my time there, old Muriel teaching me the basics."
-"tibia"     -> "Isn't it a fine world we live in."
+"demonax"     -> "Isn't it a fine world we live in."
 "carlin"    -> "They should have been more careful with this town, before they lost it."
 "edron"     -> "Sciences are thriving on this isle."
 "news"      -> "I heard about things you never would believe. Please come back when I have more time to chat."

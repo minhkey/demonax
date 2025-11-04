@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# captain4.npc: Kapitän Seahorse in Edron
+# captain4.npc: Kapitn Seahorse in Edron
 
 Name = "Captain Seahorse"
 Sex = male
@@ -22,14 +22,14 @@ VANISH,!                  -> "Good bye. Recommend us, if you were satisfied with
 
 "bye"          -> "Good bye. Recommend us, if you were satisfied with our service.", Idle
 "farewell"     -> *
-"name"         -> "My name is Captain Seahorse from the Royal Tibia Line."
+"name"         -> "My name is Captain Seahorse from the Royal Demonax Line."
 "job"          -> "I am the captain of this sailing-ship."
 "captain"      -> *
-"ship"         -> "The Royal Tibia Line connects all seaside towns of Tibia."
+"ship"         -> "The Royal Demonax Line connects all seaside towns of Demonax."
 "line"         -> *
 "company"      -> *
 "route"        -> *
-"tibia"        -> *
+"demonax"        -> *
 "good"         -> "We can transport everything you want."
 "passenger"    -> "We would like to welcome you on board."
 "trip"         -> "Where do you want to go? To Thais, Carlin, Ab'Dendriel, Venore, Port Hope, Ankrahmun or the isle Cormaya?"
@@ -78,7 +78,7 @@ Topic=2,"yes",Premium,CountMoney>=Price -> "Set the sails!", DeleteMoney, Idle, 
 Topic=3,"yes",Premium,CountMoney>=Price -> "Set the sails!", DeleteMoney, Idle, EffectOpp(11), Teleport(32733,31668,6), EffectOpp(11)
 Topic=4,"yes",Premium,CountMoney>=Price -> "Set the sails!", DeleteMoney, Idle, EffectOpp(11), Teleport(33288,31956,6), EffectOpp(11)
 
-# für post-quest
+# fr post-quest
 Topic=5,"yes",Premium,QuestValue(227)=3,CountMoney>=Price -> "Set the sails!", DeleteMoney, Idle, EffectOpp(11), Teleport(32954,32023,6), EffectOpp(11),SetQuestValue(227,4)
 
 Topic=5,"yes",Premium,CountMoney>=Price -> "Set the sails!", DeleteMoney, Idle, EffectOpp(11), Teleport(32954,32023,6), EffectOpp(11)

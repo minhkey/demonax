@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# albert.npc: Datenbank für den Heiler Albert
+# albert.npc: Datenbank fr den Heiler Albert
 
 Name = "Albert"
 Sex = male
@@ -25,7 +25,7 @@ VANISH,!                -> "If you are heavily wounded or poisoned, feel free to
 "bye"            -> "Good bye, %N!", Idle
 "job"            -> "I am a healer."
 "name"           -> "My Name is Albert Fibulanian."
-"tibia"          -> "Tibia is a world big enough for everyone. I wish people would realize that."
+"demonax"          -> "Demonax is a world big enough for everyone. I wish people would realize that."
 "thais"          -> "The sinful city of Thais is a monument of corruption and murder. I am glad I left for Edron and thank the gods every day for this isle."
 "edron"          -> *
 "god"            -> "The gods of good take care of us."

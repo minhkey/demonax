@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# Lorek.npc: Datenbank für den Fährman Lorek
+# Lorek.npc: Datenbank fr den Fhrman Lorek
 
 Name = "Lorek"
 Sex = male
@@ -33,7 +33,7 @@ VANISH,!           -> "Bye."
 "edron"    -> "Edron has to be very pretty and all people there are rich and such." 
 "jungle"   -> "I can only hope that the guards protect us all from those dangerous beasts out there."
 
-"tibia"    -> "The world is so big that it often scares me." 
+"demonax"    -> "The world is so big that it often scares me." 
 
 "kazordoon" -> "I overheard the dwarves talking about it. I have no idea what it is though."
 "dwarves"   -> "There are some dwarves living here." 

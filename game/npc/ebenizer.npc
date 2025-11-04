@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# ebenizer.npc: Datenbank für den Bankier Ebenizer
+# ebenizer.npc: Datenbank fr den Bankier Ebenizer
 
 Name = "Ebenizer"
 Sex = male
@@ -29,7 +29,7 @@ VANISH,!           -> "Have a nice day."
 "ferumbras" -> "A true threat to wealth and trade."
 "excalibug" -> "This weapon, if real, might be worth a lot."
 "thais"     -> "We are in constant contact with the city of Thais."
-"tibia"     -> "There are countless ways of profit in this world."
+"demonax"     -> "There are countless ways of profit in this world."
 "carlin"    -> "It's underdeveloped and economically insignificant."
 "edron"     -> "The riches of our isle are its mineral resources."
 "news"      -> "I only care about financial news."

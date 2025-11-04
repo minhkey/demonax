@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# norbert.npc: Datenbank für den Schneider Norbert
+# norbert.npc: Datenbank fr den Schneider Norbert
 
 Name = "Norbert"
 Sex = male
@@ -31,7 +31,7 @@ VANISH,!                    -> "Bye, bye."
 "ferumbras" -> "Those evil mages dress so ugly."
 "excalibug" -> "I fear such a weapon will ruin a silk shirt with one blow."
 "thais"     -> "Thaian wear is not that stylish anymore."
-"tibia"     -> "Our tailors are influenced by styles of the whole known world."
+"demonax"     -> "Our tailors are influenced by styles of the whole known world."
 "carlin"    -> "Women could do better then to wear armor. Women in leather scare my in particular."
 "hugo"      -> "He's our boss, a great tailor and designer."
 "chief"     -> *

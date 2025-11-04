@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# hl.npc: Datenbank für den Aufkäufer im Kriminellencamp
+# hl.npc: Datenbank fr den Aufkufer im Kriminellencamp
 
 Name = "H.L."
 Sex = male
@@ -55,7 +55,7 @@ Topic=1,"talk"     -> "Ok. Get lost!", Idle
 "ab'dendriel"      -> "Elves. Hate them."
 "edron"            -> "Might be a good place to live. But I'm afraid that the people are Thais friendly."
 "king"             -> "The king should be dead."
-"ruler"            -> "Tibia doesn't need a ruler."
+"ruler"            -> "Demonax doesn't need a ruler."
 "tibianus"         -> "Hang him."
 
 "wild","warrior"   -> "Yeah. I'm a wild warrior. Well, to be honest, I left them. They became too aggressive. Attacking everyone is not good."

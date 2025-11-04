@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# oldadall.npc: Datenbank für den Fährman old adall
+# oldadall.npc: Datenbank fr den Fhrman old adall
 
 Name = "Old Adall"
 Sex = male
@@ -36,7 +36,7 @@ VANISH,!           -> "Bye."
 "edron"    -> "Edron is not the lovely little isle people tend to think it is. There are secrets and ancient evil beneath the ground. Things that had better been left burried, have been unearthed."
 "jungle"   -> "The challenge the jungle is providing is something for the young and daring. I am not going to leave the security of the town, I'll just stay here and watch how things turn out."
 
-"tibia"    -> "The world offers much to discover. Whether you find your fortune or your doom, it is a private thing between you and fate though."
+"demonax"    -> "The world offers much to discover. Whether you find your fortune or your doom, it is a private thing between you and fate though."
 
 "kazordoon" -> "I have never seen this inland town on my own."
 "dwarves"   -> "Some dwarves joined the colony. They are looking for treasures and minerals in the jungle." 

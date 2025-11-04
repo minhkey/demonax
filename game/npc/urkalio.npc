@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# urkalio.npc: Datenbank für den Wirt Urkalio
+# urkalio.npc: Datenbank fr den Wirt Urkalio
 
 Name = "Urkalio"
 Sex = male
@@ -33,7 +33,7 @@ VANISH,!           -> "We're some hasty one, aren't we?"
 "ferumbras"    -> "THAT would be some attraction down here."
 "excalibug"    -> "I would love to see that weapon in a fight."
 "thais"        -> "Such a boring city. I wonder why anyone would live there."
-"tibia"        -> "Sooner or later everyone comes here, so why bother to travel."
+"demonax"        -> "Sooner or later everyone comes here, so why bother to travel."
 "carlin"       -> "I don't care about their 'independence war'."
 "amazon"       -> "Some came here to challenge the local champions. I can't say I was impressed by their skills. However, they took a few heads as trophies."
 "news"         -> "I bet you want to hear about those swampelves from Shadowthorn."

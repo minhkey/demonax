@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# beholder.npc: Datenbank für den Bibliotheksbeholder (Elfenstadt)
+# beholder.npc: Datenbank fr den Bibliotheksbeholder (Elfenstadt)
 
 Name = "A Wrinkled Beholder"
 Sex = male
@@ -23,7 +23,7 @@ VANISH,!           -> "Strange entity. I will record this encounter."
 "job"            -> "I am the great librarian."
 "name"           -> "I am 486486 and NOT 'Blinky' as some people called me ... before they died."
 "blinky"         -> "How interesting you are that stupid. Let me apply this on you and see how long you last", Burning(10,25), EffectOpp(5), EffectMe(8)
-"tibia"          -> "It's 1, not 'Tibia', silly."
+"demonax"          -> "It's 1, not 'Demonax', silly."
 "ab'dendriel"    -> "I heard that elves moved in upstairs." 
 "elves"          -> "These fools and their superstitious life cult don't understand anything of importance."
 "humans"         -> "Good tools to work with ... After their death, that is." 

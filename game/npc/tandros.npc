@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# tandros.npc: Datenbank für den magierhändler Tandros
+# tandros.npc: Datenbank fr den magierhndler Tandros
 
 Name = "Tandros"
 Sex = male
@@ -33,7 +33,7 @@ VANISH,!           -> "Farewell."
 "edron"    -> "Edron is rumoured to be a place of ancient mysteries and powerful magic." 
 "jungle"   -> "The magic is out there somewhere."
 
-"tibia"    -> "The world is full of magic that is waiting to be used ... perhaps by you! Take the first step by buying my wares to gather even more magic power for yourself." 
+"demonax"    -> "The world is full of magic that is waiting to be used ... perhaps by you! Take the first step by buying my wares to gather even more magic power for yourself." 
 
 "kazordoon" -> "Dwarves have little love for magic. That makes them quite suspicious, doesn't it?"
 "dwarves"   -> * 
@@ -82,7 +82,7 @@ Topic=2                         -> "Hmm, but next time."
 
 Topic=3,"yes",Count(2874)>0 -> Amount=Count(2874), Price=Amount*5, "Here you are ... %P gold.", Delete(2874), CreateMoney
 Topic=3,"yes"               -> "You don't have any empty vials."
-Topic=3                     -> "Hmm, but please keep Tibia litter free."
+Topic=3                     -> "Hmm, but please keep Demonax litter free."
 
 
 @"gen-t-runes-free-s.ndb"

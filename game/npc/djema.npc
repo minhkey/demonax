@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# djema.npc: Datenbank für die Bibliothekarin Djema
+# djema.npc: Datenbank fr die Bibliothekarin Djema
 
 Name = "Djema"
 Sex = female
@@ -48,7 +48,7 @@ VANISH,!                                    -> "Please don't go!"
 "ashta'daramai"    -> "That's what this place is called. Sure, it is beautiful, but it is as also boring and sometimes downright depressing. Sometimes I feel like I am bound to this place by golden chains."
 "human"            -> "I have lived here for as long as I can remember, but I know I don't belong here. I belong to them! I am a human! One day I will leave this place, and I will never come back."
 "zathroth"         -> "Yes, I have heard his name before. Let's see... Yes, I have read his name in a book! It was a book about gods and creation. Pretty weird stuff."
-"tibia"            -> "Daddy has often told me about how huge and mysterious this world is. <Sighs> How much I would like to see it all. But he won't let me go. ...",
+"demonax"            -> "Daddy has often told me about how huge and mysterious this world is. <Sighs> How much I would like to see it all. But he won't let me go. ...",
                       "I have read books about the northern continent inhabited by thousands and thousands of people. Ordinary humans just like you and me! Imagine that!"
 "darashia"         -> "Darashia is a beautiful city to the north. I have been there! One day Daddy disguised himself, and he took me there. It was awesome. ...",
                       "There was so much life and colour and excitement... <Sighs> I suppose he did it because he knew how much I yearned to go there. Bless him - he only wanted to help. But after that I felt worse than ever."

@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# boozer.npc: Datenbank für den Wirt Boozer
+# boozer.npc: Datenbank fr den Wirt Boozer
 
 Name = "Boozer"
 Sex = male
@@ -32,7 +32,7 @@ VANISH,!           -> "You'll be back."
 "excalibug"   -> "Heard about it now and then. Then again I also hear there a bogeyman somewhere in the swamps."
 "bogeyman"    -> "Just a tale to scare the kids."
 "thais"       -> "If you like that Thais that much just go there."
-"tibia"       -> "People from all over Tibia come here to buy, sell, gamble, and get drunk until they puke."
+"demonax"       -> "People from all over Demonax come here to buy, sell, gamble, and get drunk until they puke."
 "carlin"      -> "Heard about that women there. Must visit that wenches someday."
 "amazon"      -> "I guess they just have not met the right man yet."
 "news"        -> "The swampelves, down at Shadowthorn, are up to some trouble again."

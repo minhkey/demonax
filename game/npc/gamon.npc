@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# gamon.npc: Möbelverkäufer Gamon in Thais
+# gamon.npc: Mbelverkufer Gamon in Thais
 
 Name = "Gamon"
 Sex = male
@@ -44,7 +44,7 @@ VANISH,!                  -> "Lady? Lady?? Hm. How strange..."
 "quentin"         -> "That old monk has probably never left that overcrowded town here."
 "quest"	      -> "A quest?! Who needs quests when there is interior decorating!"
 "bozo"            -> "Bozo! Damn that clown! He keeps making fake orders. It isn't funny to deliver a wardrobe to an address that doesn't even exist, you know!"
-"tibia"           -> "Tibia is a wonderful place full of business opportunities."
+"demonax"           -> "Demonax is a wonderful place full of business opportunities."
 "castle"          -> "I've said it a thousand times! That place needs a complete refurbishing!"
 "muriel"          -> "The sorcerers guild could realy need someone with taste to redecorate it."
 "elane"           -> "She's pretty, but I am the kind of man who enjoys a long and healthy life."

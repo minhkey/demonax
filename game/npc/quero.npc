@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# quero.npc: Datenbank für den Barden Quero
+# quero.npc: Datenbank fr den Barden Quero
 
 Name = "Quero"
 Sex = male
@@ -20,12 +20,12 @@ VANISH,!           -> "Good bye."
 
 "bye"       -> "Good bye.", Idle
 "farewell"  -> *
-"job"       -> "I make instruments and sometimes I'm wandering through the lands of Tibia as a bard."
+"job"       -> "I make instruments and sometimes I'm wandering through the lands of Demonax as a bard."
 "name"      -> "My name is Quero."
 "time"      -> "Sorry, I don't know what time it is."
 
 "music"     -> "I love the music of the elves."
-"elf"       -> "They live in the northeast of Tibia."
+"elf"       -> "They live in the northeast of Demonax."
 "elves"     -> *
 "bard"      -> "Selling instruments isn't enough to live on and I love music. That's why I wander through the lands from time to time."
 

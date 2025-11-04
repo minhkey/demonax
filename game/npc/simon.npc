@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# simon.npc: Datenbank für den Bettler Simon auf der Insel Fibula
+# simon.npc: Datenbank fr den Bettler Simon auf der Insel Fibula
 
 Name = "Simon the Beggar"
 Sex = male
@@ -52,7 +52,7 @@ Topic=3                         -> "Ok. No problem. I'll find another buyer."
 "monster"  -> "The strongest monster I know is the giant spider."
 "jetty"    -> "I hate this jetty. I have never seen a ship here."
 "ship"     -> "There is a large sea-monster outside. I think there is no gritty captain to sail in this quarter."
-"tibia"    -> "Hehe, do you have a shovel? I can sell you a shovel if you want to return to Tibia."
+"demonax"    -> "Hehe, do you have a shovel? I can sell you a shovel if you want to return to Demonax."
 
 "shovel"   -> Type=3457, Amount=1, Price=50, "Do you want to buy a shovel for %P gold?", Topic=4
 

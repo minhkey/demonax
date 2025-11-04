@@ -38,7 +38,7 @@ VANISH,!                  -> "Hope to see you again."
 
 "quest"           -> "I heard from a mystic bone of the lich lord below the House of Necromant. Bring it to me, and you will receive a reward."
 "crystal"         -> "The mystic crystal should be able to resurrect fresh corpses."
-"necromant"       -> "He lived in a lonely house in the south eastern part of Tibia beyond the mountains."
+"necromant"       -> "He lived in a lonely house in the south eastern part of Demonax beyond the mountains."
 "reward"          -> "I'll teach you a very seldom spell.", Topic=4
 Topic=4,"spell"   -> "I'll teach you 'exevo gran mas vis', but bring me this bone first!"
 
@@ -49,7 +49,7 @@ Topic=4,"spell"   -> "I'll teach you 'exevo gran mas vis', but bring me this bon
 "Muriel"                   -> "He runs his magic shop in the southwest of the city. He sells runes and spells and helps you, if you want to become a sorcerer."
 "find","person"            -> "If you search someone, this spell will give you an idea of the direction you must head. You will be able to see, whether he is below or above you."
 "light"                    -> "A ray of light will emerge from your flat hand to illuminate your environment."
-"light","healing"          -> "The paths to the next temple are long. Even in Tibia. So learn this spell, and be able to heal yourself during your travels. This spell will only cure small wounds, but it is pretty helpful."
+"light","healing"          -> "The paths to the next temple are long. Even in Demonax. So learn this spell, and be able to heal yourself during your travels. This spell will only cure small wounds, but it is pretty helpful."
 "light","magic","missile"  -> "You can activate this spell by pointing your index finger in the direction of your enemy, conjure the power of your rune and shoot the magic missiles in your enemy's body."
 "antidote"                 -> "This spell sucks the venom out of your veins, that some enemy might have injected."
 "intense","healing"        -> "This spell will cure more wounds or greater ones at once. This is of course more 'mana intensive', but everybody will sooner or later get in a situation where mana is nothing - compared to life."

@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# baxter.npc: Datenbank für den Burgwächter Baxter
+# baxter.npc: Datenbank fr den Burgwchter Baxter
 
 Name = "Baxter"
 Sex = male
@@ -22,7 +22,7 @@ VANISH,!           -> "What a lack of manners!"
 "farewell"       -> *
 "news"           -> "It is rumoured that Ferumbras is planning a new attack on town."
 "how","are","you"-> "I am healthy and vigilant."
-"sell"           -> "Visit Tibia's shopkeepers to buy their fine wares."
+"sell"           -> "Visit Demonax's shopkeepers to buy their fine wares."
 "king"           -> "King Tibianus III is our wise and just leader!"
 "leader"         -> *
 "job"            -> "I am a proud member of the king's army. It is my duty to guard the castle."

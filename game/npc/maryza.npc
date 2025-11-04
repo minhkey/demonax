@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# maryza.npc: Datenbank für die Wirtin Maryza
+# maryza.npc: Datenbank fr die Wirtin Maryza
 
 Name = "Maryza"
 Sex = female
@@ -38,7 +38,7 @@ VANISH,!                    -> "HEY! You lousy....!"
 "excalibug"         -> "Would slice a dragon or two for steaks if i'd get it."
 "tark"              -> "He loved my dragonsteaks. Heard he died by a cave in while fighting drags in the Plains of Havoc."
 "thais"             -> "Puny town for puny guys."
-"tibia"             -> "We don't care much about outsiders anymore."
+"demonax"             -> "We don't care much about outsiders anymore."
 "carlin"            -> "Don't like it, has an elfish touch, ye know?"
 "news"              -> "The boys of the Savage Axe at the bridge are running wild in these days."
 "rumors"            -> *

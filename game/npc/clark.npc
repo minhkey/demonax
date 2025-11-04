@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# clark.npc: Datenbank für den captain der Wache clark
+# clark.npc: Datenbank fr den captain der Wache clark
 
 Name = "Clark"
 Sex = male
@@ -35,7 +35,7 @@ VANISH,!           -> "Goodbye."
 "edron"    -> "The knights of Edron are somewhat arrogant. They use the resources of the isle only for themselves instead of sharing it." 
 "jungle"   -> "The jungle is our first and foremost enemy."
 
-"tibia"    -> "I would guess a good part of the world is under Thaian rule." 
+"demonax"    -> "I would guess a good part of the world is under Thaian rule." 
 
 "kazordoon" -> "As long as the dwarves stay there and don't expand, I think it's ok to let them have this ugly piece of rock."
 "dwarves"   -> "Dwarves are impressive fighters. The Venorans talked about hiring some of them as mercenaries to help us out." 

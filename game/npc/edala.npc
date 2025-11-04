@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# edala.npc: Datenbank für die heilerin edala (nahe Elfenstadt)
+# edala.npc: Datenbank fr die heilerin edala (nahe Elfenstadt)
 
 Name = "Edala"
 Sex = female
@@ -66,13 +66,13 @@ VANISH,!                 -> "Asha Thrazi, traveller."
 
 "pilgrimage"     -> "Whenever you receive a lethal wound your lifeforce is damaged. With every single of the five blessings you have this damage will be reduced."
 "ashes"          -> *
-"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of tibia, the fire of the suns and the wisdom of solitude." 
+"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of demonax, the fire of the suns and the wisdom of solitude." 
 "sacred","places"  -> "Just ask my about the blessing you are interested in."
 "spiritual" -> " You may receive the spiritual shielding in the whiteflowertemple south of Thais."
 "shielding" -> *
 "spark" -> "The spark of the phoenix will be given to you by the dwarven priests of earth and fire in Kazordoon."
 "phoenix" -> *
-"embrace" -> "The druids north of Carlin will provide you with the embrace of tibia."
+"embrace" -> "The druids north of Carlin will provide you with the embrace of demonax."
 
 "fire"     -> "Do you wish to receive the blessing of the two suns? It will cost you 10.000 gold, pilgrim.",Price=10000, Topic=5
 "suns" -> *

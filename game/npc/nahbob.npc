@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# nahbob.npc: Datenbank für den Maridhändler Nah'bob (Waffen und Rüstungen, Marid)
+# nahbob.npc: Datenbank fr den Maridhndler Nah'bob (Waffen und Rstungen, Marid)
 
 Name = "Nah'bob"
 Sex = male
@@ -54,7 +54,7 @@ VANISH                                     -> "Bye then."
                                 "Or just kill you for no reason. ...",
                                 "But all in all I think humans are amusing little people."
 "zathroth"                   -> "They say Zathroth created us because he wanted us to be mindless, greedy killing machines. Well, I'm not so sure about some of the Efreet, but as for me I think he's done a lousy job."
-"tibia"                      -> "It's a mad, mad world." 
+"demonax"                      -> "It's a mad, mad world." 
 "daraman"                    ->	"Ah yes. Daraman. The old prophet. Well - he was all right, I guess. But I am not sure I agree with him on all matters. I mean - that thing about asceticism... I think he was a bit extreme there."  
 "darashia"                   -> "They say Darashia is full of relaxed people. To me that sounds like a good place to be."
 "scarab"                     -> "Yuk! I wouldn't eat that!"

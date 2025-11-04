@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# amber.npc: Datenbank für die Abenteurerin Amber
+# amber.npc: Datenbank fr die Abenteurerin Amber
 
 Name = "Amber"
 Sex = female
@@ -22,7 +22,7 @@ VANISH,!           -> "See you later."
 "farewell"        -> *
 "how","are","you" -> "I am recovering from a sea journey."
 "job"             -> "I explore and seek adventure."
-"explore"         -> "I have been almost everywhere in Tibia."
+"explore"         -> "I have been almost everywhere in Demonax."
 "adventure"       -> "I fought fierce monsters, climbed the highest mountains, and crossed the sea on a raft."
 "sea"             -> "My trip over the sea was horrible. The weather was bad, the waves high and my raft quite simple."
 "time"            -> "Sorry, I lost my watch in a storm."
@@ -49,7 +49,7 @@ VANISH,!           -> "See you later."
 "obi"             -> "He's a funny little man."
 "weapon"          -> "The best weapons on this isle are just toothpicks, compared with the weapons warriors of the mainland wield."
 "magic"           -> "You can learn spells only in the guildhalls of the mainland."
-"tibia"           -> "I try to explore each spot of Tibia, and one day I will succeed."
+"demonax"           -> "I try to explore each spot of Demonax, and one day I will succeed."
 "castle"          -> "If you travel to Thais, you really should visit the marvelous castle."
 
 "book"            -> Type=2821, Amount=1, "Do you bring me my notebook?", Topic=1

@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# miraia.npc: Datenbank für die Wirtin Miraia
+# miraia.npc: Datenbank fr die Wirtin Miraia
 
 Name = "Miraia"
 Sex = female
@@ -29,7 +29,7 @@ VANISH,!                   -> "Daraman's blessings. Come back soon."
 "ferumbras"       -> "Travellers talked to me about his evilness. Thrice damned be his name."
 "excalibug"       -> "Some foolish adventurers seek for it in the haunted ruins of Drefia."
 "thais"           -> "Thais is a place of evil and corruption."
-"tibia"           -> "Here we are far away from the temptations of the world."
+"demonax"           -> "Here we are far away from the temptations of the world."
 "carlin"          -> "At least they shun alcohol over there."
 "news"            -> "Oh, just listen to the tales told by the other visitors."
 "rumour"          -> *

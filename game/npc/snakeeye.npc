@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# snakeeye.npc: Datenbank für den Wirt im Kriminellencamp
+# snakeeye.npc: Datenbank fr den Wirt im Kriminellencamp
 
 Name = "Snake Eye"
 Sex = male
@@ -26,14 +26,14 @@ VANISH,!           -> "Bye"
 "eye"              -> "Well, I had a dispute with a snake once. And the snake won. Bit my left eye out. Therefore, Snake Eye."
 "snake"            -> *
 "boss"             -> "Yeah. I'm the boss. So don't bother me."
-"tavern"           -> "It's a great tavern. No closing time. No problems with kings or other rulers. Best place in Tibia."
-"tibia"            -> "There's already too much order in Tibia. We don't need kings or whatever."
+"tavern"           -> "It's a great tavern. No closing time. No problems with kings or other rulers. Best place in Demonax."
+"demonax"            -> "There's already too much order in Demonax. We don't need kings or whatever."
 "king"             -> "We don't need one."
 "ruler"            -> *
 "tibianus"         -> "We don't need him."
 "time"             -> "Go and get a watch."
 
-"god"              -> "The Gods of Tibia! What a crap! It's all superstition!"
+"god"              -> "The Gods of Demonax! What a crap! It's all superstition!"
 "crap"             -> "Crap. Crap! CRAP! It's all CRAP!"
 "superstition"     -> "Believe me! There are no gods."
 "durin"            -> "He's the worst. The so called god of the dwarfs. I don't believe it. It's all crap."

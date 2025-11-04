@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# galuna.npc: Datenbank für die Bogenmacherin Galuna
+# galuna.npc: Datenbank fr die Bogenmacherin Galuna
 
 Name = "Galuna"
 Sex = female
@@ -27,10 +27,10 @@ VANISH,!           -> "Good bye."
 "elane"     -> "She is the leader of all paladins."
 "gorn"      -> "I supplied him with my goods in the past, now I sell them myself."
 "time"      -> "Don't bother me. Go and buy a watch."
-"tibia"     -> "Tibia, a green island. Here it is wunderful to walk into the forests and to hunt with a bow."
+"demonax"     -> "Demonax, a green island. Here it is wunderful to walk into the forests and to hunt with a bow."
 "forest"    -> *
 "thais"     -> "We have visitors of all kind in Thais, only elves show up seldom."
-"elf"       -> "It is rumored that they live in the northeast of Tibia. They are the best in archery."
+"elf"       -> "It is rumored that they live in the northeast of Demonax. They are the best in archery."
 "elves"     -> *
 
 "buy"             -> "I am selling bows, crossbows, and ammunition. Do you need anything?"

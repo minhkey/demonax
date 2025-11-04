@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# norf.npc: Datenbank für den Mönch Norf
+# norf.npc: Datenbank fr den Mnch Norf
 
 Name = "Norf"
 Sex = male
@@ -50,13 +50,13 @@ VANISH,!                -> "Remember: If you are heavily wounded or poisoned, I 
 
 "pilgrimage"     -> "Whenever you receive a lethal wound your lifeforce is damaged. With every single of the five blessings you have this damage will be reduced."
 "ashes"          -> *
-"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of tibia, the fire of the suns and the wisdom of solitude." 
+"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of demonax, the fire of the suns and the wisdom of solitude." 
 "sacred","places"  -> "Just ask in which of the five blessings you are interested in."
 "spiritual" -> "Here in the whiteflower temple you may receive the blessing of spiritual shielding. But we must ask of you to sacrifice 10.000 gold. Are you still interested?",Price=10000, Topic=5
 "shielding" -> *
 "spark" -> "The spark of the phoenix is given by the dwarven priests of earth and fire in Kazordoon."
 "phoenix" -> *
-"embrace" -> "The druids north of Carlin will provide you with the embrace of tibia."
+"embrace" -> "The druids north of Carlin will provide you with the embrace of demonax."
 
 "fire"     -> "You can ask for the blessing of the two suns in the suntower near Ab'Dendriel."
 "suns" -> *

@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# ferks.npc: Datenbank für den Bankier Ferks
+# ferks.npc: Datenbank fr den Bankier Ferks
 
 Name = "Ferks"
 Sex = male
@@ -33,7 +33,7 @@ VANISH,!           -> "Good bye."
 "edron"    -> "Edron has little to offer. It's overestimated. Let those silly knights have it. In the end it will be us who clean up the mess and bring order into the chaos that will be left when they finally leave." 
 "jungle"   -> "This jungle is dangerous. The more area we can finally cultivate, the better. Only if we chop and burn enough of it down and create new farmland, we can build a new centre of commerce."
 
-"tibia"    -> "Sometimes I wonder why the gods don't put more effort into bringing us order but I am a banker, not a priest." 
+"demonax"    -> "Sometimes I wonder why the gods don't put more effort into bringing us order but I am a banker, not a priest." 
 
 "kazordoon" -> "Dwarves are disciplined people, which I appreciate."
 "dwarves"   -> *

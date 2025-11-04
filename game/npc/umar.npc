@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# umar.npc: Datenbank für den Maridpförtner Umar
+# umar.npc: Datenbank fr den Maridpfrtner Umar
 
 Name = "Umar"
 Sex = male
@@ -97,7 +97,7 @@ Topic=2,!       -> *
 "marid"		    -> "That's us. I suppose we are the good guys in this war. Although good is relative, of course. So let's say, we are relatively good. Depends on the point of view, really."
 "war"         -> "We had thought the war was over for good when Malor was finally imprisoned. That little creep is as obstinate as... as... well, as a really obstinate djinn."
 "malor"			  -> "Malor is evil. I mean - really evil. Things used to be much better when he was still locked away in that lamp."
-"tibia"       -> "Tibia is a beautiful world. Not that I see much of it, staring at this wall night and day."
+"demonax"       -> "Demonax is a beautiful world. Not that I see much of it, staring at this wall night and day."
 "world"       -> *
 "gods"        -> "I have not made my mind up what to think about the gods yet. I am still struggling with Daraman's teachings."
 "daraman"	    -> "Daraman has changed our lives. I mean, we were not stupid or anything before he came, but still it was different. Fa'hradin says that while Zathroth made us intelligent, Daraman made us think." 

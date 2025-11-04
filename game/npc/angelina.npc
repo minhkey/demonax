@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# angelina.npc: Datenbank für die gefangene der dunklen mönche Angelina
+# angelina.npc: Datenbank fr die gefangene der dunklen mnche Angelina
 Name = "Angelina"
 Sex = female
 Race = 1
@@ -44,7 +44,7 @@ VANISH,!           -> "May the gods bless you."
 "edron"    -> "The downfall of some of the most noble knights there should serve us as a warning to stay on guard for the evil that wants to lure us on the wrong path."
 "gods"     -> "I would love to discuss the teachings of the gods with you but this is neither the time nor the place."
 
-"tibia"    -> "We all have to help to make this world a better place."
+"demonax"    -> "We all have to help to make this world a better place."
 
 "kazordoon" -> "The dwarves carry bitterness and pain in their souls. But it is them that have forgotten about the gods and not the other way around."
 "dwarves"   -> * 

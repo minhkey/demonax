@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# kawill.npc: Datenbank für den Geomancer Kawill (Zwergenstadt)
+# kawill.npc: Datenbank fr den Geomancer Kawill (Zwergenstadt)
 
 Name = "Kawill"
 Sex = male
@@ -31,7 +31,7 @@ VANISH,!                -> "Earth under your feet, pilgrim."
 
 "job"            -> "I am the great geomancer of dwarvenkind."
 "name"           -> "I am Kawill Marbleeye, Son of Earth, from the Molten Rock."
-"tibia"          -> "Nice world in general. It's a shame there is so much water ruining the general impression."
+"demonax"          -> "Nice world in general. It's a shame there is so much water ruining the general impression."
 "kazordoon"      -> "By using the powers of fire and earth we forced the river that once wound its way through the big old one in other directions, and created our home." 
 "big","old"      -> "The mountain we live in is called the big old one. It's the mountain of mountains, and it isand like a friend and protector to our race."
 "elves"          -> "Who cares for that silly people."
@@ -103,13 +103,13 @@ VANISH,!                -> "Earth under your feet, pilgrim."
 
 "pilgrimage"     -> "Whenever you recive a lethal wound your lifeforce is damaged. With every single of the five blessings you have this damage will be reduced."
 "ashes"          -> *
-"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of tibia, the fire of the suns and the wisdom of solitude." 
+"blessing"  -> "There are five different blessings available in five sacred places. These blessings are: the spiritual shielding, the spark of the phoenix, the embrace of demonax, the fire of the suns and the wisdom of solitude." 
 "sacred","places"  -> "Just ask in which of the five blessings you are interested in."
 "spiritual" -> "You can receive the spiritual shielding which in the whiteflower temple south of thais."
 "shielding" -> *
 "spark" -> "The spark of the phoenix is given by me and by the great pyromancer in the nearby firetemple. Do you wish to receive my part of the blessing of the phoenix?", topic=1
 "phoenix" -> *
-"embrace" -> "The druids north of Carlin will provide you with the embrace of tibia."
+"embrace" -> "The druids north of Carlin will provide you with the embrace of demonax."
 # "fire","suns"     -> "You can get the blessing of the two suns in the suntower near Ab'Dendriel."
 # "suns"      -> *
 # nach oben gestellt wg antwort auf fire

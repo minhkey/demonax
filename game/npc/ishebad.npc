@@ -1,5 +1,5 @@
 # GIMUD - Graphical Interface Multi User Dungeon
-# ishebad.npc: Datenbank für den großwesir ankrahmuns
+# ishebad.npc: Datenbank fr den growesir ankrahmuns
 
 Name = "Ishebad"
 Sex = male
@@ -27,7 +27,7 @@ VANISH,!                       -> "This person will never achieve ascension that
 "ashmunrah"    -> "The fallen pharaoh did not see it was time to step back and let his son rule. So he met the fate that he deserved."
 "scarab"       -> "The scarabs are keepers of secrets. Some secrets are not ment for your mortals. Ever keep that in mind."
 
-"tibia"        -> "This world just awaits the wisdom of our pharaoh. It needs that wisdom and will soon learn to appreciate it." 
+"demonax"        -> "This world just awaits the wisdom of our pharaoh. It needs that wisdom and will soon learn to appreciate it." 
 "carlin"       -> "Other cities are of no importance. Ankrahmun will become the center of the known world anyways."
 "thais"        -> *
 "edron"        -> *
