@@ -452,6 +452,22 @@ Use, IsType (Obj1,1968) -> MoveRel(User,Obj1,[0,1,-1])
 END
 END
 BEGIN "MultiUse"
+BEGIN "Skinning"
+# Creature: Mutated human
+# Corpse:   5317
+# Tool:     3290 (silver dagger)
+# Reward:   5366 (human eye) 
+# Rate:     5%
+MultiUse, IsType (Obj1, 3290), IsType (Obj2, 5317), Random (5) -> Create(User, 5366, 1), Effect(Obj2, 15), Delete(Obj2)
+MultiUse, IsType (Obj1, 3290), IsType (Obj2, 5317) -> Effect(Obj2, 3), Delete(Obj2)
+# Creature: Deer
+# Corpse:   4016
+# Tool:     3290 (silver dagger)
+# Reward:   5390 (antlers) 
+# Rate:     5%
+MultiUse, IsType (Obj1, 3290), IsType (Obj2, 4016), Random (5) -> Create(User, 5390, 1), Effect(Obj2, 15), Delete(Obj2)
+MultiUse, IsType (Obj1, 3290), IsType (Obj2, 4016) -> Effect(Obj2, 3), Delete(Obj2)
+END
 BEGIN "Baking"
 MultiUse, IsType (Obj1,3603), IsType (Obj2,2524), HasInstanceAttribute (Obj2,ContainerLiquidType,= ,1) -> SetAttribute(Obj2,ContainerLiquidType,0), Change(Obj1,3604,0)
 MultiUse, IsType (Obj1,3603), IsType (Obj2,2873), HasInstanceAttribute (Obj2,ContainerLiquidType,= ,1) -> SetAttribute(Obj2,ContainerLiquidType,0), Change(Obj1,3604,0)

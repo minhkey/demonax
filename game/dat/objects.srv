@@ -15148,6 +15148,7 @@ Attributes  = {Weight=3800,BodyPosition=0,WeaponType=2,WeaponAttackValue=10,Weap
 
 TypeID      = 3290
 Name        = "a silver dagger"
+Description = "The sharp blade appears suitable for skinning"
 Flags       = {MultiUse,Take,Weapon}
 Attributes  = {Weight=1020,WeaponType=1,WeaponAttackValue=8,WeaponDefendValue=7}
 
