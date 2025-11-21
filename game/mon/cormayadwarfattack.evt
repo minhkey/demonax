@@ -1,5 +1,5 @@
 ##############################################################
-# ----------------------- General ------------------------- #
+# ----------------------- General -------------------------- #
 ##############################################################
 
 # Process: One attack wave with spawn of many Dwarf Soldiers
@@ -11,7 +11,7 @@ Interval  = 1209600
 
 
 ##############################################################
-# ---------------- First Attack Wave -------------------- #
+# ---------------- First Attack Wave ----------------------- #
 ##############################################################
 
 # Location: Cormaya, south of the Castle of the White Dragon
@@ -21,7 +21,7 @@ Position  = [33315,32007,7]
 Spread    = 44
 Race      = 71
 Count     = (20,40)
-# Message   = "Renegade drunken dwarfs are attacking cormaya."
+# Message   = "Renegade drunken dwarfs are attacking Cormaya."
 
 
 # Location: Cormaya, north of the city

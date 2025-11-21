@@ -1,5 +1,5 @@
 ##############################################################
-# ----------------------- General ------------------------- #
+# ----------------------- General -------------------------- #
 ##############################################################
 
 # Process: Four attack waves with spawn of elves, elf scouts
@@ -12,10 +12,10 @@ Interval  = 15552000
 
 
 ##############################################################
-# ---------------- First Attack Wave -------------------- #
+# ---------------- First Attack Wave ----------------------- #
 ##############################################################
 
-# ---------- VENORE SHIPYARD, BASEMENT, 1ST WAVE ---------- #
+# ---------- VENORE SHIPYARD, BASEMENT, 1ST WAVE ----------- #
 
 # Location: In the shipyard in the northwest of Venore, basement
 # Monster: 5-10 Elves
@@ -35,7 +35,7 @@ Race      = 64
 Count     = (1,2)
 
 
-# ---------------- VENORE SOUTH GATE, 1ST WAVE ---------------- #
+# ---------------- VENORE SOUTH GATE, 1ST WAVE ----------------- #
 
 # Location: At the south exit outside of Venore
 # Monster: 5-10 Elves
@@ -54,7 +54,7 @@ Race      = 64
 Count     = (1,2)
 
 
-# ---------------- VENORE WEST GATE, 1ST WAVE ---------------- #
+# ---------------- VENORE WEST GATE, 1ST WAVE ----------------- #
 
 # Location: At the west exit outside of Venore
 # Monster: 5-10 Elves
@@ -73,7 +73,7 @@ Race      = 64
 Count     = (1,2)
 
 
-# ------------- VENORE NORTHWEST GATE, 1ST WAVE ------------- #
+# ------------- VENORE NORTHWEST GATE, 1ST WAVE -------------- #
 
 # Location: At the northwest exit outside of Venore
 # Monster: 5-10 Elves
@@ -93,10 +93,10 @@ Count     = (1,2)
 
 
 ##############################################################
-# ---------------- Second Attack Wave -------------------- #
+# ---------------- Second Attack Wave ---------------------- #
 ##############################################################
 
-# ---------- VENORE SHIPYARD, BASEMENT, 2ND WAVE ---------- #
+# ---------- VENORE SHIPYARD, BASEMENT, 2ND WAVE ----------- #
 
 # Location: In the shipyard in the northwest of Venore, basement
 # Monster: 10-20 Elves
@@ -124,7 +124,7 @@ Race      = 63
 Count     = (2,5)
 
 
-# ---------- VENORE SHIPYARD, UPPER FLOOR, 2ND WAVE ---------- #
+# ---------- VENORE SHIPYARD, UPPER FLOOR, 2ND WAVE ----------- #
 
 # Location: In the shipyard in the northwest of Venore, upper floor
 # Monster: 5-10 Elves
@@ -143,7 +143,7 @@ Race      = 64
 Count     = (1,2)
 
 
-# ---------------- VENORE SOUTH GATE, 2ND WAVE ---------------- #
+# ---------------- VENORE SOUTH GATE, 2ND WAVE ----------------- #
 
 # Location: At the south exit outside of Venore
 # Monster: 10-20 Elves
@@ -170,7 +170,7 @@ Race      = 63
 Count     = (2,5)
 
 
-# ---------------- VENORE WEST GATE, 2ND WAVE ---------------- #
+# ---------------- VENORE WEST GATE, 2ND WAVE ----------------- #
 
 # Location: At the west exit outside of Venore
 # Monster: 10-20 Elves
@@ -196,7 +196,7 @@ Spread    = 10
 Race      = 63
 Count     = (2,5)
 
-# ------------- VENORE NORTHWEST GATE, 2ND WAVE ------------- #
+# ------------- VENORE NORTHWEST GATE, 2ND WAVE -------------- #
 
 # Location: At the northwest exit outside of Venore
 # Monster: 10-20 Elves
@@ -223,10 +223,10 @@ Race      = 63
 Count     = (2,5)
 
 ##############################################################
-# ---------------- Third Attack Wave -------------------- #
+# ---------------- Third Attack Wave ----------------------- #
 ##############################################################
 
-# ---------- VENORE SHIPYARD, BASEMENT, 3RD WAVE ---------- #
+# ---------- VENORE SHIPYARD, BASEMENT, 3RD WAVE ----------- #
 
 # Location: In the shipyard in the northwest of Venore, basement
 # Monster: 8-16 Elves
@@ -252,7 +252,7 @@ Spread    = 10
 Race      = 63
 Count     = (5,10)
 
-# ---------- VENORE SHIPYARD, UPPER FLOOR, 3RD WAVE ---------- #
+# ---------- VENORE SHIPYARD, UPPER FLOOR, 3RD WAVE ----------- #
 
 # Location: In the shipyard in the northwest of Venore, upper floor
 # Monster: 10-20 Elves
@@ -278,7 +278,7 @@ Spread    = 7
 Race      = 63
 Count     = (2,5)
 
-# ---------------- VENORE SOUTH GATE, 3RD WAVE ---------------- #
+# ---------------- VENORE SOUTH GATE, 3RD WAVE ----------------- #
 
 # Location: At the south exit outside of Venore
 # Monster: 8-16 Elves
@@ -305,7 +305,7 @@ Race      = 63
 Count     = (5,10)
 
 
-# ---------------- VENORE WEST GATE, 3RD WAVE ---------------- #
+# ---------------- VENORE WEST GATE, 3RD WAVE ----------------- #
 
 # Location: At the west exit outside of Venore
 # Monster: 8-16 Elves
@@ -332,7 +332,7 @@ Race      = 63
 Count     = (5,10)
 
 
-# ------------- VENORE NORTHWEST GATE, 3RD WAVE ------------- #
+# ------------- VENORE NORTHWEST GATE, 3RD WAVE -------------- #
 
 # Location: At the northwest exit outside of Venore
 # Monster: 8-16 Elves
@@ -360,10 +360,10 @@ Count     = (5,10)
 
 
 ##############################################################
-# ---------------- Fourth Attack Wave -------------------- #
+# ---------------- Fourth Attack Wave ---------------------- #
 ##############################################################
 
-# ---------- VENORE SHIPYARD, BASEMENT, 4TH WAVE ---------- #
+# ---------- VENORE SHIPYARD, BASEMENT, 4TH WAVE ----------- #
 
 # Location: In the shipyard in the northwest of Venore, basement
 # Monster: 15-30 Elf Scouts
@@ -382,7 +382,7 @@ Race      = 63
 Count     = (9,18)
 
 
-# ---------- VENORE SHIPYARD, UPPER FLOOR, 4TH WAVE ---------- #
+# ---------- VENORE SHIPYARD, UPPER FLOOR, 4TH WAVE ----------- #
 
 # Location: In the shipyard in the northwest of Venore, upper floor
 # Monster: 5-10 Elves
@@ -409,7 +409,7 @@ Race      = 63
 Count     = (5,10)
 
 
-# ---------------- VENORE SOUTH GATE, 4TH WAVE ---------------- #
+# ---------------- VENORE SOUTH GATE, 4TH WAVE ----------------- #
 
 # Location: At the south exit outside of Venore
 # Monster: 15-30 Elf Scouts
@@ -428,7 +428,7 @@ Race      = 63
 Count     = (9,18)
 
 
-# ---------------- VENORE WEST GATE, 4TH WAVE ---------------- #
+# ---------------- VENORE WEST GATE, 4TH WAVE ----------------- #
 
 # Location: At the west exit outside of Venore
 # Monster: 15-30 Elf Scouts
@@ -447,7 +447,7 @@ Race      = 63
 Count     = (9,18)
 
 
-# ------------- VENORE NORTHWEST GATE, 4TH WAVE ------------- #
+# ------------- VENORE NORTHWEST GATE, 4TH WAVE -------------- #
 
 # Location: At the northwest exit outside of Venore
 # Monster: 15-30 Elf Scouts

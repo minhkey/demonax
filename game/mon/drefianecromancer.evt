@@ -1,5 +1,5 @@
 ##############################################################
-# ----------------------- General ------------------------- #
+# ----------------------- General -------------------------- #
 ##############################################################
 
 # Process: One attack wave, where a special Necromancer
@@ -14,11 +14,11 @@ Interval  = 1209600
 
 
 ##############################################################
-# ---------------- First Attack Wave -------------------- #
+# ---------------- First Attack Wave ----------------------- #
 ##############################################################
 
 # Location: Drefia, in the ritual room above the pentagram corridor
-# Monster: Necropharus (besonderer Necromancer)
+# Monster: Necropharus (special Necromancer)
 Delay     = 0
 Position  = [33050,32400,10]
 Spread    = 1
