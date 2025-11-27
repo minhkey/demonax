@@ -5,7 +5,7 @@
 RaceNumber    = 126
 Name          = "demon overlord"
 Article       = "a"
-Outfit        = (255, 2-94-78-79)
+Outfit        = (20, 2-94-78-79)
 Corpse        = 5286
 Blood         = Fire
 Experience = 66000 

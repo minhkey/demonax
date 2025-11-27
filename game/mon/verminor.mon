@@ -5,7 +5,7 @@
 RaceNumber    = 332
 Name          = "Verminor"
 Article       = ""
-Outfit        = (255, 2-99-98-2)
+Outfit        = (20, 2-99-98-2)
 Corpse        = 5286
 Blood         = Slime
 Experience = 100000 

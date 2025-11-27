@@ -5,7 +5,7 @@
 RaceNumber    = 311
 Name          = "Infernatil"
 Article       = ""
-Outfit        = (255, 4-5-93-94)
+Outfit        = (20, 4-5-93-94)
 Corpse        = 5286 
 Blood         = Blood
 Experience = 150000 

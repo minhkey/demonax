@@ -5,7 +5,7 @@
 RaceNumber    = 310
 Name          = "Hellgorak"
 Article       = ""
-Outfit        = (255, 19-77-4-80)
+Outfit        = (20, 19-77-4-80)
 Corpse        = 5286 
 Blood         = Bones
 Experience = 120000 
