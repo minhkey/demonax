@@ -5,7 +5,7 @@
 RaceNumber    = 503
 Name          = "rift worm"
 Article       = "a"
-Outfit        = (257, 0-0-0-0)
+Outfit        = (77, 0-0-0-0)
 Corpse        = 5291
 Blood         = Blood
 Experience = 4780 

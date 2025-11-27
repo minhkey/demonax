@@ -5,7 +5,7 @@
 RaceNumber    = 409
 Name          = "hellflayer"
 Article       = "a"
-Outfit        = (266, 0-0-0-0)
+Outfit        = (93, 0-0-0-0)
 Corpse        = 5305 
 Blood         = Blood 
 Experience = 36800 
