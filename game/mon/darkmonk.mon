@@ -4,7 +4,7 @@
 RaceNumber    = 225
 Name          = "dark monk"
 Article       = "a"
-Outfit        = (225, 0-0-0-0)
+Outfit        = (57, 0-0-0-0)
 Corpse        = 4240
 Blood         = Blood
 Experience = 580
