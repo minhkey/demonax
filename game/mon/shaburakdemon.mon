@@ -5,7 +5,7 @@
 RaceNumber    = 405
 Name          = "shaburak demon"
 Article       = "a"
-Outfit        = (262, 0-0-0-0)
+Outfit        = (96, 0-0-0-0)
 Corpse        = 5293
 Blood         = Blood
 Experience = 3600 

@@ -5,7 +5,7 @@
 RaceNumber    = 401
 Name          = "shaburak prince"
 Article       = "a"
-Outfit        = (264, 0-0-0-0)
+Outfit        = (98, 0-0-0-0)
 Corpse        = 5299
 Blood         = Blood
 Experience = 6800 

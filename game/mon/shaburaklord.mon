@@ -5,7 +5,7 @@
 RaceNumber    = 406
 Name          = "shaburak lord"
 Article       = "a"
-Outfit        = (263, 0-0-0-0)
+Outfit        = (97, 0-0-0-0)
 Corpse        = 5296
 Blood         = Blood
 Experience = 4800
