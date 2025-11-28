@@ -25038,7 +25038,7 @@ Flags       = {Take}
 Attributes  = {Weight=24}
 
 TypeID      = 5366
-Name        = "a human eye"
+Name        = "a rotten eye"
 Flags       = {Take}
 Attributes  = {Weight=60}
 
@@ -25138,7 +25138,7 @@ Flags       = {Take}
 Attributes  = {Weight=1300}
 
 TypeID      = 5386
-Name        = "a half eaten brain"
+Name        = "a half-eaten brain"
 Flags       = {Take}
 Attributes  = {Weight=64}
 
