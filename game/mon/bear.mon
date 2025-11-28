@@ -25,8 +25,7 @@ Skills        = {(HitPoints, 80, 0, 80, 0, 0, 0),
                  (CarryStrength, 300, 0, 300, 0, 0, 0),
                  (FistFighting, 15, 15, 15, 100, 2000, 1)}
 
-Inventory = {(5389, 1, 1),
-(3001, 1, 1)}
+Inventory = {(3577, 6, 450)}
 
 Talk          = {"Grrrr",
                  "Groar"}
