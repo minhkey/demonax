@@ -4,7 +4,7 @@
 Name = "Brengus"
 Sex = male
 Race = 1
-Outfit = (132,79-57-57-95)
+Outfit = (204,79-57-57-95)
 Home = [32634,32747,6]
 Radius = 2
 GoStrength = 2

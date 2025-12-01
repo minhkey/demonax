@@ -4,7 +4,7 @@
 RaceNumber    = 330
 Name          = "white wizard"
 Article       = "a"
-Outfit        = (130, 19-0-0-15)
+Outfit        = (202, 19-0-0-15)
 Corpse        = 4240
 Blood         = Blood
 Experience = 16700

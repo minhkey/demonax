@@ -4,7 +4,7 @@
 Name = "Maria"
 Sex = female
 Race = 1
-Outfit = (136,77-79-61-131)
+Outfit = (252,77-79-61-131)
 Home = [32912,32082,9]
 Radius = 1
 GoStrength = 8

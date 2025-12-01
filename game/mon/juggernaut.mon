@@ -4,7 +4,7 @@
 RaceNumber    = 426
 Name          = "juggernaut"
 Article       = "a"
-Outfit        = (286, 0-0-0-0)
+Outfit        = (169, 0-0-0-0)
 Corpse        = 5429 
 Blood         = Slime
 Experience = 42000 

@@ -4,7 +4,7 @@
 Name = "Rowenna"
 Sex = female
 Race = 1
-Outfit = (139,132-38-76-38)
+Outfit = (255,132-38-76-38)
 Home = [32324,31794,7]
 Radius = 3
 GoStrength = 10

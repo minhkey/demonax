@@ -4,7 +4,7 @@
 Name = "Al Dee"
 Sex = male
 Race = 1
-Outfit = (128,97-77-87-115)
+Outfit = (200,97-77-87-115)
 Home = [32063,32180,7]
 Radius = 1
 GoStrength = 8

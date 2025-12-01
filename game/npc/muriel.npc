@@ -4,7 +4,7 @@
 Name = "Muriel"
 Sex = male
 Race = 1
-Outfit = (130,115-94-97-57)
+Outfit = (202,115-94-97-57)
 Home = [32296,32263,7]
 Radius = 2
 GoStrength = 10

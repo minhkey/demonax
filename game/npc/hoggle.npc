@@ -4,7 +4,7 @@
 Name = "Hoggle"
 Sex = male
 Race = 1
-Outfit = (128,20-46-88-94)
+Outfit = (200,20-46-88-94)
 Home = [32537,32143,6]
 Radius = 3
 GoStrength = 10

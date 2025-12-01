@@ -4,7 +4,7 @@
 Name = "Kasmir"
 Sex = male
 Race = 1
-Outfit = (130,76-0-38-95)
+Outfit = (202,76-0-38-95)
 Home = [33212,32452,1]
 Radius = 3
 GoStrength = 7

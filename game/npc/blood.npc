@@ -4,7 +4,7 @@
 Name = "Harkath Bloodblade"
 Sex = male
 Race = 1
-Outfit = (131,76-38-38-76)
+Outfit = (203,76-38-38-76)
 Home = [32342,32184,7]
 Radius = 2
 GoStrength = 6

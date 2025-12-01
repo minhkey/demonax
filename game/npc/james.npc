@@ -4,7 +4,7 @@
 Name = "James"
 Sex = male
 Race = 1
-Outfit = (128,115-41-45-118)
+Outfit = (200,115-41-45-118)
 Home = [33280,31771,7]
 Radius = 2
 GoStrength = 5

@@ -4,7 +4,7 @@
 Name = "Ferks"
 Sex = male
 Race = 1
-Outfit = (128,78-52-118-115)
+Outfit = (200,78-52-118-115)
 Home = [32634,32738,6]
 Radius = 2
 GoStrength = 2

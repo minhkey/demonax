@@ -4,7 +4,7 @@
 Name = "Melchior"
 Sex = male
 Race = 1
-Outfit = (130,0-25-59-115)
+Outfit = (202,0-25-59-115)
 Home = [33143,32828,7]
 Radius = 60
 GoStrength = 15

@@ -4,7 +4,7 @@
 Name = "Yanni"
 Sex = male
 Race = 1
-Outfit = (131,22-22-22-57)
+Outfit = (203,22-22-22-57)
 Home = [32909,32111,6]
 Radius = 2
 GoStrength = 10

@@ -4,7 +4,7 @@
 Name = "Trimegis"
 Sex = male
 Race = 1
-Outfit = (130,57-109-94-0)
+Outfit = (202,57-109-94-0)
 Home = [32307,32185,5]
 Radius = 1
 GoStrength = 10

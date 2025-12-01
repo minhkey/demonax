@@ -4,7 +4,7 @@
 Name = "Shiantis"
 Sex = female
 Race = 1
-Outfit = (136,0-36-13-76)
+Outfit = (252,0-36-13-76)
 Home = [32890,32086,6]
 Radius = 2
 GoStrength = 10

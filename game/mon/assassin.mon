@@ -5,7 +5,7 @@
 RaceNumber    = 224
 Name          = "assassin"
 Article       = "an"
-Outfit        = (129, 95-95-95-95)
+Outfit        = (201, 95-95-95-95)
 Corpse        = 4240
 Blood         = Blood
 Experience = 420

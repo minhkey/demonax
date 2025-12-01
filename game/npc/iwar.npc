@@ -4,7 +4,7 @@
 Name = "Iwar"
 Sex = male
 Race = 69
-Outfit = (160,58-108-63-76)
+Outfit = (12,58-108-63-76)
 Home = [32618,31917,8]
 Radius = 3
 GoStrength = 5

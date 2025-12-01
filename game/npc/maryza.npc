@@ -4,7 +4,7 @@
 Name = "Maryza"
 Sex = female
 Race = 69
-Outfit = (160,60-110-58-76)
+Outfit = (12,60-110-58-76)
 Home = [32634,31889,9]
 Radius = 3
 GoStrength = 4

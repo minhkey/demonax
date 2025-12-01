@@ -4,7 +4,7 @@
 Name = "Ray"
 Sex = male
 Race = 1
-Outfit = (128,10-96-106-115)
+Outfit = (200,10-96-106-115)
 Home = [32621,32747,6]
 Radius = 2
 GoStrength = 2

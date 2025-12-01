@@ -4,7 +4,7 @@
 Name = "Simon the Beggar"
 Sex = male
 Race = 1
-Outfit = (128,116-123-32-40)
+Outfit = (200,116-123-32-40)
 Home = [32186,32468,7]
 Radius = 4
 GoStrength = 10

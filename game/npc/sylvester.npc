@@ -4,7 +4,7 @@
 Name = "Sylvester"
 Sex = male
 Race = 1
-Outfit = (131,113-113-113-115)
+Outfit = (203,113-113-113-115)
 Home = [32897,32145,4]
 Radius = 3
 GoStrength = 6

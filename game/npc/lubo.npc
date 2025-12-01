@@ -4,7 +4,7 @@
 Name = "Lubo"
 Sex = male
 Race = 1
-Outfit = (129,38-39-96-114)
+Outfit = (201,38-39-96-114)
 Home = [32488,32119,7]
 Radius = 3
 GoStrength = 10

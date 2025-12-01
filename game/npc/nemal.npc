@@ -4,7 +4,7 @@
 Name = "Nemal"
 Sex = male
 Race = 1
-Outfit = (129,57-97-45-115)
+Outfit = (201,57-97-45-115)
 Home = [32615,32108,10]
 Radius = 4
 GoStrength = 10

@@ -4,7 +4,7 @@
 Name = "Bunny Bonecrusher"
 Sex = female
 Race = 1
-Outfit = (139,96-3-79-115)
+Outfit = (255,96-3-79-115)
 Home = [32315,31756,6]
 Radius = 2
 GoStrength = 6

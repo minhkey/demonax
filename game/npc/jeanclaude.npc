@@ -4,7 +4,7 @@
 Name = "Jean Claude"
 Sex = male
 Race = 1
-Outfit = (131,113-113-113-115)
+Outfit = (203,113-113-113-115)
 Home = [33006,32053,6]
 Radius = 5
 GoStrength = 6

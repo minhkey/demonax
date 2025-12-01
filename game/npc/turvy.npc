@@ -4,7 +4,7 @@
 Name = "Turvy"
 Sex = female
 Race = 1
-Outfit = (139,78-52-64-115)
+Outfit = (255,78-52-64-115)
 Home = [32414,32177,7]
 Radius = 2
 GoStrength = 3

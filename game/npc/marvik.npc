@@ -4,7 +4,7 @@
 Name = "Marvik"
 Sex = male
 Race = 1
-Outfit = (130,0-101-121-95)
+Outfit = (202,0-101-121-95)
 Home = [32444,32213,8]
 Radius = 4
 GoStrength = 10

@@ -4,7 +4,7 @@
 Name = "Romella"
 Sex = female
 Race = 1
-Outfit = (139,79-39-77-115)
+Outfit = (255,79-39-77-115)
 Home = [32913,32117,6]
 Radius = 1
 GoStrength = 10

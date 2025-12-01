@@ -4,7 +4,7 @@
 Name = "Briasol"
 Sex = male
 Race = 62
-Outfit = (144,3-86-87-76)
+Outfit = (11,3-86-87-76)
 Home = [32635,31667,8]
 Radius = 1
 GoStrength = 10

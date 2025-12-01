@@ -4,7 +4,7 @@
 Name = "King Carl"
 Sex = male
 Race = 1
-Outfit = (130,21-87-107-95)
+Outfit = (202,21-87-107-95)
 Home = [32311,32171,6]
 Radius = 1
 GoStrength = 10

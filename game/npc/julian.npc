@@ -4,7 +4,7 @@
 Name = "Julian"
 Sex = male
 Race = 1
-Outfit = (128,55-30-23-115)
+Outfit = (200,55-30-23-115)
 Home = [32883,32076,6]
 Radius = 1
 GoStrength = 10

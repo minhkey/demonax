@@ -4,7 +4,7 @@
 Name = "Halif"
 Sex = male
 Race = 1
-Outfit = (128,95-2-10-131)
+Outfit = (200,95-2-10-131)
 Home = [33217,32423,7]
 Radius = 0
 GoStrength = 3

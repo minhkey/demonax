@@ -4,7 +4,7 @@
 Name = "Boozer"
 Sex = male
 Race = 1
-Outfit = (128,76-20-116-76)
+Outfit = (200,76-20-116-76)
 Home = [32921,32068,5]
 Radius = 1
 GoStrength = 8

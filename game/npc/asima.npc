@@ -4,7 +4,7 @@
 Name = "Asima"
 Sex = female
 Race = 1
-Outfit = (138,97-70-94-76)
+Outfit = (254,97-70-94-76)
 Home = [33220,32404,7]
 Radius = 2
 GoStrength = 10

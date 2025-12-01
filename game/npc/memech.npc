@@ -4,7 +4,7 @@
 Name = "Memech"
 Sex = male
 Race = 1
-Outfit = (131,21-21-40-116)
+Outfit = (203,21-21-40-116)
 Home = [33135,32810,6]
 Radius = 2
 GoStrength = 2

@@ -4,7 +4,7 @@
 Name = "Beatrice"
 Sex = female
 Race = 1
-Outfit = (136,96-102-69-95)
+Outfit = (252,96-102-69-95)
 Home = [33214,31803,6]
 Radius = 3
 GoStrength = 10

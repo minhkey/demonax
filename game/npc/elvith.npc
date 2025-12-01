@@ -4,7 +4,7 @@
 Name = "Elvith"
 Sex = male
 Race = 62
-Outfit = (144,76-3-0-76)
+Outfit = (11,76-3-0-76)
 Home = [32669,31607,7]
 Radius = 1
 GoStrength = 10

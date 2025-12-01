@@ -4,7 +4,7 @@
 Name = "Muzir"
 Sex = male
 Race = 1
-Outfit = (128,95-4-11-76)
+Outfit = (200,95-4-11-76)
 Home = [33222,32390,7]
 Radius = 1
 GoStrength = 10

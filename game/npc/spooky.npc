@@ -4,7 +4,7 @@
 Name = "A Ghostly Woman"
 Sex = female
 Race = 1
-Outfit = (136,0-0-0-0)
+Outfit = (252,0-0-0-0)
 Home = [32191,31811,5]
 Radius = 7
 GoStrength = 7

@@ -4,7 +4,7 @@
 Name = "Gorn"
 Sex = male
 Race = 1
-Outfit = (129,58-68-101-95)
+Outfit = (201,58-68-101-95)
 Home = [32377,32200,7]
 Radius = 3
 GoStrength = 10

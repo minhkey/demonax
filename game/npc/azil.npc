@@ -4,7 +4,7 @@
 Name = "Azil"
 Sex = male
 Race = 1
-Outfit = (129,95-10-12-119)
+Outfit = (201,95-10-12-119)
 Home = [33217,32431,7]
 Radius = 0
 GoStrength = 7

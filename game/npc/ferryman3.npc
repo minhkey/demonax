@@ -4,7 +4,7 @@
 Name = "Svenson"
 Sex = male
 Race = 1
-Outfit = (134,77-113-68-67)
+Outfit = (206,77-113-68-67)
 Home = [32044,31582,7]
 Radius = 2
 GoStrength = 5

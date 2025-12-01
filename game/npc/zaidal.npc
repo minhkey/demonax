@@ -4,7 +4,7 @@
 Name = "Zaidal"
 Sex = male
 Race = 1
-Outfit = (128,76-43-77-76)
+Outfit = (200,76-43-77-76)
 Home = [32621,32747,5]
 Radius = 2
 GoStrength = 2

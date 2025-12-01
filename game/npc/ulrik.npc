@@ -4,7 +4,7 @@
 Name = "Ulrik"
 Sex = male
 Race = 1
-Outfit = (131,60-70-97-95)
+Outfit = (203,60-70-97-95)
 Home = [32282,32056,7]
 Radius = 2
 GoStrength = 10

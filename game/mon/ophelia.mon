@@ -5,7 +5,7 @@
 RaceNumber    = 313
 Name          = "Ophelia"
 Article       = ""
-Outfit        = (138, 20-127-52-12)
+Outfit        = (254, 20-127-52-12)
 Corpse        = 4240
 Blood         = Slime 
 Experience = 26200

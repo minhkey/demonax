@@ -4,7 +4,7 @@
 Name = "Galuna"
 Sex = female
 Race = 1
-Outfit = (137,40-96-95-96)
+Outfit = (253,40-96-95-96)
 Home = [32342,32246,6]
 Radius = 2
 GoStrength = 10

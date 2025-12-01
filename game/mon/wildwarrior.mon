@@ -5,7 +5,7 @@
 RaceNumber    = 47
 Name          = "wild warrior"
 Article       = "a"
-Outfit        = (133, 38-38-38-38)
+Outfit        = (203, 38-38-38-38)
 Corpse        = 4240
 Blood         = Blood
 Experience = 240

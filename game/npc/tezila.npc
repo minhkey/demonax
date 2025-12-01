@@ -4,7 +4,7 @@
 Name = "Tezila"
 Sex = female
 Race = 69
-Outfit = (160,3-92-110-115)
+Outfit = (12,3-92-110-115)
 Home = [32657,31922,9]
 Radius = 2
 GoStrength = 10

@@ -4,7 +4,7 @@
 Name = "Angus" 
 Sex = male 
 Race = 1 
-Outfit = (133,57-113-95-113) 
+Outfit = (205,57-113-95-113) 
 Home = [32670,32730,7] 
 Radius = 1 
 GoStrength = 7 

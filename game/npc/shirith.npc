@@ -4,7 +4,7 @@
 Name = "Shirith"
 Sex = male
 Race = 62
-Outfit = (144,59-97-58-76)
+Outfit = (11,59-97-58-76)
 Home = [32646,31655,9]
 Radius = 3
 GoStrength = 6

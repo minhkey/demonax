@@ -4,7 +4,7 @@
 Name = "Gregor"
 Sex = male
 Race = 1
-Outfit = (131,38-38-38-38)
+Outfit = (203,38-38-38-38)
 Home = [32407,32202,6]
 Radius = 4
 GoStrength = 10

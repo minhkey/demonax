@@ -4,7 +4,7 @@
 Name = "Suzy"
 Sex = female
 Race = 1
-Outfit = (136,78-10-96-95)
+Outfit = (252,78-10-96-95)
 Home = [32320,32258,7]
 Radius = 2
 GoStrength = 10

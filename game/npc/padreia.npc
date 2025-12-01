@@ -4,7 +4,7 @@
 Name = "Padreia"
 Sex = female
 Race = 1
-Outfit = (138,0-87-85-95)
+Outfit = (254,0-87-85-95)
 Home = [32300,31816,7]
 Radius = 2
 GoStrength = 10

@@ -4,7 +4,7 @@
 Name = "Quero"
 Sex = male
 Race = 1
-Outfit = (128,55-30-23-115)
+Outfit = (200,55-30-23-115)
 Home = [32390,32220,7]
 Radius = 1
 GoStrength = 10

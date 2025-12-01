@@ -4,7 +4,7 @@
 Name = "Eddy"
 Sex = male
 Race = 1
-Outfit = (128,60-64-0-95)
+Outfit = (200,60-64-0-95)
 Home = [32168,32431,7]
 Radius = 3
 GoStrength = 10

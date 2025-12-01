@@ -4,7 +4,7 @@
 Name = "Ashtamor"
 Sex = male
 Race = 1
-Outfit = (130,19-114-76-114)
+Outfit = (202,19-114-76-114)
 Home = [32958,32088,6]
 Radius = 1
 GoStrength = 5

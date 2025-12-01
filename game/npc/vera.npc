@@ -4,7 +4,7 @@
 Name = "Vera"
 Sex = female
 Race = 1
-Outfit = (136,59-96-115-95)
+Outfit = (252,59-96-115-95)
 Home = [32138,31672,7]
 Radius = 1
 GoStrength = 10

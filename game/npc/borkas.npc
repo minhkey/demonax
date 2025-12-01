@@ -4,7 +4,7 @@
 Name = "Borkas"
 Sex = male
 Race = 1
-Outfit = (128,77-43-38-76)
+Outfit = (200,77-43-38-76)
 Home = [32992,32068,6]
 Radius = 2
 GoStrength = 10

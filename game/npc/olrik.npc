@@ -4,7 +4,7 @@
 Name = "Olrik"
 Sex = male
 Race = 1
-Outfit = (128,115-79-117-76)
+Outfit = (200,115-79-117-76)
 Home = [32675,31698,7]
 Radius = 4
 GoStrength = 10

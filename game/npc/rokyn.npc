@@ -4,7 +4,7 @@
 Name = "Rokyn"
 Sex = male
 Race = 1
-Outfit = (160,58-87-57-95)
+Outfit = (12,58-87-57-95)
 Home = [33021,32053,6]
 Radius = 2
 GoStrength = 10

@@ -4,7 +4,7 @@
 Name = "Phillip"
 Sex = male
 Race = 1
-Outfit = (128,116-54-68-76)
+Outfit = (200,116-54-68-76)
 Home = [32369,31764,7]
 Radius = 4
 GoStrength = 2

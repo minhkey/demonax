@@ -4,7 +4,7 @@
 Name = "Gamon"
 Sex = male
 Race = 1
-Outfit = (128,97-58-105-120)
+Outfit = (200,97-58-105-120)
 Home = [32408,32170,7]
 Radius = 1
 GoStrength = 5

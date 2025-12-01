@@ -4,7 +4,7 @@
 Name = "Ufthak"
 Sex = male
 Race = 1
-Outfit        = (2, 0-0-0-0)
+Outfit = (2, 0-0-0-0)
 Home = [32317,32651,10]
 Radius = 2
 GoStrength = 11

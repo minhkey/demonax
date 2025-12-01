@@ -4,7 +4,7 @@
 Name = "Velvet"
 Sex = female
 Race = 1
-Outfit = (136,59-96-115-95)
+Outfit = (252,59-96-115-95)
 Home = [32943,32104,6]
 Radius = 1
 GoStrength = 10

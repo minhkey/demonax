@@ -4,7 +4,7 @@
 Name = "Livielle"
 Sex = female
 Race = 1
-Outfit = (138,114-94-132-132)
+Outfit = (254,114-94-132-132)
 Home = [32982,32036,6]
 Radius = 2
 GoStrength = 10

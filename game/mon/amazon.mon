@@ -5,7 +5,7 @@
 RaceNumber    = 77
 Name          = "amazon"
 Article       = "an"
-Outfit        = (137, 113-120-95-115)
+Outfit        = (255, 113-120-95-115)
 Corpse        = 4247
 Blood         = Blood
 Experience = 240

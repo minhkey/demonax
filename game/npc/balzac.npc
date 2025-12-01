@@ -4,7 +4,7 @@
 Name = "Balzac"
 Sex = male
 Race = 1
-Outfit = (130,60-124-123-122)
+Outfit = (202,60-124-123-122)
 Home = [32319,32546,9]
 Radius = 2
 GoStrength = 10

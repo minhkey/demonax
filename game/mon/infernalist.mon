@@ -4,7 +4,7 @@
 RaceNumber    = 314
 Name          = "infernalist"
 Article       = "an"
-Outfit        = (130, 39-132-113-113)
+Outfit        = (202, 39-132-113-113)
 Corpse        = 4240
 Blood         = Blood
 Experience = 18200

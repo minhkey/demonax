@@ -5,7 +5,7 @@
 RaceNumber    = 222
 Name          = "smuggler"
 Article       = "a"
-Outfit        = (134, 95-0-113-115)
+Outfit        = (206, 95-0-113-115)
 Corpse        = 4240
 Blood         = Blood
 Experience = 192

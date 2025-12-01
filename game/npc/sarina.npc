@@ -4,7 +4,7 @@
 Name = "Sarina"
 Sex = female
 Race = 1
-Outfit = (136,41-72-95-96)
+Outfit = (252,41-72-95-96)
 Home = [32334,31808,7]
 Radius = 1
 GoStrength = 10

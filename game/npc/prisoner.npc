@@ -4,7 +4,7 @@
 Name = "A Prisoner"
 Sex = male
 Race = 1
-Outfit = (130,81-40-55-94)
+Outfit = (202,81-40-55-94)
 Home = [32393,32137,13] 
 Radius = 2
 GoStrength = 25

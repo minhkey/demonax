@@ -4,7 +4,7 @@
 Name = "Baxter"
 Sex = male
 Race = 1
-Outfit = (131,96-29-29-115)
+Outfit = (203,96-29-29-115)
 Home = [32322,32188,7]
 Radius = 3
 GoStrength = 6

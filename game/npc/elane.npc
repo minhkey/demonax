@@ -4,7 +4,7 @@
 Name = "Elane"
 Sex = female
 Race = 1
-Outfit = (137,113-63-120-119)
+Outfit = (253,113-63-120-119)
 Home = [32343,32239,7]
 Radius = 4
 GoStrength = 10

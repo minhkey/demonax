@@ -4,7 +4,7 @@
 Name = "Lynda"
 Sex = female
 Race = 1
-Outfit = (138,79-83-86-114)
+Outfit = (254,79-83-86-114)
 Home = [32333,32200,7]
 Radius = 4
 GoStrength = 7

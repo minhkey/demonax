@@ -4,7 +4,7 @@
 Name = "Rodney"
 Sex = male
 Race = 1
-Outfit = (128,95-100-116-76)
+Outfit = (200,95-100-116-76)
 Home = [32971,32041,6]
 Radius = 1
 GoStrength = 7

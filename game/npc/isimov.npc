@@ -4,7 +4,7 @@
 Name = "Isimov"
 Sex = male
 Race = 69
-Outfit = (160,115-0-19-95)
+Outfit = (12,115-0-19-95)
 Home = [32653,31925,11]
 Radius = 2
 GoStrength = 2

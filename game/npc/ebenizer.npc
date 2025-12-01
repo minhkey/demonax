@@ -4,7 +4,7 @@
 Name = "Ebenizer"
 Sex = male
 Race = 1
-Outfit = (128,59-95-87-76)
+Outfit = (200,59-95-87-76)
 Home = [33175,31801,7]
 Radius = 1
 GoStrength = 10

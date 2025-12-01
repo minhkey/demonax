@@ -4,7 +4,7 @@
 Name = "Amber"
 Sex = female
 Race = 1
-Outfit = (137,59-113-132-76)
+Outfit = (253,59-113-132-76)
 Home = [32103,32182,8]
 Radius = 4
 GoStrength = 7

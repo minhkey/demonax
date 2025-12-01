@@ -4,7 +4,7 @@
 Name = "Aneus"
 Sex = male
 Race = 1
-Outfit = (129,0-50-58-116)
+Outfit = (201,0-50-58-116)
 Home = [32426,31666,7]
 Radius = 1
 GoStrength = 5

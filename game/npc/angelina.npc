@@ -3,7 +3,7 @@
 Name = "Angelina"
 Sex = female
 Race = 1
-Outfit = (136,57-79-98-95)
+Outfit = (252,57-79-98-95)
 Home = [32635,32402,10]
 Radius = 1
 GoStrength = 1

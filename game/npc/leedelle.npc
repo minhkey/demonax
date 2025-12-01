@@ -4,7 +4,7 @@
 Name = "Lee'Delle"
 Sex = female
 Race = 1
-Outfit = (136,78-76-72-96)
+Outfit = (252,78-76-72-96)
 Home = [32024,32196,7]
 Radius = 2
 GoStrength = 6

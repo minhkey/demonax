@@ -5,7 +5,7 @@
 RaceNumber    = 501
 Name          = "rogue ranger"
 Article       = "a"
-Outfit        = (129, 58-120-120-116)
+Outfit        = (201, 58-120-120-116)
 Corpse        = 4240
 Blood         = Blood
 Experience = 5700

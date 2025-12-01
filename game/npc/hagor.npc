@@ -4,7 +4,7 @@
 Name = "Hagor"
 Sex = male
 Race = 1
-Outfit = (129,19-58-105-94)
+Outfit = (201,19-58-105-94)
 Home = [32654,32151,10]
 Radius = 4
 GoStrength = 10

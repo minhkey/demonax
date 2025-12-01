@@ -4,7 +4,7 @@
 Name = "Djema"
 Sex = female
 Race = 1
-Outfit = (136,77-9-86-131)
+Outfit = (252,77-9-86-131)
 Home = [33101,32520,3]
 Radius = 2 
 GoStrength = 10

@@ -4,7 +4,7 @@
 Name = "Rudolph"
 Sex = male
 Race = 1
-Outfit = (128,41-29-78-76)
+Outfit = (200,41-29-78-76)
 Home = [33212,31812,6]
 Radius = 1
 GoStrength = 10

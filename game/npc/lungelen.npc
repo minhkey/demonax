@@ -4,7 +4,7 @@
 Name = "Lungelen"
 Sex = female
 Race = 1
-Outfit = (138,77-19-95-115)
+Outfit = (254,77-19-95-115)
 Home = [32303,32267,6]
 Radius = 2
 GoStrength = 13

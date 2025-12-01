@@ -4,7 +4,7 @@
 Name = "Habdel"
 Sex = male
 Race = 1
-Outfit = (129,95-2-0-97)
+Outfit = (201,95-2-0-97)
 Home = [33225,32434,7]
 Radius = 0
 GoStrength = 10

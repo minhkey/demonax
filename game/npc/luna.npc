@@ -4,7 +4,7 @@
 Name = "Luna"
 Sex = female
 Race = 1
-Outfit = (137,0-118-100-115)
+Outfit = (253,0-118-100-115)
 Home = [33254,31840,5]
 Radius = 2
 GoStrength = 7

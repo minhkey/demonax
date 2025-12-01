@@ -4,7 +4,7 @@
 Name = "Jakahr"
 Sex = male
 Race = 1
-Outfit = (133,95-37-32-40)
+Outfit = (205,95-37-32-40)
 Home = [33066,32876,7]
 Radius = 1
 GoStrength = 10

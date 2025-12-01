@@ -4,7 +4,7 @@
 Name = "Clyde"
 Sex = male
 Race = 1
-Outfit = (128,98-40-48-95)
+Outfit = (200,98-40-48-95)
 Home = [32573,32753,7]
 Radius = 2
 GoStrength = 2

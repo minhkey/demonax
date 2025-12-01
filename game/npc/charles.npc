@@ -4,7 +4,7 @@
 Name = "Charles"
 Sex = male
 Race = 1
-Outfit = (134,57-29-95-98)
+Outfit = (206,57-29-95-98)
 Home = [32529,32785,6]
 Radius = 2
 GoStrength = 2

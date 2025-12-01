@@ -4,7 +4,7 @@
 Name = "Uzgod"
 Sex = male
 Race = 69
-Outfit = (160,77-79-56-115)
+Outfit = (12,77-79-56-115)
 Home = [32664,31894,9]
 Radius = 1 
 GoStrength = 7

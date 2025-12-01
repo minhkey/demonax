@@ -4,7 +4,7 @@
 Name = "Tandros"
 Sex = male
 Race = 1
-Outfit = (132,78-79-113-95)
+Outfit = (204,78-79-113-95)
 Home = [32621,32739,5]
 Radius = 2
 GoStrength = 2

@@ -4,7 +4,7 @@
 Name = "Lily"
 Sex = female
 Race = 1
-Outfit = (138,78-101-86-115)
+Outfit = (254,78-101-86-115)
 Home = [32068,32225,7]
 Radius = 2
 GoStrength = 5

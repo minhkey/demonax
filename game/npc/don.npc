@@ -4,7 +4,7 @@
 Name = "Donald McRonald"
 Sex = male
 Race = 1
-Outfit = (128,41-94-79-76)
+Outfit = (200,41-94-79-76)
 Home = [32391,32229,7]
 Radius = 3
 GoStrength = 10

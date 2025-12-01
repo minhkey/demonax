@@ -4,7 +4,7 @@
 Name = "Jezzara"
 Sex = female
 Race = 1
-Outfit = (138,3-43-91-97)
+Outfit = (254,3-43-91-97)
 Home = [33126,32821,6]
 Radius = 2
 GoStrength = 2

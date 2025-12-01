@@ -4,7 +4,7 @@
 Name = "Talesia"
 Sex = female
 Race = 1
-Outfit = (138,114-78-77-116)
+Outfit = (254,114-78-77-116)
 Home = [32979,32035,5]
 Radius = 1
 GoStrength = 10

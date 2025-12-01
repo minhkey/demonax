@@ -4,7 +4,7 @@
 Name = "Captain Fearless"
 Sex = male
 Race = 1
-Outfit = (134,19-113-95-115)
+Outfit = (206,19-113-95-115)
 Home = [32955,32022,6]
 Radius = 2
 GoStrength = 5

@@ -4,7 +4,7 @@
 Name = "Carlson"
 Sex = male
 Race = 1
-Outfit = (134,19-113-68-67)
+Outfit = (206,19-113-68-67)
 Home = [32029,31692,7]
 Radius = 2
 GoStrength = 5

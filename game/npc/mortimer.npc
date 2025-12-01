@@ -4,7 +4,7 @@
 Name = "Mortimer" 
 Sex = male 
 Race = 1 
-Outfit = (133,57-113-95-113) 
+Outfit = (205,57-113-95-113) 
 Home = [32499,31626,07] 
 Radius = 1 
 GoStrength = 7 

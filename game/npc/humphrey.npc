@@ -4,7 +4,7 @@
 Name = "Humphrey"
 Sex = male
 Race = 1
-Outfit = (133,0-96-101-76)
+Outfit = (205,0-96-101-76)
 Home = [32359,31683,6]
 Radius = 4
 GoStrength = 10

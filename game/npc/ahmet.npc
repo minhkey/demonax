@@ -4,7 +4,7 @@
 Name = "Ahmet"
 Sex = male
 Race = 1
-Outfit = (130,38-40-39-114)
+Outfit = (202,38-40-39-114)
 Home = [33126,32810,6]
 Radius = 2
 GoStrength = 2

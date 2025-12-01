@@ -4,7 +4,7 @@
 Name = "Dagomir"
 Sex = male
 Race = 1
-Outfit = (130,0-2-41-76)
+Outfit = (202,0-2-41-76)
 Home = [33018,32047,5]
 Radius = 0
 GoStrength = 2

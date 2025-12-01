@@ -4,7 +4,7 @@
 Name = "Hofech"
 Sex = male
 Race = 1
-Outfit = (128,95-2-2-57)
+Outfit = (200,95-2-2-57)
 Home = [33270,32441,7]
 Radius = 2
 GoStrength = 10

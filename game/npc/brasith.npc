@@ -4,7 +4,7 @@
 Name = "Brasith"
 Sex = male
 Race = 62
-Outfit = (144,60-94-58-76)
+Outfit = (11,60-94-58-76)
 Home = [32692,31589,7]
 Radius = 1
 GoStrength = 10

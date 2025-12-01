@@ -4,7 +4,7 @@
 Name = "Liane"
 Sex = female
 Race = 1
-Outfit = (136,77-60-79-114)
+Outfit = (252,77-60-79-114)
 Home = [32332,31784,7]
 Radius = 1
 GoStrength = 10

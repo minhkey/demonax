@@ -4,7 +4,7 @@
 Name = "Captain Bluebear"
 Sex = male
 Race = 1
-Outfit = (134,19-69-107-50)
+Outfit = (206,19-69-107-50)
 Home = [32310,32210,6]
 Radius = 2
 GoStrength = 5

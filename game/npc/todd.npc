@@ -4,7 +4,7 @@
 Name = "Todd"
 Sex = male
 Race = 1
-Outfit = (128,115-0-67-114)
+Outfit = (200,115-0-67-114)
 Home = [32363,32210,6]
 Radius = 7
 GoStrength = 7

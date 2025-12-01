@@ -4,7 +4,7 @@
 Name = "Fenbala"
 Sex = female
 Race = 1
-Outfit = (139,77-52-64-115)
+Outfit = (255,77-52-64-115)
 Home = [32320,31755,7]
 Radius = 0
 GoStrength = 10

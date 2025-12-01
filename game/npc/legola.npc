@@ -4,7 +4,7 @@
 Name = "Legola"
 Sex = female
 Race = 1
-Outfit = (137,72-105-105-95)
+Outfit = (253,72-105-105-95)
 Home = [32298,31784,7]
 Radius = 2
 GoStrength = 10

@@ -4,7 +4,7 @@
 Name = "Hugo"
 Sex = male
 Race = 1
-Outfit = (130,14-81-80-93)
+Outfit = (202,14-81-80-93)
 Home = [32951,32103,5]
 Radius = 1
 GoStrength = 10

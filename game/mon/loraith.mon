@@ -4,7 +4,7 @@
 RaceNumber    = 320
 Name          = "Loraith"
 Article       = ""
-Outfit        = (287, 0-0-0-0)
+Outfit        = (170, 0-0-0-0)
 Corpse        = 4240
 Blood         = Blood
 Experience = 12900

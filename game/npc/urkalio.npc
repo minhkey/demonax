@@ -4,7 +4,7 @@
 Name = "Urkalio"
 Sex = male
 Race = 1
-Outfit = (128,39-40-118-76)
+Outfit = (200,39-40-118-76)
 Home = [32913,32081,10]
 Radius = 1
 GoStrength = 8

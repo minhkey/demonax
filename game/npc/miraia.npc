@@ -4,7 +4,7 @@
 Name = "Miraia"
 Sex = female
 Race = 1
-Outfit = (136,95-0-7-115)
+Outfit = (252,95-0-7-115)
 Home = [33238,32483,7]
 Radius = 1
 GoStrength = 4

@@ -4,7 +4,7 @@
 Name = "Morun"
 Sex = male
 Race = 1
-Outfit = (129,95-5-26-76)
+Outfit = (201,95-5-26-76)
 Home = [33240,32393,6]
 Radius = 2
 GoStrength = 6

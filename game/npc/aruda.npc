@@ -4,7 +4,7 @@
 Name = "Aruda"
 Sex = female
 Race = 1
-Outfit = (140,77-83-79-95)
+Outfit = (256,77-83-79-95)
 Home = [32368,32215,7]
 Radius = 99
 GoStrength = 20

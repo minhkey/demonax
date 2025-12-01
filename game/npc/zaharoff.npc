@@ -4,7 +4,7 @@
 Name = "Zaharoff"
 Sex = male
 Race = 1
-Outfit = (131,114-114-114-114)
+Outfit = (203,114-114-114-114)
 Home = [32227,32283,7]
 Radius = 2
 GoStrength = 10

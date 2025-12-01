@@ -4,7 +4,7 @@
 Name = "Eva"
 Sex = female
 Race = 1
-Outfit = (136,96-60-95-0)
+Outfit = (252,96-60-95-0)
 Home = [32325,31780,7]
 Radius = 1
 GoStrength = 5

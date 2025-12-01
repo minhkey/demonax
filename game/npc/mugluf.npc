@@ -4,7 +4,7 @@
 Name = "Mugluf"
 Sex = male
 Race = 1
-Outfit = (128,95-0-0-96)
+Outfit = (200,95-0-0-96)
 Home = [33220,32416,7]
 Radius = 0
 GoStrength = 7

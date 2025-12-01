@@ -4,7 +4,7 @@
 Name = "Billy"
 Sex = male
 Race = 1
-Outfit = (128,58-63-58-115)
+Outfit = (200,58-63-58-115)
 Home = [32037,32205,7]
 Radius = 3
 GoStrength = 6

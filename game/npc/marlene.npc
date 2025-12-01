@@ -4,7 +4,7 @@
 Name = "Marlene"
 Sex = female
 Race = 1
-Outfit = (136,96-111-16-96)
+Outfit = (252,96-111-16-96)
 Home = [32483,31624,7]
 Radius = 3
 GoStrength = 5

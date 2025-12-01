@@ -4,7 +4,7 @@
 RaceNumber    = 10
 Name          = "warlock"
 Article       = "a"
-Outfit        = (130, 0-52-128-95)
+Outfit        = (202, 0-52-128-95)
 Corpse        = 4240
 Blood         = Blood
 Experience = 16000

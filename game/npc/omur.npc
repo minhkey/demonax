@@ -4,7 +4,7 @@
 Name = "Omur"
 Sex = male
 Race = 1
-Outfit = (128,95-0-6-116)
+Outfit = (200,95-0-6-116)
 Home = [33228,32416,7]
 Radius = 0
 GoStrength = 7

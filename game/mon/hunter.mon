@@ -5,7 +5,7 @@
 RaceNumber    = 11
 Name          = "hunter"
 Article       = "a"
-Outfit        = (129, 95-116-120-115)
+Outfit        = (201, 95-116-120-115)
 Corpse        = 4240
 Blood         = Blood
 Experience = 600

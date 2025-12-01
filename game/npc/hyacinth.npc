@@ -4,7 +4,7 @@
 Name = "Hyacinth"
 Sex = male
 Race = 1
-Outfit = (130,11-123-123-94)
+Outfit = (202,11-123-123-94)
 Home = [32137,32171,4]
 Radius = 1
 GoStrength = 5

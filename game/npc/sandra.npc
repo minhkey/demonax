@@ -4,7 +4,7 @@
 Name = "Sandra"
 Sex = female
 Race = 1
-Outfit = (137,115-63-95-38)
+Outfit = (253,115-63-95-38)
 Home = [33258,31840,7]
 Radius = 2
 GoStrength = 7

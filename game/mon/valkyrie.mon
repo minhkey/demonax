@@ -5,7 +5,7 @@
 RaceNumber    = 12
 Name          = "valkyrie"
 Article       = "a"
-Outfit        = (139, 113-38-76-96)
+Outfit        = (258, 113-38-76-96)
 Corpse        = 4247
 Blood         = Blood
 Experience = 340

@@ -4,7 +4,7 @@
 Name = "Timur"
 Sex = male
 Race = 1
-Outfit = (128,0-116-102-95)
+Outfit = (200,0-116-102-95)
 Home = [32191,32443,7]
 Radius = 2
 GoStrength = 10

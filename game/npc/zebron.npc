@@ -4,7 +4,7 @@
 Name = "Zebron"
 Sex = male
 Race = 1
-Outfit = (128,95-15-109-76)
+Outfit = (200,95-15-109-76)
 Home = [32931,32071,9]
 Radius = 2
 GoStrength = 4

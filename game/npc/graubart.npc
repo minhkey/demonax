@@ -4,7 +4,7 @@
 Name = "Graubart"
 Sex = male
 Race = 1
-Outfit = (128,98-87-12-114)
+Outfit = (200,98-87-12-114)
 Home = [32489,31622,07]
 Radius = 2
 GoStrength = 5

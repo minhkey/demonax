@@ -4,7 +4,7 @@
 Name = "Wally"
 Sex = male
 Race = 1
-Outfit = (129,96-113-95-115)
+Outfit = (201,96-113-95-115)
 Home = [32566,32019,7]
 Radius = 2
 GoStrength = 4

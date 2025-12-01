@@ -4,7 +4,7 @@
 Name = "Ustan"
 Sex = male
 Race = 1
-Outfit = (132,0-24-13-76)
+Outfit = (204,0-24-13-76)
 Home = [32580,32757,6]
 Radius = 2
 GoStrength = 2

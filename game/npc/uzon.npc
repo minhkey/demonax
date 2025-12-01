@@ -4,7 +4,7 @@
 Name = "Uzon"
 Sex = male
 Race = 1
-Outfit = (130,95-5-18-76)
+Outfit = (202,95-5-18-76)
 Home = [32537,31836,4]
 Radius = 1
 GoStrength = 10

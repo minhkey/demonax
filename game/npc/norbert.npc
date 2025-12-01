@@ -4,7 +4,7 @@
 Name = "Norbert"
 Sex = male
 Race = 1
-Outfit = (128,6-79-93-14)
+Outfit = (200,6-79-93-14)
 Home = [32953,32103,6]
 Radius = 1
 GoStrength = 10

@@ -5,7 +5,7 @@
 RaceNumber    = 223
 Name          = "bandit"
 Article       = "a"
-Outfit        = (134, 58-40-24-95)
+Outfit        = (206, 58-40-24-95)
 Corpse        = 4240
 Blood         = Blood
 Experience = 260

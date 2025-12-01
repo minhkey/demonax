@@ -4,7 +4,7 @@
 Name = "Rachel"
 Sex = female
 Race = 1
-Outfit = (136,58-84-86-114)
+Outfit = (252,58-84-86-114)
 Home = [32343,31828,7]
 Radius = 1
 GoStrength = 5

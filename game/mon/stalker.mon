@@ -5,7 +5,7 @@
 RaceNumber    = 72
 Name          = "stalker"
 Article       = "a"
-Outfit        = (128, 97-116-95-95)
+Outfit        = (200, 97-116-95-95)
 Corpse        = 4240
 Blood         = Blood
 Experience = 360

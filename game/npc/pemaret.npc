@@ -4,7 +4,7 @@
 Name = "Pemaret"
 Sex = male
 Race = 1
-Outfit = (128,79-10-127-127)
+Outfit = (200,79-10-127-127)
 Home = [33287,31956,6]
 Radius = 1
 GoStrength = 5

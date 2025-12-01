@@ -4,7 +4,7 @@
 Name = "William"
 Sex = male
 Race = 1
-Outfit = (128,115-0-67-114)
+Outfit = (200,115-0-67-114)
 Home = [32314,31802,8]
 Radius = 3
 GoStrength = 15

@@ -4,7 +4,7 @@
 Name = "Queen Eloise"
 Sex = female
 Race = 1
-Outfit = (138,96-94-79-115)
+Outfit = (254,96-94-79-115)
 Home = [32315,31753,7]
 Radius = 2
 GoStrength = 10

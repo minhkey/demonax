@@ -4,7 +4,7 @@
 Name = "Sherry McRonald"
 Sex = female
 Race = 1
-Outfit = (136,78-94-38-58)
+Outfit = (252,78-94-38-58)
 Home = [32390,32241,7]
 Radius = 2
 GoStrength = 10

@@ -4,7 +4,7 @@
 Name = "Stutch"
 Sex = male
 Race = 1
-Outfit = (131,79-79-79-79)
+Outfit = (203,79-79-79-79)
 Home = [32310,32170,6]
 Radius = 0
 GoStrength = 10

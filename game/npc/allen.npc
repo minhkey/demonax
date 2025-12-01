@@ -4,7 +4,7 @@
 Name = "Allen"
 Sex = male
 Race = 1
-Outfit = (128,76-43-38-76)
+Outfit = (200,76-43-38-76)
 Home = [32991,32062,6]
 Radius = 1
 GoStrength = 10

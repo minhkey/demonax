@@ -4,7 +4,7 @@
 Name = "Warbert"
 Sex = male
 Race = 1
-Outfit = (131,113-113-113-115)
+Outfit = (203,113-113-113-115)
 Home = [32935,32141,6]
 Radius = 10
 GoStrength = 6

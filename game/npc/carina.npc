@@ -4,7 +4,7 @@
 Name = "Carina"
 Sex = female
 Race = 69
-Outfit = (138,97-70-94-76)
+Outfit = (254,97-70-94-76)
 Home = [33015,32048,6]
 Radius = 1
 GoStrength = 10

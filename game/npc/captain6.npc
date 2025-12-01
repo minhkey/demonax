@@ -4,7 +4,7 @@
 Name = "Petros"
 Sex = male
 Race = 1
-Outfit = (134,79-10-127-127)
+Outfit = (206,79-10-127-127)
 Home = [33289,32481,6]
 Radius = 2
 GoStrength = 5

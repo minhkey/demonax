@@ -4,7 +4,7 @@
 Name = "Chephan"
 Sex = male
 Race = 1
-Outfit = (128,2-26-115-76)
+Outfit = (200,2-26-115-76)
 Home = [32890,32077,6]
 Radius = 1
 GoStrength = 10

@@ -4,7 +4,7 @@
 Name = "Aldo"
 Sex = male
 Race = 1
-Outfit = (128,40-37-116-76)
+Outfit = (200,40-37-116-76)
 Home = [32953,32110,6]
 Radius = 2
 GoStrength = 10

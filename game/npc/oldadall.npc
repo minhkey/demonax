@@ -4,7 +4,7 @@
 Name = "Old Adall"
 Sex = male
 Race = 1
-Outfit = (130,95-26-115-76)
+Outfit = (202,95-26-115-76)
 Home = [32628,32772,7]
 Radius = 2
 GoStrength = 2

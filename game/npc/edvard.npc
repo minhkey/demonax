@@ -4,7 +4,7 @@
 Name = "Edvard"
 Sex = male
 Race = 1
-Outfit = (128,59-115-96-95)
+Outfit = (200,59-115-96-95)
 Home = [33229,31831,7]
 Radius = 3
 GoStrength = 5

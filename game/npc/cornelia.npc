@@ -4,7 +4,7 @@
 Name = "Cornelia"
 Sex = female
 Race = 1
-Outfit = (139,95-57-102-115)
+Outfit = (255,95-57-102-115)
 Home = [32334,31796,7]
 Radius = 3
 GoStrength = 10

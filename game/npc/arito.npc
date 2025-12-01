@@ -4,7 +4,7 @@
 Name = "Arito"
 Sex = male
 Race = 1
-Outfit = (132,59-74-62-115)
+Outfit = (204,59-74-62-115)
 Home = [33069,32886,6]
 Radius = 3
 GoStrength = 10

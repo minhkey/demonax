@@ -4,7 +4,7 @@
 Name = "Lector"
 Sex = male
 Race = 1
-Outfit = (128,79-38-0-124)
+Outfit = (200,79-38-0-124)
 Home = [32351,31795,7]
 Radius = 3
 GoStrength = 10

@@ -4,7 +4,7 @@
 Name = "Shauna"
 Sex = female
 Race = 1
-Outfit = (139,78-95-38-58)
+Outfit = (255,78-95-38-58)
 Home = [32384,31778,7]
 Radius = 2
 GoStrength = 6

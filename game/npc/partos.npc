@@ -4,7 +4,7 @@
 Name = "Partos"
 Sex = male
 Race = 1
-Outfit = (128,116-56-95-122)
+Outfit = (200,116-56-95-122)
 Home = [32323,32280,8]
 Radius = 1
 GoStrength = 13

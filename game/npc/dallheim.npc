@@ -4,7 +4,7 @@
 Name = "Dallheim"
 Sex = male
 Race = 1
-Outfit = (131,76-38-76-95)
+Outfit = (203,76-38-76-95)
 Home = [32093,32180,6]
 Radius = 1
 GoStrength = 10

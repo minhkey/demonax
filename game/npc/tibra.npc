@@ -4,7 +4,7 @@
 Name = "Tibra"
 Sex = female
 Race = 1
-Outfit = (138,60-92-90-95)
+Outfit = (254,60-92-90-95)
 Home = [32318,31783,7]
 Radius = 3
 GoStrength = 6

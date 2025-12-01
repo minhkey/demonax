@@ -4,7 +4,7 @@
 Name = "Mirabell"
 Sex = female
 Race = 1
-Outfit = (136,96-12-87-77)
+Outfit = (252,96-12-87-77)
 Home = [33174,31801,6]
 Radius = 1
 GoStrength = 8

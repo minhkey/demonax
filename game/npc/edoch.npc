@@ -4,7 +4,7 @@
 Name = "Edoch"
 Sex = male
 Race = 1
-Outfit = (129,95-0-40-116)
+Outfit = (201,95-0-40-116)
 Home = [33232,32430,7]
 Radius = 0
 GoStrength = 4

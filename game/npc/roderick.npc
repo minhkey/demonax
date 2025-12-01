@@ -4,7 +4,7 @@
 Name = "Roderick"
 Sex = male
 Race = 1
-Outfit = (130,38-129-129-19)
+Outfit = (202,38-129-129-19)
 Home = [32672,31699,6]
 Radius = 4
 GoStrength = 10

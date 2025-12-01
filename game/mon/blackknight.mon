@@ -5,7 +5,7 @@
 RaceNumber    = 46
 Name          = "black knight"
 Article       = "a"
-Outfit        = (133, 95-95-95-95)
+Outfit        = (203, 95-95-95-95)
 Corpse        = 4240
 Blood         = Blood
 Experience = 6400

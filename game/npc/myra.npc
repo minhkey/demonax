@@ -4,7 +4,7 @@
 Name = "Myra"
 Sex = female
 Race = 1
-Outfit = (140,115-0-19-95)
+Outfit = (256,115-0-19-95)
 Home = [32580,32751,6]
 Radius = 2
 GoStrength = 2

@@ -4,7 +4,7 @@
 Name = "Helor"
 Sex = male
 Race = 1
-Outfit = (134,57-79-95-98)
+Outfit = (206,57-79-95-98)
 Home = [32572,32753,6]
 Radius = 2
 GoStrength = 2

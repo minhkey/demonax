@@ -4,7 +4,7 @@
 Name = "Bozo"
 Sex = male
 Race = 1
-Outfit = (128,86-93-82-79)
+Outfit = (200,86-93-82-79)
 Home = [32313,32183,7]
 Radius = 3
 GoStrength = 4
