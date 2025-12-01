@@ -5,7 +5,7 @@
 RaceNumber    = 422
 Name          = "lost soul"
 Article       = "a"
-Outfit        = (280, 0-0-0-0)
+Outfit        = (163, 0-0-0-0)
 Corpse        = 5413 
 Blood         = Blood
 Experience = 16000 

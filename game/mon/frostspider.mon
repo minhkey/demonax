@@ -5,7 +5,7 @@
 RaceNumber    = 421
 Name          = "frost spider"
 Article       = "a"
-Outfit        = (283, 0-0-0-0)
+Outfit        = (166, 0-0-0-0)
 Corpse        = 5420 
 Blood         = Blood 
 Experience = 4000 

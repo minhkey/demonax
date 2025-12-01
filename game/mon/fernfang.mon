@@ -5,7 +5,7 @@
 RaceNumber    = 206
 Name          = "Fernfang"
 Article       = ""
-Outfit        = (206, 0-0-0-0)
+Outfit        = (57, 0-0-0-0)
 Corpse        = 4240
 Blood         = Blood
 Experience = 1600

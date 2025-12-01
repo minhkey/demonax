@@ -5,7 +5,7 @@
 RaceNumber    = 429
 Name          = "undead dragon"
 Article       = "an"
-Outfit        = (281, 0-0-0-0)
+Outfit        = (164, 0-0-0-0)
 Corpse        = 5414 
 Blood         = Bones
 Experience = 14800 

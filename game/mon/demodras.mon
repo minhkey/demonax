@@ -5,7 +5,7 @@
 RaceNumber    = 204
 Name          = "Demodras"
 Article       = ""
-Outfit        = (204, 0-0-0-0)
+Outfit        = (39, 0-0-0-0)
 Corpse        = 4062
 Blood         = Blood
 Experience = 16000

@@ -5,7 +5,7 @@
 RaceNumber    = 427
 Name          = "hero commander"
 Article       = "a"
-Outfit        = (260, 0-0-0-0)
+Outfit        = (148, 0-0-0-0)
 Corpse        = 4240
 Blood         = Blood
 Experience = 8600

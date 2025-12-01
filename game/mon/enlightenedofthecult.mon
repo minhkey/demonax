@@ -5,7 +5,7 @@
 RaceNumber    = 317
 Name          = "enlightened of the cult"
 Article       = "an"
-Outfit        = (258, 95-94-113-132)
+Outfit        = (146, 95-94-113-132)
 Corpse        = 4240
 Blood         = Slime
 Experience = 11200

@@ -4,7 +4,7 @@
 RaceNumber    = 402 
 Name          = "blightwalker"
 Article       = "a"
-Outfit        = (268, 0-0-0-0)
+Outfit        = (152, 0-0-0-0)
 Corpse        = 5310 
 Blood         = Bones 
 Experience = 23400 

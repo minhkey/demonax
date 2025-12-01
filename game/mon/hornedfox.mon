@@ -5,7 +5,7 @@
 RaceNumber    = 202
 Name          = "The Horned Fox"
 Article       = ""
-Outfit        = (202, 0-0-0-0)
+Outfit        = (29, 0-0-0-0)
 Corpse        = 4057
 Blood         = Blood
 Experience = 800

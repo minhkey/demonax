@@ -5,7 +5,7 @@
 RaceNumber    = 219
 Name          = "tarantula"
 Article       = "a"
-Outfit        = (219, 0-0-0-0)
+Outfit        = (143, 0-0-0-0)
 Corpse        = 4385
 Blood         = Slime
 Experience = 480

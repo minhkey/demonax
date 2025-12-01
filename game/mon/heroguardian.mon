@@ -5,7 +5,7 @@
 RaceNumber    = 428
 Name          = "hero guardian"
 Article       = "a"
-Outfit        = (259, 0-0-0-0)
+Outfit        = (147, 0-0-0-0)
 Corpse        = 4240
 Blood         = Blood
 Experience = 12200

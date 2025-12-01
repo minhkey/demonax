@@ -5,7 +5,7 @@
 RaceNumber    = 216
 Name          = "dworc venomsniper"
 Article       = "a"
-Outfit        = (216, 0-0-0-0)
+Outfit        = (140, 0-0-0-0)
 Corpse        = 4375
 Blood         = Blood
 Experience = 120

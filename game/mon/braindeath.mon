@@ -5,7 +5,7 @@
 RaceNumber    = 511
 Name          = "braindeath"
 Article       = "a"
-Outfit        = (274, 0-0-0-0)
+Outfit        = (158, 0-0-0-0)
 Corpse        = 5326 
 Blood         = Blood
 Experience = 3940 

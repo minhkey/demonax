@@ -5,7 +5,7 @@
 RaceNumber    = 403
 Name          = "mutated human"
 Article       = "a"
-Outfit        = (271, 0-0-0-0)
+Outfit        = (155, 0-0-0-0)
 Corpse        = 5317
 Blood         = Blood
 Experience = 660 

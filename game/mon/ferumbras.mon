@@ -4,7 +4,7 @@
 RaceNumber    = 231
 Name          = "Ferumbras"
 Article       = ""
-Outfit        = (288, 0-0-0-0)
+Outfit        = (171, 0-0-0-0)
 Corpse        = 4240
 Blood         = Slime
 Experience = 75000 

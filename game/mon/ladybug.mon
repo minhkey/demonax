@@ -5,7 +5,7 @@
 RaceNumber    = 410
 Name          = "ladybug"
 Article       = "a"
-Outfit        = (261, 0-0-0-0)
+Outfit        = (149, 0-0-0-0)
 Corpse        = 5337 
 Blood         = Blood 
 Experience = 280

@@ -5,7 +5,7 @@
 RaceNumber    = 205
 Name          = "Grorlam"
 Article       = ""
-Outfit        = (205, 0-0-0-0)
+Outfit        = (67, 0-0-0-0)
 Corpse        = 4133
 Blood         = Bones
 Experience = 6400

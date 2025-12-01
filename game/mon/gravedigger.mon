@@ -5,7 +5,7 @@
 RaceNumber    = 411
 Name          = "gravedigger"
 Article       = "a"
-Outfit        = (269, 0-0-0-0)
+Outfit        = (153, 0-0-0-0)
 Corpse        = 5312 
 Blood         = Blood 
 Experience = 3800 

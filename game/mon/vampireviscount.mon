@@ -5,7 +5,7 @@
 RaceNumber    = 408
 Name          = "vampire viscount"
 Article       = "a"
-Outfit        = (272, 0-0-0-0)
+Outfit        = (156, 0-0-0-0)
 Corpse        = 5320 
 Blood         = Bones
 Experience = 3200 

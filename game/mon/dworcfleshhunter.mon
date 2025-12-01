@@ -5,7 +5,7 @@
 RaceNumber    = 215
 Name          = "dworc fleshhunter"
 Article       = "a"
-Outfit        = (215, 0-0-0-0)
+Outfit        = (139, 0-0-0-0)
 Corpse        = 4372
 Blood         = Blood
 Experience = 140

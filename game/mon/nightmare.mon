@@ -4,7 +4,7 @@
 RaceNumber    = 508
 Name          = "nightmare"
 Article       = "a"
-Outfit        = (276, 0-0-0-0)
+Outfit        = (160, 0-0-0-0)
 Corpse        = 5332 
 Blood         = Blood
 Experience = 7900 

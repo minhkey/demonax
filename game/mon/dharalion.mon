@@ -5,7 +5,7 @@
 RaceNumber    = 203
 Name          = "Dharalion"
 Article       = ""
-Outfit        = (203, 0-0-0-0)
+Outfit        = (63, 0-0-0-0)
 Corpse        = 4160
 Blood         = Blood
 Experience = 1520

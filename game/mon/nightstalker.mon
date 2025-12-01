@@ -4,7 +4,7 @@
 RaceNumber    = 423
 Name          = "nightstalker"
 Article       = "a"
-Outfit        = (285, 0-0-0-0)
+Outfit        = (168, 0-0-0-0)
 Corpse        = 5426
 Blood         = Blood
 Experience = 2190

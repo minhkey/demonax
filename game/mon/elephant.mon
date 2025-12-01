@@ -5,7 +5,7 @@
 RaceNumber    = 211
 Name          = "elephant"
 Article       = "an"
-Outfit        = (211, 0-0-0-0)
+Outfit        = (136, 0-0-0-0)
 Corpse        = 4360
 Blood         = Blood
 Experience = 640

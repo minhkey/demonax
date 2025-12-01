@@ -4,7 +4,7 @@
 RaceNumber    = 220
 Name          = "serpent spawn"
 Article       = "a"
-Outfit        = (220, 0-0-0-0)
+Outfit        = (144, 0-0-0-0)
 Corpse        = 4388
 Blood         = Blood
 Experience = 8000

@@ -4,7 +4,7 @@
 RaceNumber    = 424
 Name          = "nightmare scion"
 Article       = "a"
-Outfit        = (282, 0-0-0-0)
+Outfit        = (165, 0-0-0-0)
 Corpse        = 5417 
 Blood         = Blood
 Experience = 3800 

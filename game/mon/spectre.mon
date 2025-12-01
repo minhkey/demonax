@@ -5,7 +5,7 @@
 RaceNumber    = 413
 Name          = "spectre"
 Article       = "a"
-Outfit        = (273, 0-0-0-0)
+Outfit        = (157, 0-0-0-0)
 Corpse        = 5323
 Blood         = Bones
 Experience = 8400 

@@ -4,7 +4,7 @@
 RaceNumber    = 404
 Name          = "destroyer"
 Article       = "a"
-Outfit        = (265, 0-0-0-0)
+Outfit        = (150, 0-0-0-0)
 Corpse        = 5302 
 Blood         = Blood
 Experience = 12800 

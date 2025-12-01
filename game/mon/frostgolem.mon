@@ -5,7 +5,7 @@
 RaceNumber    = 425
 Name          = "frost golem"
 Article       = "a"
-Outfit        = (284, 0-0-0-0)
+Outfit        = (167, 0-0-0-0)
 Corpse        = 5423
 Blood         = Blood
 Experience = 1190

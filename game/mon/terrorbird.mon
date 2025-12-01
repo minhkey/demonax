@@ -5,7 +5,7 @@
 RaceNumber    = 218
 Name          = "terror bird"
 Article       = "a"
-Outfit        = (218, 0-0-0-0)
+Outfit        = (142, 0-0-0-0)
 Corpse        = 4382
 Blood         = Blood
 Experience = 2400

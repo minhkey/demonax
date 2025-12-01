@@ -4,7 +4,7 @@
 RaceNumber    = 315
 Name          = "acolyte of the cult"
 Article       = "an"
-Outfit        = (258, 95-82-101-120)
+Outfit        = (146, 95-82-101-120)
 Corpse        = 4240
 Blood         = Slime
 Experience = 1900

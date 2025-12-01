@@ -4,7 +4,7 @@
 RaceNumber    = 318
 Name          = "grandmaster of the cult"
 Article       = "a"
-Outfit        = (258, 95-95-95-95)
+Outfit        = (146, 95-95-95-95)
 Corpse        = 4240
 Blood         = Slime
 Experience = 14800 

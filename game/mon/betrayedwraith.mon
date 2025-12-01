@@ -4,7 +4,7 @@
 RaceNumber    = 412
 Name          = "betrayed wraith"
 Article       = "a"
-Outfit        = (267, 0-0-0-0)
+Outfit        = (151, 0-0-0-0)
 Corpse        = 5308 
 Blood         = Bones 
 Experience = 14000 

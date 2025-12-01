@@ -4,7 +4,7 @@
 RaceNumber    = 509
 Name          = "gozzler"
 Article       = "a"
-Outfit        = (277, 0-0-0-0)
+Outfit        = (161, 0-0-0-0)
 Corpse        = 5334 
 Blood         = Blood
 Experience = 720 

@@ -5,7 +5,7 @@
 RaceNumber    = 214
 Name          = "dworc voodoomaster"
 Article       = "a"
-Outfit        = (214, 0-0-0-0)
+Outfit        = (138, 0-0-0-0)
 Corpse        = 4369
 Blood         = Blood
 Experience = 200

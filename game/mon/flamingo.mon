@@ -5,7 +5,7 @@
 RaceNumber    = 212
 Name          = "flamingo"
 Article       = "a"
-Outfit        = (212, 0-0-0-0)
+Outfit        = (137, 0-0-0-0)
 Corpse        = 4366
 Blood         = Blood
 Experience = 0

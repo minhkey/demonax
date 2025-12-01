@@ -5,7 +5,7 @@
 RaceNumber    = 217
 Name          = "parrot"
 Article       = "a"
-Outfit        = (217, 0-0-0-0)
+Outfit        = (141, 0-0-0-0)
 Corpse        = 4379
 Blood         = Blood
 Experience = 0

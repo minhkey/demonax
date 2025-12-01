@@ -4,7 +4,7 @@
 RaceNumber    = 213
 Name          = "butterfly"
 Article       = "a"
-Outfit        = (213, 0-0-0-0)
+Outfit        = (128, 0-0-0-0)
 Corpse        = 4992
 Blood         = Slime
 Experience = 0

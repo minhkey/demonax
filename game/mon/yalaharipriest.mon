@@ -4,7 +4,7 @@
 RaceNumber    = 400
 Name          = "yalahari priest"
 Article       = "a"
-Outfit        = (287, 0-0-0-0)
+Outfit        = (170, 0-0-0-0)
 Corpse        = 4240
 Blood         = Blood
 Experience = 4400 

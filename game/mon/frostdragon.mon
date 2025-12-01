@@ -5,7 +5,7 @@
 RaceNumber    = 420
 Name          = "frost dragon"
 Article       = "a"
-Outfit        = (279, 0-0-0-0)
+Outfit        = (162, 0-0-0-0)
 Corpse        = 5411 
 Blood         = Blood
 Experience = 9000 

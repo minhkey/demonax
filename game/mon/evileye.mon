@@ -4,7 +4,7 @@
 RaceNumber    = 210
 Name          = "The Evil Eye"
 Article       = ""
-Outfit        = (210, 0-0-0-0)
+Outfit        = (108, 0-0-0-0)
 Corpse        = 4233
 Blood         = Blood
 Experience = 2000

@@ -4,7 +4,7 @@
 RaceNumber    = 312
 Name          = "Death"
 Article       = ""
-Outfit        = (270, 0-0-0-0)
+Outfit        = (154, 0-0-0-0)
 Corpse        = 5315 
 Blood         = Bones 
 Experience    = 135000 

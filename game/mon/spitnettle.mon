@@ -5,7 +5,7 @@
 RaceNumber    = 221
 Name          = "spit nettle"
 Article       = "a"
-Outfit        = (221, 0-0-0-0)
+Outfit        = (145, 0-0-0-0)
 Corpse        = 4391
 Blood         = Slime
 Experience = 80
