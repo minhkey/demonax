@@ -15148,7 +15148,6 @@ Attributes  = {Weight=3800,BodyPosition=0,WeaponType=2,WeaponAttackValue=10,Weap
 
 TypeID      = 3290
 Name        = "a silver dagger"
-Description = "The sharp blade appears suitable for skinning"
 Flags       = {MultiUse,Take,Weapon}
 Attributes  = {Weight=1020,WeaponType=1,WeaponAttackValue=8,WeaponDefendValue=7}
 
@@ -26016,3 +26015,9 @@ Name        = "a butterfly ring"
 Description = "(Protection energy +4%)"
 Flags       = {RestrictLevel,Take,Clothes,Protection}
 Attributes  = {MinimumLevel=85,Weight=40,BodyPosition=9,ProtectionDamageTypes=8,DamageReduction=4}
+
+TypeID      = 5544
+Name        = "an obsidian knife"
+Description = "Sharp and light, this is a useful tool for tanners, doctors and assassins"
+Flags       = {MultiUse,Take,Weapon}
+Attributes  = {Weight=125,WeaponType=1,WeaponAttackValue=6,WeaponDefendValue=2}
