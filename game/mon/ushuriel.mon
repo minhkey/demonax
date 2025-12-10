@@ -2,7 +2,7 @@
 # MonsterRace File
 # 2005/11/08 - 17:15:20
 
-RaceNumber    = 201
+RaceNumber    = 431
 Name          = "Ushuriel"
 Article       = ""
 Outfit        = (20, 0-57-0-80)
