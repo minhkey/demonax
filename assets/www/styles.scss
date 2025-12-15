@@ -1,0 +1,41 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+$font-family-serif: "Averia Serif Libre", Times, serif !default;
+$font-family-base: $font-family-serif;
+
+// Override Bootstrap variables here
+$body-bg: #f6f2f2;
+$body-color: #550000;
+$link-color: #ee6644;
+
+// Sidebar colors
+$sidebar-bg: #eee5e5;              // Background color
+$sidebar-fg: #7c0000;              // Text and navigation color
+$sidebar-hl: #ee6644;              // Highlight color for links
+
+// Style active sidebar items
+.sidebar .active {
+  font-weight: 600;
+}
+
+.sidebar-item-text {
+  font-size: 1rem;
+}
+.sidebar-item-text.sidebar-link.text-start h1 { /* For sidebar titles */
+  font-size: 1.2rem;
+}
+
+.sidebar-item-text.sidebar-link.text-start {
+  font-weight: bold;
+  color: #550000;
+}
+
+/*-- scss:rules --*/
+
+// Sidebar logo sizing
+.sidebar-logo {
+  max-width: 180px;
+}

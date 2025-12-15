@@ -1,0 +1,25 @@
+---
+title: "Equipment"
+---
+
+<br>
+
+::: {.panel-tabset}
+
+## Helmets
+
+## Necklaces
+
+## Armors
+
+## Shields
+
+## Legs
+
+## Boots
+
+## Rings
+
+## Containers
+
+:::

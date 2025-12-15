@@ -1,0 +1,15 @@
+---
+title: "Magic"
+---
+
+<br>
+
+::: {.panel-tabset}
+
+## Instant spells
+
+## Rune spells
+
+## Runes
+
+:::

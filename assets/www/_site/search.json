@@ -1,0 +1,258 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Demonax",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "qmd/community/characters/eochaidcernach.html",
+    "href": "qmd/community/characters/eochaidcernach.html",
+    "title": "Eochaid Cernach",
+    "section": "",
+    "text": "Eochaid Cernach"
+  },
+  {
+    "objectID": "qmd/community/highscores.html",
+    "href": "qmd/community/highscores.html",
+    "title": "Highscores",
+    "section": "",
+    "text": "ExperienceMagic LevelAxe FightingClub FightingSword FightingFist FightingDistance FightingShieldingFishing",
+    "crumbs": [
+      "Community",
+      "Highscores"
+    ]
+  },
+  {
+    "objectID": "qmd/library/creatures.html",
+    "href": "qmd/library/creatures.html",
+    "title": "Creatures",
+    "section": "",
+    "text": "RegularBosses",
+    "crumbs": [
+      "Library",
+      "Creatures"
+    ]
+  },
+  {
+    "objectID": "qmd/home/getting_started.html",
+    "href": "qmd/home/getting_started.html",
+    "title": "Getting started",
+    "section": "",
+    "text": "Getting started",
+    "crumbs": [
+      "Home",
+      "Getting started"
+    ]
+  },
+  {
+    "objectID": "qmd/home/account.html",
+    "href": "qmd/home/account.html",
+    "title": "My account",
+    "section": "",
+    "text": "My account",
+    "crumbs": [
+      "Home",
+      "My account"
+    ]
+  },
+  {
+    "objectID": "qmd/home/about.html",
+    "href": "qmd/home/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site",
+    "crumbs": [
+      "Home",
+      "About"
+    ]
+  },
+  {
+    "objectID": "qmd/community/deaths.html",
+    "href": "qmd/community/deaths.html",
+    "title": "Deaths",
+    "section": "",
+    "text": "Deaths",
+    "crumbs": [
+      "Community",
+      "Deaths"
+    ]
+  },
+  {
+    "objectID": "qmd/community/kills.html",
+    "href": "qmd/community/kills.html",
+    "title": "Kills",
+    "section": "",
+    "text": "Kills",
+    "crumbs": [
+      "Community",
+      "Kills"
+    ]
+  },
+  {
+    "objectID": "qmd/community/characters/index.html",
+    "href": "qmd/community/characters/index.html",
+    "title": "Characters",
+    "section": "",
+    "text": "Search",
+    "crumbs": [
+      "Community",
+      "Characters"
+    ]
+  },
+  {
+    "objectID": "qmd/library/equipment.html",
+    "href": "qmd/library/equipment.html",
+    "title": "Equipment",
+    "section": "",
+    "text": "HelmetsNecklacesArmorsShieldsLegsBootsRingsContainers",
+    "crumbs": [
+      "Library",
+      "Equipment"
+    ]
+  },
+  {
+    "objectID": "qmd/library/quests.html",
+    "href": "qmd/library/quests.html",
+    "title": "Quests",
+    "section": "",
+    "text": "ClassicDemonax",
+    "crumbs": [
+      "Library",
+      "Quests"
+    ]
+  },
+  {
+    "objectID": "qmd/library/weapons.html",
+    "href": "qmd/library/weapons.html",
+    "title": "Weapons",
+    "section": "",
+    "text": "AxesClubsAmmunitionDistanceRodsStaffsSwordsThrowablesWands",
+    "crumbs": [
+      "Library",
+      "Weapons"
+    ]
+  },
+  {
+    "objectID": "qmd/library/spells.html",
+    "href": "qmd/library/spells.html",
+    "title": "Spells",
+    "section": "",
+    "text": "Instant spellsRunes",
+    "crumbs": [
+      "Library",
+      "Spells"
+    ]
+  },
+  {
+    "objectID": "qmd/library/raids.html",
+    "href": "qmd/library/raids.html",
+    "title": "Raids",
+    "section": "",
+    "text": "ClassicDemonax",
+    "crumbs": [
+      "Library",
+      "Raids"
+    ]
+  },
+  {
+    "objectID": "qmd/library/magic.html",
+    "href": "qmd/library/magic.html",
+    "title": "Magic",
+    "section": "",
+    "text": "Instant spellsRune spellsRunes",
+    "crumbs": [
+      "Library",
+      "Magic"
+    ]
+  },
+  {
+    "objectID": "qmd/community/characters.html",
+    "href": "qmd/community/characters.html",
+    "title": "Characters",
+    "section": "",
+    "text": "Characters",
+    "crumbs": [
+      "Community",
+      "Characters"
+    ]
+  },
+  {
+    "objectID": "qmd/home/getting_started.html#new-npcs",
+    "href": "qmd/home/getting_started.html#new-npcs",
+    "title": "Getting started",
+    "section": "New NPCs",
+    "text": "New NPCs\n\n\n\n\n\n\nTipAnaximander\n\n\n\nAnaximander",
+    "crumbs": [
+      "Home",
+      "Getting started"
+    ]
+  },
+  {
+    "objectID": "qmd/home/getting_started.html#new-spells-and-runes",
+    "href": "qmd/home/getting_started.html#new-spells-and-runes",
+    "title": "Getting started",
+    "section": "New spells and runes",
+    "text": "New spells and runes",
+    "crumbs": [
+      "Home",
+      "Getting started"
+    ]
+  },
+  {
+    "objectID": "qmd/home/getting_started.html#new-creatures-and-bosses",
+    "href": "qmd/home/getting_started.html#new-creatures-and-bosses",
+    "title": "Getting started",
+    "section": "New creatures and bosses",
+    "text": "New creatures and bosses\n\n\n\n\n\n\nCautionDemon Overlords (spoiler warning)\n\n\n\n\n\nDemon overlords are available:",
+    "crumbs": [
+      "Home",
+      "Getting started"
+    ]
+  },
+  {
+    "objectID": "qmd/home/getting_started.html#new-areas",
+    "href": "qmd/home/getting_started.html#new-areas",
+    "title": "Getting started",
+    "section": "New areas",
+    "text": "New areas",
+    "crumbs": [
+      "Home",
+      "Getting started"
+    ]
+  },
+  {
+    "objectID": "qmd/library/skinning.html",
+    "href": "qmd/library/skinning.html",
+    "title": "Skinning",
+    "section": "",
+    "text": "Skinning",
+    "crumbs": [
+      "Library",
+      "Skinning"
+    ]
+  },
+  {
+    "objectID": "qmd/library/miscellaneous.html",
+    "href": "qmd/library/miscellaneous.html",
+    "title": "Miscellaneous",
+    "section": "",
+    "text": "HelmesNecklacesArmorsShieldsLegsBootsRingsContainers",
+    "crumbs": [
+      "Library",
+      "Miscellaneous"
+    ]
+  },
+  {
+    "objectID": "qmd/library/achievements.html",
+    "href": "qmd/library/achievements.html",
+    "title": "Achievements",
+    "section": "",
+    "text": "Achievements",
+    "crumbs": [
+      "Library",
+      "Achievements"
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+---
+title: "Highscores"
+---
+
+<br>
+
+::: {.panel-tabset}
+
+## Experience
+
+## Magic Level
+
+## Axe Fighting
+
+## Club Fighting
+
+## Sword Fighting
+
+## Fist Fighting
+
+## Distance Fighting
+
+## Shielding
+
+## Fishing
+
+:::

@@ -1,0 +1,45 @@
+---
+title: "Creatures"
+---
+
+<br>
+
+::: {.panel-tabset}
+
+## Regular
+
+```{r}
+#| echo: false
+data.frame(
+    img = '<img src="../../dynamic/img/mon/mummy.png" height=64>',
+    name = '<a href="../../dynamic/html/mon/mummy.html">Mummy</a>',
+    hitpoints = 100,
+    experience = 100
+) |>
+    DT::datatable(
+        rownames = FALSE,
+        escape = FALSE,
+        colnames = c("", "Name", "Hitpoints", "Experience"),
+        options = list(pageLength = 50, autoWidth = TRUE)
+    )
+```
+
+## Bosses
+
+```{r}
+#| echo: false
+data.frame(
+    img = '<img src="../../dynamic/img/mon/mummy.png" height=64>',
+    name = '<a href="../../dynamic/html/mon/mummy.html">Mummy</a>',
+    hitpoints = 100,
+    experience = 100
+) |>
+    DT::datatable(
+        rownames = FALSE,
+        escape = FALSE,
+        colnames = c("", "Name", "Hitpoints", "Experience"),
+        options = list(pageLength = 50, autoWidth = TRUE)
+    )
+```
+
+:::

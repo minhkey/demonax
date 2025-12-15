@@ -1,0 +1,27 @@
+---
+title: "Weapons"
+---
+
+<br>
+
+::: {.panel-tabset}
+
+## Axes
+
+## Clubs
+
+## Ammunition
+
+## Distance
+
+## Rods
+
+## Staffs
+
+## Swords
+
+## Throwables
+
+## Wands
+
+:::
