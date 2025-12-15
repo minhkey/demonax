@@ -452,59 +452,6 @@ Use, IsType (Obj1,1968) -> MoveRel(User,Obj1,[0,1,-1])
 END
 END
 BEGIN "MultiUse"
-BEGIN "Skinning"
-# Creature: Mutated human
-# Corpse:   5317
-# Tool:     5544
-# Reward:   5366 (rotten eye) 
-# Rate:     10%
-MultiUse, IsType (Obj1, 5544), IsType (Obj2, 5317), Random (10) -> Create(User, 5366, 1), Effect(Obj2, 15), Delete(Obj2)
-MultiUse, IsType (Obj1, 5544), IsType (Obj2, 5317) -> Effect(Obj2, 3), Delete(Obj2)
-# Creature: Deer
-# Corpse:   4016
-# Tool:     5544
-# Reward:   5390 (antlers) 
-# Rate:     5%
-MultiUse, IsType (Obj1, 5544), IsType (Obj2, 4016), Random (5) -> Create(User, 5390, 1), Effect(Obj2, 15), Delete(Obj2)
-MultiUse, IsType (Obj1, 5544), IsType (Obj2, 4016) -> Effect(Obj2, 3), Delete(Obj2)
-# Creature: Behemoth
-# Corpse:   4112
-# Tool:     5544
-# Reward:   5381, 5388 (behemoth fang, behemoth claw) 
-# Rate:     1%, 7%
-MultiUse, IsType (Obj1, 5544), IsType (Obj2, 4112), Random (1) -> Create(User, 5381, 1), Effect(Obj2, 15), Delete(Obj2)
-MultiUse, IsType (Obj1, 5544), IsType (Obj2, 4112), Random (7) -> Create(User, 5388, 1), Effect(Obj2, 15), Delete(Obj2)
-MultiUse, IsType (Obj1, 5544), IsType (Obj2, 4112) -> Effect(Obj2, 3), Delete(Obj2)
-# Creature: Bear
-# Corpse:   4030
-# Tool:     5544
-# Reward:   5389 (bear paw) 
-# Rate:     5%
-MultiUse, IsType (Obj1, 5544), IsType (Obj2, 4030), Random (5) -> Create(User, 5389, 1), Effect(Obj2, 15), Delete(Obj2)
-MultiUse, IsType (Obj1, 5544), IsType (Obj2, 4030) -> Effect(Obj2, 3), Delete(Obj2)
-# Creature: Beholder
-# Corpse:   4089
-# Tool:     5544
-# Reward:   5372 (beholder eye) 
-# Rate:     6%
-MultiUse, IsType (Obj1, 5544), IsType (Obj2, 4089), Random (6) -> Create(User, 5372, 1), Effect(Obj2, 15), Delete(Obj2)
-MultiUse, IsType (Obj1, 5544), IsType (Obj2, 4089) -> Effect(Obj2, 3), Delete(Obj2)
-# Creature: Dark torturer
-# Corpse:   5289
-# Tool:     5544
-# Reward:   3251 (blood orb) 
-# Rate:     4%
-MultiUse, IsType (Obj1, 5544), IsType (Obj2, 5289), Random (4) -> Create(User, 3251, 1), Effect(Obj2, 15), Delete(Obj2)
-MultiUse, IsType (Obj1, 5544), IsType (Obj2, 5289) -> Effect(Obj2, 3), Delete(Obj2)
-# Creature: Demon
-# Corpse:   4097
-# Tool:     5544
-# Reward:   5383, 5371 (demon brain, demon heart) 
-# Rate:     1%, 6%
-MultiUse, IsType (Obj1, 5544), IsType (Obj2, 4097), Random (1) -> Create(User, 5383, 1), Effect(Obj2, 15), Delete(Obj2)
-MultiUse, IsType (Obj1, 5544), IsType (Obj2, 4097), Random (6) -> Create(User, 5371, 1), Effect(Obj2, 15), Delete(Obj2)
-MultiUse, IsType (Obj1, 5544), IsType (Obj2, 4097) -> Effect(Obj2, 3), Delete(Obj2)
-END
 BEGIN "Baking"
 MultiUse, IsType (Obj1,3603), IsType (Obj2,2524), HasInstanceAttribute (Obj2,ContainerLiquidType,= ,1) -> SetAttribute(Obj2,ContainerLiquidType,0), Change(Obj1,3604,0)
 MultiUse, IsType (Obj1,3603), IsType (Obj2,2873), HasInstanceAttribute (Obj2,ContainerLiquidType,= ,1) -> SetAttribute(Obj2,ContainerLiquidType,0), Change(Obj1,3604,0)

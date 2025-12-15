@@ -25038,7 +25038,7 @@ Attributes  = {Weight=24}
 
 TypeID      = 5366
 Name        = "a rotten eye"
-Flags       = {Take}
+Flags       = {Cumulative, Take}
 Attributes  = {Weight=60}
 
 TypeID      = 5367
@@ -25113,7 +25113,7 @@ Attributes  = {Weight=150}
 
 TypeID      = 5381
 Name        = "a behemoth fang"
-Flags       = {Take}
+Flags       = {Cumulative,Take}
 Attributes  = {Weight=50}
 
 TypeID      = 5382
@@ -25153,12 +25153,12 @@ Attributes  = {Weight=1250}
 
 TypeID      = 5389
 Name        = "a bear paw"
-Flags       = {Take}
+Flags       = {Cumulative,Take}
 Attributes  = {Weight=120}
 
 TypeID      = 5390
 Name        = "antlers"
-Flags       = {Take}
+Flags       = {Cumulative,Take}
 Attributes  = {Weight=90}
 
 TypeID      = 5391
@@ -26019,5 +26019,5 @@ Attributes  = {MinimumLevel=85,Weight=40,BodyPosition=9,ProtectionDamageTypes=8,
 TypeID      = 5544
 Name        = "an obsidian knife"
 Description = "Sharp and light, this is a useful tool for tanners, doctors and assassins"
-Flags       = {MultiUse,Take,Weapon}
+Flags       = {UseEvent,MultiUse,Take,Weapon}
 Attributes  = {Weight=125,WeaponType=1,WeaponAttackValue=6,WeaponDefendValue=2}
