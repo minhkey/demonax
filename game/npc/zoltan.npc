@@ -44,7 +44,7 @@ VANISH,!           -> "Use your knowledge wisely."
 
 
 "spellbook" -> "Don't bother me with that. Ask in the shops for it."
-"spell"     -> "I have some very powerful spells: 'Energy Bomb', 'Mass Healing', 'Poison Storm', 'Paralyze', and 'Ultimate Explosion'."
+"spell"     -> "I have some very powerful spells: 'Energy Bomb', 'Mass Healing', 'Poison Storm', 'Paralyze', 'Ultimate Explosion', 'Mortal Strike', 'Great Energy Ball', 'Great Poison Ball', 'Death Cloud', 'Divine Healing', 'Blood Rage', 'Divine Protection', 'Focus Strike', and 'Great Fire Wave'."
 
 "energy","bomb",Sorcerer        -> Type=55, Price=2300, "Are you prepared to learn the spell 'Energy Bomb' for %P gold?", Topic=1
 "energy","bomb"                 -> "No, no, no. This dangerous spell is only for sorcerers."
@@ -56,6 +56,25 @@ VANISH,!           -> "Use your knowledge wisely."
 "paralyze"                      -> "No, no, no. This elemental spell is only for druids."
 "ultimate","explosion",Sorcerer -> Type=24, Price=8000, "Are you prepared to learn the spell 'Ultimate Explosion' for %P gold?", Topic=1
 "ultimate","explosion"          -> "No, no, no. This dangerous spell is only for sorcerers."
+"mortal","strike",Sorcerer      -> Type=36, Price=5000, "Are you prepared to learn the spell 'Mortal Strike' for %P gold?", Topic=1
+"mortal","strike"               -> "No, no, no. This dangerous spell is only for sorcerers."
+"great","energy","ball",Sorcerer -> Type=43, Price=3500, "Are you prepared to learn the spell 'Great Energy Ball' for %P gold?", Topic=1
+"great","energy","ball"         -> "No, no, no. This dangerous spell is only for sorcerers."
+"great","poison","ball",Sorcerer -> Type=105, Price=3500, "Are you prepared to learn the spell 'Great Poison Ball' for %P gold?", Topic=1
+"great","poison","ball"         -> "No, no, no. This dangerous spell is only for sorcerers."
+"death","cloud",Sorcerer        -> Type=106, Price=6000, "Are you prepared to learn the spell 'Death Cloud' for %P gold?", Topic=1
+"death","cloud"                 -> "No, no, no. This dangerous spell is only for sorcerers."
+"divine","healing",Druid        -> Type=110, Price=5000, "Are you prepared to learn the spell 'Divine Healing' for %P gold?", Topic=1
+"divine","healing"              -> "No, no, no. This elemental spell is only for druids."
+"blood","rage",Knight           -> Type=107, Price=6000, "Are you prepared to learn the spell 'Blood Rage' for %P gold?", Topic=1
+"blood","rage"                  -> "No, no, no. This powerful spell is only for knights."
+"divine","protection",Knight    -> Type=108, Price=6000, "Are you prepared to learn the spell 'Divine Protection' for %P gold?", Topic=1
+"divine","protection"           -> "No, no, no. This protective spell is only for knights."
+"focus","strike",Knight         -> Type=109, Price=7000, "Are you prepared to learn the spell 'Focus Strike' for %P gold?", Topic=1
+"focus","strike"                -> "No, no, no. This strike spell is only for knights."
+"great","fire","wave",Sorcerer  -> Type=104, Price=5000, "Are you prepared to learn the spell 'Great Fire Wave' for %P gold?", Topic=1
+"great","fire","wave",Druid     -> *
+"great","fire","wave"           -> "No, no, no. This elemental spell is only for sorcerers and druids."
 
 Topic=1,"yes",SpellKnown(Type)=1        -> "Want to fool me? You already know this spell."
 Topic=1,"yes",Level<SpellLevel(Type) -> Amount=SpellLevel(Type), "Don't be in high spirits. Advance to level %A, and then come again."

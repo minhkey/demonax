@@ -25013,7 +25013,7 @@ Attributes  = {Weight=10}
 
 TypeID      = 5361
 Name        = "a piece of scarab shell"
-Flags       = {Take}
+Flags       = {Cumulative,Take}
 Attributes  = {Weight=1420}
 
 TypeID      = 5362
@@ -25028,7 +25028,7 @@ Attributes  = {Weight=2550}
 
 TypeID      = 5364
 Name        = "a warwolf fur"
-Flags       = {Take}
+Flags       = {Cumulative,Take}
 Attributes  = {Weight=105}
 
 TypeID      = 5365
@@ -25048,7 +25048,7 @@ Attributes  = {Weight=30}
 
 TypeID      = 5368
 Name        = "a shaburak finger"
-Flags       = {Take}
+Flags       = {Cumulative,Take}
 Attributes  = {Weight=300}
 
 TypeID      = 5369
@@ -25616,15 +25616,13 @@ Attributes  = {MinimumLevel=100,Professions=24,Weight=38,BodyPosition=9,Protecti
 
 TypeID      = 5474
 Name        = "a ring of fire"
-Description = "(Protection fire +4%)"
-Flags       = {RestrictLevel,Take,Clothes,Protection}
-Attributes  = {MinimumLevel=85,Weight=40,BodyPosition=9,ProtectionDamageTypes=4,DamageReduction=4}
+Flags       = {RestrictLevel,Take,Clothes,Protection,Weakness}
+Attributes  = {MinimumLevel=85,Weight=40,BodyPosition=9,ProtectionDamageTypes=4,DamageReduction=99,WeaknessDamageTypes=1,DamageIncrease=99}
 
 TypeID      = 5475
 Name        = "a horn ring"
-Description = "(Protection poison +4%)"
-Flags       = {RestrictLevel,Take,Clothes,Protection}
-Attributes  = {MinimumLevel=85,Weight=40,BodyPosition=9,ProtectionDamageTypes=2,DamageReduction=4}
+Flags       = {RestrictLevel,Take,Clothes,CriticalHit}
+Attributes  = {MinimumLevel=85,Weight=40,BodyPosition=9,CriticalHitChance=10,CriticalHitIncrease=500}
 
 TypeID      = 5476
 Name        = "a christmas backpack"
@@ -26021,3 +26019,45 @@ Name        = "an obsidian knife"
 Description = "Sharp and light, this is a useful tool for tanners, doctors and assassins"
 Flags       = {UseEvent,MultiUse,Take,Weapon}
 Attributes  = {Weight=125,WeaponType=1,WeaponAttackValue=6,WeaponDefendValue=2}
+
+TypeID      = 5545
+Name        = "the ashes of a demon"
+Flags       = {Container,Corpse,Expire}
+Attributes  = {Capacity=15,CorpseType=1,ExpireTarget=5287,TotalExpireTime=1800}
+
+TypeID      = 5546
+Name        = "the ashes of a demon"
+Flags       = {Container,Corpse,Expire}
+Attributes  = {Capacity=15,CorpseType=1,ExpireTarget=5287,TotalExpireTime=1800}
+
+TypeID      = 5547
+Name        = "the ashes of a demon"
+Flags       = {Container,Corpse,Expire}
+Attributes  = {Capacity=15,CorpseType=1,ExpireTarget=5287,TotalExpireTime=1800}
+
+TypeID      = 5548
+Name        = "the ashes of a demon"
+Flags       = {Container,Corpse,Expire}
+Attributes  = {Capacity=15,CorpseType=1,ExpireTarget=5287,TotalExpireTime=1800}
+
+TypeID      = 5548
+Name        = "the ashes of a demon"
+Flags       = {Container,Corpse,Expire}
+Attributes  = {Capacity=15,CorpseType=1,ExpireTarget=5287,TotalExpireTime=1800}
+
+TypeID      = 5549
+Name        = "the ashes of a demon"
+Flags       = {Container,Corpse,Expire}
+Attributes  = {Capacity=15,CorpseType=1,ExpireTarget=5287,TotalExpireTime=1800}
+
+TypeID      = 5550
+Name        = "a ritual stake"
+Description = "Many mighty priests of Demonax have blessed this stake"
+Flags       = {UseEvent,MultiUse,Take}
+Attributes  = {Weight=190}
+
+TypeID      = 5551
+Name        = "demon dust"
+Description = "It reeks of hatred and malice"
+Flags       = {Cumulative,Take,Light}
+Attributes  = {Weight=10,Brightness=4,LightColor=180}
